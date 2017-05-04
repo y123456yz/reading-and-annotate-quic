@@ -1,0 +1,34 @@
+diff --git a/src/base/debug/stack_trace.cc b/src/base/debug/stack_trace.cc
+index f3ffef3..59052aa 100644
+--- a/src/base/debug/stack_trace.cc
++++ b/src/base/debug/stack_trace.cc
+@@ -180,6 +180,8 @@ uintptr_t ScanStackForNextFrame(uintptr_t fp, uintptr_t stack_end) {
+ 
+ }  // namespace
+ 
++StackTrace::StackTrace() { }
++
+ StackTrace::StackTrace(const void* const* trace, size_t count) {
+   count = std::min(count, arraysize(trace_));
+   if (count)
+@@ -190,6 +192,8 @@ StackTrace::StackTrace(const void* const* trace, size_t count) {
+ StackTrace::~StackTrace() {
+ }
+ 
++void StackTrace::OutputToStream(std::ostream* os) const { }
++
+ const void *const *StackTrace::Addresses(size_t* count) const {
+   *count = count_;
+   if (count_)
+@@ -199,9 +203,11 @@ const void *const *StackTrace::Addresses(size_t* count) const {
+ 
+ std::string StackTrace::ToString() const {
+   std::stringstream stream;
++#if 0
+ #if !defined(__UCLIBC__)
+   OutputToStream(&stream);
+ #endif
++#endif
+   return stream.str();
+ }
+ 

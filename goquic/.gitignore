@@ -1,0 +1,7 @@
+*.swp
+*.swo
+tags
+build/
+libgoquic.a
+nbproject/
+lib/

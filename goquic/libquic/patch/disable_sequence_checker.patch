@@ -1,0 +1,23 @@
+diff --git a/src/base/sequence_checker.h b/src/base/sequence_checker.h
+index 4716318..2efeff3 100644
+--- a/src/base/sequence_checker.h
++++ b/src/base/sequence_checker.h
+@@ -5,7 +5,9 @@
+ #ifndef BASE_SEQUENCE_CHECKER_H_
+ #define BASE_SEQUENCE_CHECKER_H_
+ 
++#if 0
+ #include "base/sequence_checker_impl.h"
++#endif
+ 
+ namespace base {
+ 
+@@ -39,7 +41,7 @@ class SequenceCheckerDoNothing {
+ // }
+ //
+ // In Release mode, CalledOnValidSequence() will always return true.
+-#if DCHECK_IS_ON()
++#if DCHECK_IS_ON() && 0
+ class SequenceChecker : public SequenceCheckerImpl {
+ };
+ #else

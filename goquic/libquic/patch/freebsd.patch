@@ -1,0 +1,34 @@
+diff --git a/src/base/process/process_posix.cc b/src/base/process/process_posix.cc
+index 914bce8..65dbce7 100644
+--- a/src/base/process/process_posix.cc
++++ b/src/base/process/process_posix.cc
+@@ -17,6 +17,10 @@
+ #include "base/third_party/dynamic_annotations/dynamic_annotations.h"
+ #include "build/build_config.h"
+ 
++#if defined(OS_FREEBSD)
++#include <signal.h>
++#endif
++
+ #if defined(OS_MACOSX)
+ #include <sys/event.h>
+ #endif
+diff --git a/src/base/sys_info_freebsd.cc b/src/base/sys_info_freebsd.cc
+index 0b2008d..e196b55 100644
+--- a/src/base/sys_info_freebsd.cc
++++ b/src/base/sys_info_freebsd.cc
+@@ -24,6 +24,7 @@ int64_t SysInfo::AmountOfPhysicalMemory() {
+   return static_cast<int64_t>(pages) * page_size;
+ }
+ 
++#if 0
+ // static
+ uint64_t SysInfo::MaxSharedMemorySize() {
+   size_t limit;
+@@ -34,5 +35,6 @@ uint64_t SysInfo::MaxSharedMemorySize() {
+   }
+   return static_cast<uint64_t>(limit);
+ }
++#endif
+ 
+ }  // namespace base

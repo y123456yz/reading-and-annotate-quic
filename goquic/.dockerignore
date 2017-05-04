@@ -1,0 +1,14 @@
+.git
+.gitignore
+.DS_Store
+
+lib
+build
+
+libquic/build
+
+*.pem
+*.key
+*.csr
+*.crt
+*.srl
