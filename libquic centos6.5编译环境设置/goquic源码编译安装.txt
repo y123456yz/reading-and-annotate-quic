@@ -1,0 +1,41 @@
+1. 安装gcc-4.8.5
+2. 安装ninja，参考git clone https://github.com/martine/ninja
+3. 升级golang到1.5版本，配置好GOPATH GOROOT等环境变量
+3. golang.org/x 包安装，可以参考http://studygolang.com/articles/7087
+   cd /usr/lib/golang/src  golang安装目录
+   mkdir golang.org/x
+   git clone https://github.com/golang/net.git
+   git clone https://github.com/golang/sys.git
+   git clone https://github.com/golang/text.git
+   git clone https://github.com/golang/tools.git
+
+最后目录如下:
+[root@XX x]# pwd
+/usr/lib/golang/src/golang.org/x
+[root@XX x]# ls
+net  sys  text  tools
+
+4. go get -u -d github.com/devsisters/goquic  下载后放在$GOPATH中
+5. cd github.com/devsisters/goquic
+6. 在goquic目录git clone https://github.com/devsisters/libquic
+    $ mkdir build/
+	$ cd build/
+	$ cmake ..
+	$ make -j 4
+	如果要重新编译libquic, cd build; rm -rf *;rm builc;清除build目录所有内容，
+	然后cmake ..; make -j 4
+
+   把goquic.go文件中的
+   #cgo LDFLAGS: -pthread -lgoquic -lquic -lssl -lcrypto -lstdc++ -lm -lprotobuf
+   修改为:
+   #cgo LDFLAGS: -pthread -lgoquic -lquic -lssl -lcrypto -lstdc++ -lm -lprotobuf -lrt
+   这样可以避免如下报错:
+   [root@centlhw1 goquic]# go build example/server.go 
+	# github.com/devsisters/goquic
+	./lib/linux_amd64/libquic.a(logging.cc.o): In function `logging::(anonymous namespace)::TickCount()':
+	logging.cc:(.text+0x56): undefined reference to `clock_gettime'
+	./lib/linux_amd64/libquic.a(time_posix.cc.o): In function `(anonymous namespace)::ClockNow(int)':
+	time_posix.cc:(.text+0x169): undefined reference to `clock_gettime'
+	collect2: error: ld returned 1 exit status
+	
+	

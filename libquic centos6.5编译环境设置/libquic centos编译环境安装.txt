@@ -1,0 +1,37 @@
+默认官方下载libquic源码到centos后，编译汇编指令不过，提示如下异常：
+[ 11%] Building ASM object boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha-x86_64.S.o
+/home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S: Assembler messages:
+/home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1002: Error: no such instruction: vbroadcasti128 .Lsigma(%rip),%ymm11' /home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1003: Error: no such instruction:vbroadcasti128 (%rcx),%ymm3'
+/home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1004: Error: no such instruction: vbroadcasti128 16(%rcx),%ymm15' /home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1005: Error: no such instruction:vbroadcasti128 (%r8),%ymm7'
+/home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1011: Error: suffix or operands invalid for vpshufd' /home/yazhou.yang/libquic/build/boringssl/crypto/chacha/chacha-x86_64.S:1012: Error: suffix or operands invalid forvpshufd'
+
+
+1. 升级binutils到binutils-2.25.tar, 严格按照下面的步骤执行
+   参考:关于gcc、glibc和binutils模块之间的关系
+   http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece7631046893b4c4380146d96864968d4e414c4224609043da9e0747f0703a7c7777a52ef0f07bbae616f615466e4c096c957dab997222e8f273e6459db0144dc49f49701639a7ed14de9de0e97cee74593&p=c9759a46d6c614fc57ef8a244659cb&newp=882a9645d38057fe0be2962444598b231610db2151dcd501298ffe0cc4241a1a1a3aecbf21211003d8c17d6c0baa4b5eeef03179370034f1f689df08d2ecce7e6c9e76&user=baidu&fm=sc&query=binutils+%BF%E2&qid=d2cb501c00005293&p1=2
+   编译binutils库，此时被编译出的程序会连接到/usr/local/lib下的新的libc库。注意，在configure前，需要设置ld缺省连接的路径（LIBRARY_PATH=/usr/local/lib:/lib:/usr/lib），否则binutils会configure出错，找不到libc中的一些符号。具体步骤如下：
+ （1）export LIBRARY_PATH=/usr/local/lib:/lib:/usr/lib
+ （2）mkdir binutils-build && cd binutils-build
+ （3）../binutils-2.13.90.0.18/configure
+ （4）make
+ （5）make -C ld clean
+ （6）make -C ld LIB_PATH=/usr/lib:/lib:/usr/local/bin（设置编译后的ld的缺省库搜索路径，后面的比前面的优先级高）
+ （7）make install
+ 
+2. 升级GCC到4.8.5）
+  假设为升级后的GCC-4.8.5安装在/usr/local/gcc-4.8.5/
+  添加软连接：
+  ln -s /usr/local/gcc-4.8.5/bin/gcc /usr/bin/
+  ln -s /usr/local/gcc-4.8.5/bin/g++ /usr/bin/
+  ln -s /usr/local/gcc-4.8.5/bin/c++ /usr/bin/
+  注意:如果通过export PATH=/usr/local/gcc-4.8.5/bin:$PATH 会有头文件冲突
+  如果编译过程中有各种库找不到，头文件找不到，可以参考 Linux添加头文件路径—INCLUDE_PATH: http://blog.chinaunix.net/xmlrpc.php?r=blog/article&uid=14735472&id=5214282
+  
+
+
+3. 编译方法:
+$ cd libquic/
+$ mkdir build/
+$ cd build/
+$ cmake ..
+$ make -j 4
