@@ -67,8 +67,17 @@ goquic、libquic源码注释分析
 ===================================  	   
 https://github.com/y123456yz/reading-and-annotate-quic/tree/master/libquic%20centos6.5%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE  
 
+
 文档参考  
 ===================================  
-https://github.com/y123456yz/reading-and-annotate-quic/tree/master/libquic%20centos6.5%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/%E6%96%87%E6%A1%A3%E8%B5%84%E6%96%99  
+https://github.com/y123456yz/reading-and-annotate-quic/tree/master/libquic%20centos6.5%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/%E6%96%87%E6%A1%A3%E8%B5%84%E6%96%99 
+
+
+
+nginx http2 quic学习参考:    
+===================================    
+nginx源码中文详细分析注释参考：https://github.com/y123456yz/reading-code-of-nginx-1.9.2 
+libquic goquic编译安装，源码分析注释：https://github.com/y123456yz/reading-and-annotate-quic      
+nghttp2相关参考：https://github.com/y123456yz/reading-and-annotate-nghttp2   
 		
 	
