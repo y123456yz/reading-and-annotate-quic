@@ -1,0 +1,12 @@
+CMakeFiles/quic.dir/src/net/quic/core/crypto/scoped_evp_aead_ctx.cc.o: \
+ ../../src/net/quic/core/crypto/scoped_evp_aead_ctx.cc \
+ ../../src/net/quic/core/crypto/scoped_evp_aead_ctx.h \
+ ../../boringssl/include/openssl/evp.h \
+ ../../boringssl/include/openssl/base.h \
+ ../../boringssl/include/openssl/opensslconf.h \
+ ../../boringssl/include/openssl/thread.h \
+ ../../boringssl/include/openssl/aead.h \
+ ../../boringssl/include/openssl/base64.h \
+ ../../boringssl/include/openssl/cipher.h \
+ ../../boringssl/include/openssl/digest.h \
+ ../../boringssl/include/openssl/nid.h ../../src/base/macros.h

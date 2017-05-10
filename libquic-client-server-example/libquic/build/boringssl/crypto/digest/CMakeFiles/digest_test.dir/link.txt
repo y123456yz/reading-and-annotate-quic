@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/digest_test.dir/digest_test.c.o  -o digest_test -rdynamic ../libcrypto.a 

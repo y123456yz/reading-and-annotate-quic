@@ -1,9 +1,9 @@
 # reading-and-annotate-quic
-goquic、libquic源码注释分析
+goquic、libquic、quic_client_server_example源码注释分析
 
 
 
-下载编译安装过程  
+一. goquic下载编译安装过程  
 ===================================    
 1. echo $GOPATH查看环境变量路径，然后进入该目录(根据自己实际情况进入相应目录)  
 	[root@XX reading-and-annotate-quic]# echo $GOPATH  
@@ -61,7 +61,15 @@ goquic、libquic源码注释分析
 	  -key string  
 			Private key file (PEM), will use encrypted QUIC and SSL when provided   
 
+			
+二. 借助libquic库实现的客户端和服务端例子编译方法       
+===================================     
+1. 先进入libquic-client-server-example/libquic目录，编译出libquic库      
+2. 进入libquic-client-server-example/quic_client_server_example目录，编译出quic client和quic server可执行文件      
 
+三. 说明    
+===================================     
+goquic和libquic-client-server-example都依赖libquic，他们各自一份libquic的原因是: quic_client_server_example参考quic_toy源码, 它是基于libquic老版本开发的，goquic是基于libquic新版本开发。    
 
 编译出现问题参考这里   
 ===================================  	   

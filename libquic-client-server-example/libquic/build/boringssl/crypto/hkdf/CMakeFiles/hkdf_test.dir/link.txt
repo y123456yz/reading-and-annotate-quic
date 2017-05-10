@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/hkdf_test.dir/hkdf_test.c.o  -o hkdf_test -rdynamic ../libcrypto.a 

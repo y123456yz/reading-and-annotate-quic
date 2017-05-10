@@ -1,0 +1,27 @@
+#[Delay 12]
+loss tcp-average tcp-standard_deviation quic-average quic-standard_deviation
+00.0 4.783 0.008 4.668 0.008 
+02.5 4.778 0.144 4.329 0.417 
+05.0 4.375 0.732 4.008 0.478 
+07.5 3.292 1.191 3.829 0.503 
+10.0 1.641 1.096 3.593 0.540 
+
+
+#[Delay 50]
+loss tcp-average tcp-standard_deviation quic-average quic-standard_deviation
+00.0 4.783 0.008 4.669 0.008 
+02.5 4.782 0.089 4.327 0.394 
+05.0 4.347 0.801 4.010 0.446 
+07.5 3.290 1.289 3.818 0.517 
+10.0 1.549 1.018 3.543 0.616 
+
+
+#[Delay 250]
+loss tcp-average tcp-standard_deviation quic-average quic-standard_deviation
+00.0 4.783 0.008 4.674 0.007 
+02.5 4.789 0.086 4.331 0.409 
+05.0 4.339 0.789 4.033 0.481 
+07.5 3.280 1.213 3.841 0.523 
+10.0 1.603 1.018 3.530 0.557 
+
+

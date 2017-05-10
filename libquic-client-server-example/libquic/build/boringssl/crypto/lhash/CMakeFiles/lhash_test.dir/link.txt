@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/lhash_test.dir/lhash_test.c.o  -o lhash_test -rdynamic ../libcrypto.a 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/sha1-x86_64.S
+
+/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/sha256-x86_64.S
+
+/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/sha512-x86_64.S
+

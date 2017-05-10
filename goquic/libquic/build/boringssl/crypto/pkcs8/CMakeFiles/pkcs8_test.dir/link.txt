@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wall -fpic -lrt -std=gnu++11 -std=c++0x -Wall -lrt -Werror -Wformat=2 -Wsign-compare -Wmissing-field-initializers -ggdb -fvisibility=hidden -Wmissing-declarations -Wshadow -g  -lrt CMakeFiles/pkcs8_test.dir/pkcs8_test.cc.o  -o pkcs8_test -rdynamic ../libcrypto.a -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/tab_test.dir/tabtest.c.o  -o tab_test -rdynamic ../libcrypto.a 

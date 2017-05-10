@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wall -std=gnu++11 -gdwarf-4 -Wall -Werror -ggdb -std=c++0x -fvisibility=hidden -Wshadow -g    CMakeFiles/bssl_shim.dir/async_bio.cc.o CMakeFiles/bssl_shim.dir/bssl_shim.cc.o CMakeFiles/bssl_shim.dir/malloc.cc.o CMakeFiles/bssl_shim.dir/packeted_bio.cc.o CMakeFiles/bssl_shim.dir/test_config.cc.o  -o bssl_shim -rdynamic ../libssl.a ../../crypto/libcrypto.a -ldl 

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/aesni-gcm-x86_64.S
+
+/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/ghash-x86_64.S
+

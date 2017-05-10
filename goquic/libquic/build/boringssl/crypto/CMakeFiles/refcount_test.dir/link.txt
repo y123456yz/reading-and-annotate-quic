@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -fpic -lrt -Wall -lrt -Werror -Wformat=2 -Wsign-compare -Wmissing-field-initializers -ggdb -fvisibility=hidden -Wmissing-prototypes -Wshadow -g  -lrt CMakeFiles/refcount_test.dir/refcount_test.c.o  -o refcount_test -rdynamic libcrypto.a -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/gcm_test.dir/gcm_test.c.o  -o gcm_test -rdynamic ../libcrypto.a 

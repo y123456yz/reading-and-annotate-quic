@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/evp_test.dir/evp_test.c.o  -o evp_test -rdynamic ../libcrypto.a 

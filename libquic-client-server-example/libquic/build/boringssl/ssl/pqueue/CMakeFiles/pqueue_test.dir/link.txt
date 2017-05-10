@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/pqueue_test.dir/pqueue_test.c.o  -o pqueue_test -rdynamic ../libssl.a ../../crypto/libcrypto.a 

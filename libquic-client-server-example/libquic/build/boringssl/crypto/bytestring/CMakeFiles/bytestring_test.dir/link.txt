@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/bytestring_test.dir/bytestring_test.c.o  -o bytestring_test -rdynamic ../libcrypto.a 

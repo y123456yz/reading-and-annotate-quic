@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/err_test.dir/err_test.c.o  -o err_test -rdynamic ../libcrypto.a 

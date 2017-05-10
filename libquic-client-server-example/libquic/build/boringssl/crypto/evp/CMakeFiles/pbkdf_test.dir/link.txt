@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/pbkdf_test.dir/pbkdf_test.c.o  -o pbkdf_test -rdynamic ../libcrypto.a 

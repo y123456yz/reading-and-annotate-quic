@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/aead_test.dir/aead_test.c.o  -o aead_test -rdynamic ../libcrypto.a 

@@ -1,0 +1,203 @@
+The system is: Linux - 2.6.32-431.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/2.8.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/ninja cmTryCompileExec2175547810
+[1/2] Building C object CMakeFiles/cmTryCompileExec2175547810.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTryCompileExec2175547810
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/ninja cmTryCompileExec2047853749
+[1/2] Building C object CMakeFiles/cmTryCompileExec2047853749.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTryCompileExec2047853749
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/usr/local/gcc-4.8.5
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2047853749' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2047853749 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2047853749.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/ninja cmTryCompileExec2047853749]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTryCompileExec2047853749.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTryCompileExec2047853749]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/usr/local/gcc-4.8.5]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2047853749' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2047853749 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2047853749.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2047853749] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2047853749.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/mnt/data/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc] ==> [/mnt/data/gcc-4.8.5/lib/gcc]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64] ==> [/mnt/data/gcc-4.8.5/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/mnt/data/gcc-4.8.5/lib]
+  implicit libs: [c]
+  implicit dirs: [/mnt/data/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/mnt/data/gcc-4.8.5/lib/gcc;/mnt/data/gcc-4.8.5/lib64;/lib64;/usr/lib64;/mnt/data/gcc-4.8.5/lib]
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/2.8.10.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/ninja cmTryCompileExec3868775952
+[1/2] Building CXX object CMakeFiles/cmTryCompileExec3868775952.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTryCompileExec3868775952
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/ninja cmTryCompileExec2513885025
+[1/2] Building CXX object CMakeFiles/cmTryCompileExec2513885025.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTryCompileExec2513885025
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure --prefix=/usr/local/gcc-4.8.5
+Thread model: posix
+gcc version 4.8.5 (GCC) 
+COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2513885025' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2513885025 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2513885025.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/redisbackup/src/github.com/devsisters/goquic/libquic/build/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/ninja cmTryCompileExec2513885025]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTryCompileExec2513885025.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTryCompileExec2513885025]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/usr/local/gcc-4.8.5]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (GCC) ]
+  ignore line: [COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2513885025' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2513885025 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2513885025.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2513885025] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2513885025.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5] ==> [/mnt/data/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc] ==> [/mnt/data/gcc-4.8.5/lib/gcc]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64] ==> [/mnt/data/gcc-4.8.5/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> [/mnt/data/gcc-4.8.5/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/mnt/data/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/mnt/data/gcc-4.8.5/lib/gcc;/mnt/data/gcc-4.8.5/lib64;/lib64;/usr/lib64;/mnt/data/gcc-4.8.5/lib]
+
+

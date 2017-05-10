@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/bio_test.dir/bio_test.c.o  -o bio_test -rdynamic ../libcrypto.a 

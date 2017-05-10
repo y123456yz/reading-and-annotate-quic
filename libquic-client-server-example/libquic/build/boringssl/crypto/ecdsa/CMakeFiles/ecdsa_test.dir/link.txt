@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/ecdsa_test.dir/ecdsa_test.c.o  -o ecdsa_test -rdynamic ../libcrypto.a 

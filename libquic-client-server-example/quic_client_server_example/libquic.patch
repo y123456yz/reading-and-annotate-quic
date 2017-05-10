@@ -1,0 +1,76 @@
+diff --git src/net/quic/quic_crypto_client_stream.cc src/net/quic/quic_crypto_client_stream.cc
+index 9c1089f..77bfb7d 100644
+--- src/net/quic/quic_crypto_client_stream.cc
++++ src/net/quic/quic_crypto_client_stream.cc
+@@ -77,7 +77,7 @@ void QuicCryptoClientStream::ProofVerifierCallbackImpl::Cancel() {
+ 
+ QuicCryptoClientStream::QuicCryptoClientStream(
+     const QuicServerId& server_id,
+-    QuicClientSessionBase* session,
++    QuicSession* session,
+     ProofVerifyContext* verify_context,
+     QuicCryptoClientConfig* crypto_config)
+     : QuicCryptoStream(session),
+@@ -335,8 +335,8 @@ void QuicCryptoClientStream::DoSendCHLO(
+   }
+   channel_id_sent_ = (channel_id_key_.get() != nullptr);
+   if (cached->proof_verify_details()) {
+-    client_session()->OnProofVerifyDetailsAvailable(
+-        *cached->proof_verify_details());
++    //client_session()->OnProofVerifyDetailsAvailable(
++    //    *cached->proof_verify_details());
+   }
+   next_state_ = STATE_RECV_SHLO;
+   SendHandshakeMessage(out);
+@@ -453,7 +453,7 @@ void QuicCryptoClientStream::DoVerifyProofComplete(
+   if (!verify_ok_) {
+     next_state_ = STATE_NONE;
+     if (verify_details_.get()) {
+-      client_session()->OnProofVerifyDetailsAvailable(*verify_details_);
++      //client_session()->OnProofVerifyDetailsAvailable(*verify_details_);
+     }
+     UMA_HISTOGRAM_BOOLEAN("Net.QuicVerifyProofFailed.HandshakeConfirmed",
+                           handshake_confirmed());
+@@ -616,7 +616,7 @@ void QuicCryptoClientStream::DoInitializeServerConfigUpdate(
+ void QuicCryptoClientStream::SetCachedProofValid(
+     QuicCryptoClientConfig::CachedState* cached) {
+   cached->SetProofValid();
+-  client_session()->OnProofValid(*cached);
++  //client_session()->OnProofValid(*cached);
+ }
+ 
+ bool QuicCryptoClientStream::RequiresChannelID(
+@@ -644,8 +644,8 @@ bool QuicCryptoClientStream::RequiresChannelID(
+   return false;
+ }
+ 
+-QuicClientSessionBase* QuicCryptoClientStream::client_session() {
+-  return reinterpret_cast<QuicClientSessionBase*>(session());
+-}
++//QuicClientSessionBase* QuicCryptoClientStream::client_session() {
++//  return reinterpret_cast<QuicClientSessionBase*>(session());
++//}
+ 
+ }  // namespace net
+diff --git src/net/quic/quic_crypto_client_stream.h src/net/quic/quic_crypto_client_stream.h
+index a60ce78..b5ebbae 100644
+--- src/net/quic/quic_crypto_client_stream.h
++++ src/net/quic/quic_crypto_client_stream.h
+@@ -26,7 +26,7 @@ class QuicClientSessionPeer;
+ class NET_EXPORT_PRIVATE QuicCryptoClientStream : public QuicCryptoStream {
+  public:
+   QuicCryptoClientStream(const QuicServerId& server_id,
+-                         QuicClientSessionBase* session,
++                         QuicSession* session,
+                          ProofVerifyContext* verify_context,
+                          QuicCryptoClientConfig* crypto_config);
+   ~QuicCryptoClientStream() override;
+@@ -161,7 +161,7 @@ class NET_EXPORT_PRIVATE QuicCryptoClientStream : public QuicCryptoStream {
+   // and the client config settings also allow sending a ChannelID.
+   bool RequiresChannelID(QuicCryptoClientConfig::CachedState* cached);
+ 
+-  QuicClientSessionBase* client_session();
++  //QuicClientSessionBase* client_session();
+ 
+   State next_state_;
+   // num_client_hellos_ contains the number of client hello messages that this

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../boringssl/include/openssl/base.h
+stdint.h
+-
+stdlib.h
+-
+sys/types.h
+-
+openssl/opensslfeatures.h
+-
+
+../boringssl/include/openssl/base64.h
+openssl/base.h
+-
+
+../boringssl/include/openssl/opensslfeatures.h
+
+/root/yangyazhou/quic/libquic/boringssl/crypto/base64/base64.c
+openssl/base64.h
+-
+assert.h
+-
+limits.h
+-
+string.h
+-
+
