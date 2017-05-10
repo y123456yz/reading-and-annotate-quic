@@ -77,7 +77,7 @@ int main(int argc, char *argv[]) {
     cout << "Server address is not a valid IP address";
     return 1;
   }
-  serv_addr.sin_port = htons(4567);
+  serv_addr.sin_port = htons(443);
 
   int rc = connect(sock, (struct sockaddr *) &serv_addr, sizeof(serv_addr));
   if (rc < 0) {

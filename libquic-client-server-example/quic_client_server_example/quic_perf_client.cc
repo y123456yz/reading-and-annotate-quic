@@ -21,7 +21,7 @@
 
 using namespace std;
 
-uint64 FLAGS_total_transfer = 10 * 1000 * 1000;
+uint64 FLAGS_total_transfer = 5000;//10 * 1000 * 1000;
 uint64 FLAGS_chunk_size = 1000;
 uint64 FLAGS_duration = 0;
 
@@ -33,6 +33,7 @@ string randomString(uint length) {
   return result;
 }
 
+// ./quic_perf_client 127.0.0.1 -t xxxx -d xxx  -c xxx
 int main(int argc, char *argv[]) {
   base::CommandLine::Init(argc, argv);
   base::CommandLine* line = base::CommandLine::ForCurrentProcess();
@@ -68,13 +69,14 @@ int main(int argc, char *argv[]) {
 
   // Is needed for whatever reason
   base::AtExitManager exit_manager;
-
+	
   unsigned char a, b, c, d;
+  //Ω‚Œˆµÿ÷∑A.B.C.D¥Ê»Îa b c d
   sscanf(address.c_str(), "%hhu.%hhu.%hhu.%hhu", &a, &b, &c, &d);
   printf("Connecting to %hhu.%hhu.%hhu.%hhu\n", a, b, c, d);
   net::IPAddressNumber ip_address = (net::IPAddressNumber) std::vector<unsigned char>{a, b, c, d};
-  net::IPEndPoint server_address(ip_address, 1337);
-  net::QuicServerId server_id(address, 1337, /*is_http*/ false, net::PRIVACY_MODE_DISABLED);
+  net::IPEndPoint server_address(ip_address, 443);
+  net::QuicServerId server_id(address, 443, /*is_http*/ false, net::PRIVACY_MODE_DISABLED);
   net::QuicVersionVector supported_versions = net::QuicSupportedVersions();
   net::EpollServer epoll_server;
 

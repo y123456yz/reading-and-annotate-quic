@@ -1,4 +1,5 @@
 **/*.o
+./*.o
 quic_perf_client
 quic_perf_server
 QuicToy.config
