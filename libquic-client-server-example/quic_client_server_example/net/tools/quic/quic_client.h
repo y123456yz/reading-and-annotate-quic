@@ -95,7 +95,7 @@ class QuicClient : public EpollCallbackInterface,
   // Read a UDP packet and hand it to the framer.
   bool ReadAndProcessPacket();
 
-  // Address of the server.
+  // Address of the server. IP:PORT信息
   const IPEndPoint server_address_;
 
   // |server_id_| is a tuple (hostname, port, is_https) of the server.
@@ -103,6 +103,7 @@ class QuicClient : public EpollCallbackInterface,
 
   // config_ and crypto_config_ contain configuration and cached state about
   // servers.
+  //默认构造函数初始化见QuicConfig::QuicConfig()
   QuicConfig config_;
   QuicCryptoClientConfig crypto_config_;
 
@@ -144,7 +145,7 @@ class QuicClient : public EpollCallbackInterface,
   // element, with subsequent elements in descending order (versions can be
   // skipped as necessary). We will always pick supported_versions_[0] as the
   // initial version to use.
-  QuicVersionVector supported_versions_;
+  QuicVersionVector supported_versions_; //一般为kSupportedQuicVersions
 
   DISALLOW_COPY_AND_ASSIGN(QuicClient);
 };

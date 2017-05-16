@@ -17,6 +17,7 @@ namespace net {
 
 class IPEndPoint;
 
+/* ip:port–≈œ¢ */
 class NET_EXPORT HostPortPair {
  public:
   HostPortPair();

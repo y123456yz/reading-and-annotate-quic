@@ -15,6 +15,7 @@ namespace net {
 
 // The id used to identify sessions. Includes the hostname, port, scheme and
 // privacy_mode.
+/* QuicServerId类标识quic会话，一个quicserverID对应一个连接会话session */
 class NET_EXPORT_PRIVATE QuicServerId {
  public:
   QuicServerId();
@@ -51,9 +52,9 @@ class NET_EXPORT_PRIVATE QuicServerId {
   PrivacyMode privacy_mode() const { return privacy_mode_; }
 
  private:
-  HostPortPair host_port_pair_;
-  bool is_https_;
-  PrivacyMode privacy_mode_;
+  HostPortPair host_port_pair_; //IP PORT信息
+  bool is_https_; //是否http
+  PrivacyMode privacy_mode_; 
 };
 
 }  // namespace net

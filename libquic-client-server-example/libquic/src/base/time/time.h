@@ -104,7 +104,7 @@ BASE_EXPORT int64 FromCheckedNumeric(const CheckedNumeric<int64> value);
 }  // namespace time_internal
 
 // TimeDelta ------------------------------------------------------------------
-
+//时间相关设置,转换为ms
 class BASE_EXPORT TimeDelta {
  public:
   TimeDelta() : delta_(0) {
@@ -265,7 +265,7 @@ class BASE_EXPORT TimeDelta {
   }
 
   // Delta in microseconds.
-  int64 delta_;
+  int64 delta_; //ms
 };
 
 template<typename T>

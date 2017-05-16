@@ -130,6 +130,7 @@ bool ContainsQuicTag(const QuicTagVector& tag_vector, QuicTag tag) {
       != tag_vector.end();
 }
 
+/* 获取支持QUIC的版本信息 */
 QuicVersionVector QuicSupportedVersions() {
   QuicVersionVector supported_versions;
   for (size_t i = 0; i < arraysize(kSupportedQuicVersions); ++i) {

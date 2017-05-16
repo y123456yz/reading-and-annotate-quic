@@ -26,6 +26,8 @@ namespace net {
 
 typedef std::string ServerConfigID;
 
+/* 以下QuicTag在QuicConfigValue类中构建 */
+
 // clang-format off
 const QuicTag kCHLO = TAG('C', 'H', 'L', 'O');   // Client hello
 const QuicTag kSHLO = TAG('S', 'H', 'L', 'O');   // Server hello

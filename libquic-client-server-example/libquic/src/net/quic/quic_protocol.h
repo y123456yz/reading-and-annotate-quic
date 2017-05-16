@@ -42,6 +42,8 @@ typedef QuicPacketSequenceNumber QuicFecGroupNumber;
 typedef uint64 QuicPublicResetNonceProof;
 typedef uint8 QuicPacketEntropyHash;
 typedef uint32 QuicHeaderId;
+
+/* 参考kCHLO，通过把字符串转换为INT来代表各种不同类型的标识，例如可以参考kCHLO */
 // QuicTag is the type of a tag in the wire protocol.
 typedef uint32 QuicTag;
 typedef std::vector<QuicTag> QuicTagVector;

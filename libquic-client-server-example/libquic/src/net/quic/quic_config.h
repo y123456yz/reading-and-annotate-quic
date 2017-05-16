@@ -38,7 +38,7 @@ enum HelloType {
 
 // An abstract base class that stores a value that can be sent in CHLO/SHLO
 // message. These values can be OPTIONAL or REQUIRED, depending on |presence_|.
-class NET_EXPORT_PRIVATE QuicConfigValue {
+class NET_EXPORT_PRIVATE QuicConfigValue { /* 该类设置QuicTag类型(见kCHLO)及其对应的QuicConfigPresence */
  public:
   QuicConfigValue(QuicTag tag, QuicConfigPresence presence);
   virtual ~QuicConfigValue();
@@ -74,6 +74,7 @@ class NET_EXPORT_PRIVATE QuicNegotiableValue : public QuicConfigValue {
   bool negotiated_;
 };
 
+//向父类的继承关系:QuicNegotiableUint32->QuicNegotiableValue->QuicConfigValue
 class NET_EXPORT_PRIVATE QuicNegotiableUint32 : public QuicNegotiableValue {
  public:
   // Default and max values default to 0.
@@ -101,7 +102,6 @@ class NET_EXPORT_PRIVATE QuicNegotiableUint32 : public QuicNegotiableValue {
   QuicErrorCode ProcessPeerHello(const CryptoHandshakeMessage& peer_hello,
                                  HelloType hello_type,
                                  std::string* error_details) override;
-
  private:
   uint32 max_value_;
   uint32 default_value_;
@@ -145,6 +145,7 @@ class NET_EXPORT_PRIVATE QuicNegotiableTag : public QuicNegotiableValue {
 };
 
 // Stores uint32 from CHLO or SHLO messages that are not negotiated.
+//QuicConfig类中包含QuicFixedUint32类
 class NET_EXPORT_PRIVATE QuicFixedUint32 : public QuicConfigValue {
  public:
   QuicFixedUint32(QuicTag name, QuicConfigPresence presence);
@@ -214,9 +215,13 @@ class NET_EXPORT_PRIVATE QuicFixedTagVector : public QuicConfigValue {
 
 // QuicConfig contains non-crypto configuration options that are negotiated in
 // the crypto handshake.
-class NET_EXPORT_PRIVATE QuicConfig {
+
+/*
+默认构造函数为 QuicConfig::QuicConfig
+*/
+class NET_EXPORT_PRIVATE QuicConfig { 
  public:
-  QuicConfig();
+  QuicConfig(); //默认构造函数完成初始化
   ~QuicConfig();
 
   void SetConnectionOptionsToSend(const QuicTagVector& connection_options);
@@ -327,7 +332,7 @@ class NET_EXPORT_PRIVATE QuicConfig {
                                  HelloType hello_type,
                                  std::string* error_details);
 
- private:
+ private: //以下成员变量的默认构造函数为 QuicConfig::QuicConfig
   friend class test::QuicConfigPeer;
 
   // SetDefaults sets the members to sensible, default values.
@@ -335,19 +340,24 @@ class NET_EXPORT_PRIVATE QuicConfig {
 
   // Configurations options that are not negotiated.
   // Maximum time the session can be alive before crypto handshake is finished.
-  QuicTime::Delta max_time_before_crypto_handshake_;
+  QuicTime::Delta max_time_before_crypto_handshake_; //默认构造函数初始化0
   // Maximum idle time before the crypto handshake has completed.
   QuicTime::Delta max_idle_time_before_crypto_handshake_;
   // Maximum number of undecryptable packets stored before CHLO/SHLO.
-  size_t max_undecryptable_packets_;
+  size_t max_undecryptable_packets_; //默认构造函数初始化0
 
   // Connection options.
+  //默认构造函数初始化 connection_options_(kCOPT, PRESENCE_OPTIONAL),
   QuicFixedTagVector connection_options_;
   // Idle connection state lifetime
+  //默认构造函数初始化idle_connection_state_lifetime_seconds_(kICSL, PRESENCE_REQUIRED),
   QuicNegotiableUint32 idle_connection_state_lifetime_seconds_;
   // Whether to use silent close.  Defaults to 0 (false) and is otherwise true.
+  //默认构造函数初始化silent_close_(kSCLS, PRESENCE_OPTIONAL),
   QuicNegotiableUint32 silent_close_;
   // Maximum number of streams that the connection can support.
+  
+  //max_streams_per_connection_(kMSPC, PRESENCE_REQUIRED),
   QuicNegotiableUint32 max_streams_per_connection_;
   // The number of bytes required for the connection ID.
   QuicFixedUint32 bytes_for_connection_id_;

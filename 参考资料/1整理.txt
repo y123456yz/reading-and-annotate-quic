@@ -1,0 +1,31 @@
+client和server协商过程:
+1. 客户端发送CHLO到服务端
+2. 服务端回送的REJ信息给客户端，同时携带上原地址标识信息和服务端证书信息
+3. 客户端再次发送CHLO到服务端
+
+
+拥塞控制：
+QUIC参考TCP的CUBIC拥塞控制算法，并在试探尝试其他拥塞控制算法
+试探尝试新的拥塞控制算法：例如每个数据包的转发(包括原始数据包和重传包)都携带一个新的sequece序列化，这样可以避免TCP的重传模糊问题
+QUIC-ACK会携带上接收数据包的时间以及发送ack的时间，这样有利于计算往返时延
+QUIC-ACK相比TCP的SACK，跟容易实现包的重组，当有包丢失或者
+
+
+FEC
+通过FEC可以从一组FEC报文组中恢复网络传输中丢失的数据包，具体优化方案由发送端决定
+
+连接复用
+QUIC连接通过一个64位的连接标识符标识，该标识符由客户端产生。
+
+
+
+QUIC包含三种报文包类型：
+协商Package、公用复位package、普通帧信息Package
+Version Negotiation Packets and Public Reset Packets, and regular packets containing frames.
+
+各种帧格式参考:QUICWireLayoutSpecification.pdf
+
+官方参考地址:https://www.chromium.org/quic
+
+
+	
