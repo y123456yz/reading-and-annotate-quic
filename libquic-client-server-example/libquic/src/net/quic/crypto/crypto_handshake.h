@@ -133,6 +133,7 @@ struct NET_EXPORT_PRIVATE QuicCryptoNegotiatedParameters {
   std::string client_cached_cert_hashes;
 };
 
+//被QuicCryptoClientConfig和QuicCryptoServerConfig类继承使用
 // QuicCryptoConfig contains common configuration between clients and servers.
 class NET_EXPORT_PRIVATE QuicCryptoConfig {
  public:

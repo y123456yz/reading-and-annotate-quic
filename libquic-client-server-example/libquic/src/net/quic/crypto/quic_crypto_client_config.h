@@ -29,6 +29,8 @@ class QuicRandom;
 // QuicCryptoClientConfig contains crypto-related configuration settings for a
 // client. Note that this object isn't thread-safe. It's designed to be used on
 // a single thread at a time.
+
+//类QuicCryptoClientStream和QuicClient中包含QuicCryptoClientConfig类成员
 class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
  public:
   // A CachedState contains the information that the client needs in order to

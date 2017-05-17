@@ -223,6 +223,39 @@ enum FecSendPolicy {
   FEC_ALARM_TRIGGER
 };
 
+
+/*
+帧类型
+帧类型字节有两种解释，导致两种帧类型：特殊帧类型，和普通帧类型。特殊帧类型在帧类型字节中同时编码帧
+类型和对应的标记，而普通帧类型简单地使用帧类型字节。
+
+当前定义的特殊帧类型如下：
+--- src
+   +------------------+-----------------------------+
+   | Type-field value |     Control Frame-type      |
+   +------------------+-----------------------------+
+   |     1fdooossB    |  STREAM                     |
+   |     01ntllmmB    |  ACK                        |
+   |     001xxxxxB    |  CONGESTION_FEEDBACK        |
+   +------------------+-----------------------------+
+---
+当前定义的普通帧类型如下：
+--- src
+   +------------------+-----------------------------+
+   | Type-field value |     Control Frame-type      |
+   +------------------+-----------------------------+
+   | 00000000B (0x00) |  PADDING                    |
+   | 00000001B (0x01) |  RST_STREAM                 |
+   | 00000010B (0x02) |  CONNECTION_CLOSE           |
+   | 00000011B (0x03) |  GOAWAY                     |
+   | 00000100B (0x04) |  WINDOW_UPDATE              |
+   | 00000101B (0x05) |  BLOCKED                    |
+   | 00000110B (0x06) |  STOP_WAITING               |
+   | 00000111B (0x07) |  PING                       |
+   +------------------+-----------------------------+
+---
+
+*/
 enum QuicFrameType {
   // Regular frame types. The values set here cannot change without the
   // introduction of a new QUIC version.
@@ -273,12 +306,58 @@ enum QuicSequenceNumberLengthFlags {
 enum QuicPacketPublicFlags {
   PACKET_PUBLIC_FLAGS_NONE = 0,
 
+
+  /*
+  只有服务器会发送版本协商包。版本协商包以8位的公共标记和64位的连接ID开始。公共标记必须设置PUBLIC_FLAG_VERSION，
+  并指明64位的连接ID。版本协商包的其余部分是服务器支持的版本的4字节列表：
+     --- src
+         0        1        2        3        4        5        6        7       8
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+    | Public |    Connection ID (64)                                                 | ->
+    |Flags(8)|                                                                       |
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+         9       10       11        12       13      14       15       16       17
+    +--------+--------+--------+--------+--------+--------+--------+--------+---...--+
+    |      1st QUIC version supported   |     2nd QUIC version supported    |   ...
+    |      by server (32)               |     by server (32)                |             
+    +--------+--------+--------+--------+--------+--------+--------+--------+---...--+
+    一个端点还可以在连接期间的任何时间发送一个PUBLIC_RESET包来突然地终止活跃的连接。QUIC中的PUBLIC_RESET等价于TCP的RST。
+  */
   // Bit 0: Does the packet header contains version info?
   PACKET_PUBLIC_FLAGS_VERSION = 1 << 0,
 
+  /*
+ 公共复位包
+公共复位包以8位的公共标记和64位的连接ID开始。公共标记必须设置 PUBLIC_FLAG_RESET，并表明64位的连接ID。
+公共复位包的其余部分像标记 PRST 的加密握手消息那样编码（参考[QUIC-CRYPTO]）：
+  --- src
+       0        1        2        3        4         8
+  +--------+--------+--------+--------+--------+--   --+
+  | Public |    Connection ID (64)                ...  | ->
+  |Flags(8)|                                           |
+  +--------+--------+--------+--------+--------+--   --+
+       9       10       11        12       13      14       
+  +--------+--------+--------+--------+--------+--------+---
+  |      Quic Tag (32)                |  Tag value map      ... ->
+  |         (PRST)                    |  (variable length)                         
+  +--------+--------+--------+--------+--------+--------+---
+  标记值映射：标记值映射包含如下的标记值：
+
+RNON (public reset nonce proof) - 一个64位的无符号整数。必须。
+RSEQ (rejected packet number) - 一个64位的包号。必须。
+CADR (client address) - 观察到的客户端IP地址和端口号。它当前只被用于调试，因而是可选的。
+(TODO：公共复位包应该包含认证的（目标）服务器 IP/端口。)
+  */
   // Bit 1: Is this packet a public reset packet?
   PACKET_PUBLIC_FLAGS_RST = 1 << 1,
 
+
+  /*
+  普通包:
+  普通包已经过认证和加密。公共头部已认证但未加密，从第一帧开始的包的其余部分已加密。紧随公共头部之后，
+  普通包包含 AEAD（authenticated encryption and associated data）数据。要解释内容，这些数据必须先解密。
+  解密之后，明文由一系列帧组成。
+  */
   // Bits 2 and 3 specify the length of the ConnectionId as follows:
   // ----00--: 0 bytes
   // ----01--: 1 byte

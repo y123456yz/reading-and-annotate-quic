@@ -61,11 +61,11 @@ bool QuicClient::Initialize() {
   // same value that Chrome uses: 10 Mb.
   const uint32 kInitialFlowControlWindow = 10 * 1024 * 1024;  // 10 Mb
   if (config_.GetInitialStreamFlowControlWindowToSend() ==
-      kMinimumFlowControlSendWindow) {
+      kMinimumFlowControlSendWindow) { //设置流窗口大小
     config_.SetInitialStreamFlowControlWindowToSend(kInitialFlowControlWindow);
   }
   if (config_.GetInitialSessionFlowControlWindowToSend() ==
-      kMinimumFlowControlSendWindow) {
+      kMinimumFlowControlSendWindow) { //设置session连接窗口大小
     config_.SetInitialSessionFlowControlWindowToSend(kInitialFlowControlWindow);
   }
 

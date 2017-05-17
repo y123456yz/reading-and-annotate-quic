@@ -21,13 +21,14 @@ class CryptoHandshakeMessage;
 
 // Describes whether or not a given QuicTag is required or optional in the
 // handshake message.
+//标识QuicTag信息在握手协商过程中是否是必须的
 enum QuicConfigPresence {
   // This negotiable value can be absent from the handshake message. Default
   // value is selected as the negotiated value in such a case.
-  PRESENCE_OPTIONAL,
+  PRESENCE_OPTIONAL, //可选
   // This negotiable value is required in the handshake message otherwise the
   // Process*Hello function returns an error.
-  PRESENCE_REQUIRED,
+  PRESENCE_REQUIRED, //握手信息必须携带上该tag
 };
 
 // Whether the CryptoHandshakeMessage is from the client or server.
@@ -54,8 +55,8 @@ class NET_EXPORT_PRIVATE QuicConfigValue { /* 该类设置QuicTag类型(见kCHLO)及其对
       std::string* error_details) = 0;
 
  protected:
-  const QuicTag tag_;
-  const QuicConfigPresence presence_;
+  const QuicTag tag_; //握手协商过程中的tag信息
+  const QuicConfigPresence presence_; //标识QuicTag信息在握手协商过程中是否是必须的
 };
 
 class NET_EXPORT_PRIVATE QuicNegotiableValue : public QuicConfigValue {
@@ -103,7 +104,7 @@ class NET_EXPORT_PRIVATE QuicNegotiableUint32 : public QuicNegotiableValue {
                                  HelloType hello_type,
                                  std::string* error_details) override;
  private:
-  uint32 max_value_;
+  uint32 max_value_; 
   uint32 default_value_;
   uint32 negotiated_value_;
 };
@@ -217,7 +218,8 @@ class NET_EXPORT_PRIVATE QuicFixedTagVector : public QuicConfigValue {
 // the crypto handshake.
 
 /*
-默认构造函数为 QuicConfig::QuicConfig
+默认构造函数为 QuicConfig::QuicConfig   需要握手协商的QuicTag对应的相关信息填充到该类中
+QuicClient 和 QuicServer类中包含该类
 */
 class NET_EXPORT_PRIVATE QuicConfig { 
  public:
@@ -347,28 +349,32 @@ class NET_EXPORT_PRIVATE QuicConfig {
   size_t max_undecryptable_packets_; //默认构造函数初始化0
 
   // Connection options.
-  //默认构造函数初始化 connection_options_(kCOPT, PRESENCE_OPTIONAL),
+  //默认构造函数初始化 connection_options_(kCOPT, PRESENCE_OPTIONAL),   SetDefaults();
   QuicFixedTagVector connection_options_;
   // Idle connection state lifetime
-  //默认构造函数初始化idle_connection_state_lifetime_seconds_(kICSL, PRESENCE_REQUIRED),
+  //默认构造函数初始化idle_connection_state_lifetime_seconds_(kICSL, PRESENCE_REQUIRED), SetDefaults();
   QuicNegotiableUint32 idle_connection_state_lifetime_seconds_;
   // Whether to use silent close.  Defaults to 0 (false) and is otherwise true.
-  //默认构造函数初始化silent_close_(kSCLS, PRESENCE_OPTIONAL),
-  QuicNegotiableUint32 silent_close_;
-  // Maximum number of streams that the connection can support.
-  
+  //默认构造函数初始化silent_close_(kSCLS, PRESENCE_OPTIONAL), SetDefaults();
+  QuicNegotiableUint32 silent_close_; 
+  // Maximum number of streams that the connection can support. SetDefaults();
   //max_streams_per_connection_(kMSPC, PRESENCE_REQUIRED),
   QuicNegotiableUint32 max_streams_per_connection_;
+  //bytes_for_connection_id_(kTCID, PRESENCE_OPTIONAL), SetDefaults();
   // The number of bytes required for the connection ID.
   QuicFixedUint32 bytes_for_connection_id_;
+
+  //initial_round_trip_time_us_(kIRTT, PRESENCE_OPTIONAL),  SetDefaults();
   // Initial round trip time estimate in microseconds.
   QuicFixedUint32 initial_round_trip_time_us_;
 
+  //initial_stream_flow_control_window_bytes_(kSFCW, PRESENCE_OPTIONAL),  SetDefaults();
   // Initial stream flow control receive window in bytes.
   QuicFixedUint32 initial_stream_flow_control_window_bytes_;
+  //initial_session_flow_control_window_bytes_(kCFCW, PRESENCE_OPTIONAL),  SetDefaults();
   // Initial session flow control receive window in bytes.
   QuicFixedUint32 initial_session_flow_control_window_bytes_;
-
+  //socket_receive_buffer_(kSRBF, PRESENCE_OPTIONAL)   SetDefaults();
   // Socket receive buffer in bytes.
   QuicFixedUint32 socket_receive_buffer_;
 };

@@ -96,6 +96,8 @@ const QuicTag kX59R = TAG('X', '5', '9', 'R');   // X.509 certificate, RSA keys
                                                  // only
 const QuicTag kCHID = TAG('C', 'H', 'I', 'D');   // Channel ID.
 
+
+
 // Client hello tags
 const QuicTag kVER  = TAG('V', 'E', 'R', '\0');  // Version (new)
 const QuicTag kNONC = TAG('N', 'O', 'N', 'C');   // The client's nonce
@@ -103,6 +105,7 @@ const QuicTag kKEXS = TAG('K', 'E', 'X', 'S');   // Key exchange methods
 const QuicTag kAEAD = TAG('A', 'E', 'A', 'D');   // Authenticated
                                                  // encryption algorithms
 const QuicTag kCOPT = TAG('C', 'O', 'P', 'T');   // Connection options
+//QUIC连接默认的空闲超时时间是30秒，且是连接协商中的一个必须参数(“ICSL”)。最大值是10分钟。
 const QuicTag kICSL = TAG('I', 'C', 'S', 'L');   // Idle connection state
                                                  // lifetime
 const QuicTag kSCLS = TAG('S', 'C', 'L', 'S');   // Silently close on timeout
@@ -126,11 +129,15 @@ const QuicTag kCFCW = TAG('C', 'F', 'C', 'W');   // Initial session/connection
                                                  // flow control receive window.
 const QuicTag kUAID = TAG('U', 'A', 'I', 'D');   // Client's User Agent ID.
 
+
+
 // Rejection tags
 const QuicTag kRREJ = TAG('R', 'R', 'E', 'J');   // Reasons for server sending
 // Stateless Reject tags
 const QuicTag kRCID = TAG('R', 'C', 'I', 'D');   // Server-designated
                                                  // connection ID
+
+
 // Server hello tags
 const QuicTag kCADR = TAG('C', 'A', 'D', 'R');   // Client IP address and port
 
