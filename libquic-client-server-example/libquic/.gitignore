@@ -1,2 +1,5 @@
+build/*
 build/
+**/*.o
+./*.o
 *.pyc
