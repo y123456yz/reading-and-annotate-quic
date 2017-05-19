@@ -3214,6 +3214,12 @@ net/spdy/spdy_protocol.h
 
 ../src/testing/gtest/include/gtest/gtest_prod.h
 
+../src/third_party/modp_b64/modp_b64.h
+stddef.h
+-
+string
+-
+
 ../src/third_party/protobuf/src/google/protobuf/extension_set.h
 vector
 -
@@ -3232,6 +3238,14 @@ string
 google/protobuf/stubs/common.h
 -
 google/protobuf/stubs/once.h
+-
+
+../src/third_party/protobuf/src/google/protobuf/io/coded_stream.h
+string
+-
+sys/param.h
+-
+google/protobuf/stubs/common.h
 -
 
 ../src/third_party/protobuf/src/google/protobuf/message_lite.h
@@ -3340,6 +3354,30 @@ utility
 google/protobuf/stubs/template_util.h
 -
 
+../src/third_party/protobuf/src/google/protobuf/wire_format_lite.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/message_lite.h
+-
+google/protobuf/io/coded_stream.h
+-
+
+../src/third_party/protobuf/src/google/protobuf/wire_format_lite_inl.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/message_lite.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/wire_format_lite.h
+-
+google/protobuf/io/coded_stream.h
+-
+
 ../src/third_party/zlib/mozzconf.h
 
 ../src/third_party/zlib/zconf.h
@@ -3428,6 +3466,24 @@ base/callback.h
 base/logging.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/logging.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/atomicops_internals_x86_gcc.cc
+stdint.h
+-
+string.h
+-
+base/atomicops.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/atomicops.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base64.cc
+base/base64.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/base64.h
+third_party/modp_b64/modp_b64.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/modp_b64/modp_b64.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base_switches.cc
+base/base_switches.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/base_switches.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/bind_helpers.cc
 base/bind_helpers.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/bind_helpers.h
@@ -3472,6 +3528,32 @@ windows.h
 shellapi.h
 -
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/alias.cc
+base/debug/alias.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/base/debug/alias.h
+build/build_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/build/build_config.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/debugger.cc
+base/debug/debugger.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/base/debug/debugger.h
+unistd.h
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/stack_trace.cc
+base/debug/stack_trace.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/base/debug/stack_trace.h
+base/basictypes.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/base/basictypes.h
+string.h
+-
+algorithm
+-
+sstream
+-
+ostream
+-
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path.cc
 base/files/file_path.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/base/files/file_path.h
@@ -3501,6 +3583,10 @@ windows.h
 -
 CoreFoundation/CoreFoundation.h
 -
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path_constants.cc
+base/files/file_path.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/base/files/file_path.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/hash.cc
 base/hash.h
@@ -3595,6 +3681,18 @@ base/basictypes.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/basictypes.h
 base/threading/platform_thread.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/threading/platform_thread.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/location.cc
+build/build_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/build/build_config.h
+intrin.h
+-
+base/location.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/location.h
+base/strings/string_number_conversions.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/strings/string_number_conversions.h
+base/strings/stringprintf.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/strings/stringprintf.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/logging.cc
 base/logging.h
@@ -3818,12 +3916,38 @@ base/synchronization/lock.h
 base/values.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/base/values.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/os_compat_nacl.cc
+base/os_compat_nacl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/os_compat_nacl.h
+stdlib.h
+-
+time.h
+-
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/pickle.cc
 base/pickle.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/pickle.h
 stdlib.h
 -
 algorithm
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/safe_strerror.cc
+base/posix/safe_strerror.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/base/posix/safe_strerror.h
+errno.h
+-
+stdio.h
+-
+string.h
+-
+build/build_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/build/build_config.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/process/process_handle_posix.cc
+base/process/process_handle.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/process/base/process/process_handle.h
+unistd.h
 -
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util.cc
@@ -3858,6 +3982,14 @@ base/lazy_instance.h
 base/logging.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/logging.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string16.cc
+base/strings/string16.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/string16.h
+ostream
+-
+base/strings/utf_string_conversions.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversions.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_number_conversions.cc
 base/strings/string_number_conversions.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/string_number_conversions.h
@@ -3879,6 +4011,14 @@ base/strings/utf_string_conversions.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversions.h
 base/third_party/dmg_fp/dmg_fp.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/third_party/dmg_fp/dmg_fp.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_piece.cc
+base/strings/string_piece.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/string_piece.h
+algorithm
+-
+ostream
+-
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_split.cc
 base/strings/string_split.h
@@ -3952,6 +4092,22 @@ base/strings/string_util.h
 base/strings/utf_string_conversions.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversions.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/sys_string_conversions_posix.cc
+base/strings/sys_string_conversions.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/sys_string_conversions.h
+wchar.h
+-
+base/strings/string_piece.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/string_piece.h
+base/strings/utf_string_conversions.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversions.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversion_utils.cc
+base/strings/utf_string_conversion_utils.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversion_utils.h
+base/third_party/icu/icu_utf.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/third_party/icu/icu_utf.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversions.cc
 base/strings/utf_string_conversions.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/base/strings/utf_string_conversions.h
@@ -4009,6 +4165,34 @@ base/synchronization/lock.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/base/synchronization/lock.h
 base/threading/thread_restrictions.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/base/threading/thread_restrictions.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dmg_fp.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dtoa.cc
+stdio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/stdio.h
+stdlib.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/stdlib.h
+string.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/string.h
+locale.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/locale.h
+fenv.h
+-
+errno.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/errno.h
+float.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/float.h
+math.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/math.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/g_fmt.cc
+dmg_fp.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dmg_fp.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/icu/icu_utf.cc
+base/third_party/icu/icu_utf.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/icu/base/third_party/icu/icu_utf.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/nspr/prtime.cc
 base/logging.h
@@ -4246,6 +4430,10 @@ base/strings/string_number_conversions.h
 base/strings/string_split.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base/strings/string_split.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519.cc
+crypto/curve25519.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/curve25519.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hkdf.cc
 crypto/hkdf.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/hkdf.h
@@ -4308,6 +4496,12 @@ cpu-features.h
 base/cpu.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/base/cpu.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/random.cc
+crypto/random.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/random.h
+base/rand_util.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/base/rand_util.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_hash_openssl.cc
 crypto/secure_hash.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/secure_hash.h
@@ -4323,6 +4517,10 @@ base/pickle.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/base/pickle.h
 crypto/openssl_util.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/openssl_util.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_util.cc
+crypto/secure_util.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/crypto/secure_util.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/symmetric_key_openssl.cc
 crypto/symmetric_key.h
@@ -4361,6 +4559,14 @@ net/base/net_util.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net/base/net_util.h
 url/gurl.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/url/gurl.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/int128.cc
+iostream
+-
+base/basictypes.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/base/basictypes.h
+net/base/int128.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net/base/int128.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/io_buffer.cc
 net/base/io_buffer.h
@@ -4615,6 +4821,28 @@ net/quic/crypto/chacha20_poly1305_encrypter.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/net/quic/crypto/chacha20_poly1305_encrypter.h
 openssl/evp.h
 -
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id.cc
+net/quic/crypto/channel_id.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/net/quic/crypto/channel_id.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id_openssl.cc
+net/quic/crypto/channel_id.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/net/quic/crypto/channel_id.h
+openssl/bn.h
+-
+openssl/ec.h
+-
+openssl/ecdsa.h
+-
+openssl/obj_mac.h
+-
+openssl/sha.h
+-
+crypto/openssl_util.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto/openssl_util.h
+crypto/scoped_openssl_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto/scoped_openssl_types.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/common_cert_set.cc
 net/quic/crypto/common_cert_set.h
@@ -4906,6 +5134,10 @@ base/memory/singleton.h
 crypto/random.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto/random.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc
+net/quic/crypto/scoped_evp_aead_ctx.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/net/quic/crypto/scoped_evp_aead_ctx.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/strike_register.cc
 net/quic/crypto/strike_register.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/net/quic/crypto/strike_register.h
@@ -4917,6 +5149,68 @@ base/logging.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/iovector.cc
 net/quic/iovector.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/iovector.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.cc
+cached_network_parameters.pb.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.h
+algorithm
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/stubs/once.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/wire_format_lite_inl.h
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/message_lite.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+net/base/net_export.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/net/base/net_export.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.cc
+source_address_token.pb.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.h
+algorithm
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/stubs/once.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/wire_format_lite_inl.h
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/message_lite.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+cached_network_parameters.pb.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.h
+net/base/net_export.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/net/base/net_export.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier.cc
 net/quic/quic_ack_notifier.h
@@ -5160,6 +5454,10 @@ base/logging.h
 base/stl_util.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/base/stl_util.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flags.cc
+net/quic/quic_flags.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_flags.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flow_controller.cc
 net/quic/quic_flow_controller.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_flow_controller.h
@@ -5306,6 +5604,10 @@ net/quic/quic_flags.h
 net/quic/quic_utils_chromium.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_utils_chromium.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_server_id.cc
+net/quic/quic_server_id.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_server_id.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_session.cc
 net/quic/quic_session.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_session.h
@@ -5319,6 +5621,12 @@ net/quic/quic_flow_controller.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_flow_controller.h
 net/ssl/ssl_info.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/ssl/ssl_info.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_socket_address_coder.cc
+net/quic/quic_socket_address_coder.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_socket_address_coder.h
+net/base/sys_addrinfo.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/base/sys_addrinfo.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_spdy_session.cc
 net/quic/quic_spdy_session.h
@@ -5357,6 +5665,10 @@ stdint.h
 -
 base/logging.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/base/logging.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_types.cc
+net/quic/quic_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/net/quic/quic_types.h
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_unacked_packet_map.cc
 net/quic/quic_unacked_packet_map.h
@@ -5522,6 +5834,12 @@ net/spdy/hpack_constants.h
 net/spdy/hpack_entry.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/net/spdy/hpack_entry.h
 
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_string_util.cc
+net/spdy/hpack_string_util.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/net/spdy/hpack_string_util.h
+base/basictypes.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/base/basictypes.h
+
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc
 net/spdy/spdy_alt_svc_wire_format.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/net/spdy/spdy_alt_svc_wire_format.h
@@ -5583,4 +5901,22 @@ third_party/zlib/zlib.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_protocol.cc
 net/spdy/spdy_protocol.h
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/net/spdy/spdy_protocol.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.cc
+modp_b64.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.h
+modp_b64_data.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64_data.h
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.h
+stddef.h
+-
+string
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64_data.h
+build/build_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/build/build_config.h
+stdint.h
+-
 

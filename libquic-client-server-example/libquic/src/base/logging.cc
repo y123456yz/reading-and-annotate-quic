@@ -326,7 +326,7 @@ bool InitializeLogFileHandle() { //打开日志文件
 
     g_log_file = fopen(g_log_file_name->c_str(), "a");
     if (g_log_file == nullptr) {
-		printf("fopen file:%s error\r\n"g_log_file_name->c_str());
+		printf("fopen file:%s error\r\n", g_log_file_name->c_str());
         return false;
     }
 #endif

@@ -6,3 +6,23 @@
 
 #IncludeRegexTransform: 
 
+../boringssl/include/openssl/base.h
+stdint.h
+-
+stdlib.h
+-
+sys/types.h
+-
+openssl/opensslfeatures.h
+-
+
+../boringssl/include/openssl/opensslfeatures.h
+
+../boringssl/include/openssl/rc4.h
+openssl/base.h
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rc4/rc4.c
+openssl/rc4.h
+-
+
