@@ -5,15 +5,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_ASM
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/aes-x86_64.S" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes-x86_64.S.o"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/aesni-x86_64.S" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aesni-x86_64.S.o"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/bsaes-x86_64.S" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/bsaes-x86_64.S.o"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/vpaes-x86_64.S" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/vpaes-x86_64.S.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/aes-x86_64.S" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes-x86_64.S.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/aesni-x86_64.S" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aesni-x86_64.S.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/bsaes-x86_64.S" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/bsaes-x86_64.S.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/vpaes-x86_64.S" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/vpaes-x86_64.S.o"
   )
 SET(CMAKE_ASM_COMPILER_ID "GNU")
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/aes/aes.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/aes/mode_wrappers.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/mode_wrappers.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/aes.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/mode_wrappers.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/mode_wrappers.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

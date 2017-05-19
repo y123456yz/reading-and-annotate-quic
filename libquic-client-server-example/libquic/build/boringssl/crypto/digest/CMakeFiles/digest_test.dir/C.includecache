@@ -72,7 +72,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/digest_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digest_test.c
 stdint.h
 -
 stdio.h

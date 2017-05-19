@@ -80,7 +80,7 @@ openssl/stack_macros.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh_test.c
 openssl/dh.h
 -
 stdio.h
@@ -96,9 +96,9 @@ openssl/crypto.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 openssl/base.h
 -
 openssl/bn.h

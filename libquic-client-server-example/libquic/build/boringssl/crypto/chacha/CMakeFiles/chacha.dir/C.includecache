@@ -26,7 +26,7 @@ openssl/base.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_generic.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_generic.c
 openssl/chacha.h
 -
 string.h
@@ -34,7 +34,7 @@ string.h
 openssl/cpu.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_vec.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_vec.c
 openssl/chacha.h
 -
 string.h

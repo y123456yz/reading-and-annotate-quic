@@ -52,7 +52,7 @@ namespace net {
 class QuicDecrypter;
 class QuicEncrypter;
 
-namespace {
+//namespace {
 
 // The largest gap in packets we'll accept without closing the connection.
 // This will likely have to be tuned.
@@ -183,7 +183,7 @@ class FecAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(FecAlarm);
 };
 
-}  // namespace
+//}  // namespace
 
 QuicConnection::QueuedPacket::QueuedPacket(SerializedPacket packet,
                                            EncryptionLevel level)
@@ -207,14 +207,15 @@ QuicConnection::QueuedPacket::QueuedPacket(
 #define ENDPOINT \
   (perspective_ == Perspective::IS_SERVER ? "Server: " : "Client: ")
 
-QuicConnection::QuicConnection(QuicConnectionId connection_id,
-                               IPEndPoint address,
-                               QuicConnectionHelperInterface* helper,
-                               const PacketWriterFactory& writer_factory,
-                               bool owns_writer,
-                               Perspective perspective,
-                               bool is_secure,
-                               const QuicVersionVector& supported_versions)
+/* client测试例子在QuicClient::Connect中构造类 */
+QuicConnection::QuicConnection(QuicConnectionId connection_id, //连接表示
+                               IPEndPoint address, 	//对端地址信息
+                               QuicConnectionHelperInterface* helper, //helper接口
+                               const PacketWriterFactory& writer_factory, //fd 写接口类
+                               bool owns_writer, 
+                               Perspective perspective, //client or server
+                               bool is_secure, 	//
+                               const QuicVersionVector& supported_versions) //支持的版本信息
     : framer_(supported_versions,
               helper->GetClock()->ApproximateNow(),
               perspective),

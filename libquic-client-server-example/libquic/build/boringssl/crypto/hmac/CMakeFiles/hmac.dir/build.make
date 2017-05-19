@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/hmac/CMakeFiles/hmac.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/hmac/CMakeFiles/hmac.dir/flags.make
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o: boringssl/crypto/hmac/CMakeFiles/hmac.dir/flags.make
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o: ../boringssl/crypto/hmac/hmac.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hmac.dir/hmac.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/hmac/hmac.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hmac.dir/hmac.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hmac/hmac.c
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hmac.dir/hmac.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/hmac/hmac.c > CMakeFiles/hmac.dir/hmac.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hmac/hmac.c > CMakeFiles/hmac.dir/hmac.c.i
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hmac.dir/hmac.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/hmac/hmac.c -o CMakeFiles/hmac.dir/hmac.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hmac/hmac.c -o CMakeFiles/hmac.dir/hmac.c.s
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o.requires:
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o.requires
@@ -87,10 +87,10 @@ boringssl/crypto/hmac/CMakeFiles/hmac.dir/requires: boringssl/crypto/hmac/CMakeF
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/requires
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac && $(CMAKE_COMMAND) -P CMakeFiles/hmac.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac && $(CMAKE_COMMAND) -P CMakeFiles/hmac.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/clean
 
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/hmac /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac/CMakeFiles/hmac.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hmac /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac/CMakeFiles/hmac.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/depend
 

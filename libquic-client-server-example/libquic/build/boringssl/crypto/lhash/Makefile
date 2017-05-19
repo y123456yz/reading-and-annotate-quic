@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/lhash/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/lhash/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ lhash: boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
 
 # fast build rule for target.
 lhash/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/build
 .PHONY : lhash/fast
 
 # Convenience name for target.
 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ lhash_test: boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule
 
 # fast build rule for target.
 lhash_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build
 .PHONY : lhash_test/fast
 
 lhash.o: lhash.c.o
@@ -134,7 +134,7 @@ lhash.o: lhash.c.o
 
 # target to build an object file
 lhash.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.o
 .PHONY : lhash.c.o
 
 lhash.i: lhash.c.i
@@ -142,7 +142,7 @@ lhash.i: lhash.c.i
 
 # target to preprocess a source file
 lhash.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.i
 .PHONY : lhash.c.i
 
 lhash.s: lhash.c.s
@@ -150,7 +150,7 @@ lhash.s: lhash.c.s
 
 # target to generate assembly for a file
 lhash.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.s
 .PHONY : lhash.c.s
 
 lhash_test.o: lhash_test.c.o
@@ -158,7 +158,7 @@ lhash_test.o: lhash_test.c.o
 
 # target to build an object file
 lhash_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.o
 .PHONY : lhash_test.c.o
 
 lhash_test.i: lhash_test.c.i
@@ -166,7 +166,7 @@ lhash_test.i: lhash_test.c.i
 
 # target to preprocess a source file
 lhash_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.i
 .PHONY : lhash_test.c.i
 
 lhash_test.s: lhash_test.c.s
@@ -174,7 +174,7 @@ lhash_test.s: lhash_test.c.s
 
 # target to generate assembly for a file
 lhash_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/lhash_test.c.s
 .PHONY : lhash_test.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

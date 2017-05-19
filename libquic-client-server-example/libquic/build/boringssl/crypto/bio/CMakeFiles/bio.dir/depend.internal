@@ -14,7 +14,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -29,7 +29,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio_mem.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio_mem.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -44,7 +44,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/buffer.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/buffer.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -59,8 +59,8 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/connect.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/connect.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
 boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -75,7 +75,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/fd.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/fd.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -90,7 +90,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/file.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/file.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -99,7 +99,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/hexdump.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/hexdump.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -114,7 +114,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/pair.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/pair.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -124,7 +124,7 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/printf.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/printf.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -133,8 +133,8 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket.c
 boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bio.h
@@ -147,5 +147,5 @@ boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket_helper.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket_helper.c

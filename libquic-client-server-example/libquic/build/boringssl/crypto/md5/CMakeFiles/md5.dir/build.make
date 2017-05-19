@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/md5/CMakeFiles/md5.dir/depend.make
@@ -58,23 +58,23 @@ boringssl/crypto/md5/md5-x86_64.S: ../boringssl/crypto/perlasm/x86asm.pl
 boringssl/crypto/md5/md5-x86_64.S: ../boringssl/crypto/perlasm/x86gas.pl
 boringssl/crypto/md5/md5-x86_64.S: ../boringssl/crypto/perlasm/x86masm.pl
 boringssl/crypto/md5/md5-x86_64.S: ../boringssl/crypto/perlasm/x86nasm.pl
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating md5-x86_64.S"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && /usr/bin/perl /root/yangyazhou/quic/libquic/boringssl/crypto/md5/asm/md5-x86_64.pl elf > md5-x86_64.S
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && /usr/bin/perl /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/asm/md5-x86_64.pl elf > md5-x86_64.S
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o: boringssl/crypto/md5/CMakeFiles/md5.dir/flags.make
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o: ../boringssl/crypto/md5/md5.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/md5.dir/md5.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/md5/md5.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/md5.dir/md5.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/md5.c
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/md5.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/md5/md5.c > CMakeFiles/md5.dir/md5.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/md5.c > CMakeFiles/md5.dir/md5.c.i
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/md5.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/md5/md5.c -o CMakeFiles/md5.dir/md5.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/md5.c -o CMakeFiles/md5.dir/md5.c.s
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o.requires:
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o.requires
@@ -87,9 +87,9 @@ boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o.provides.build: boringssl/crypto
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o: boringssl/crypto/md5/CMakeFiles/md5.dir/flags.make
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o: boringssl/crypto/md5/md5-x86_64.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/md5.dir/md5-x86_64.S.o -c /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5/md5-x86_64.S
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/md5.dir/md5-x86_64.S.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5/md5-x86_64.S
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o.requires:
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o.requires
@@ -114,10 +114,10 @@ boringssl/crypto/md5/CMakeFiles/md5.dir/requires: boringssl/crypto/md5/CMakeFile
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/requires
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 && $(CMAKE_COMMAND) -P CMakeFiles/md5.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 && $(CMAKE_COMMAND) -P CMakeFiles/md5.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/clean
 
 boringssl/crypto/md5/CMakeFiles/md5.dir/depend: boringssl/crypto/md5/md5-x86_64.S
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/md5 /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5 /root/yangyazhou/quic/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/depend
 

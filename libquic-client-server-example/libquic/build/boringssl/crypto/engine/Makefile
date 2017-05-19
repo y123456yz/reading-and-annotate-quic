@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/engine/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/engine/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/engine/CMakeFiles/engine.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/CMakeFiles/engine.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/CMakeFiles/engine.dir/rule
 .PHONY : boringssl/crypto/engine/CMakeFiles/engine.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ engine: boringssl/crypto/engine/CMakeFiles/engine.dir/rule
 
 # fast build rule for target.
 engine/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
 engine.o: engine.c.o
@@ -120,7 +120,7 @@ engine.o: engine.c.o
 
 # target to build an object file
 engine.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.o
 .PHONY : engine.c.o
 
 engine.i: engine.c.i
@@ -128,7 +128,7 @@ engine.i: engine.c.i
 
 # target to preprocess a source file
 engine.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.i
 .PHONY : engine.c.i
 
 engine.s: engine.c.s
@@ -136,7 +136,7 @@ engine.s: engine.c.s
 
 # target to generate assembly for a file
 engine.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.s
 .PHONY : engine.c.s
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

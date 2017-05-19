@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/protobuf/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 protobuf/CMakeFiles/protobuf.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/CMakeFiles/protobuf.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 protobuf/CMakeFiles/protobuf.dir/rule
 .PHONY : protobuf/CMakeFiles/protobuf.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ protobuf: protobuf/CMakeFiles/protobuf.dir/rule
 
 # fast build rule for target.
 protobuf/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/build
 .PHONY : protobuf/fast
 
 __/src/third_party/protobuf/src/google/protobuf/extension_set.o: __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o
@@ -120,7 +120,7 @@ __/src/third_party/protobuf/src/google/protobuf/extension_set.o: __/src/third_pa
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/extension_set.i: __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
@@ -128,7 +128,7 @@ __/src/third_party/protobuf/src/google/protobuf/extension_set.i: __/src/third_pa
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/extension_set.s: __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
@@ -136,7 +136,7 @@ __/src/third_party/protobuf/src/google/protobuf/extension_set.s: __/src/third_pa
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.o: __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o
@@ -144,7 +144,7 @@ __/src/third_party/protobuf/src/google/protobuf/generated_message_util.o: __/src
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.i: __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
@@ -152,7 +152,7 @@ __/src/third_party/protobuf/src/google/protobuf/generated_message_util.i: __/src
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.s: __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
@@ -160,7 +160,7 @@ __/src/third_party/protobuf/src/google/protobuf/generated_message_util.s: __/src
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.o: __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o
@@ -168,7 +168,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.o: __/src/third_
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.i: __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
@@ -176,7 +176,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.i: __/src/third_
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.s: __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
@@ -184,7 +184,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.s: __/src/third_
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.o: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o
@@ -192,7 +192,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.o: __/src/th
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.i: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
@@ -200,7 +200,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.i: __/src/th
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.s: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
@@ -208,7 +208,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.s: __/src/th
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.o: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
@@ -216,7 +216,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.o:
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.i: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
@@ -224,7 +224,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.i:
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.s: __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
@@ -232,7 +232,7 @@ __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.s:
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/message_lite.o: __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o
@@ -240,7 +240,7 @@ __/src/third_party/protobuf/src/google/protobuf/message_lite.o: __/src/third_par
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/message_lite.i: __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
@@ -248,7 +248,7 @@ __/src/third_party/protobuf/src/google/protobuf/message_lite.i: __/src/third_par
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/message_lite.s: __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
@@ -256,7 +256,7 @@ __/src/third_party/protobuf/src/google/protobuf/message_lite.s: __/src/third_par
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.o: __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o
@@ -264,7 +264,7 @@ __/src/third_party/protobuf/src/google/protobuf/repeated_field.o: __/src/third_p
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.i: __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
@@ -272,7 +272,7 @@ __/src/third_party/protobuf/src/google/protobuf/repeated_field.i: __/src/third_p
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.s: __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
@@ -280,7 +280,7 @@ __/src/third_party/protobuf/src/google/protobuf/repeated_field.s: __/src/third_p
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.o: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o
@@ -288,7 +288,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gc
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.i: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
@@ -296,7 +296,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gc
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.s: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
@@ -304,7 +304,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gc
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.o: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o
@@ -312,7 +312,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_ms
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.i: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
@@ -320,7 +320,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_ms
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.s: __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
@@ -328,7 +328,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_ms
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.o: __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o
@@ -336,7 +336,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/common.o: __/src/third_par
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.i: __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
@@ -344,7 +344,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/common.i: __/src/third_par
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.s: __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
@@ -352,7 +352,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/common.s: __/src/third_par
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.o: __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o
@@ -360,7 +360,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/once.o: __/src/third_party
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.i: __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
@@ -368,7 +368,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/once.i: __/src/third_party
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.s: __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
@@ -376,7 +376,7 @@ __/src/third_party/protobuf/src/google/protobuf/stubs/once.s: __/src/third_party
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.o: __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o
@@ -384,7 +384,7 @@ __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.o: __/src/thir
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.i: __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
@@ -392,7 +392,7 @@ __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.i: __/src/thir
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.s: __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
@@ -400,7 +400,7 @@ __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.s: __/src/thir
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
 
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.o: __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o
@@ -408,7 +408,7 @@ __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.o: __/src/third
 
 # target to build an object file
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o
 
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.i: __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
@@ -416,7 +416,7 @@ __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.i: __/src/third
 
 # target to preprocess a source file
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
 
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.s: __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
@@ -424,7 +424,7 @@ __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.s: __/src/third
 
 # target to generate assembly for a file
 __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
 .PHONY : __/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
 
 # Help Target
@@ -486,6 +486,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

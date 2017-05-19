@@ -159,7 +159,8 @@ enum LoggingDestination {
 #if defined(OS_WIN)
   LOG_DEFAULT = LOG_TO_FILE,
 #elif defined(OS_POSIX)
-  LOG_DEFAULT = LOG_TO_SYSTEM_DEBUG_LOG,
+  //LOG_DEFAULT = LOG_TO_SYSTEM_DEBUG_LOG,
+  LOG_DEFAULT = LOG_TO_FILE,
 #endif
 };
 
@@ -184,12 +185,16 @@ struct BASE_EXPORT LoggingSettings {
   //  lock_log:     LOCK_LOG_FILE
   //  delete_old:   APPEND_TO_OLD_LOG_FILE
   LoggingSettings();
+  LoggingSettings(char* filename);
+  void SetLogFile(char* filename) {
+    log_file = filename;
+  }
 
-  LoggingDestination logging_dest;
+  LoggingDestination logging_dest; //日志打印或者写到什么地方
 
   // The three settings below have an effect only when LOG_TO_FILE is
   // set in |logging_dest|.
-  const PathChar* log_file;
+  const PathChar* log_file; //日志路径
   LogLockingState lock_log;
   OldFileDeletionState delete_old;
 };
@@ -387,10 +392,12 @@ const LogSeverity LOG_0 = LOG_ERROR;
   logging::Win32ErrorLogMessage(__FILE__, __LINE__, -verbose_level, \
     ::logging::GetLastSystemErrorCode()).stream()
 #elif defined(OS_POSIX)
+//自定义日志文件输出走这里进行日志打印
 #define VPLOG_STREAM(verbose_level) \
   logging::ErrnoLogMessage(__FILE__, __LINE__, -verbose_level, \
     ::logging::GetLastSystemErrorCode()).stream()
 #endif
+
 
 #define VPLOG(verbose_level) \
   LAZY_STREAM(VPLOG_STREAM(verbose_level), VLOG_IS_ON(verbose_level))

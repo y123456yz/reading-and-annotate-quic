@@ -71,10 +71,11 @@ bool QuicClient::Initialize() {
 
   epoll_server_->set_timeout_in_us(50 * 1000);
 
-  if (!CreateUDPSocket()) {
+  if (!CreateUDPSocket()) { //创建UDP套接字
     return false;
   }
 
+  /* 注册epoll读写事件回调函数接口 */
   epoll_server_->RegisterFD(fd_, this, kEpollFlags);
   initialized_ = true;
   return true;
@@ -93,6 +94,7 @@ QuicPacketWriter* QuicClient::DummyPacketWriterFactory::Create(
 
 
 bool QuicClient::CreateUDPSocket() {
+  //套接字地址由启动quic_perf_client的时候携带
   int address_family = server_address_.GetSockAddrFamily();
   fd_ = socket(address_family, SOCK_DGRAM | SOCK_NONBLOCK, IPPROTO_UDP);
   if (fd_ < 0) {
@@ -156,6 +158,7 @@ bool QuicClient::CreateUDPSocket() {
 }
 
 bool QuicClient::Connect() {
+  /* 真正的写数据到网络i/o类 */
   QuicPacketWriter* writer = new QuicDefaultPacketWriter(fd_);
 
   DummyPacketWriterFactory factory(writer);

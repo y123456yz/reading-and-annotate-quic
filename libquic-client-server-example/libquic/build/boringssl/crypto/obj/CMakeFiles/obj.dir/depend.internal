@@ -20,13 +20,13 @@ boringssl/crypto/obj/CMakeFiles/obj.dir/obj.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_dat.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_dat.h
 boringssl/crypto/obj/CMakeFiles/obj.dir/obj_xref.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bytestring.h
  ../boringssl/include/openssl/obj.h
  ../boringssl/include/openssl/obj_mac.h
  ../boringssl/include/openssl/opensslfeatures.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_xref.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_xref.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_xref.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_xref.h

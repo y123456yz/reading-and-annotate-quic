@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/yangyazhou/quic/libquic/boringssl/tool/args.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/args.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/client.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/client.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/const.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/const.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/digest.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/pkcs12.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/server.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/server.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/speed.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/tool.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o"
-  "/root/yangyazhou/quic/libquic/boringssl/tool/transport_common.cc" "/root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/args.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/args.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/client.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/client.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/const.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/const.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/digest.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/pkcs12.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/server.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/server.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/speed.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/tool.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.cc" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/yangyazhou/quic/libquic/build/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

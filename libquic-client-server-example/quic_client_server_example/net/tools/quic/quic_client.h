@@ -126,11 +126,12 @@ class QuicClient : public EpollCallbackInterface,
   // UDP socket.
   int fd_;
 
-  // Helper to be used by created connections.
+  // Helper to be used by created connections. 
+  //默认构造函数初始化为helper_(new QuicEpollConnectionHelper(epoll_server_)),
   scoped_ptr<QuicEpollConnectionHelper> helper_;
 
   // Tracks if the client is initialized to connect.
-  bool initialized_;
+  bool initialized_; /* epoll_server是否初始化 */
 
   // If overflow_supported_ is true, this will be the number of packets dropped
   // during the lifetime of the server.

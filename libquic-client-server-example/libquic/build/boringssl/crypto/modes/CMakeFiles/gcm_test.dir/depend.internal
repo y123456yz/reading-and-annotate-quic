@@ -8,5 +8,5 @@ boringssl/crypto/modes/CMakeFiles/gcm_test.dir/gcm_test.c.o
  ../boringssl/include/openssl/mem.h
  ../boringssl/include/openssl/modes.h
  ../boringssl/include/openssl/opensslfeatures.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/modes/gcm_test.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/modes/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/modes/gcm_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/modes/internal.h

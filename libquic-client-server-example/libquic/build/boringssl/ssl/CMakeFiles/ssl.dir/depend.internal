@@ -47,8 +47,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_both.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_both.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_both.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_clnt.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -96,8 +96,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_clnt.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_clnt.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_clnt.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_lib.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -143,8 +143,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_lib.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_lib.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_meth.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -190,8 +190,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_meth.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_meth.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_meth.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_pkt.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -238,8 +238,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_pkt.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_pkt.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_pkt.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_srtp.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -285,8 +285,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_srtp.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_srtp.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_srtp.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/d1_srvr.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -334,8 +334,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/d1_srvr.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/d1_srvr.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_srvr.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_both.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -383,8 +383,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_both.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_both.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_both.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_clnt.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -432,9 +432,9 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_clnt.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_clnt.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_clnt.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_enc.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -481,8 +481,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_enc.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_enc.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_enc.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_lib.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -529,8 +529,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_lib.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_lib.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_meth.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -576,8 +576,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_meth.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_meth.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_meth.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_pkt.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -624,8 +624,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_pkt.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_pkt.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_pkt.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/s3_srvr.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -673,10 +673,10 @@ boringssl/ssl/CMakeFiles/ssl.dir/s3_srvr.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/internal.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/s3_srvr.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_srvr.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_algs.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -723,8 +723,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_algs.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_algs.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_algs.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_asn1.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -770,8 +770,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_asn1.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_asn1.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_cert.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -819,10 +819,10 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_cert.c.o
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
  ../boringssl/include/openssl/x509v3.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/directory.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_cert.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/directory.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_cert.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_ciph.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -869,8 +869,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_ciph.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_ciph.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_ciph.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_lib.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -919,8 +919,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_lib.c.o
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
  ../boringssl/include/openssl/x509v3.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_lib.c
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_rsa.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -966,8 +966,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_rsa.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_rsa.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_rsa.c
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_sess.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1014,8 +1014,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_sess.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_sess.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_sess.c
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_stat.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1061,8 +1061,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_stat.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_stat.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_stat.c
 boringssl/ssl/CMakeFiles/ssl.dir/ssl_txt.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1108,8 +1108,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/ssl_txt.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_txt.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_txt.c
 boringssl/ssl/CMakeFiles/ssl.dir/t1_enc.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1157,8 +1157,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/t1_enc.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/t1_enc.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_enc.c
 boringssl/ssl/CMakeFiles/ssl.dir/t1_lib.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1205,8 +1205,8 @@ boringssl/ssl/CMakeFiles/ssl.dir/t1_lib.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/t1_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_lib.c
 boringssl/ssl/CMakeFiles/ssl.dir/t1_reneg.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -1252,5 +1252,5 @@ boringssl/ssl/CMakeFiles/ssl.dir/t1_reneg.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
- /root/yangyazhou/quic/libquic/boringssl/ssl/t1_reneg.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_reneg.c

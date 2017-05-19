@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/err/err.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err.c.o"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/err/err_impl.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_all.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_info.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_lib.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_oth.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pk8.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pkey.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_x509.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_xaux.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_all.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_info.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_lib.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_oth.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pk8.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pkey.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_x509.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_xaux.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

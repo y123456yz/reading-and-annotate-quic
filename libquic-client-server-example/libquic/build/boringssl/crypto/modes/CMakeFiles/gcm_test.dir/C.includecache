@@ -38,7 +38,7 @@ openssl/base.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/modes/gcm_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/modes/gcm_test.c
 stdio.h
 -
 string.h
@@ -52,9 +52,9 @@ openssl/mem.h
 openssl/modes.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/modes/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/modes/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/modes/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/modes/internal.h
 openssl/base.h
 -
 

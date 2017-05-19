@@ -1,4 +1,4 @@
-# Install script for directory: /root/yangyazhou/quic/libquic/boringssl
+# Install script for directory: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/root/yangyazhou/quic/libquic/build/boringssl/crypto/cmake_install.cmake")
-  INCLUDE("/root/yangyazhou/quic/libquic/build/boringssl/ssl/cmake_install.cmake")
-  INCLUDE("/root/yangyazhou/quic/libquic/build/boringssl/ssl/test/cmake_install.cmake")
-  INCLUDE("/root/yangyazhou/quic/libquic/build/boringssl/tool/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/test/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

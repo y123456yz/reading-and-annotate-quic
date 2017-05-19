@@ -34,8 +34,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/algorithm.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/algorithm.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -69,8 +69,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/asn1.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/base.h
@@ -89,9 +89,9 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/../digest/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/digestsign.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../digest/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/digestsign.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/base.h
@@ -118,8 +118,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/base.h
@@ -138,8 +138,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp_ctx.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp_ctx.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -168,9 +168,9 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/../ec/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -205,8 +205,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec_asn1.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -230,8 +230,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -251,8 +251,8 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac_asn1.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -278,9 +278,9 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/../rsa/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../rsa/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -315,9 +315,9 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/../rsa/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../rsa/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa_asn1.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/base.h
@@ -334,7 +334,7 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/pbkdf.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/pbkdf.c
 boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/base.h
@@ -353,5 +353,5 @@ boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/evp/sign.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/sign.c

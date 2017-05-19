@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ pkcs12_test: boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule
 
 # fast build rule for target.
 pkcs12_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build
 .PHONY : pkcs12_test/fast
 
 # Convenience name for target.
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ pkcs8: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule
 
 # fast build rule for target.
 pkcs8/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build
 .PHONY : pkcs8/fast
 
 p5_pbe.o: p5_pbe.c.o
@@ -134,7 +134,7 @@ p5_pbe.o: p5_pbe.c.o
 
 # target to build an object file
 p5_pbe.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o
 .PHONY : p5_pbe.c.o
 
 p5_pbe.i: p5_pbe.c.i
@@ -142,7 +142,7 @@ p5_pbe.i: p5_pbe.c.i
 
 # target to preprocess a source file
 p5_pbe.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.i
 .PHONY : p5_pbe.c.i
 
 p5_pbe.s: p5_pbe.c.s
@@ -150,7 +150,7 @@ p5_pbe.s: p5_pbe.c.s
 
 # target to generate assembly for a file
 p5_pbe.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.s
 .PHONY : p5_pbe.c.s
 
 p5_pbev2.o: p5_pbev2.c.o
@@ -158,7 +158,7 @@ p5_pbev2.o: p5_pbev2.c.o
 
 # target to build an object file
 p5_pbev2.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o
 .PHONY : p5_pbev2.c.o
 
 p5_pbev2.i: p5_pbev2.c.i
@@ -166,7 +166,7 @@ p5_pbev2.i: p5_pbev2.c.i
 
 # target to preprocess a source file
 p5_pbev2.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.i
 .PHONY : p5_pbev2.c.i
 
 p5_pbev2.s: p5_pbev2.c.s
@@ -174,7 +174,7 @@ p5_pbev2.s: p5_pbev2.c.s
 
 # target to generate assembly for a file
 p5_pbev2.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.s
 .PHONY : p5_pbev2.c.s
 
 p8_pkey.o: p8_pkey.c.o
@@ -182,7 +182,7 @@ p8_pkey.o: p8_pkey.c.o
 
 # target to build an object file
 p8_pkey.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o
 .PHONY : p8_pkey.c.o
 
 p8_pkey.i: p8_pkey.c.i
@@ -190,7 +190,7 @@ p8_pkey.i: p8_pkey.c.i
 
 # target to preprocess a source file
 p8_pkey.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.i
 .PHONY : p8_pkey.c.i
 
 p8_pkey.s: p8_pkey.c.s
@@ -198,7 +198,7 @@ p8_pkey.s: p8_pkey.c.s
 
 # target to generate assembly for a file
 p8_pkey.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.s
 .PHONY : p8_pkey.c.s
 
 pkcs12_test.o: pkcs12_test.c.o
@@ -206,7 +206,7 @@ pkcs12_test.o: pkcs12_test.c.o
 
 # target to build an object file
 pkcs12_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.o
 .PHONY : pkcs12_test.c.o
 
 pkcs12_test.i: pkcs12_test.c.i
@@ -214,7 +214,7 @@ pkcs12_test.i: pkcs12_test.c.i
 
 # target to preprocess a source file
 pkcs12_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.i
 .PHONY : pkcs12_test.c.i
 
 pkcs12_test.s: pkcs12_test.c.s
@@ -222,7 +222,7 @@ pkcs12_test.s: pkcs12_test.c.s
 
 # target to generate assembly for a file
 pkcs12_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/pkcs12_test.c.s
 .PHONY : pkcs12_test.c.s
 
 pkcs8.o: pkcs8.c.o
@@ -230,7 +230,7 @@ pkcs8.o: pkcs8.c.o
 
 # target to build an object file
 pkcs8.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o
 .PHONY : pkcs8.c.o
 
 pkcs8.i: pkcs8.c.i
@@ -238,7 +238,7 @@ pkcs8.i: pkcs8.c.i
 
 # target to preprocess a source file
 pkcs8.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.i
 .PHONY : pkcs8.c.i
 
 pkcs8.s: pkcs8.c.s
@@ -246,7 +246,7 @@ pkcs8.s: pkcs8.c.s
 
 # target to generate assembly for a file
 pkcs8.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.s
 .PHONY : pkcs8.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include protobuf/CMakeFiles/protobuf.dir/depend.make
@@ -54,17 +54,17 @@ include protobuf/CMakeFiles/protobuf.dir/flags.make
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o: ../src/third_party/protobuf/src/google/protobuf/extension_set.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/extension_set.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o.requires
@@ -77,17 +77,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o: ../src/third_party/protobuf/src/google/protobuf/generated_message_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o.requires
@@ -100,17 +100,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o: ../src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o.requires
@@ -123,17 +123,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o: ../src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream.cc.o.requires
@@ -146,17 +146,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o: ../src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o.requires
@@ -169,17 +169,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o: ../src/third_party/protobuf/src/google/protobuf/message_lite.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/message_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/message_lite.cc.o.requires
@@ -192,17 +192,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o: ../src/third_party/protobuf/src/google/protobuf/repeated_field.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/repeated_field.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/repeated_field.cc.o.requires
@@ -215,17 +215,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o: ../src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o.requires
@@ -238,17 +238,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o: ../src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o.requires
@@ -261,17 +261,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o: ../src/third_party/protobuf/src/google/protobuf/stubs/common.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/common.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/common.cc.o.requires
@@ -284,17 +284,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o: ../src/third_party/protobuf/src/google/protobuf/stubs/once.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/stubs/once.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/stubs/once.cc.o.requires
@@ -307,17 +307,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o: ../src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/unknown_field_set.cc.o.requires
@@ -330,17 +330,17 @@ protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o: protobuf/CMakeFiles/protobuf.dir/flags.make
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o: ../src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc > CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.i
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc -o CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.s
 
 protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o.requires:
 .PHONY : protobuf/CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/wire_format_lite.cc.o.requires
@@ -386,8 +386,8 @@ protobuf/libprotobuf.a: protobuf/CMakeFiles/protobuf.dir/__/src/third_party/prot
 protobuf/libprotobuf.a: protobuf/CMakeFiles/protobuf.dir/build.make
 protobuf/libprotobuf.a: protobuf/CMakeFiles/protobuf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libprotobuf.a"
-	cd /root/yangyazhou/quic/libquic/build/protobuf && $(CMAKE_COMMAND) -P CMakeFiles/protobuf.dir/cmake_clean_target.cmake
-	cd /root/yangyazhou/quic/libquic/build/protobuf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/protobuf.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && $(CMAKE_COMMAND) -P CMakeFiles/protobuf.dir/cmake_clean_target.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/protobuf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 protobuf/CMakeFiles/protobuf.dir/build: protobuf/libprotobuf.a
@@ -409,10 +409,10 @@ protobuf/CMakeFiles/protobuf.dir/requires: protobuf/CMakeFiles/protobuf.dir/__/s
 .PHONY : protobuf/CMakeFiles/protobuf.dir/requires
 
 protobuf/CMakeFiles/protobuf.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/protobuf && $(CMAKE_COMMAND) -P CMakeFiles/protobuf.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf && $(CMAKE_COMMAND) -P CMakeFiles/protobuf.dir/cmake_clean.cmake
 .PHONY : protobuf/CMakeFiles/protobuf.dir/clean
 
 protobuf/CMakeFiles/protobuf.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/protobuf /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/protobuf /root/yangyazhou/quic/libquic/build/protobuf/CMakeFiles/protobuf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/protobuf /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf/CMakeFiles/protobuf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : protobuf/CMakeFiles/protobuf.dir/depend
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/err/CMakeFiles/err.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err.dir/rule
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ err: boringssl/crypto/err/CMakeFiles/err.dir/rule
 
 # fast build rule for target.
 err/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/build
 .PHONY : err/fast
 
 # Convenience name for target.
 boringssl/crypto/err/CMakeFiles/err_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err_test.dir/rule
 .PHONY : boringssl/crypto/err/CMakeFiles/err_test.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ err_test: boringssl/crypto/err/CMakeFiles/err_test.dir/rule
 
 # fast build rule for target.
 err_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/build
 .PHONY : err_test/fast
 
 err.o: err.c.o
@@ -134,7 +134,7 @@ err.o: err.c.o
 
 # target to build an object file
 err.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.o
 .PHONY : err.c.o
 
 err.i: err.c.i
@@ -142,7 +142,7 @@ err.i: err.c.i
 
 # target to preprocess a source file
 err.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.i
 .PHONY : err.c.i
 
 err.s: err.c.s
@@ -150,7 +150,7 @@ err.s: err.c.s
 
 # target to generate assembly for a file
 err.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err.c.s
 .PHONY : err.c.s
 
 err_data.o: err_data.c.o
@@ -158,7 +158,7 @@ err_data.o: err_data.c.o
 
 # target to build an object file
 err_data.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
 .PHONY : err_data.c.o
 
 err_data.i: err_data.c.i
@@ -166,7 +166,7 @@ err_data.i: err_data.c.i
 
 # target to preprocess a source file
 err_data.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.i
 .PHONY : err_data.c.i
 
 err_data.s: err_data.c.s
@@ -174,7 +174,7 @@ err_data.s: err_data.c.s
 
 # target to generate assembly for a file
 err_data.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.s
 .PHONY : err_data.c.s
 
 err_impl.o: err_impl.c.o
@@ -182,7 +182,7 @@ err_impl.o: err_impl.c.o
 
 # target to build an object file
 err_impl.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o
 .PHONY : err_impl.c.o
 
 err_impl.i: err_impl.c.i
@@ -190,7 +190,7 @@ err_impl.i: err_impl.c.i
 
 # target to preprocess a source file
 err_impl.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.i
 .PHONY : err_impl.c.i
 
 err_impl.s: err_impl.c.s
@@ -198,7 +198,7 @@ err_impl.s: err_impl.c.s
 
 # target to generate assembly for a file
 err_impl.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.s
 .PHONY : err_impl.c.s
 
 err_test.o: err_test.c.o
@@ -206,7 +206,7 @@ err_test.o: err_test.c.o
 
 # target to build an object file
 err_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.o
 .PHONY : err_test.c.o
 
 err_test.i: err_test.c.i
@@ -214,7 +214,7 @@ err_test.i: err_test.c.i
 
 # target to preprocess a source file
 err_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.i
 .PHONY : err_test.c.i
 
 err_test.s: err_test.c.s
@@ -222,7 +222,7 @@ err_test.s: err_test.c.s
 
 # target to generate assembly for a file
 err_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/err_test.c.s
 .PHONY : err_test.c.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

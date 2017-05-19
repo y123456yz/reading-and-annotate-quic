@@ -114,7 +114,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj.c
 openssl/obj.h
 -
 limits.h
@@ -136,17 +136,17 @@ openssl/mem.h
 openssl/thread.h
 -
 obj_dat.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_dat.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_dat.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_dat.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_dat.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_xref.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_xref.c
 openssl/obj.h
 -
 stdlib.h
 -
 obj_xref.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_xref.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_xref.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/obj/obj_xref.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/obj/obj_xref.h
 

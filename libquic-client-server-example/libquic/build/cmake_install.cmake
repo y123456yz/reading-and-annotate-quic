@@ -1,4 +1,4 @@
-# Install script for directory: /root/yangyazhou/quic/libquic
+# Install script for directory: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/root/yangyazhou/quic/libquic/build/boringssl/cmake_install.cmake")
-  INCLUDE("/root/yangyazhou/quic/libquic/build/protobuf/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/cmake_install.cmake")
+  INCLUDE("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/protobuf/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -45,7 +45,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/root/yangyazhou/quic/libquic/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/root/yangyazhou/quic/libquic/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

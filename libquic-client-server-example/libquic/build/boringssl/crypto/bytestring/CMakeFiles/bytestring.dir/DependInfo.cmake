@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/ber.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbb.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbs.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/ber.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbb.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbs.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

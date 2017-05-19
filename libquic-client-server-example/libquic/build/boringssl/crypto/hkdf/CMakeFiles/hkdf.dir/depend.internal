@@ -12,4 +12,4 @@ boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/hkdf.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/hkdf/hkdf.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hkdf/hkdf.c

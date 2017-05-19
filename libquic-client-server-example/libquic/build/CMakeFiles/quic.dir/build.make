@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quic.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/quic.dir/flags.make
 
 CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o: ../src/net/quic/quic_protocol.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_protocol.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_protocol.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_protocol.cc > CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_protocol.cc > CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_protocol.cc -o CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_protocol.cc -o CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o: ../src/net/quic/quic_packet_generator.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_generator.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_generator.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_generator.cc > CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_generator.cc > CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_generator.cc -o CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_generator.cc -o CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o: ../src/net/quic/quic_flow_controller.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_flow_controller.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flow_controller.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_flow_controller.cc > CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flow_controller.cc > CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_flow_controller.cc -o CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flow_controller.cc -o CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o: ../src/net/quic/quic_ack_notifier_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier_manager.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier_manager.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier_manager.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o: ../src/net/quic/quic_connection_stats.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_connection_stats.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection_stats.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_connection_stats.cc > CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection_stats.cc > CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_connection_stats.cc -o CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection_stats.cc -o CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_connection_stats.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o: ../src/net/quic/quic_fec_group.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_fec_group.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_fec_group.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_fec_group.cc > CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_fec_group.cc > CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_fec_group.cc -o CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_fec_group.cc -o CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o.requires
@@ -192,17 +192,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_fec_group.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o: ../src/net/quic/quic_data_writer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_data_writer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_writer.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_data_writer.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_writer.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_data_writer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_writer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o.requires
@@ -215,17 +215,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_data_writer.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o: ../src/net/quic/quic_data_reader.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_data_reader.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_reader.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_data_reader.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_reader.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_data_reader.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_reader.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o.requires
@@ -238,17 +238,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_data_reader.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o: ../src/net/quic/quic_session.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_session.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_session.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_session.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_session.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_session.cc > CMakeFiles/quic.dir/src/net/quic/quic_session.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_session.cc > CMakeFiles/quic.dir/src/net/quic/quic_session.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_session.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_session.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_session.cc -o CMakeFiles/quic.dir/src/net/quic/quic_session.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_session.cc -o CMakeFiles/quic.dir/src/net/quic/quic_session.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o.requires
@@ -261,17 +261,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_session.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o: ../src/net/quic/quic_spdy_session.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_spdy_session.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_spdy_session.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_spdy_session.cc > CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_spdy_session.cc > CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_spdy_session.cc -o CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_spdy_session.cc -o CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o.requires
@@ -284,17 +284,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_spdy_session.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/net/quic/iovector.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/iovector.cc.o: ../src/net/quic/iovector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/iovector.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/iovector.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/iovector.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/iovector.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/iovector.cc
 
 CMakeFiles/quic.dir/src/net/quic/iovector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/iovector.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/iovector.cc > CMakeFiles/quic.dir/src/net/quic/iovector.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/iovector.cc > CMakeFiles/quic.dir/src/net/quic/iovector.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/iovector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/iovector.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/iovector.cc -o CMakeFiles/quic.dir/src/net/quic/iovector.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/iovector.cc -o CMakeFiles/quic.dir/src/net/quic/iovector.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/iovector.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/iovector.cc.o.requires
@@ -307,17 +307,17 @@ CMakeFiles/quic.dir/src/net/quic/iovector.cc.o.provides.build: CMakeFiles/quic.d
 
 CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o: ../src/net/quic/quic_stream_sequencer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_stream_sequencer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_stream_sequencer.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_stream_sequencer.cc > CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_stream_sequencer.cc > CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_stream_sequencer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_stream_sequencer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o.requires
@@ -330,17 +330,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_stream_sequencer.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o: ../src/net/quic/quic_framer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_framer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_framer.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_framer.cc > CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_framer.cc > CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_framer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_framer.cc -o CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o.requires
@@ -353,17 +353,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_framer.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o: ../src/net/quic/quic_sent_packet_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_packet_manager.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_packet_manager.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_packet_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_packet_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_packet_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_packet_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o.requires
@@ -376,17 +376,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_sent_packet_manager.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o: ../src/net/quic/quic_time.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_time.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_time.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_time.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_time.cc > CMakeFiles/quic.dir/src/net/quic/quic_time.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_time.cc > CMakeFiles/quic.dir/src/net/quic/quic_time.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_time.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_time.cc -o CMakeFiles/quic.dir/src/net/quic/quic_time.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_time.cc -o CMakeFiles/quic.dir/src/net/quic/quic_time.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o.requires
@@ -399,17 +399,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_time.cc.o.provides.build: CMakeFiles/quic.
 
 CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o: ../src/net/quic/quic_headers_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_headers_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_headers_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_headers_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_headers_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_headers_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_headers_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o.requires
@@ -422,17 +422,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_headers_stream.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o: ../src/net/quic/quic_connection.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_connection.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_connection.cc > CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection.cc > CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_connection.cc -o CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_connection.cc -o CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o.requires
@@ -445,17 +445,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_connection.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o: ../src/net/quic/quic_types.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_types.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_types.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_types.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_types.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_types.cc > CMakeFiles/quic.dir/src/net/quic/quic_types.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_types.cc > CMakeFiles/quic.dir/src/net/quic/quic_types.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_types.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_types.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_types.cc -o CMakeFiles/quic.dir/src/net/quic/quic_types.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_types.cc -o CMakeFiles/quic.dir/src/net/quic/quic_types.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o.requires
@@ -468,17 +468,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_types.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o: ../src/net/quic/quic_received_packet_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_received_packet_manager.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_received_packet_manager.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_received_packet_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_received_packet_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_received_packet_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_received_packet_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o.requires
@@ -491,17 +491,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_received_packet_manager.cc.o.provides.buil
 
 CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o: ../src/net/quic/quic_write_blocked_list.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_write_blocked_list.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_write_blocked_list.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_write_blocked_list.cc > CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_write_blocked_list.cc > CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_write_blocked_list.cc -o CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_write_blocked_list.cc -o CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o.requires
@@ -514,17 +514,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_write_blocked_list.cc.o.provides.build: CM
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o: ../src/net/quic/quic_crypto_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o.requires
@@ -537,17 +537,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_crypto_stream.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o: ../src/net/quic/quic_socket_address_coder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_socket_address_coder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_socket_address_coder.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_socket_address_coder.cc > CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_socket_address_coder.cc > CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_socket_address_coder.cc -o CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_socket_address_coder.cc -o CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o.requires
@@ -560,17 +560,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_socket_address_coder.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o: ../src/net/quic/quic_utils.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_utils.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_utils.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_utils.cc > CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_utils.cc > CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_utils.cc -o CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_utils.cc -o CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o.requires
@@ -583,17 +583,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_utils.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o: ../src/net/quic/quic_ack_notifier.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier.cc > CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier.cc > CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_ack_notifier.cc -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_ack_notifier.cc -o CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o.requires
@@ -606,17 +606,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_ack_notifier.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o: ../src/net/quic/crypto/quic_crypto_server_config.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_server_config.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_server_config.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_server_config.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_server_config.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_server_config.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_server_config.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o.requires
@@ -629,17 +629,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_server_config.cc.o.provides.
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o: ../src/net/quic/crypto/crypto_handshake_message.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake_message.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake_message.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake_message.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake_message.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake_message.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake_message.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o.requires
@@ -652,17 +652,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake_message.cc.o.provides.b
 
 CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o: ../src/net/quic/crypto/p256_key_exchange_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/p256_key_exchange_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o.requires
@@ -675,17 +675,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/p256_key_exchange_openssl.cc.o.provides.
 
 CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o: ../src/net/quic/crypto/cert_compressor.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/cert_compressor.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/cert_compressor.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/cert_compressor.cc > CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/cert_compressor.cc > CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/cert_compressor.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/cert_compressor.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o.requires
@@ -698,17 +698,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/cert_compressor.cc.o.provides.build: CMa
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o: ../src/net/quic/crypto/crypto_secret_boxer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_secret_boxer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_secret_boxer.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_secret_boxer.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_secret_boxer.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_secret_boxer.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_secret_boxer.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o.requires
@@ -721,17 +721,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_secret_boxer.cc.o.provides.build:
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o: ../src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o.requires
@@ -744,17 +744,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_encrypter_openssl.cc.o.pr
 
 CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o: ../src/net/quic/crypto/curve25519_key_exchange.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/curve25519_key_exchange.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/curve25519_key_exchange.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/curve25519_key_exchange.cc > CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/curve25519_key_exchange.cc > CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/curve25519_key_exchange.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/curve25519_key_exchange.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o.requires
@@ -767,17 +767,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/curve25519_key_exchange.cc.o.provides.bu
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o: ../src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o.requires
@@ -790,17 +790,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_encrypter_openssl.cc.o
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o: ../src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o.requires
@@ -813,17 +813,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/chacha20_poly1305_decrypter_openssl.cc.o
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o: ../src/net/quic/crypto/quic_decrypter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_decrypter.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_decrypter.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_decrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_decrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_decrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_decrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o.requires
@@ -836,17 +836,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/quic_decrypter.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o: ../src/net/quic/crypto/channel_id_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o.requires
@@ -859,17 +859,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/channel_id_openssl.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o: ../src/net/quic/crypto/null_decrypter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_decrypter.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_decrypter.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_decrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_decrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_decrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_decrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o.requires
@@ -882,17 +882,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/null_decrypter.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o: ../src/net/quic/crypto/crypto_server_config_protobuf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_server_config_protobuf.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o.requires
@@ -905,17 +905,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_server_config_protobuf.cc.o.provi
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o: ../src/net/quic/crypto/aead_base_decrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o.requires
@@ -928,17 +928,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_decrypter_openssl.cc.o.provide
 
 CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o: ../src/net/quic/crypto/scoped_evp_aead_ctx.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc > CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc > CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/scoped_evp_aead_ctx.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o.requires
@@ -951,17 +951,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/scoped_evp_aead_ctx.cc.o.provides.build:
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o: ../src/net/quic/crypto/quic_random.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_random.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_random.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_random.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_random.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_random.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_random.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o.requires
@@ -974,17 +974,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/quic_random.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o: ../src/net/quic/crypto/common_cert_set.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/common_cert_set.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/common_cert_set.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/common_cert_set.cc > CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/common_cert_set.cc > CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/common_cert_set.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/common_cert_set.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o.requires
@@ -997,17 +997,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/common_cert_set.cc.o.provides.build: CMa
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o: ../src/net/quic/crypto/null_encrypter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_encrypter.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_encrypter.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_encrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_encrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/null_encrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/null_encrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o.requires
@@ -1020,17 +1020,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/null_encrypter.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o: ../src/net/quic/crypto/crypto_framer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_framer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_framer.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_framer.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_framer.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_framer.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_framer.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o.requires
@@ -1043,17 +1043,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_framer.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o: ../src/net/quic/crypto/crypto_handshake.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_handshake.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_handshake.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o.requires
@@ -1066,17 +1066,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_handshake.cc.o.provides.build: CM
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o: ../src/net/quic/crypto/channel_id.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id.cc > CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id.cc > CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/channel_id.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/channel_id.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o.requires
@@ -1089,17 +1089,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/channel_id.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o: ../src/net/quic/crypto/strike_register.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/strike_register.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/strike_register.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/strike_register.cc > CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/strike_register.cc > CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/strike_register.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/strike_register.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o.requires
@@ -1112,17 +1112,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/strike_register.cc.o.provides.build: CMa
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o: ../src/net/quic/crypto/aead_base_encrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aead_base_encrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o.requires
@@ -1135,17 +1135,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/aead_base_encrypter_openssl.cc.o.provide
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o: ../src/net/quic/crypto/crypto_utils.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_utils.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_utils.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_utils.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_utils.cc > CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/crypto_utils.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/crypto_utils.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o.requires
@@ -1158,17 +1158,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/crypto_utils.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o: ../src/net/quic/crypto/local_strike_register_client.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/local_strike_register_client.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/local_strike_register_client.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/local_strike_register_client.cc > CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/local_strike_register_client.cc > CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/local_strike_register_client.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/local_strike_register_client.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o.requires
@@ -1181,17 +1181,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/local_strike_register_client.cc.o.provid
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o: ../src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc > CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o.requires
@@ -1204,17 +1204,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/aes_128_gcm_12_decrypter_openssl.cc.o.pr
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o: ../src/net/quic/crypto/quic_encrypter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_encrypter.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_encrypter.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_encrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_encrypter.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_encrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_encrypter.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o.requires
@@ -1227,17 +1227,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/quic_encrypter.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o: ../src/net/quic/crypto/quic_crypto_client_config.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_client_config.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_client_config.cc
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_client_config.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_client_config.cc > CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/crypto/quic_crypto_client_config.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/crypto/quic_crypto_client_config.cc -o CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o.requires
@@ -1250,17 +1250,17 @@ CMakeFiles/quic.dir/src/net/quic/crypto/quic_crypto_client_config.cc.o.provides.
 
 CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o: ../src/net/quic/quic_clock.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_clock.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_clock.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_clock.cc > CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_clock.cc > CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_clock.cc -o CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_clock.cc -o CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o.requires
@@ -1273,17 +1273,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_clock.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o: ../src/net/quic/quic_data_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_data_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_data_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_data_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_data_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o.requires
@@ -1296,17 +1296,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_data_stream.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o: ../src/net/quic/quic_alarm.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_alarm.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_alarm.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_alarm.cc > CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_alarm.cc > CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_alarm.cc -o CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_alarm.cc -o CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o.requires
@@ -1319,17 +1319,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_alarm.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o: ../src/net/quic/quic_sent_entropy_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_entropy_manager.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_entropy_manager.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_entropy_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_entropy_manager.cc > CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_sent_entropy_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sent_entropy_manager.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o.requires
@@ -1342,17 +1342,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_sent_entropy_manager.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o: ../src/net/quic/congestion_control/pacing_sender.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/pacing_sender.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/pacing_sender.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/pacing_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/pacing_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/pacing_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/pacing_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o.requires
@@ -1365,17 +1365,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/pacing_sender.cc.o.provides.
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o: ../src/net/quic/congestion_control/time_loss_algorithm.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/time_loss_algorithm.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o.requires
@@ -1388,17 +1388,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/time_loss_algorithm.cc.o.pro
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o: ../src/net/quic/congestion_control/loss_detection_interface.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/loss_detection_interface.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/loss_detection_interface.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/loss_detection_interface.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/loss_detection_interface.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/loss_detection_interface.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/loss_detection_interface.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.o.requires
@@ -1411,17 +1411,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/loss_detection_interface.cc.
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o: ../src/net/quic/congestion_control/send_algorithm_interface.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/send_algorithm_interface.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.o.requires
@@ -1434,17 +1434,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/send_algorithm_interface.cc.
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o: ../src/net/quic/congestion_control/cubic.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o.requires
@@ -1457,17 +1457,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o: ../src/net/quic/congestion_control/cubic_bytes.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic_bytes.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic_bytes.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic_bytes.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic_bytes.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/cubic_bytes.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/cubic_bytes.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o.requires
@@ -1480,17 +1480,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/cubic_bytes.cc.o.provides.bu
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o: ../src/net/quic/congestion_control/tcp_loss_algorithm.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_loss_algorithm.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o.requires
@@ -1503,17 +1503,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_loss_algorithm.cc.o.prov
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o: ../src/net/quic/congestion_control/prr_sender.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/prr_sender.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/prr_sender.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/prr_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/prr_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/prr_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/prr_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o.requires
@@ -1526,17 +1526,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/prr_sender.cc.o.provides.bui
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o: ../src/net/quic/congestion_control/tcp_cubic_sender.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o.requires
@@ -1549,17 +1549,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_sender.cc.o.provid
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o: ../src/net/quic/congestion_control/hybrid_slow_start.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/hybrid_slow_start.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o.requires
@@ -1572,17 +1572,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/hybrid_slow_start.cc.o.provi
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o: ../src/net/quic/congestion_control/rtt_stats.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/rtt_stats.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/rtt_stats.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/rtt_stats.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/rtt_stats.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/rtt_stats.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/rtt_stats.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o.requires
@@ -1595,17 +1595,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/rtt_stats.cc.o.provides.buil
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o: ../src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc > CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc -o CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o.requires
@@ -1618,17 +1618,17 @@ CMakeFiles/quic.dir/src/net/quic/congestion_control/tcp_cubic_bytes_sender.cc.o.
 
 CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o: ../src/net/quic/quic_config.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_config.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_config.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_config.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_config.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_config.cc > CMakeFiles/quic.dir/src/net/quic/quic_config.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_config.cc > CMakeFiles/quic.dir/src/net/quic/quic_config.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_config.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_config.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_config.cc -o CMakeFiles/quic.dir/src/net/quic/quic_config.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_config.cc -o CMakeFiles/quic.dir/src/net/quic/quic_config.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o.requires
@@ -1641,17 +1641,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_config.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o: ../src/net/quic/quic_crypto_server_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_server_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_server_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_server_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_server_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_server_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_server_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o.requires
@@ -1664,17 +1664,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_crypto_server_stream.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o: ../src/net/quic/quic_flags.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_flags.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flags.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_flags.cc > CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flags.cc > CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_flags.cc -o CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_flags.cc -o CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o.requires
@@ -1687,17 +1687,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_flags.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o: ../src/net/quic/reliable_quic_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/reliable_quic_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/reliable_quic_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/reliable_quic_stream.cc > CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/reliable_quic_stream.cc > CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/reliable_quic_stream.cc -o CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/reliable_quic_stream.cc -o CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o.requires
@@ -1710,17 +1710,17 @@ CMakeFiles/quic.dir/src/net/quic/reliable_quic_stream.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o: ../src/net/quic/quic_bandwidth.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_bandwidth.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_bandwidth.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_bandwidth.cc > CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_bandwidth.cc > CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_bandwidth.cc -o CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_bandwidth.cc -o CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o.requires
@@ -1733,17 +1733,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_bandwidth.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o: ../src/net/quic/quic_unacked_packet_map.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_unacked_packet_map.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_unacked_packet_map.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_unacked_packet_map.cc > CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_unacked_packet_map.cc > CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_unacked_packet_map.cc -o CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_unacked_packet_map.cc -o CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o.requires
@@ -1756,17 +1756,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_unacked_packet_map.cc.o.provides.build: CM
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o: ../src/net/quic/quic_packet_creator.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_creator.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_creator.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_creator.cc > CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_creator.cc > CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_packet_creator.cc -o CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_packet_creator.cc -o CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o.requires
@@ -1779,17 +1779,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_packet_creator.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o: ../src/net/quic/quic_sustained_bandwidth_recorder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc > CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc > CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_sustained_bandwidth_recorder.cc -o CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o.requires
@@ -1802,17 +1802,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_sustained_bandwidth_recorder.cc.o.provides
 
 CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o: ../src/net/quic/quic_client_session_base.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_client_session_base.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_client_session_base.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_client_session_base.cc > CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_client_session_base.cc > CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_client_session_base.cc -o CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_client_session_base.cc -o CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o.requires
@@ -1825,17 +1825,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_client_session_base.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o: ../src/net/quic/quic_crypto_client_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_client_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_client_stream.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_client_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_client_stream.cc > CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_crypto_client_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_crypto_client_stream.cc -o CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o.requires
@@ -1848,17 +1848,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_crypto_client_stream.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o: ../src/net/quic/quic_server_id.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/quic_server_id.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_server_id.cc
 
 CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/quic_server_id.cc > CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_server_id.cc > CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/quic_server_id.cc -o CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/quic_server_id.cc -o CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o.requires
@@ -1871,17 +1871,17 @@ CMakeFiles/quic.dir/src/net/quic/quic_server_id.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o: ../src/net/quic/proto/cached_network_parameters.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/proto/cached_network_parameters.pb.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.cc
 
 CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/proto/cached_network_parameters.pb.cc > CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.cc > CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/proto/cached_network_parameters.pb.cc -o CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/cached_network_parameters.pb.cc -o CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o.requires
@@ -1894,17 +1894,17 @@ CMakeFiles/quic.dir/src/net/quic/proto/cached_network_parameters.pb.cc.o.provide
 
 CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o: ../src/net/quic/proto/source_address_token.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o -c /root/yangyazhou/quic/libquic/src/net/quic/proto/source_address_token.pb.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.cc
 
 CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/quic/proto/source_address_token.pb.cc > CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.cc > CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.i
 
 CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/quic/proto/source_address_token.pb.cc -o CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/quic/proto/source_address_token.pb.cc -o CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.s
 
 CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o.requires
@@ -1917,17 +1917,17 @@ CMakeFiles/quic.dir/src/net/quic/proto/source_address_token.pb.cc.o.provides.bui
 
 CMakeFiles/quic.dir/src/net/base/int128.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/int128.cc.o: ../src/net/base/int128.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/int128.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/int128.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/int128.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/int128.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/int128.cc
 
 CMakeFiles/quic.dir/src/net/base/int128.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/int128.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/int128.cc > CMakeFiles/quic.dir/src/net/base/int128.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/int128.cc > CMakeFiles/quic.dir/src/net/base/int128.cc.i
 
 CMakeFiles/quic.dir/src/net/base/int128.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/int128.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/int128.cc -o CMakeFiles/quic.dir/src/net/base/int128.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/int128.cc -o CMakeFiles/quic.dir/src/net/base/int128.cc.s
 
 CMakeFiles/quic.dir/src/net/base/int128.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/int128.cc.o.requires
@@ -1940,17 +1940,17 @@ CMakeFiles/quic.dir/src/net/base/int128.cc.o.provides.build: CMakeFiles/quic.dir
 
 CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o: ../src/net/base/io_buffer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/io_buffer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/io_buffer.cc
 
 CMakeFiles/quic.dir/src/net/base/io_buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/io_buffer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/io_buffer.cc > CMakeFiles/quic.dir/src/net/base/io_buffer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/io_buffer.cc > CMakeFiles/quic.dir/src/net/base/io_buffer.cc.i
 
 CMakeFiles/quic.dir/src/net/base/io_buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/io_buffer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/io_buffer.cc -o CMakeFiles/quic.dir/src/net/base/io_buffer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/io_buffer.cc -o CMakeFiles/quic.dir/src/net/base/io_buffer.cc.s
 
 CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o.requires
@@ -1963,17 +1963,17 @@ CMakeFiles/quic.dir/src/net/base/io_buffer.cc.o.provides.build: CMakeFiles/quic.
 
 CMakeFiles/quic.dir/src/net/base/net_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/net_util.cc.o: ../src/net/base/net_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/net_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/net_util.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/net_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/net_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_util.cc
 
 CMakeFiles/quic.dir/src/net/base/net_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/net_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/net_util.cc > CMakeFiles/quic.dir/src/net/base/net_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_util.cc > CMakeFiles/quic.dir/src/net/base/net_util.cc.i
 
 CMakeFiles/quic.dir/src/net/base/net_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/net_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/net_util.cc -o CMakeFiles/quic.dir/src/net/base/net_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_util.cc -o CMakeFiles/quic.dir/src/net/base/net_util.cc.s
 
 CMakeFiles/quic.dir/src/net/base/net_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/net_util.cc.o.requires
@@ -1986,17 +1986,17 @@ CMakeFiles/quic.dir/src/net/base/net_util.cc.o.provides.build: CMakeFiles/quic.d
 
 CMakeFiles/quic.dir/src/net/base/net_errors.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/net_errors.cc.o: ../src/net/base/net_errors.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/net_errors.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/net_errors.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/net_errors.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/net_errors.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_errors.cc
 
 CMakeFiles/quic.dir/src/net/base/net_errors.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/net_errors.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/net_errors.cc > CMakeFiles/quic.dir/src/net/base/net_errors.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_errors.cc > CMakeFiles/quic.dir/src/net/base/net_errors.cc.i
 
 CMakeFiles/quic.dir/src/net/base/net_errors.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/net_errors.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/net_errors.cc -o CMakeFiles/quic.dir/src/net/base/net_errors.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/net_errors.cc -o CMakeFiles/quic.dir/src/net/base/net_errors.cc.s
 
 CMakeFiles/quic.dir/src/net/base/net_errors.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/net_errors.cc.o.requires
@@ -2009,17 +2009,17 @@ CMakeFiles/quic.dir/src/net/base/net_errors.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o: ../src/net/base/ip_endpoint.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/ip_endpoint.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/ip_endpoint.cc
 
 CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/ip_endpoint.cc > CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/ip_endpoint.cc > CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.i
 
 CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/ip_endpoint.cc -o CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/ip_endpoint.cc -o CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.s
 
 CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o.requires
@@ -2032,17 +2032,17 @@ CMakeFiles/quic.dir/src/net/base/ip_endpoint.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o: ../src/net/base/host_port_pair.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o -c /root/yangyazhou/quic/libquic/src/net/base/host_port_pair.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/host_port_pair.cc
 
 CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/base/host_port_pair.cc > CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/host_port_pair.cc > CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.i
 
 CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/base/host_port_pair.cc -o CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/base/host_port_pair.cc -o CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.s
 
 CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o.requires
@@ -2055,17 +2055,17 @@ CMakeFiles/quic.dir/src/net/base/host_port_pair.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o: ../src/net/spdy/hpack_string_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_string_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_string_util.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_string_util.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_string_util.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_string_util.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_string_util.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o.requires
@@ -2078,17 +2078,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_string_util.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o: ../src/net/spdy/hpack_output_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_output_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_output_stream.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_output_stream.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_output_stream.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_output_stream.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_output_stream.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o.requires
@@ -2101,17 +2101,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_output_stream.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o: ../src/net/spdy/hpack_input_stream.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_input_stream.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_input_stream.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_input_stream.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_input_stream.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_input_stream.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_input_stream.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o.requires
@@ -2124,17 +2124,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_input_stream.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o: ../src/net/spdy/spdy_frame_reader.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_reader.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_reader.cc
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_reader.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_reader.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_reader.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_reader.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o.requires
@@ -2147,17 +2147,17 @@ CMakeFiles/quic.dir/src/net/spdy/spdy_frame_reader.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o: ../src/net/spdy/spdy_frame_builder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_builder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_builder.cc
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_builder.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_builder.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/spdy_frame_builder.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_frame_builder.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o.requires
@@ -2170,17 +2170,17 @@ CMakeFiles/quic.dir/src/net/spdy/spdy_frame_builder.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o: ../src/net/spdy/hpack_decoder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_decoder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_decoder.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_decoder.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_decoder.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_decoder.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_decoder.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o.requires
@@ -2193,17 +2193,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_decoder.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o: ../src/net/spdy/hpack_header_table.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_header_table.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_header_table.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_header_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_header_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_header_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_header_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o.requires
@@ -2216,17 +2216,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_header_table.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o: ../src/net/spdy/hpack_entry.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_entry.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_entry.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_entry.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_entry.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_entry.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_entry.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o.requires
@@ -2239,17 +2239,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_entry.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o: ../src/net/spdy/hpack_static_table.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_static_table.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_static_table.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_static_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_static_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_static_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_static_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o.requires
@@ -2262,17 +2262,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_static_table.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o: ../src/net/spdy/hpack_constants.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_constants.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_constants.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_constants.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_constants.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_constants.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_constants.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o.requires
@@ -2285,17 +2285,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_constants.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o: ../src/net/spdy/spdy_framer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/spdy_framer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_framer.cc
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/spdy_framer.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_framer.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/spdy_framer.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_framer.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o.requires
@@ -2308,17 +2308,17 @@ CMakeFiles/quic.dir/src/net/spdy/spdy_framer.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o: ../src/net/spdy/hpack_encoder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_encoder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_encoder.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_encoder.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_encoder.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_encoder.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_encoder.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o.requires
@@ -2331,17 +2331,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_encoder.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o: ../src/net/spdy/spdy_protocol.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/spdy_protocol.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_protocol.cc
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/spdy_protocol.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_protocol.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/spdy_protocol.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_protocol.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o.requires
@@ -2354,17 +2354,17 @@ CMakeFiles/quic.dir/src/net/spdy/spdy_protocol.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o: ../src/net/spdy/hpack_huffman_table.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/hpack_huffman_table.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_huffman_table.cc
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/hpack_huffman_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_huffman_table.cc > CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/hpack_huffman_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/hpack_huffman_table.cc -o CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o.requires
@@ -2377,17 +2377,17 @@ CMakeFiles/quic.dir/src/net/spdy/hpack_huffman_table.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o: ../src/net/spdy/spdy_alt_svc_wire_format.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o -c /root/yangyazhou/quic/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc > CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.i
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/net/spdy/spdy_alt_svc_wire_format.cc -o CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.s
 
 CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o.requires
@@ -2400,17 +2400,17 @@ CMakeFiles/quic.dir/src/net/spdy/spdy_alt_svc_wire_format.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o: ../src/base/threading/platform_thread_linux.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_linux.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_linux.cc
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_linux.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_linux.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_linux.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_linux.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o.requires
@@ -2423,17 +2423,17 @@ CMakeFiles/quic.dir/src/base/threading/platform_thread_linux.cc.o.provides.build
 
 CMakeFiles/quic.dir/src/base/logging.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/logging.cc.o: ../src/base/logging.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/logging.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/logging.cc.o -c /root/yangyazhou/quic/libquic/src/base/logging.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/logging.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/logging.cc
 
 CMakeFiles/quic.dir/src/base/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/logging.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/logging.cc > CMakeFiles/quic.dir/src/base/logging.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/logging.cc > CMakeFiles/quic.dir/src/base/logging.cc.i
 
 CMakeFiles/quic.dir/src/base/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/logging.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/logging.cc -o CMakeFiles/quic.dir/src/base/logging.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/logging.cc -o CMakeFiles/quic.dir/src/base/logging.cc.s
 
 CMakeFiles/quic.dir/src/base/logging.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/logging.cc.o.requires
@@ -2446,17 +2446,17 @@ CMakeFiles/quic.dir/src/base/logging.cc.o.provides.build: CMakeFiles/quic.dir/sr
 
 CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o: ../src/base/posix/safe_strerror.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o -c /root/yangyazhou/quic/libquic/src/base/posix/safe_strerror.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/safe_strerror.cc
 
 CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/posix/safe_strerror.cc > CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/safe_strerror.cc > CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.i
 
 CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/posix/safe_strerror.cc -o CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/posix/safe_strerror.cc -o CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.s
 
 CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o.requires
@@ -2469,17 +2469,17 @@ CMakeFiles/quic.dir/src/base/posix/safe_strerror.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o: ../src/base/memory/weak_ptr.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o -c /root/yangyazhou/quic/libquic/src/base/memory/weak_ptr.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/weak_ptr.cc
 
 CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/memory/weak_ptr.cc > CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/weak_ptr.cc > CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.i
 
 CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/memory/weak_ptr.cc -o CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/weak_ptr.cc -o CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.s
 
 CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o.requires
@@ -2492,17 +2492,17 @@ CMakeFiles/quic.dir/src/base/memory/weak_ptr.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/base/memory/singleton.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/memory/singleton.cc.o: ../src/base/memory/singleton.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/memory/singleton.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/singleton.cc.o -c /root/yangyazhou/quic/libquic/src/base/memory/singleton.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/singleton.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/singleton.cc
 
 CMakeFiles/quic.dir/src/base/memory/singleton.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/memory/singleton.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/memory/singleton.cc > CMakeFiles/quic.dir/src/base/memory/singleton.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/singleton.cc > CMakeFiles/quic.dir/src/base/memory/singleton.cc.i
 
 CMakeFiles/quic.dir/src/base/memory/singleton.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/memory/singleton.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/memory/singleton.cc -o CMakeFiles/quic.dir/src/base/memory/singleton.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/singleton.cc -o CMakeFiles/quic.dir/src/base/memory/singleton.cc.s
 
 CMakeFiles/quic.dir/src/base/memory/singleton.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/memory/singleton.cc.o.requires
@@ -2515,17 +2515,17 @@ CMakeFiles/quic.dir/src/base/memory/singleton.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o: ../src/base/memory/ref_counted.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o -c /root/yangyazhou/quic/libquic/src/base/memory/ref_counted.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/ref_counted.cc
 
 CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/memory/ref_counted.cc > CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/ref_counted.cc > CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.i
 
 CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/memory/ref_counted.cc -o CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/ref_counted.cc -o CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.s
 
 CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o.requires
@@ -2538,17 +2538,17 @@ CMakeFiles/quic.dir/src/base/memory/ref_counted.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o: ../src/base/memory/aligned_memory.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o -c /root/yangyazhou/quic/libquic/src/base/memory/aligned_memory.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/aligned_memory.cc
 
 CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/memory/aligned_memory.cc > CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/aligned_memory.cc > CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.i
 
 CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/memory/aligned_memory.cc -o CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/memory/aligned_memory.cc -o CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.s
 
 CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o.requires
@@ -2561,17 +2561,17 @@ CMakeFiles/quic.dir/src/base/memory/aligned_memory.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o: ../src/base/rand_util_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/rand_util_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util_posix.cc
 
 CMakeFiles/quic.dir/src/base/rand_util_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/rand_util_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/rand_util_posix.cc > CMakeFiles/quic.dir/src/base/rand_util_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util_posix.cc > CMakeFiles/quic.dir/src/base/rand_util_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/rand_util_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/rand_util_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/rand_util_posix.cc -o CMakeFiles/quic.dir/src/base/rand_util_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util_posix.cc -o CMakeFiles/quic.dir/src/base/rand_util_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o.requires
@@ -2584,17 +2584,17 @@ CMakeFiles/quic.dir/src/base/rand_util_posix.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o: ../src/base/threading/thread_id_name_manager.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_id_name_manager.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_id_name_manager.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_id_name_manager.cc > CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_id_name_manager.cc > CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_id_name_manager.cc -o CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_id_name_manager.cc -o CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o.requires
@@ -2607,17 +2607,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_id_name_manager.cc.o.provides.buil
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o: ../src/base/threading/platform_thread_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_posix.cc
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_posix.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_posix.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_posix.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_posix.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o.requires
@@ -2630,17 +2630,17 @@ CMakeFiles/quic.dir/src/base/threading/platform_thread_posix.cc.o.provides.build
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o: ../src/base/threading/platform_thread_internal_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_internal_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_internal_posix.cc
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_internal_posix.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_internal_posix.cc > CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/platform_thread_internal_posix.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/platform_thread_internal_posix.cc -o CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o.requires
@@ -2653,17 +2653,17 @@ CMakeFiles/quic.dir/src/base/threading/platform_thread_internal_posix.cc.o.provi
 
 CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o: ../src/base/threading/thread_restrictions.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_restrictions.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_restrictions.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_restrictions.cc > CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_restrictions.cc > CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_restrictions.cc -o CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_restrictions.cc -o CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o.requires
@@ -2676,17 +2676,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_restrictions.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o: ../src/base/threading/thread_local_storage_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage_posix.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage_posix.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage_posix.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage_posix.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage_posix.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o.requires
@@ -2699,17 +2699,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_local_storage_posix.cc.o.provides.
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o: ../src/base/threading/thread_local_storage.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_local_storage.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_storage.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o.requires
@@ -2722,17 +2722,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_local_storage.cc.o.provides.build:
 
 CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o: ../src/base/threading/thread_collision_warner.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_collision_warner.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_collision_warner.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_collision_warner.cc > CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_collision_warner.cc > CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_collision_warner.cc -o CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_collision_warner.cc -o CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o.requires
@@ -2745,17 +2745,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_collision_warner.cc.o.provides.bui
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o: ../src/base/threading/thread_local_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/threading/thread_local_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_posix.cc
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/threading/thread_local_posix.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_posix.cc > CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/threading/thread_local_posix.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/threading/thread_local_posix.cc -o CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o.requires
@@ -2768,17 +2768,17 @@ CMakeFiles/quic.dir/src/base/threading/thread_local_posix.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/base/time/time_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/time/time_posix.cc.o: ../src/base/time/time_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/time/time_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/time/time_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/time/time_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/time/time_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time_posix.cc
 
 CMakeFiles/quic.dir/src/base/time/time_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/time/time_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/time/time_posix.cc > CMakeFiles/quic.dir/src/base/time/time_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time_posix.cc > CMakeFiles/quic.dir/src/base/time/time_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/time/time_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/time/time_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/time/time_posix.cc -o CMakeFiles/quic.dir/src/base/time/time_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time_posix.cc -o CMakeFiles/quic.dir/src/base/time/time_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/time/time_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/time/time_posix.cc.o.requires
@@ -2791,17 +2791,17 @@ CMakeFiles/quic.dir/src/base/time/time_posix.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/base/time/time.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/time/time.cc.o: ../src/base/time/time.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/time/time.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/time/time.cc.o -c /root/yangyazhou/quic/libquic/src/base/time/time.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/time/time.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time.cc
 
 CMakeFiles/quic.dir/src/base/time/time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/time/time.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/time/time.cc > CMakeFiles/quic.dir/src/base/time/time.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time.cc > CMakeFiles/quic.dir/src/base/time/time.cc.i
 
 CMakeFiles/quic.dir/src/base/time/time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/time/time.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/time/time.cc -o CMakeFiles/quic.dir/src/base/time/time.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/time/time.cc -o CMakeFiles/quic.dir/src/base/time/time.cc.s
 
 CMakeFiles/quic.dir/src/base/time/time.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/time/time.cc.o.requires
@@ -2814,17 +2814,17 @@ CMakeFiles/quic.dir/src/base/time/time.cc.o.provides.build: CMakeFiles/quic.dir/
 
 CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o: ../src/base/synchronization/waitable_event_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/synchronization/waitable_event_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/waitable_event_posix.cc
 
 CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/synchronization/waitable_event_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/waitable_event_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/synchronization/waitable_event_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/waitable_event_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o.requires
@@ -2837,17 +2837,17 @@ CMakeFiles/quic.dir/src/base/synchronization/waitable_event_posix.cc.o.provides.
 
 CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o: ../src/base/synchronization/lock.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o -c /root/yangyazhou/quic/libquic/src/base/synchronization/lock.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock.cc
 
 CMakeFiles/quic.dir/src/base/synchronization/lock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/synchronization/lock.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/synchronization/lock.cc > CMakeFiles/quic.dir/src/base/synchronization/lock.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock.cc > CMakeFiles/quic.dir/src/base/synchronization/lock.cc.i
 
 CMakeFiles/quic.dir/src/base/synchronization/lock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/synchronization/lock.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/synchronization/lock.cc -o CMakeFiles/quic.dir/src/base/synchronization/lock.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock.cc -o CMakeFiles/quic.dir/src/base/synchronization/lock.cc.s
 
 CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o.requires
@@ -2860,17 +2860,17 @@ CMakeFiles/quic.dir/src/base/synchronization/lock.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o: ../src/base/synchronization/lock_impl_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/synchronization/lock_impl_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock_impl_posix.cc
 
 CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/synchronization/lock_impl_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock_impl_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/synchronization/lock_impl_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/lock_impl_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o.requires
@@ -2883,17 +2883,17 @@ CMakeFiles/quic.dir/src/base/synchronization/lock_impl_posix.cc.o.provides.build
 
 CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o: ../src/base/synchronization/condition_variable_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/synchronization/condition_variable_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/condition_variable_posix.cc
 
 CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/synchronization/condition_variable_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/condition_variable_posix.cc > CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/synchronization/condition_variable_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/synchronization/condition_variable_posix.cc -o CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o.requires
@@ -2906,17 +2906,17 @@ CMakeFiles/quic.dir/src/base/synchronization/condition_variable_posix.cc.o.provi
 
 CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o: ../src/base/strings/sys_string_conversions_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/sys_string_conversions_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/sys_string_conversions_posix.cc
 
 CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/sys_string_conversions_posix.cc > CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/sys_string_conversions_posix.cc > CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/sys_string_conversions_posix.cc -o CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/sys_string_conversions_posix.cc -o CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o.requires
@@ -2929,17 +2929,17 @@ CMakeFiles/quic.dir/src/base/strings/sys_string_conversions_posix.cc.o.provides.
 
 CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o: ../src/base/strings/string_piece.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string_piece.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_piece.cc
 
 CMakeFiles/quic.dir/src/base/strings/string_piece.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string_piece.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string_piece.cc > CMakeFiles/quic.dir/src/base/strings/string_piece.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_piece.cc > CMakeFiles/quic.dir/src/base/strings/string_piece.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string_piece.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string_piece.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string_piece.cc -o CMakeFiles/quic.dir/src/base/strings/string_piece.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_piece.cc -o CMakeFiles/quic.dir/src/base/strings/string_piece.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o.requires
@@ -2952,17 +2952,17 @@ CMakeFiles/quic.dir/src/base/strings/string_piece.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/base/strings/string_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string_util.cc.o: ../src/base/strings/string_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_util.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util.cc
 
 CMakeFiles/quic.dir/src/base/strings/string_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string_util.cc > CMakeFiles/quic.dir/src/base/strings/string_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util.cc > CMakeFiles/quic.dir/src/base/strings/string_util.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string_util.cc -o CMakeFiles/quic.dir/src/base/strings/string_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util.cc -o CMakeFiles/quic.dir/src/base/strings/string_util.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string_util.cc.o.requires
@@ -2975,17 +2975,17 @@ CMakeFiles/quic.dir/src/base/strings/string_util.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o: ../src/base/strings/string_number_conversions.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string_number_conversions.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_number_conversions.cc
 
 CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string_number_conversions.cc > CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_number_conversions.cc > CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string_number_conversions.cc -o CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_number_conversions.cc -o CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o.requires
@@ -2998,17 +2998,17 @@ CMakeFiles/quic.dir/src/base/strings/string_number_conversions.cc.o.provides.bui
 
 CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o: ../src/base/strings/string_util_constants.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string_util_constants.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util_constants.cc
 
 CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string_util_constants.cc > CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util_constants.cc > CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string_util_constants.cc -o CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_util_constants.cc -o CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o.requires
@@ -3021,17 +3021,17 @@ CMakeFiles/quic.dir/src/base/strings/string_util_constants.cc.o.provides.build: 
 
 CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o: ../src/base/strings/stringprintf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/stringprintf.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/stringprintf.cc
 
 CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/stringprintf.cc > CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/stringprintf.cc > CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/stringprintf.cc -o CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/stringprintf.cc -o CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o.requires
@@ -3044,17 +3044,17 @@ CMakeFiles/quic.dir/src/base/strings/stringprintf.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/base/strings/string_split.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string_split.cc.o: ../src/base/strings/string_split.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string_split.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_split.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string_split.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string_split.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_split.cc
 
 CMakeFiles/quic.dir/src/base/strings/string_split.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string_split.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string_split.cc > CMakeFiles/quic.dir/src/base/strings/string_split.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_split.cc > CMakeFiles/quic.dir/src/base/strings/string_split.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string_split.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string_split.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string_split.cc -o CMakeFiles/quic.dir/src/base/strings/string_split.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string_split.cc -o CMakeFiles/quic.dir/src/base/strings/string_split.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string_split.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string_split.cc.o.requires
@@ -3067,17 +3067,17 @@ CMakeFiles/quic.dir/src/base/strings/string_split.cc.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/base/strings/string16.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/string16.cc.o: ../src/base/strings/string16.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/string16.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string16.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/string16.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/string16.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string16.cc
 
 CMakeFiles/quic.dir/src/base/strings/string16.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/string16.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/string16.cc > CMakeFiles/quic.dir/src/base/strings/string16.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string16.cc > CMakeFiles/quic.dir/src/base/strings/string16.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/string16.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/string16.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/string16.cc -o CMakeFiles/quic.dir/src/base/strings/string16.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/string16.cc -o CMakeFiles/quic.dir/src/base/strings/string16.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/string16.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/string16.cc.o.requires
@@ -3090,17 +3090,17 @@ CMakeFiles/quic.dir/src/base/strings/string16.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o: ../src/base/strings/utf_string_conversion_utils.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversion_utils.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversion_utils.cc
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversion_utils.cc > CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversion_utils.cc > CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversion_utils.cc -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversion_utils.cc -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o.requires
@@ -3113,17 +3113,17 @@ CMakeFiles/quic.dir/src/base/strings/utf_string_conversion_utils.cc.o.provides.b
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o: ../src/base/strings/utf_string_conversions.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o -c /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversions.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversions.cc
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversions.cc > CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversions.cc > CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.i
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/strings/utf_string_conversions.cc -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/strings/utf_string_conversions.cc -o CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.s
 
 CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o.requires
@@ -3136,17 +3136,17 @@ CMakeFiles/quic.dir/src/base/strings/utf_string_conversions.cc.o.provides.build:
 
 CMakeFiles/quic.dir/src/base/pickle.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/pickle.cc.o: ../src/base/pickle.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/pickle.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/pickle.cc.o -c /root/yangyazhou/quic/libquic/src/base/pickle.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/pickle.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/pickle.cc
 
 CMakeFiles/quic.dir/src/base/pickle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/pickle.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/pickle.cc > CMakeFiles/quic.dir/src/base/pickle.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/pickle.cc > CMakeFiles/quic.dir/src/base/pickle.cc.i
 
 CMakeFiles/quic.dir/src/base/pickle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/pickle.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/pickle.cc -o CMakeFiles/quic.dir/src/base/pickle.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/pickle.cc -o CMakeFiles/quic.dir/src/base/pickle.cc.s
 
 CMakeFiles/quic.dir/src/base/pickle.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/pickle.cc.o.requires
@@ -3159,17 +3159,17 @@ CMakeFiles/quic.dir/src/base/pickle.cc.o.provides.build: CMakeFiles/quic.dir/src
 
 CMakeFiles/quic.dir/src/base/debug/alias.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/debug/alias.cc.o: ../src/base/debug/alias.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/debug/alias.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/alias.cc.o -c /root/yangyazhou/quic/libquic/src/base/debug/alias.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/alias.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/alias.cc
 
 CMakeFiles/quic.dir/src/base/debug/alias.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/debug/alias.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/debug/alias.cc > CMakeFiles/quic.dir/src/base/debug/alias.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/alias.cc > CMakeFiles/quic.dir/src/base/debug/alias.cc.i
 
 CMakeFiles/quic.dir/src/base/debug/alias.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/debug/alias.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/debug/alias.cc -o CMakeFiles/quic.dir/src/base/debug/alias.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/alias.cc -o CMakeFiles/quic.dir/src/base/debug/alias.cc.s
 
 CMakeFiles/quic.dir/src/base/debug/alias.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/debug/alias.cc.o.requires
@@ -3182,17 +3182,17 @@ CMakeFiles/quic.dir/src/base/debug/alias.cc.o.provides.build: CMakeFiles/quic.di
 
 CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o: ../src/base/debug/stack_trace.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o -c /root/yangyazhou/quic/libquic/src/base/debug/stack_trace.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/stack_trace.cc
 
 CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/debug/stack_trace.cc > CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/stack_trace.cc > CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.i
 
 CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/debug/stack_trace.cc -o CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/stack_trace.cc -o CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.s
 
 CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o.requires
@@ -3205,17 +3205,17 @@ CMakeFiles/quic.dir/src/base/debug/stack_trace.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/base/debug/debugger.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/debug/debugger.cc.o: ../src/base/debug/debugger.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/debug/debugger.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/debugger.cc.o -c /root/yangyazhou/quic/libquic/src/base/debug/debugger.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/debug/debugger.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/debugger.cc
 
 CMakeFiles/quic.dir/src/base/debug/debugger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/debug/debugger.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/debug/debugger.cc > CMakeFiles/quic.dir/src/base/debug/debugger.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/debugger.cc > CMakeFiles/quic.dir/src/base/debug/debugger.cc.i
 
 CMakeFiles/quic.dir/src/base/debug/debugger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/debug/debugger.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/debug/debugger.cc -o CMakeFiles/quic.dir/src/base/debug/debugger.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/debug/debugger.cc -o CMakeFiles/quic.dir/src/base/debug/debugger.cc.s
 
 CMakeFiles/quic.dir/src/base/debug/debugger.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/debug/debugger.cc.o.requires
@@ -3228,17 +3228,17 @@ CMakeFiles/quic.dir/src/base/debug/debugger.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/base/callback_helpers.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/callback_helpers.cc.o: ../src/base/callback_helpers.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/callback_helpers.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/callback_helpers.cc.o -c /root/yangyazhou/quic/libquic/src/base/callback_helpers.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/callback_helpers.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_helpers.cc
 
 CMakeFiles/quic.dir/src/base/callback_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/callback_helpers.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/callback_helpers.cc > CMakeFiles/quic.dir/src/base/callback_helpers.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_helpers.cc > CMakeFiles/quic.dir/src/base/callback_helpers.cc.i
 
 CMakeFiles/quic.dir/src/base/callback_helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/callback_helpers.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/callback_helpers.cc -o CMakeFiles/quic.dir/src/base/callback_helpers.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_helpers.cc -o CMakeFiles/quic.dir/src/base/callback_helpers.cc.s
 
 CMakeFiles/quic.dir/src/base/callback_helpers.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/callback_helpers.cc.o.requires
@@ -3251,17 +3251,17 @@ CMakeFiles/quic.dir/src/base/callback_helpers.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o: ../src/base/atomicops_internals_x86_gcc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o -c /root/yangyazhou/quic/libquic/src/base/atomicops_internals_x86_gcc.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/atomicops_internals_x86_gcc.cc
 
 CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/atomicops_internals_x86_gcc.cc > CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/atomicops_internals_x86_gcc.cc > CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.i
 
 CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/atomicops_internals_x86_gcc.cc -o CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/atomicops_internals_x86_gcc.cc -o CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.s
 
 CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o.requires
@@ -3274,17 +3274,17 @@ CMakeFiles/quic.dir/src/base/atomicops_internals_x86_gcc.cc.o.provides.build: CM
 
 CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o: ../src/base/json/json_string_value_serializer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o -c /root/yangyazhou/quic/libquic/src/base/json/json_string_value_serializer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_string_value_serializer.cc
 
 CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/json/json_string_value_serializer.cc > CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_string_value_serializer.cc > CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.i
 
 CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/json/json_string_value_serializer.cc -o CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_string_value_serializer.cc -o CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.s
 
 CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o.requires
@@ -3297,17 +3297,17 @@ CMakeFiles/quic.dir/src/base/json/json_string_value_serializer.cc.o.provides.bui
 
 CMakeFiles/quic.dir/src/base/json/json_parser.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/json/json_parser.cc.o: ../src/base/json/json_parser.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/json/json_parser.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_parser.cc.o -c /root/yangyazhou/quic/libquic/src/base/json/json_parser.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_parser.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_parser.cc
 
 CMakeFiles/quic.dir/src/base/json/json_parser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/json/json_parser.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/json/json_parser.cc > CMakeFiles/quic.dir/src/base/json/json_parser.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_parser.cc > CMakeFiles/quic.dir/src/base/json/json_parser.cc.i
 
 CMakeFiles/quic.dir/src/base/json/json_parser.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/json/json_parser.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/json/json_parser.cc -o CMakeFiles/quic.dir/src/base/json/json_parser.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_parser.cc -o CMakeFiles/quic.dir/src/base/json/json_parser.cc.s
 
 CMakeFiles/quic.dir/src/base/json/json_parser.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/json/json_parser.cc.o.requires
@@ -3320,17 +3320,17 @@ CMakeFiles/quic.dir/src/base/json/json_parser.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/json/string_escape.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/json/string_escape.cc.o: ../src/base/json/string_escape.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/json/string_escape.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/string_escape.cc.o -c /root/yangyazhou/quic/libquic/src/base/json/string_escape.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/string_escape.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/string_escape.cc
 
 CMakeFiles/quic.dir/src/base/json/string_escape.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/json/string_escape.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/json/string_escape.cc > CMakeFiles/quic.dir/src/base/json/string_escape.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/string_escape.cc > CMakeFiles/quic.dir/src/base/json/string_escape.cc.i
 
 CMakeFiles/quic.dir/src/base/json/string_escape.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/json/string_escape.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/json/string_escape.cc -o CMakeFiles/quic.dir/src/base/json/string_escape.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/string_escape.cc -o CMakeFiles/quic.dir/src/base/json/string_escape.cc.s
 
 CMakeFiles/quic.dir/src/base/json/string_escape.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/json/string_escape.cc.o.requires
@@ -3343,17 +3343,17 @@ CMakeFiles/quic.dir/src/base/json/string_escape.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/base/json/json_writer.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/json/json_writer.cc.o: ../src/base/json/json_writer.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/json/json_writer.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_writer.cc.o -c /root/yangyazhou/quic/libquic/src/base/json/json_writer.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_writer.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_writer.cc
 
 CMakeFiles/quic.dir/src/base/json/json_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/json/json_writer.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/json/json_writer.cc > CMakeFiles/quic.dir/src/base/json/json_writer.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_writer.cc > CMakeFiles/quic.dir/src/base/json/json_writer.cc.i
 
 CMakeFiles/quic.dir/src/base/json/json_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/json/json_writer.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/json/json_writer.cc -o CMakeFiles/quic.dir/src/base/json/json_writer.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_writer.cc -o CMakeFiles/quic.dir/src/base/json/json_writer.cc.s
 
 CMakeFiles/quic.dir/src/base/json/json_writer.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/json/json_writer.cc.o.requires
@@ -3366,17 +3366,17 @@ CMakeFiles/quic.dir/src/base/json/json_writer.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/json/json_reader.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/json/json_reader.cc.o: ../src/base/json/json_reader.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/json/json_reader.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_reader.cc.o -c /root/yangyazhou/quic/libquic/src/base/json/json_reader.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/json/json_reader.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_reader.cc
 
 CMakeFiles/quic.dir/src/base/json/json_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/json/json_reader.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/json/json_reader.cc > CMakeFiles/quic.dir/src/base/json/json_reader.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_reader.cc > CMakeFiles/quic.dir/src/base/json/json_reader.cc.i
 
 CMakeFiles/quic.dir/src/base/json/json_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/json/json_reader.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/json/json_reader.cc -o CMakeFiles/quic.dir/src/base/json/json_reader.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/json/json_reader.cc -o CMakeFiles/quic.dir/src/base/json/json_reader.cc.s
 
 CMakeFiles/quic.dir/src/base/json/json_reader.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/json/json_reader.cc.o.requires
@@ -3389,17 +3389,17 @@ CMakeFiles/quic.dir/src/base/json/json_reader.cc.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/base/lazy_instance.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/lazy_instance.cc.o: ../src/base/lazy_instance.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/lazy_instance.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/lazy_instance.cc.o -c /root/yangyazhou/quic/libquic/src/base/lazy_instance.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/lazy_instance.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/lazy_instance.cc
 
 CMakeFiles/quic.dir/src/base/lazy_instance.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/lazy_instance.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/lazy_instance.cc > CMakeFiles/quic.dir/src/base/lazy_instance.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/lazy_instance.cc > CMakeFiles/quic.dir/src/base/lazy_instance.cc.i
 
 CMakeFiles/quic.dir/src/base/lazy_instance.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/lazy_instance.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/lazy_instance.cc -o CMakeFiles/quic.dir/src/base/lazy_instance.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/lazy_instance.cc -o CMakeFiles/quic.dir/src/base/lazy_instance.cc.s
 
 CMakeFiles/quic.dir/src/base/lazy_instance.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/lazy_instance.cc.o.requires
@@ -3412,17 +3412,17 @@ CMakeFiles/quic.dir/src/base/lazy_instance.cc.o.provides.build: CMakeFiles/quic.
 
 CMakeFiles/quic.dir/src/base/callback_internal.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/callback_internal.cc.o: ../src/base/callback_internal.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/callback_internal.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/callback_internal.cc.o -c /root/yangyazhou/quic/libquic/src/base/callback_internal.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/callback_internal.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_internal.cc
 
 CMakeFiles/quic.dir/src/base/callback_internal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/callback_internal.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/callback_internal.cc > CMakeFiles/quic.dir/src/base/callback_internal.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_internal.cc > CMakeFiles/quic.dir/src/base/callback_internal.cc.i
 
 CMakeFiles/quic.dir/src/base/callback_internal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/callback_internal.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/callback_internal.cc -o CMakeFiles/quic.dir/src/base/callback_internal.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/callback_internal.cc -o CMakeFiles/quic.dir/src/base/callback_internal.cc.s
 
 CMakeFiles/quic.dir/src/base/callback_internal.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/callback_internal.cc.o.requires
@@ -3435,17 +3435,17 @@ CMakeFiles/quic.dir/src/base/callback_internal.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/base/base_switches.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/base_switches.cc.o: ../src/base/base_switches.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/base_switches.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/base_switches.cc.o -c /root/yangyazhou/quic/libquic/src/base/base_switches.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/base_switches.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base_switches.cc
 
 CMakeFiles/quic.dir/src/base/base_switches.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/base_switches.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/base_switches.cc > CMakeFiles/quic.dir/src/base/base_switches.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base_switches.cc > CMakeFiles/quic.dir/src/base/base_switches.cc.i
 
 CMakeFiles/quic.dir/src/base/base_switches.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/base_switches.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/base_switches.cc -o CMakeFiles/quic.dir/src/base/base_switches.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base_switches.cc -o CMakeFiles/quic.dir/src/base/base_switches.cc.s
 
 CMakeFiles/quic.dir/src/base/base_switches.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/base_switches.cc.o.requires
@@ -3458,17 +3458,17 @@ CMakeFiles/quic.dir/src/base/base_switches.cc.o.provides.build: CMakeFiles/quic.
 
 CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o: ../src/base/os_compat_nacl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o -c /root/yangyazhou/quic/libquic/src/base/os_compat_nacl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/os_compat_nacl.cc
 
 CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/os_compat_nacl.cc > CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/os_compat_nacl.cc > CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.i
 
 CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/os_compat_nacl.cc -o CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/os_compat_nacl.cc -o CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.s
 
 CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o.requires
@@ -3481,17 +3481,17 @@ CMakeFiles/quic.dir/src/base/os_compat_nacl.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/base/values.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/values.cc.o: ../src/base/values.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/values.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/values.cc.o -c /root/yangyazhou/quic/libquic/src/base/values.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/values.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/values.cc
 
 CMakeFiles/quic.dir/src/base/values.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/values.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/values.cc > CMakeFiles/quic.dir/src/base/values.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/values.cc > CMakeFiles/quic.dir/src/base/values.cc.i
 
 CMakeFiles/quic.dir/src/base/values.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/values.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/values.cc -o CMakeFiles/quic.dir/src/base/values.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/values.cc -o CMakeFiles/quic.dir/src/base/values.cc.s
 
 CMakeFiles/quic.dir/src/base/values.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/values.cc.o.requires
@@ -3504,17 +3504,17 @@ CMakeFiles/quic.dir/src/base/values.cc.o.provides.build: CMakeFiles/quic.dir/src
 
 CMakeFiles/quic.dir/src/base/at_exit.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/at_exit.cc.o: ../src/base/at_exit.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/at_exit.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/at_exit.cc.o -c /root/yangyazhou/quic/libquic/src/base/at_exit.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/at_exit.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/at_exit.cc
 
 CMakeFiles/quic.dir/src/base/at_exit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/at_exit.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/at_exit.cc > CMakeFiles/quic.dir/src/base/at_exit.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/at_exit.cc > CMakeFiles/quic.dir/src/base/at_exit.cc.i
 
 CMakeFiles/quic.dir/src/base/at_exit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/at_exit.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/at_exit.cc -o CMakeFiles/quic.dir/src/base/at_exit.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/at_exit.cc -o CMakeFiles/quic.dir/src/base/at_exit.cc.s
 
 CMakeFiles/quic.dir/src/base/at_exit.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/at_exit.cc.o.requires
@@ -3527,17 +3527,17 @@ CMakeFiles/quic.dir/src/base/at_exit.cc.o.provides.build: CMakeFiles/quic.dir/sr
 
 CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o: ../src/base/process/process_handle_posix.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o -c /root/yangyazhou/quic/libquic/src/base/process/process_handle_posix.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/process/process_handle_posix.cc
 
 CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/process/process_handle_posix.cc > CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/process/process_handle_posix.cc > CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.i
 
 CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/process/process_handle_posix.cc -o CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/process/process_handle_posix.cc -o CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.s
 
 CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o.requires
@@ -3550,17 +3550,17 @@ CMakeFiles/quic.dir/src/base/process/process_handle_posix.cc.o.provides.build: C
 
 CMakeFiles/quic.dir/src/base/bind_helpers.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/bind_helpers.cc.o: ../src/base/bind_helpers.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/bind_helpers.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/bind_helpers.cc.o -c /root/yangyazhou/quic/libquic/src/base/bind_helpers.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/bind_helpers.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/bind_helpers.cc
 
 CMakeFiles/quic.dir/src/base/bind_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/bind_helpers.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/bind_helpers.cc > CMakeFiles/quic.dir/src/base/bind_helpers.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/bind_helpers.cc > CMakeFiles/quic.dir/src/base/bind_helpers.cc.i
 
 CMakeFiles/quic.dir/src/base/bind_helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/bind_helpers.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/bind_helpers.cc -o CMakeFiles/quic.dir/src/base/bind_helpers.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/bind_helpers.cc -o CMakeFiles/quic.dir/src/base/bind_helpers.cc.s
 
 CMakeFiles/quic.dir/src/base/bind_helpers.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/bind_helpers.cc.o.requires
@@ -3573,17 +3573,17 @@ CMakeFiles/quic.dir/src/base/bind_helpers.cc.o.provides.build: CMakeFiles/quic.d
 
 CMakeFiles/quic.dir/src/base/vlog.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/vlog.cc.o: ../src/base/vlog.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/vlog.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/vlog.cc.o -c /root/yangyazhou/quic/libquic/src/base/vlog.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/vlog.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/vlog.cc
 
 CMakeFiles/quic.dir/src/base/vlog.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/vlog.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/vlog.cc > CMakeFiles/quic.dir/src/base/vlog.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/vlog.cc > CMakeFiles/quic.dir/src/base/vlog.cc.i
 
 CMakeFiles/quic.dir/src/base/vlog.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/vlog.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/vlog.cc -o CMakeFiles/quic.dir/src/base/vlog.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/vlog.cc -o CMakeFiles/quic.dir/src/base/vlog.cc.s
 
 CMakeFiles/quic.dir/src/base/vlog.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/vlog.cc.o.requires
@@ -3596,17 +3596,17 @@ CMakeFiles/quic.dir/src/base/vlog.cc.o.provides.build: CMakeFiles/quic.dir/src/b
 
 CMakeFiles/quic.dir/src/base/location.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/location.cc.o: ../src/base/location.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_155)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_155)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/location.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/location.cc.o -c /root/yangyazhou/quic/libquic/src/base/location.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/location.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/location.cc
 
 CMakeFiles/quic.dir/src/base/location.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/location.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/location.cc > CMakeFiles/quic.dir/src/base/location.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/location.cc > CMakeFiles/quic.dir/src/base/location.cc.i
 
 CMakeFiles/quic.dir/src/base/location.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/location.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/location.cc -o CMakeFiles/quic.dir/src/base/location.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/location.cc -o CMakeFiles/quic.dir/src/base/location.cc.s
 
 CMakeFiles/quic.dir/src/base/location.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/location.cc.o.requires
@@ -3619,17 +3619,17 @@ CMakeFiles/quic.dir/src/base/location.cc.o.provides.build: CMakeFiles/quic.dir/s
 
 CMakeFiles/quic.dir/src/base/base64.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/base64.cc.o: ../src/base/base64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_156)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_156)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/base64.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/base64.cc.o -c /root/yangyazhou/quic/libquic/src/base/base64.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/base64.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base64.cc
 
 CMakeFiles/quic.dir/src/base/base64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/base64.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/base64.cc > CMakeFiles/quic.dir/src/base/base64.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base64.cc > CMakeFiles/quic.dir/src/base/base64.cc.i
 
 CMakeFiles/quic.dir/src/base/base64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/base64.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/base64.cc -o CMakeFiles/quic.dir/src/base/base64.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/base64.cc -o CMakeFiles/quic.dir/src/base/base64.cc.s
 
 CMakeFiles/quic.dir/src/base/base64.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/base64.cc.o.requires
@@ -3642,17 +3642,17 @@ CMakeFiles/quic.dir/src/base/base64.cc.o.provides.build: CMakeFiles/quic.dir/src
 
 CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o: ../src/base/metrics/statistics_recorder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_157)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_157)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/statistics_recorder.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/statistics_recorder.cc
 
 CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/statistics_recorder.cc > CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/statistics_recorder.cc > CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/statistics_recorder.cc -o CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/statistics_recorder.cc -o CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o.requires
@@ -3665,17 +3665,17 @@ CMakeFiles/quic.dir/src/base/metrics/statistics_recorder.cc.o.provides.build: CM
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o: ../src/base/metrics/histogram_base.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_158)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_158)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/histogram_base.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_base.cc
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/histogram_base.cc > CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_base.cc > CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/histogram_base.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_base.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o.requires
@@ -3688,17 +3688,17 @@ CMakeFiles/quic.dir/src/base/metrics/histogram_base.cc.o.provides.build: CMakeFi
 
 CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o: ../src/base/metrics/sample_map.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_159)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_159)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/sample_map.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_map.cc
 
 CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/sample_map.cc > CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_map.cc > CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/sample_map.cc -o CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_map.cc -o CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o.requires
@@ -3711,17 +3711,17 @@ CMakeFiles/quic.dir/src/base/metrics/sample_map.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o: ../src/base/metrics/histogram.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_160)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_160)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/histogram.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram.cc
 
 CMakeFiles/quic.dir/src/base/metrics/histogram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/histogram.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/histogram.cc > CMakeFiles/quic.dir/src/base/metrics/histogram.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram.cc > CMakeFiles/quic.dir/src/base/metrics/histogram.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/histogram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/histogram.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/histogram.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o.requires
@@ -3734,17 +3734,17 @@ CMakeFiles/quic.dir/src/base/metrics/histogram.cc.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o: ../src/base/metrics/sample_vector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_161)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_161)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/sample_vector.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_vector.cc
 
 CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/sample_vector.cc > CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_vector.cc > CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/sample_vector.cc -o CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sample_vector.cc -o CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o.requires
@@ -3757,17 +3757,17 @@ CMakeFiles/quic.dir/src/base/metrics/sample_vector.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o: ../src/base/metrics/histogram_samples.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_162)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_162)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/histogram_samples.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_samples.cc
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/histogram_samples.cc > CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_samples.cc > CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/histogram_samples.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/histogram_samples.cc -o CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o.requires
@@ -3780,17 +3780,17 @@ CMakeFiles/quic.dir/src/base/metrics/histogram_samples.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o: ../src/base/metrics/bucket_ranges.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_163)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_163)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/bucket_ranges.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/bucket_ranges.cc
 
 CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/bucket_ranges.cc > CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/bucket_ranges.cc > CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/bucket_ranges.cc -o CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/bucket_ranges.cc -o CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o.requires
@@ -3803,17 +3803,17 @@ CMakeFiles/quic.dir/src/base/metrics/bucket_ranges.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o: ../src/base/metrics/sparse_histogram.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_164)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_164)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o -c /root/yangyazhou/quic/libquic/src/base/metrics/sparse_histogram.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sparse_histogram.cc
 
 CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/metrics/sparse_histogram.cc > CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sparse_histogram.cc > CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.i
 
 CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/metrics/sparse_histogram.cc -o CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/metrics/sparse_histogram.cc -o CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.s
 
 CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o.requires
@@ -3826,17 +3826,17 @@ CMakeFiles/quic.dir/src/base/metrics/sparse_histogram.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/base/rand_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/rand_util.cc.o: ../src/base/rand_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_165)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_165)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/rand_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/rand_util.cc.o -c /root/yangyazhou/quic/libquic/src/base/rand_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/rand_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util.cc
 
 CMakeFiles/quic.dir/src/base/rand_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/rand_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/rand_util.cc > CMakeFiles/quic.dir/src/base/rand_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util.cc > CMakeFiles/quic.dir/src/base/rand_util.cc.i
 
 CMakeFiles/quic.dir/src/base/rand_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/rand_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/rand_util.cc -o CMakeFiles/quic.dir/src/base/rand_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/rand_util.cc -o CMakeFiles/quic.dir/src/base/rand_util.cc.s
 
 CMakeFiles/quic.dir/src/base/rand_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/rand_util.cc.o.requires
@@ -3849,17 +3849,17 @@ CMakeFiles/quic.dir/src/base/rand_util.cc.o.provides.build: CMakeFiles/quic.dir/
 
 CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o: ../src/base/files/file_path_constants.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_166)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_166)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o -c /root/yangyazhou/quic/libquic/src/base/files/file_path_constants.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path_constants.cc
 
 CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/files/file_path_constants.cc > CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path_constants.cc > CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.i
 
 CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/files/file_path_constants.cc -o CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path_constants.cc -o CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.s
 
 CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o.requires
@@ -3872,17 +3872,17 @@ CMakeFiles/quic.dir/src/base/files/file_path_constants.cc.o.provides.build: CMak
 
 CMakeFiles/quic.dir/src/base/files/file_path.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/files/file_path.cc.o: ../src/base/files/file_path.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_167)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_167)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/files/file_path.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/files/file_path.cc.o -c /root/yangyazhou/quic/libquic/src/base/files/file_path.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/files/file_path.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path.cc
 
 CMakeFiles/quic.dir/src/base/files/file_path.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/files/file_path.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/files/file_path.cc > CMakeFiles/quic.dir/src/base/files/file_path.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path.cc > CMakeFiles/quic.dir/src/base/files/file_path.cc.i
 
 CMakeFiles/quic.dir/src/base/files/file_path.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/files/file_path.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/files/file_path.cc -o CMakeFiles/quic.dir/src/base/files/file_path.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/files/file_path.cc -o CMakeFiles/quic.dir/src/base/files/file_path.cc.s
 
 CMakeFiles/quic.dir/src/base/files/file_path.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/files/file_path.cc.o.requires
@@ -3895,17 +3895,17 @@ CMakeFiles/quic.dir/src/base/files/file_path.cc.o.provides.build: CMakeFiles/qui
 
 CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o: ../src/base/third_party/nspr/prtime.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_168)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_168)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o -c /root/yangyazhou/quic/libquic/src/base/third_party/nspr/prtime.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/nspr/prtime.cc
 
 CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/third_party/nspr/prtime.cc > CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/nspr/prtime.cc > CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.i
 
 CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/third_party/nspr/prtime.cc -o CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/nspr/prtime.cc -o CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.s
 
 CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o.requires
@@ -3918,17 +3918,17 @@ CMakeFiles/quic.dir/src/base/third_party/nspr/prtime.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o: ../src/base/third_party/dmg_fp/dtoa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_169)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_169)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o -c /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/dtoa.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dtoa.cc
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/dtoa.cc > CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dtoa.cc > CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.i
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/dtoa.cc -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/dtoa.cc -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.s
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o.requires
@@ -3941,17 +3941,17 @@ CMakeFiles/quic.dir/src/base/third_party/dmg_fp/dtoa.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o: ../src/base/third_party/dmg_fp/g_fmt.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_170)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_170)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o -c /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/g_fmt.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/g_fmt.cc
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/g_fmt.cc > CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/g_fmt.cc > CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.i
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/third_party/dmg_fp/g_fmt.cc -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/dmg_fp/g_fmt.cc -o CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.s
 
 CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o.requires
@@ -3964,17 +3964,17 @@ CMakeFiles/quic.dir/src/base/third_party/dmg_fp/g_fmt.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o: ../src/base/third_party/icu/icu_utf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_171)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_171)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o -c /root/yangyazhou/quic/libquic/src/base/third_party/icu/icu_utf.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/icu/icu_utf.cc
 
 CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/third_party/icu/icu_utf.cc > CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/icu/icu_utf.cc > CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.i
 
 CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/third_party/icu/icu_utf.cc -o CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/icu/icu_utf.cc -o CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.s
 
 CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o.requires
@@ -3987,17 +3987,17 @@ CMakeFiles/quic.dir/src/base/third_party/icu/icu_utf.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/base/hash.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/hash.cc.o: ../src/base/hash.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_172)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_172)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/hash.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/hash.cc.o -c /root/yangyazhou/quic/libquic/src/base/hash.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/hash.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/hash.cc
 
 CMakeFiles/quic.dir/src/base/hash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/hash.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/hash.cc > CMakeFiles/quic.dir/src/base/hash.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/hash.cc > CMakeFiles/quic.dir/src/base/hash.cc.i
 
 CMakeFiles/quic.dir/src/base/hash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/hash.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/hash.cc -o CMakeFiles/quic.dir/src/base/hash.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/hash.cc -o CMakeFiles/quic.dir/src/base/hash.cc.s
 
 CMakeFiles/quic.dir/src/base/hash.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/hash.cc.o.requires
@@ -4010,17 +4010,17 @@ CMakeFiles/quic.dir/src/base/hash.cc.o.provides.build: CMakeFiles/quic.dir/src/b
 
 CMakeFiles/quic.dir/src/base/command_line.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/command_line.cc.o: ../src/base/command_line.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_173)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_173)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/base/command_line.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/command_line.cc.o -c /root/yangyazhou/quic/libquic/src/base/command_line.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/base/command_line.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/command_line.cc
 
 CMakeFiles/quic.dir/src/base/command_line.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/base/command_line.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/command_line.cc > CMakeFiles/quic.dir/src/base/command_line.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/command_line.cc > CMakeFiles/quic.dir/src/base/command_line.cc.i
 
 CMakeFiles/quic.dir/src/base/command_line.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/base/command_line.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/command_line.cc -o CMakeFiles/quic.dir/src/base/command_line.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/command_line.cc -o CMakeFiles/quic.dir/src/base/command_line.cc.s
 
 CMakeFiles/quic.dir/src/base/command_line.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/command_line.cc.o.requires
@@ -4033,17 +4033,17 @@ CMakeFiles/quic.dir/src/base/command_line.cc.o.provides.build: CMakeFiles/quic.d
 
 CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o: ../src/base/third_party/superfasthash/superfasthash.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_174)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_174)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o   -c /root/yangyazhou/quic/libquic/src/base/third_party/superfasthash/superfasthash.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/superfasthash/superfasthash.c
 
 CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/base/third_party/superfasthash/superfasthash.c > CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/superfasthash/superfasthash.c > CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.i
 
 CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/base/third_party/superfasthash/superfasthash.c -o CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/base/third_party/superfasthash/superfasthash.c -o CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.s
 
 CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o.requires
@@ -4056,17 +4056,17 @@ CMakeFiles/quic.dir/src/base/third_party/superfasthash/superfasthash.c.o.provide
 
 CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o: ../src/crypto/curve25519-donna.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_175)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_175)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o   -c /root/yangyazhou/quic/libquic/src/crypto/curve25519-donna.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519-donna.c
 
 CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/curve25519-donna.c > CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519-donna.c > CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.i
 
 CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/curve25519-donna.c -o CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519-donna.c -o CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.s
 
 CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o.requires
@@ -4079,17 +4079,17 @@ CMakeFiles/quic.dir/src/crypto/curve25519-donna.c.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/crypto/hkdf.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/hkdf.cc.o: ../src/crypto/hkdf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_176)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_176)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/hkdf.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hkdf.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/hkdf.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hkdf.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hkdf.cc
 
 CMakeFiles/quic.dir/src/crypto/hkdf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/hkdf.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/hkdf.cc > CMakeFiles/quic.dir/src/crypto/hkdf.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hkdf.cc > CMakeFiles/quic.dir/src/crypto/hkdf.cc.i
 
 CMakeFiles/quic.dir/src/crypto/hkdf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/hkdf.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/hkdf.cc -o CMakeFiles/quic.dir/src/crypto/hkdf.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hkdf.cc -o CMakeFiles/quic.dir/src/crypto/hkdf.cc.s
 
 CMakeFiles/quic.dir/src/crypto/hkdf.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/hkdf.cc.o.requires
@@ -4102,17 +4102,17 @@ CMakeFiles/quic.dir/src/crypto/hkdf.cc.o.provides.build: CMakeFiles/quic.dir/src
 
 CMakeFiles/quic.dir/src/crypto/hmac.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/hmac.cc.o: ../src/crypto/hmac.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_177)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_177)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/hmac.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hmac.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/hmac.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hmac.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac.cc
 
 CMakeFiles/quic.dir/src/crypto/hmac.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/hmac.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/hmac.cc > CMakeFiles/quic.dir/src/crypto/hmac.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac.cc > CMakeFiles/quic.dir/src/crypto/hmac.cc.i
 
 CMakeFiles/quic.dir/src/crypto/hmac.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/hmac.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/hmac.cc -o CMakeFiles/quic.dir/src/crypto/hmac.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac.cc -o CMakeFiles/quic.dir/src/crypto/hmac.cc.s
 
 CMakeFiles/quic.dir/src/crypto/hmac.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/hmac.cc.o.requires
@@ -4125,17 +4125,17 @@ CMakeFiles/quic.dir/src/crypto/hmac.cc.o.provides.build: CMakeFiles/quic.dir/src
 
 CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o: ../src/crypto/openssl_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_178)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_178)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/openssl_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/openssl_util.cc
 
 CMakeFiles/quic.dir/src/crypto/openssl_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/openssl_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/openssl_util.cc > CMakeFiles/quic.dir/src/crypto/openssl_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/openssl_util.cc > CMakeFiles/quic.dir/src/crypto/openssl_util.cc.i
 
 CMakeFiles/quic.dir/src/crypto/openssl_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/openssl_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/openssl_util.cc -o CMakeFiles/quic.dir/src/crypto/openssl_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/openssl_util.cc -o CMakeFiles/quic.dir/src/crypto/openssl_util.cc.s
 
 CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o.requires
@@ -4148,17 +4148,17 @@ CMakeFiles/quic.dir/src/crypto/openssl_util.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/crypto/curve25519.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/curve25519.cc.o: ../src/crypto/curve25519.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_179)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_179)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/curve25519.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/curve25519.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/curve25519.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/curve25519.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519.cc
 
 CMakeFiles/quic.dir/src/crypto/curve25519.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/curve25519.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/curve25519.cc > CMakeFiles/quic.dir/src/crypto/curve25519.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519.cc > CMakeFiles/quic.dir/src/crypto/curve25519.cc.i
 
 CMakeFiles/quic.dir/src/crypto/curve25519.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/curve25519.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/curve25519.cc -o CMakeFiles/quic.dir/src/crypto/curve25519.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/curve25519.cc -o CMakeFiles/quic.dir/src/crypto/curve25519.cc.s
 
 CMakeFiles/quic.dir/src/crypto/curve25519.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/curve25519.cc.o.requires
@@ -4171,17 +4171,17 @@ CMakeFiles/quic.dir/src/crypto/curve25519.cc.o.provides.build: CMakeFiles/quic.d
 
 CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o: ../src/crypto/hmac_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_180)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_180)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/hmac_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac_openssl.cc
 
 CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/hmac_openssl.cc > CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac_openssl.cc > CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.i
 
 CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/hmac_openssl.cc -o CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/hmac_openssl.cc -o CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.s
 
 CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o.requires
@@ -4194,17 +4194,17 @@ CMakeFiles/quic.dir/src/crypto/hmac_openssl.cc.o.provides.build: CMakeFiles/quic
 
 CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o: ../src/crypto/symmetric_key_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_181)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_181)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/symmetric_key_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/symmetric_key_openssl.cc
 
 CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/symmetric_key_openssl.cc > CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/symmetric_key_openssl.cc > CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.i
 
 CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/symmetric_key_openssl.cc -o CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/symmetric_key_openssl.cc -o CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.s
 
 CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o.requires
@@ -4217,17 +4217,17 @@ CMakeFiles/quic.dir/src/crypto/symmetric_key_openssl.cc.o.provides.build: CMakeF
 
 CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o: ../src/crypto/secure_hash_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_182)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_182)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/secure_hash_openssl.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_hash_openssl.cc
 
 CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/secure_hash_openssl.cc > CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_hash_openssl.cc > CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.i
 
 CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/secure_hash_openssl.cc -o CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_hash_openssl.cc -o CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.s
 
 CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o.requires
@@ -4240,17 +4240,17 @@ CMakeFiles/quic.dir/src/crypto/secure_hash_openssl.cc.o.provides.build: CMakeFil
 
 CMakeFiles/quic.dir/src/crypto/random.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/random.cc.o: ../src/crypto/random.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_183)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_183)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/random.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/random.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/random.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/random.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/random.cc
 
 CMakeFiles/quic.dir/src/crypto/random.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/random.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/random.cc > CMakeFiles/quic.dir/src/crypto/random.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/random.cc > CMakeFiles/quic.dir/src/crypto/random.cc.i
 
 CMakeFiles/quic.dir/src/crypto/random.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/random.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/random.cc -o CMakeFiles/quic.dir/src/crypto/random.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/random.cc -o CMakeFiles/quic.dir/src/crypto/random.cc.s
 
 CMakeFiles/quic.dir/src/crypto/random.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/random.cc.o.requires
@@ -4263,17 +4263,17 @@ CMakeFiles/quic.dir/src/crypto/random.cc.o.provides.build: CMakeFiles/quic.dir/s
 
 CMakeFiles/quic.dir/src/crypto/secure_util.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/crypto/secure_util.cc.o: ../src/crypto/secure_util.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_184)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_184)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/crypto/secure_util.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/secure_util.cc.o -c /root/yangyazhou/quic/libquic/src/crypto/secure_util.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/crypto/secure_util.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_util.cc
 
 CMakeFiles/quic.dir/src/crypto/secure_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/crypto/secure_util.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/crypto/secure_util.cc > CMakeFiles/quic.dir/src/crypto/secure_util.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_util.cc > CMakeFiles/quic.dir/src/crypto/secure_util.cc.i
 
 CMakeFiles/quic.dir/src/crypto/secure_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/crypto/secure_util.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/crypto/secure_util.cc -o CMakeFiles/quic.dir/src/crypto/secure_util.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/crypto/secure_util.cc -o CMakeFiles/quic.dir/src/crypto/secure_util.cc.s
 
 CMakeFiles/quic.dir/src/crypto/secure_util.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/crypto/secure_util.cc.o.requires
@@ -4286,17 +4286,17 @@ CMakeFiles/quic.dir/src/crypto/secure_util.cc.o.provides.build: CMakeFiles/quic.
 
 CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o: ../src/third_party/modp_b64/modp_b64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_185)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_185)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o -c /root/yangyazhou/quic/libquic/src/third_party/modp_b64/modp_b64.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.cc
 
 CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/modp_b64/modp_b64.cc > CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.cc > CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.i
 
 CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/modp_b64/modp_b64.cc -o CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/modp_b64/modp_b64.cc -o CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.s
 
 CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o.requires
@@ -4309,17 +4309,17 @@ CMakeFiles/quic.dir/src/third_party/modp_b64/modp_b64.cc.o.provides.build: CMake
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o: ../src/third_party/zlib/gzwrite.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_186)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_186)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/gzwrite.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzwrite.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/gzwrite.c > CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzwrite.c > CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/gzwrite.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzwrite.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o.requires
@@ -4332,17 +4332,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/gzwrite.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o: ../src/third_party/zlib/crc32.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_187)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_187)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/crc32.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/crc32.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/crc32.c > CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/crc32.c > CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/crc32.c -o CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/crc32.c -o CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o.requires
@@ -4355,17 +4355,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/crc32.c.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o: ../src/third_party/zlib/zutil.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_188)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_188)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/zutil.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/zutil.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/zutil.c > CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/zutil.c > CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/zutil.c -o CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/zutil.c -o CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o.requires
@@ -4378,17 +4378,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/zutil.c.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o: ../src/third_party/zlib/deflate.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_189)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_189)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/deflate.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/deflate.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/deflate.c > CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/deflate.c > CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/deflate.c -o CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/deflate.c -o CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o.requires
@@ -4401,17 +4401,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/deflate.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o: ../src/third_party/zlib/simd_stub.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_190)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_190)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/simd_stub.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/simd_stub.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/simd_stub.c > CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/simd_stub.c > CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/simd_stub.c -o CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/simd_stub.c -o CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o.requires
@@ -4424,17 +4424,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/simd_stub.c.o.provides.build: CMakeFile
 
 CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o: ../src/third_party/zlib/infback.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_191)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_191)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/infback.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/infback.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/infback.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/infback.c > CMakeFiles/quic.dir/src/third_party/zlib/infback.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/infback.c > CMakeFiles/quic.dir/src/third_party/zlib/infback.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/infback.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/infback.c -o CMakeFiles/quic.dir/src/third_party/zlib/infback.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/infback.c -o CMakeFiles/quic.dir/src/third_party/zlib/infback.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o.requires
@@ -4447,17 +4447,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/infback.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o: ../src/third_party/zlib/inffast.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_192)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_192)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/inffast.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inffast.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/inffast.c > CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inffast.c > CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/inffast.c -o CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inffast.c -o CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o.requires
@@ -4470,17 +4470,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/inffast.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o: ../src/third_party/zlib/inflate.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_193)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_193)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/inflate.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inflate.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/inflate.c > CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inflate.c > CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/inflate.c -o CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inflate.c -o CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o.requires
@@ -4493,17 +4493,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/inflate.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o: ../src/third_party/zlib/inftrees.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_194)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_194)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/inftrees.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inftrees.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/inftrees.c > CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inftrees.c > CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/inftrees.c -o CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/inftrees.c -o CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o.requires
@@ -4516,17 +4516,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/inftrees.c.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o: ../src/third_party/zlib/compress.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_195)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_195)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/compress.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/compress.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/compress.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/compress.c > CMakeFiles/quic.dir/src/third_party/zlib/compress.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/compress.c > CMakeFiles/quic.dir/src/third_party/zlib/compress.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/compress.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/compress.c -o CMakeFiles/quic.dir/src/third_party/zlib/compress.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/compress.c -o CMakeFiles/quic.dir/src/third_party/zlib/compress.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o.requires
@@ -4539,17 +4539,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/compress.c.o.provides.build: CMakeFiles
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o: ../src/third_party/zlib/gzclose.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_196)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_196)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/gzclose.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzclose.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/gzclose.c > CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzclose.c > CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/gzclose.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzclose.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o.requires
@@ -4562,17 +4562,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/gzclose.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o: ../src/third_party/zlib/adler32.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_197)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_197)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/adler32.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/adler32.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/adler32.c > CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/adler32.c > CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/adler32.c -o CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/adler32.c -o CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o.requires
@@ -4585,17 +4585,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/adler32.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o: ../src/third_party/zlib/gzlib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_198)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_198)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/gzlib.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzlib.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/gzlib.c > CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzlib.c > CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/gzlib.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzlib.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o.requires
@@ -4608,17 +4608,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/gzlib.c.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o: ../src/third_party/zlib/trees.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_199)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_199)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/trees.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/trees.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/trees.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/trees.c > CMakeFiles/quic.dir/src/third_party/zlib/trees.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/trees.c > CMakeFiles/quic.dir/src/third_party/zlib/trees.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/trees.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/trees.c -o CMakeFiles/quic.dir/src/third_party/zlib/trees.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/trees.c -o CMakeFiles/quic.dir/src/third_party/zlib/trees.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o.requires
@@ -4631,17 +4631,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/trees.c.o.provides.build: CMakeFiles/qu
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o: ../src/third_party/zlib/gzread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_200)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_200)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/gzread.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzread.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/gzread.c > CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzread.c > CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/gzread.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/gzread.c -o CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o.requires
@@ -4654,17 +4654,17 @@ CMakeFiles/quic.dir/src/third_party/zlib/gzread.c.o.provides.build: CMakeFiles/q
 
 CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o: CMakeFiles/quic.dir/flags.make
 CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o: ../src/third_party/zlib/uncompr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_201)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_201)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o   -c /root/yangyazhou/quic/libquic/src/third_party/zlib/uncompr.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/uncompr.c
 
 CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/src/third_party/zlib/uncompr.c > CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/uncompr.c > CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.i
 
 CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/src/third_party/zlib/uncompr.c -o CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/src/third_party/zlib/uncompr.c -o CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.s
 
 CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o.requires:
 .PHONY : CMakeFiles/quic.dir/src/third_party/zlib/uncompr.c.o.requires
@@ -5301,6 +5301,6 @@ CMakeFiles/quic.dir/clean:
 .PHONY : CMakeFiles/quic.dir/clean
 
 CMakeFiles/quic.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/CMakeFiles/quic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/quic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quic.dir/depend
 

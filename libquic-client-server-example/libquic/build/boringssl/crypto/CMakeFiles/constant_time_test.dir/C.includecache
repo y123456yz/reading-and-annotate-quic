@@ -38,9 +38,9 @@ openssl/stack_macros.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/constant_time_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/constant_time_test.c
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 limits.h
 -
 stdio.h
@@ -48,7 +48,7 @@ stdio.h
 stdlib.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 openssl/ex_data.h
 -
 

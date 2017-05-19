@@ -40,10 +40,11 @@ class QuicEpollConnectionHelper : public QuicConnectionHelperInterface {
   QuicRandom* GetRandomGenerator() override;
   QuicAlarm* CreateAlarm(QuicAlarm::Delegate* delegate) override;
 
+
   EpollServer* epoll_server() { return epoll_server_; }
 
  private:
-  friend class QuicConnectionPeer;
+ // friend class QuicConnectionPeer;
 
   EpollServer* epoll_server_;  // Not owned.
 

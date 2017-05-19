@@ -29,7 +29,7 @@ using std::string;
 
 namespace net {
 
-namespace {
+//namespace { //yang add change
 
 // Mask to select the lowest 48 bits of a sequence number.
 const QuicPacketSequenceNumber k6ByteSequenceNumberMask =
@@ -133,7 +133,7 @@ QuicSequenceNumberLength ReadSequenceNumberLength(uint8 flags) {
   }
 }
 
-}  // namespace
+//}  // namespace
 
 QuicFramer::QuicFramer(const QuicVersionVector& supported_versions,
                        QuicTime creation_time,

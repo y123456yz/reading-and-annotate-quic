@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/digest/digest.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digest.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/digest/digests.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digests.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digest.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digest.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digests.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digests.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

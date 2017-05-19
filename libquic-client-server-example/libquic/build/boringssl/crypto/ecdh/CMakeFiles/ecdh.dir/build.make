@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/flags.make
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o: boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/flags.make
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o: ../boringssl/crypto/ecdh/ecdh.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ecdh.dir/ecdh.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/ecdh/ecdh.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ecdh.dir/ecdh.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdh/ecdh.c
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecdh.dir/ecdh.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/ecdh/ecdh.c > CMakeFiles/ecdh.dir/ecdh.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdh/ecdh.c > CMakeFiles/ecdh.dir/ecdh.c.i
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecdh.dir/ecdh.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/ecdh/ecdh.c -o CMakeFiles/ecdh.dir/ecdh.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdh/ecdh.c -o CMakeFiles/ecdh.dir/ecdh.c.s
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o.requires:
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o.requires
@@ -87,10 +87,10 @@ boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/requires: boringssl/crypto/ecdh/CMakeF
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/requires
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh && $(CMAKE_COMMAND) -P CMakeFiles/ecdh.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh && $(CMAKE_COMMAND) -P CMakeFiles/ecdh.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/clean
 
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/ecdh /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdh /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/depend
 

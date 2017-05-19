@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/quic.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
 CMakeFiles/quic.dir/all:
 	$(MAKE) -f CMakeFiles/quic.dir/build.make CMakeFiles/quic.dir/depend
 	$(MAKE) -f CMakeFiles/quic.dir/build.make CMakeFiles/quic.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76
 	@echo "Built target quic"
 .PHONY : CMakeFiles/quic.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/quic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/quic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : CMakeFiles/quic.dir/rule
 
 # Convenience name for target.
@@ -248,7 +248,7 @@ boringssl/crypto/preinstall: boringssl/crypto/pkcs8/preinstall
 boringssl/crypto/CMakeFiles/constant_time_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/CMakeFiles/constant_time_test.dir/build.make boringssl/crypto/CMakeFiles/constant_time_test.dir/depend
 	$(MAKE) -f boringssl/crypto/CMakeFiles/constant_time_test.dir/build.make boringssl/crypto/CMakeFiles/constant_time_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target constant_time_test"
 .PHONY : boringssl/crypto/CMakeFiles/constant_time_test.dir/all
 
@@ -258,9 +258,9 @@ all: boringssl/crypto/CMakeFiles/constant_time_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/CMakeFiles/constant_time_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/CMakeFiles/constant_time_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/CMakeFiles/constant_time_test.dir/rule
 
 # Convenience name for target.
@@ -286,8 +286,8 @@ boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/err/CMakeFiles/err.
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/buf/CMakeFiles/buf.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/base64/CMakeFiles/base64.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
-boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/md4/CMakeFiles/md4.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/sha/CMakeFiles/sha.dir/all
+boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/md4/CMakeFiles/md4.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/md5/CMakeFiles/md5.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/modes/CMakeFiles/modes.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/aes/CMakeFiles/aes.dir/all
@@ -319,7 +319,7 @@ boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/x509v3/CMakeFiles/x
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/all
 	$(MAKE) -f boringssl/crypto/CMakeFiles/crypto.dir/build.make boringssl/crypto/CMakeFiles/crypto.dir/depend
 	$(MAKE) -f boringssl/crypto/CMakeFiles/crypto.dir/build.make boringssl/crypto/CMakeFiles/crypto.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  22 23
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  22 23
 	@echo "Built target crypto"
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/all
 
@@ -329,9 +329,9 @@ all: boringssl/crypto/CMakeFiles/crypto.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/CMakeFiles/crypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/CMakeFiles/crypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/rule
 
 # Convenience name for target.
@@ -369,7 +369,7 @@ boringssl/crypto/stack/preinstall:
 boringssl/crypto/stack/CMakeFiles/stack.dir/all:
 	$(MAKE) -f boringssl/crypto/stack/CMakeFiles/stack.dir/build.make boringssl/crypto/stack/CMakeFiles/stack.dir/depend
 	$(MAKE) -f boringssl/crypto/stack/CMakeFiles/stack.dir/build.make boringssl/crypto/stack/CMakeFiles/stack.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target stack"
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/all
 
@@ -379,9 +379,9 @@ all: boringssl/crypto/stack/CMakeFiles/stack.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/stack/CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/stack/CMakeFiles/stack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/rule
 
 # Convenience name for target.
@@ -421,7 +421,7 @@ boringssl/crypto/lhash/preinstall:
 boringssl/crypto/lhash/CMakeFiles/lhash.dir/all:
 	$(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/depend
 	$(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  33
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  33
 	@echo "Built target lhash"
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash.dir/all
 
@@ -431,9 +431,9 @@ all: boringssl/crypto/lhash/CMakeFiles/lhash.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
 
 # Convenience name for target.
@@ -456,7 +456,7 @@ clean: boringssl/crypto/lhash/CMakeFiles/lhash.dir/clean
 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/depend
 	$(MAKE) -f boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build.make boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target lhash_test"
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/all
 
@@ -466,9 +466,9 @@ all: boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/lhash/CMakeFiles/lhash_test.dir/rule
 
 # Convenience name for target.
@@ -508,7 +508,7 @@ boringssl/crypto/err/preinstall:
 boringssl/crypto/err/CMakeFiles/err.dir/all:
 	$(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/depend
 	$(MAKE) -f boringssl/crypto/err/CMakeFiles/err.dir/build.make boringssl/crypto/err/CMakeFiles/err.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  29
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  29
 	@echo "Built target err"
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/all
 
@@ -518,9 +518,9 @@ all: boringssl/crypto/err/CMakeFiles/err.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/err/CMakeFiles/err.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/rule
 
 # Convenience name for target.
@@ -543,7 +543,7 @@ clean: boringssl/crypto/err/CMakeFiles/err.dir/clean
 boringssl/crypto/err/CMakeFiles/err_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/depend
 	$(MAKE) -f boringssl/crypto/err/CMakeFiles/err_test.dir/build.make boringssl/crypto/err/CMakeFiles/err_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target err_test"
 .PHONY : boringssl/crypto/err/CMakeFiles/err_test.dir/all
 
@@ -553,9 +553,9 @@ all: boringssl/crypto/err/CMakeFiles/err_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/err/CMakeFiles/err_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/err/CMakeFiles/err_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/err/CMakeFiles/err_test.dir/rule
 
 # Convenience name for target.
@@ -593,7 +593,7 @@ boringssl/crypto/buf/preinstall:
 boringssl/crypto/buf/CMakeFiles/buf.dir/all:
 	$(MAKE) -f boringssl/crypto/buf/CMakeFiles/buf.dir/build.make boringssl/crypto/buf/CMakeFiles/buf.dir/depend
 	$(MAKE) -f boringssl/crypto/buf/CMakeFiles/buf.dir/build.make boringssl/crypto/buf/CMakeFiles/buf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target buf"
 .PHONY : boringssl/crypto/buf/CMakeFiles/buf.dir/all
 
@@ -603,9 +603,9 @@ all: boringssl/crypto/buf/CMakeFiles/buf.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/buf/CMakeFiles/buf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/buf/CMakeFiles/buf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/buf/CMakeFiles/buf.dir/rule
 
 # Convenience name for target.
@@ -645,7 +645,7 @@ boringssl/crypto/base64/preinstall:
 boringssl/crypto/base64/CMakeFiles/base64.dir/all:
 	$(MAKE) -f boringssl/crypto/base64/CMakeFiles/base64.dir/build.make boringssl/crypto/base64/CMakeFiles/base64.dir/depend
 	$(MAKE) -f boringssl/crypto/base64/CMakeFiles/base64.dir/build.make boringssl/crypto/base64/CMakeFiles/base64.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target base64"
 .PHONY : boringssl/crypto/base64/CMakeFiles/base64.dir/all
 
@@ -655,9 +655,9 @@ all: boringssl/crypto/base64/CMakeFiles/base64.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/base64/CMakeFiles/base64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/base64/CMakeFiles/base64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/base64/CMakeFiles/base64.dir/rule
 
 # Convenience name for target.
@@ -680,7 +680,7 @@ clean: boringssl/crypto/base64/CMakeFiles/base64.dir/clean
 boringssl/crypto/base64/CMakeFiles/base64_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/base64/CMakeFiles/base64_test.dir/build.make boringssl/crypto/base64/CMakeFiles/base64_test.dir/depend
 	$(MAKE) -f boringssl/crypto/base64/CMakeFiles/base64_test.dir/build.make boringssl/crypto/base64/CMakeFiles/base64_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target base64_test"
 .PHONY : boringssl/crypto/base64/CMakeFiles/base64_test.dir/all
 
@@ -690,9 +690,9 @@ all: boringssl/crypto/base64/CMakeFiles/base64_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/base64/CMakeFiles/base64_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/base64/CMakeFiles/base64_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/base64/CMakeFiles/base64_test.dir/rule
 
 # Convenience name for target.
@@ -732,7 +732,7 @@ boringssl/crypto/bytestring/preinstall:
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all:
 	$(MAKE) -f boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build.make boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/depend
 	$(MAKE) -f boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build.make boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target bytestring"
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
 
@@ -742,9 +742,9 @@ all: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/rule
 
 # Convenience name for target.
@@ -767,7 +767,7 @@ clean: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/clean
 boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/build.make boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/depend
 	$(MAKE) -f boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/build.make boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target bytestring_test"
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/all
 
@@ -777,9 +777,9 @@ all: boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/rule
 
 # Convenience name for target.
@@ -817,7 +817,7 @@ boringssl/crypto/sha/preinstall:
 boringssl/crypto/sha/CMakeFiles/sha.dir/all:
 	$(MAKE) -f boringssl/crypto/sha/CMakeFiles/sha.dir/build.make boringssl/crypto/sha/CMakeFiles/sha.dir/depend
 	$(MAKE) -f boringssl/crypto/sha/CMakeFiles/sha.dir/build.make boringssl/crypto/sha/CMakeFiles/sha.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  80
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  80
 	@echo "Built target sha"
 .PHONY : boringssl/crypto/sha/CMakeFiles/sha.dir/all
 
@@ -827,9 +827,9 @@ all: boringssl/crypto/sha/CMakeFiles/sha.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/sha/CMakeFiles/sha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/sha/CMakeFiles/sha.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/sha/CMakeFiles/sha.dir/rule
 
 # Convenience name for target.
@@ -867,7 +867,7 @@ boringssl/crypto/md4/preinstall:
 boringssl/crypto/md4/CMakeFiles/md4.dir/all:
 	$(MAKE) -f boringssl/crypto/md4/CMakeFiles/md4.dir/build.make boringssl/crypto/md4/CMakeFiles/md4.dir/depend
 	$(MAKE) -f boringssl/crypto/md4/CMakeFiles/md4.dir/build.make boringssl/crypto/md4/CMakeFiles/md4.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target md4"
 .PHONY : boringssl/crypto/md4/CMakeFiles/md4.dir/all
 
@@ -877,9 +877,9 @@ all: boringssl/crypto/md4/CMakeFiles/md4.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/md4/CMakeFiles/md4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/md4/CMakeFiles/md4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/md4/CMakeFiles/md4.dir/rule
 
 # Convenience name for target.
@@ -917,7 +917,7 @@ boringssl/crypto/md5/preinstall:
 boringssl/crypto/md5/CMakeFiles/md5.dir/all:
 	$(MAKE) -f boringssl/crypto/md5/CMakeFiles/md5.dir/build.make boringssl/crypto/md5/CMakeFiles/md5.dir/depend
 	$(MAKE) -f boringssl/crypto/md5/CMakeFiles/md5.dir/build.make boringssl/crypto/md5/CMakeFiles/md5.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target md5"
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/all
 
@@ -927,9 +927,9 @@ all: boringssl/crypto/md5/CMakeFiles/md5.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/md5/CMakeFiles/md5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/md5/CMakeFiles/md5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/md5/CMakeFiles/md5.dir/rule
 
 # Convenience name for target.
@@ -969,7 +969,7 @@ boringssl/crypto/modes/preinstall:
 boringssl/crypto/modes/CMakeFiles/gcm_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/modes/CMakeFiles/gcm_test.dir/build.make boringssl/crypto/modes/CMakeFiles/gcm_test.dir/depend
 	$(MAKE) -f boringssl/crypto/modes/CMakeFiles/gcm_test.dir/build.make boringssl/crypto/modes/CMakeFiles/gcm_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  32
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  32
 	@echo "Built target gcm_test"
 .PHONY : boringssl/crypto/modes/CMakeFiles/gcm_test.dir/all
 
@@ -979,9 +979,9 @@ all: boringssl/crypto/modes/CMakeFiles/gcm_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/modes/CMakeFiles/gcm_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/modes/CMakeFiles/gcm_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/modes/CMakeFiles/gcm_test.dir/rule
 
 # Convenience name for target.
@@ -1004,7 +1004,7 @@ clean: boringssl/crypto/modes/CMakeFiles/gcm_test.dir/clean
 boringssl/crypto/modes/CMakeFiles/modes.dir/all:
 	$(MAKE) -f boringssl/crypto/modes/CMakeFiles/modes.dir/build.make boringssl/crypto/modes/CMakeFiles/modes.dir/depend
 	$(MAKE) -f boringssl/crypto/modes/CMakeFiles/modes.dir/build.make boringssl/crypto/modes/CMakeFiles/modes.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  34 35
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  34 35
 	@echo "Built target modes"
 .PHONY : boringssl/crypto/modes/CMakeFiles/modes.dir/all
 
@@ -1014,9 +1014,9 @@ all: boringssl/crypto/modes/CMakeFiles/modes.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/modes/CMakeFiles/modes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/modes/CMakeFiles/modes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/modes/CMakeFiles/modes.dir/rule
 
 # Convenience name for target.
@@ -1054,7 +1054,7 @@ boringssl/crypto/aes/preinstall:
 boringssl/crypto/aes/CMakeFiles/aes.dir/all:
 	$(MAKE) -f boringssl/crypto/aes/CMakeFiles/aes.dir/build.make boringssl/crypto/aes/CMakeFiles/aes.dir/depend
 	$(MAKE) -f boringssl/crypto/aes/CMakeFiles/aes.dir/build.make boringssl/crypto/aes/CMakeFiles/aes.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  1
 	@echo "Built target aes"
 .PHONY : boringssl/crypto/aes/CMakeFiles/aes.dir/all
 
@@ -1064,9 +1064,9 @@ all: boringssl/crypto/aes/CMakeFiles/aes.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/aes/CMakeFiles/aes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/aes/CMakeFiles/aes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/aes/CMakeFiles/aes.dir/rule
 
 # Convenience name for target.
@@ -1104,7 +1104,7 @@ boringssl/crypto/des/preinstall:
 boringssl/crypto/des/CMakeFiles/des.dir/all:
 	$(MAKE) -f boringssl/crypto/des/CMakeFiles/des.dir/build.make boringssl/crypto/des/CMakeFiles/des.dir/depend
 	$(MAKE) -f boringssl/crypto/des/CMakeFiles/des.dir/build.make boringssl/crypto/des/CMakeFiles/des.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target des"
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/all
 
@@ -1114,9 +1114,9 @@ all: boringssl/crypto/des/CMakeFiles/des.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/des/CMakeFiles/des.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/des/CMakeFiles/des.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/rule
 
 # Convenience name for target.
@@ -1154,7 +1154,7 @@ boringssl/crypto/rc4/preinstall:
 boringssl/crypto/rc4/CMakeFiles/rc4.dir/all:
 	$(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/depend
 	$(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  78
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  78
 	@echo "Built target rc4"
 .PHONY : boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
 
@@ -1164,9 +1164,9 @@ all: boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # Convenience name for target.
@@ -1204,7 +1204,7 @@ boringssl/crypto/conf/preinstall:
 boringssl/crypto/conf/CMakeFiles/conf.dir/all:
 	$(MAKE) -f boringssl/crypto/conf/CMakeFiles/conf.dir/build.make boringssl/crypto/conf/CMakeFiles/conf.dir/depend
 	$(MAKE) -f boringssl/crypto/conf/CMakeFiles/conf.dir/build.make boringssl/crypto/conf/CMakeFiles/conf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target conf"
 .PHONY : boringssl/crypto/conf/CMakeFiles/conf.dir/all
 
@@ -1214,9 +1214,9 @@ all: boringssl/crypto/conf/CMakeFiles/conf.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/conf/CMakeFiles/conf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/conf/CMakeFiles/conf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/conf/CMakeFiles/conf.dir/rule
 
 # Convenience name for target.
@@ -1254,7 +1254,7 @@ boringssl/crypto/chacha/preinstall:
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/all:
 	$(MAKE) -f boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make boringssl/crypto/chacha/CMakeFiles/chacha.dir/depend
 	$(MAKE) -f boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make boringssl/crypto/chacha/CMakeFiles/chacha.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  19
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  19
 	@echo "Built target chacha"
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
 
@@ -1264,9 +1264,9 @@ all: boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
 
 # Convenience name for target.
@@ -1304,7 +1304,7 @@ boringssl/crypto/poly1305/preinstall:
 boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all:
 	$(MAKE) -f boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/depend
 	$(MAKE) -f boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target poly1305"
 .PHONY : boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all
 
@@ -1314,9 +1314,9 @@ all: boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
 
 # Convenience name for target.
@@ -1356,7 +1356,7 @@ boringssl/crypto/digest/preinstall:
 boringssl/crypto/digest/CMakeFiles/digest.dir/all:
 	$(MAKE) -f boringssl/crypto/digest/CMakeFiles/digest.dir/build.make boringssl/crypto/digest/CMakeFiles/digest.dir/depend
 	$(MAKE) -f boringssl/crypto/digest/CMakeFiles/digest.dir/build.make boringssl/crypto/digest/CMakeFiles/digest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target digest"
 .PHONY : boringssl/crypto/digest/CMakeFiles/digest.dir/all
 
@@ -1366,9 +1366,9 @@ all: boringssl/crypto/digest/CMakeFiles/digest.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/digest/CMakeFiles/digest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/digest/CMakeFiles/digest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/digest/CMakeFiles/digest.dir/rule
 
 # Convenience name for target.
@@ -1391,7 +1391,7 @@ clean: boringssl/crypto/digest/CMakeFiles/digest.dir/clean
 boringssl/crypto/digest/CMakeFiles/digest_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/digest/CMakeFiles/digest_test.dir/build.make boringssl/crypto/digest/CMakeFiles/digest_test.dir/depend
 	$(MAKE) -f boringssl/crypto/digest/CMakeFiles/digest_test.dir/build.make boringssl/crypto/digest/CMakeFiles/digest_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target digest_test"
 .PHONY : boringssl/crypto/digest/CMakeFiles/digest_test.dir/all
 
@@ -1401,9 +1401,9 @@ all: boringssl/crypto/digest/CMakeFiles/digest_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/digest/CMakeFiles/digest_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/digest/CMakeFiles/digest_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/digest/CMakeFiles/digest_test.dir/rule
 
 # Convenience name for target.
@@ -1445,7 +1445,7 @@ boringssl/crypto/cipher/preinstall:
 boringssl/crypto/cipher/CMakeFiles/aead_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/aead_test.dir/build.make boringssl/crypto/cipher/CMakeFiles/aead_test.dir/depend
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/aead_test.dir/build.make boringssl/crypto/cipher/CMakeFiles/aead_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target aead_test"
 .PHONY : boringssl/crypto/cipher/CMakeFiles/aead_test.dir/all
 
@@ -1455,9 +1455,9 @@ all: boringssl/crypto/cipher/CMakeFiles/aead_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/cipher/CMakeFiles/aead_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/cipher/CMakeFiles/aead_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/cipher/CMakeFiles/aead_test.dir/rule
 
 # Convenience name for target.
@@ -1480,7 +1480,7 @@ clean: boringssl/crypto/cipher/CMakeFiles/aead_test.dir/clean
 boringssl/crypto/cipher/CMakeFiles/cipher.dir/all:
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/cipher.dir/build.make boringssl/crypto/cipher/CMakeFiles/cipher.dir/depend
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/cipher.dir/build.make boringssl/crypto/cipher/CMakeFiles/cipher.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  20 21
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  20 21
 	@echo "Built target cipher"
 .PHONY : boringssl/crypto/cipher/CMakeFiles/cipher.dir/all
 
@@ -1490,9 +1490,9 @@ all: boringssl/crypto/cipher/CMakeFiles/cipher.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/cipher/CMakeFiles/cipher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/cipher/CMakeFiles/cipher.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/cipher/CMakeFiles/cipher.dir/rule
 
 # Convenience name for target.
@@ -1515,7 +1515,7 @@ clean: boringssl/crypto/cipher/CMakeFiles/cipher.dir/clean
 boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/build.make boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/depend
 	$(MAKE) -f boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/build.make boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target cipher_test"
 .PHONY : boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/all
 
@@ -1525,9 +1525,9 @@ all: boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/cipher/CMakeFiles/cipher_test.dir/rule
 
 # Convenience name for target.
@@ -1565,7 +1565,7 @@ boringssl/crypto/rand/preinstall:
 boringssl/crypto/rand/CMakeFiles/rand.dir/all:
 	$(MAKE) -f boringssl/crypto/rand/CMakeFiles/rand.dir/build.make boringssl/crypto/rand/CMakeFiles/rand.dir/depend
 	$(MAKE) -f boringssl/crypto/rand/CMakeFiles/rand.dir/build.make boringssl/crypto/rand/CMakeFiles/rand.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  77
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  77
 	@echo "Built target rand"
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/all
 
@@ -1575,9 +1575,9 @@ all: boringssl/crypto/rand/CMakeFiles/rand.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/rand/CMakeFiles/rand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rand/CMakeFiles/rand.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/rule
 
 # Convenience name for target.
@@ -1617,7 +1617,7 @@ boringssl/crypto/bio/preinstall:
 boringssl/crypto/bio/CMakeFiles/bio.dir/all:
 	$(MAKE) -f boringssl/crypto/bio/CMakeFiles/bio.dir/build.make boringssl/crypto/bio/CMakeFiles/bio.dir/depend
 	$(MAKE) -f boringssl/crypto/bio/CMakeFiles/bio.dir/build.make boringssl/crypto/bio/CMakeFiles/bio.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  9 10
 	@echo "Built target bio"
 .PHONY : boringssl/crypto/bio/CMakeFiles/bio.dir/all
 
@@ -1627,9 +1627,9 @@ all: boringssl/crypto/bio/CMakeFiles/bio.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bio/CMakeFiles/bio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bio/CMakeFiles/bio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bio/CMakeFiles/bio.dir/rule
 
 # Convenience name for target.
@@ -1652,7 +1652,7 @@ clean: boringssl/crypto/bio/CMakeFiles/bio.dir/clean
 boringssl/crypto/bio/CMakeFiles/bio_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/bio/CMakeFiles/bio_test.dir/build.make boringssl/crypto/bio/CMakeFiles/bio_test.dir/depend
 	$(MAKE) -f boringssl/crypto/bio/CMakeFiles/bio_test.dir/build.make boringssl/crypto/bio/CMakeFiles/bio_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target bio_test"
 .PHONY : boringssl/crypto/bio/CMakeFiles/bio_test.dir/all
 
@@ -1662,9 +1662,9 @@ all: boringssl/crypto/bio/CMakeFiles/bio_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bio/CMakeFiles/bio_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bio/CMakeFiles/bio_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bio/CMakeFiles/bio_test.dir/rule
 
 # Convenience name for target.
@@ -1704,7 +1704,7 @@ boringssl/crypto/bn/preinstall:
 boringssl/crypto/bn/CMakeFiles/bn.dir/all:
 	$(MAKE) -f boringssl/crypto/bn/CMakeFiles/bn.dir/build.make boringssl/crypto/bn/CMakeFiles/bn.dir/depend
 	$(MAKE) -f boringssl/crypto/bn/CMakeFiles/bn.dir/build.make boringssl/crypto/bn/CMakeFiles/bn.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  11 12 13 14 15
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  11 12 13 14 15
 	@echo "Built target bn"
 .PHONY : boringssl/crypto/bn/CMakeFiles/bn.dir/all
 
@@ -1714,9 +1714,9 @@ all: boringssl/crypto/bn/CMakeFiles/bn.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bn/CMakeFiles/bn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bn/CMakeFiles/bn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bn/CMakeFiles/bn.dir/rule
 
 # Convenience name for target.
@@ -1739,7 +1739,7 @@ clean: boringssl/crypto/bn/CMakeFiles/bn.dir/clean
 boringssl/crypto/bn/CMakeFiles/bn_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/bn/CMakeFiles/bn_test.dir/build.make boringssl/crypto/bn/CMakeFiles/bn_test.dir/depend
 	$(MAKE) -f boringssl/crypto/bn/CMakeFiles/bn_test.dir/build.make boringssl/crypto/bn/CMakeFiles/bn_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target bn_test"
 .PHONY : boringssl/crypto/bn/CMakeFiles/bn_test.dir/all
 
@@ -1749,9 +1749,9 @@ all: boringssl/crypto/bn/CMakeFiles/bn_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/bn/CMakeFiles/bn_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/bn/CMakeFiles/bn_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/bn/CMakeFiles/bn_test.dir/rule
 
 # Convenience name for target.
@@ -1789,7 +1789,7 @@ boringssl/crypto/obj/preinstall:
 boringssl/crypto/obj/CMakeFiles/obj.dir/all:
 	$(MAKE) -f boringssl/crypto/obj/CMakeFiles/obj.dir/build.make boringssl/crypto/obj/CMakeFiles/obj.dir/depend
 	$(MAKE) -f boringssl/crypto/obj/CMakeFiles/obj.dir/build.make boringssl/crypto/obj/CMakeFiles/obj.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target obj"
 .PHONY : boringssl/crypto/obj/CMakeFiles/obj.dir/all
 
@@ -1799,9 +1799,9 @@ all: boringssl/crypto/obj/CMakeFiles/obj.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/obj/CMakeFiles/obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/obj/CMakeFiles/obj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/obj/CMakeFiles/obj.dir/rule
 
 # Convenience name for target.
@@ -1839,7 +1839,7 @@ boringssl/crypto/asn1/preinstall:
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/all:
 	$(MAKE) -f boringssl/crypto/asn1/CMakeFiles/asn1.dir/build.make boringssl/crypto/asn1/CMakeFiles/asn1.dir/depend
 	$(MAKE) -f boringssl/crypto/asn1/CMakeFiles/asn1.dir/build.make boringssl/crypto/asn1/CMakeFiles/asn1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  2 3 4 5 6 7 8
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  2 3 4 5 6 7 8
 	@echo "Built target asn1"
 .PHONY : boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
 
@@ -1849,9 +1849,9 @@ all: boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/asn1/CMakeFiles/asn1.dir/rule
 
 # Convenience name for target.
@@ -1889,7 +1889,7 @@ boringssl/crypto/engine/preinstall:
 boringssl/crypto/engine/CMakeFiles/engine.dir/all:
 	$(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/depend
 	$(MAKE) -f boringssl/crypto/engine/CMakeFiles/engine.dir/build.make boringssl/crypto/engine/CMakeFiles/engine.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target engine"
 .PHONY : boringssl/crypto/engine/CMakeFiles/engine.dir/all
 
@@ -1899,9 +1899,9 @@ all: boringssl/crypto/engine/CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/engine/CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/engine/CMakeFiles/engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/engine/CMakeFiles/engine.dir/rule
 
 # Convenience name for target.
@@ -1941,7 +1941,7 @@ boringssl/crypto/dh/preinstall:
 boringssl/crypto/dh/CMakeFiles/dh.dir/all:
 	$(MAKE) -f boringssl/crypto/dh/CMakeFiles/dh.dir/build.make boringssl/crypto/dh/CMakeFiles/dh.dir/depend
 	$(MAKE) -f boringssl/crypto/dh/CMakeFiles/dh.dir/build.make boringssl/crypto/dh/CMakeFiles/dh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  24
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  24
 	@echo "Built target dh"
 .PHONY : boringssl/crypto/dh/CMakeFiles/dh.dir/all
 
@@ -1951,9 +1951,9 @@ all: boringssl/crypto/dh/CMakeFiles/dh.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/dh/CMakeFiles/dh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/dh/CMakeFiles/dh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/dh/CMakeFiles/dh.dir/rule
 
 # Convenience name for target.
@@ -1976,7 +1976,7 @@ clean: boringssl/crypto/dh/CMakeFiles/dh.dir/clean
 boringssl/crypto/dh/CMakeFiles/dh_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/dh/CMakeFiles/dh_test.dir/build.make boringssl/crypto/dh/CMakeFiles/dh_test.dir/depend
 	$(MAKE) -f boringssl/crypto/dh/CMakeFiles/dh_test.dir/build.make boringssl/crypto/dh/CMakeFiles/dh_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  25
 	@echo "Built target dh_test"
 .PHONY : boringssl/crypto/dh/CMakeFiles/dh_test.dir/all
 
@@ -1986,9 +1986,9 @@ all: boringssl/crypto/dh/CMakeFiles/dh_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/dh/CMakeFiles/dh_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/dh/CMakeFiles/dh_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/dh/CMakeFiles/dh_test.dir/rule
 
 # Convenience name for target.
@@ -2028,7 +2028,7 @@ boringssl/crypto/dsa/preinstall:
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/all:
 	$(MAKE) -f boringssl/crypto/dsa/CMakeFiles/dsa.dir/build.make boringssl/crypto/dsa/CMakeFiles/dsa.dir/depend
 	$(MAKE) -f boringssl/crypto/dsa/CMakeFiles/dsa.dir/build.make boringssl/crypto/dsa/CMakeFiles/dsa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  26
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  26
 	@echo "Built target dsa"
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/all
 
@@ -2038,9 +2038,9 @@ all: boringssl/crypto/dsa/CMakeFiles/dsa.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/dsa/CMakeFiles/dsa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/rule
 
 # Convenience name for target.
@@ -2063,7 +2063,7 @@ clean: boringssl/crypto/dsa/CMakeFiles/dsa.dir/clean
 boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/build.make boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/depend
 	$(MAKE) -f boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/build.make boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target dsa_test"
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/all
 
@@ -2073,9 +2073,9 @@ all: boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/rule
 
 # Convenience name for target.
@@ -2115,7 +2115,7 @@ boringssl/crypto/rsa/preinstall:
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/all:
 	$(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/depend
 	$(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  79
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  79
 	@echo "Built target rsa"
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/all
 
@@ -2125,9 +2125,9 @@ all: boringssl/crypto/rsa/CMakeFiles/rsa.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule
 
 # Convenience name for target.
@@ -2150,7 +2150,7 @@ clean: boringssl/crypto/rsa/CMakeFiles/rsa.dir/clean
 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/depend
 	$(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target rsa_test"
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/all
 
@@ -2160,9 +2160,9 @@ all: boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule
 
 # Convenience name for target.
@@ -2204,7 +2204,7 @@ boringssl/crypto/ec/preinstall:
 boringssl/crypto/ec/CMakeFiles/ec.dir/all:
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/ec.dir/build.make boringssl/crypto/ec/CMakeFiles/ec.dir/depend
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/ec.dir/build.make boringssl/crypto/ec/CMakeFiles/ec.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  27
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  27
 	@echo "Built target ec"
 .PHONY : boringssl/crypto/ec/CMakeFiles/ec.dir/all
 
@@ -2214,9 +2214,9 @@ all: boringssl/crypto/ec/CMakeFiles/ec.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ec/CMakeFiles/ec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ec/CMakeFiles/ec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ec/CMakeFiles/ec.dir/rule
 
 # Convenience name for target.
@@ -2239,7 +2239,7 @@ clean: boringssl/crypto/ec/CMakeFiles/ec.dir/clean
 boringssl/crypto/ec/CMakeFiles/ec_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/ec_test.dir/build.make boringssl/crypto/ec/CMakeFiles/ec_test.dir/depend
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/ec_test.dir/build.make boringssl/crypto/ec/CMakeFiles/ec_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target ec_test"
 .PHONY : boringssl/crypto/ec/CMakeFiles/ec_test.dir/all
 
@@ -2249,9 +2249,9 @@ all: boringssl/crypto/ec/CMakeFiles/ec_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ec/CMakeFiles/ec_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ec/CMakeFiles/ec_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ec/CMakeFiles/ec_test.dir/rule
 
 # Convenience name for target.
@@ -2274,7 +2274,7 @@ clean: boringssl/crypto/ec/CMakeFiles/ec_test.dir/clean
 boringssl/crypto/ec/CMakeFiles/example_mul.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/example_mul.dir/build.make boringssl/crypto/ec/CMakeFiles/example_mul.dir/depend
 	$(MAKE) -f boringssl/crypto/ec/CMakeFiles/example_mul.dir/build.make boringssl/crypto/ec/CMakeFiles/example_mul.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target example_mul"
 .PHONY : boringssl/crypto/ec/CMakeFiles/example_mul.dir/all
 
@@ -2284,9 +2284,9 @@ all: boringssl/crypto/ec/CMakeFiles/example_mul.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ec/CMakeFiles/example_mul.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ec/CMakeFiles/example_mul.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ec/CMakeFiles/example_mul.dir/rule
 
 # Convenience name for target.
@@ -2324,7 +2324,7 @@ boringssl/crypto/ecdh/preinstall:
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all:
 	$(MAKE) -f boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build.make boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/depend
 	$(MAKE) -f boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build.make boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target ecdh"
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all
 
@@ -2334,9 +2334,9 @@ all: boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/rule
 
 # Convenience name for target.
@@ -2376,7 +2376,7 @@ boringssl/crypto/ecdsa/preinstall:
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/all:
 	$(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/depend
 	$(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  28
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  28
 	@echo "Built target ecdsa"
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/all
 
@@ -2386,9 +2386,9 @@ all: boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule
 
 # Convenience name for target.
@@ -2411,7 +2411,7 @@ clean: boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/clean
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/depend
 	$(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target ecdsa_test"
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/all
 
@@ -2421,9 +2421,9 @@ all: boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule
 
 # Convenience name for target.
@@ -2463,7 +2463,7 @@ boringssl/crypto/hmac/preinstall:
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/all:
 	$(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/depend
 	$(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target hmac"
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/all
 
@@ -2473,9 +2473,9 @@ all: boringssl/crypto/hmac/CMakeFiles/hmac.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule
 
 # Convenience name for target.
@@ -2498,7 +2498,7 @@ clean: boringssl/crypto/hmac/CMakeFiles/hmac.dir/clean
 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/depend
 	$(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target hmac_test"
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/all
 
@@ -2508,9 +2508,9 @@ all: boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule
 
 # Convenience name for target.
@@ -2552,7 +2552,7 @@ boringssl/crypto/evp/preinstall:
 boringssl/crypto/evp/CMakeFiles/evp.dir/all:
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/depend
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  30 31
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  30 31
 	@echo "Built target evp"
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp.dir/all
 
@@ -2562,9 +2562,9 @@ all: boringssl/crypto/evp/CMakeFiles/evp.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/evp/CMakeFiles/evp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp.dir/rule
 
 # Convenience name for target.
@@ -2587,7 +2587,7 @@ clean: boringssl/crypto/evp/CMakeFiles/evp.dir/clean
 boringssl/crypto/evp/CMakeFiles/evp_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/depend
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target evp_test"
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp_test.dir/all
 
@@ -2597,9 +2597,9 @@ all: boringssl/crypto/evp/CMakeFiles/evp_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule
 
 # Convenience name for target.
@@ -2622,7 +2622,7 @@ clean: boringssl/crypto/evp/CMakeFiles/evp_test.dir/clean
 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/depend
 	$(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  36
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  36
 	@echo "Built target pbkdf_test"
 .PHONY : boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/all
 
@@ -2632,9 +2632,9 @@ all: boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule
 
 # Convenience name for target.
@@ -2674,7 +2674,7 @@ boringssl/crypto/hkdf/preinstall:
 boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all:
 	$(MAKE) -f boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build.make boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/depend
 	$(MAKE) -f boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build.make boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target hkdf"
 .PHONY : boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all
 
@@ -2684,9 +2684,9 @@ all: boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/rule
 
 # Convenience name for target.
@@ -2709,7 +2709,7 @@ clean: boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/clean
 boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/build.make boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/depend
 	$(MAKE) -f boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/build.make boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target hkdf_test"
 .PHONY : boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/all
 
@@ -2719,9 +2719,9 @@ all: boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/hkdf/CMakeFiles/hkdf_test.dir/rule
 
 # Convenience name for target.
@@ -2759,7 +2759,7 @@ boringssl/crypto/pem/preinstall:
 boringssl/crypto/pem/CMakeFiles/pem.dir/all:
 	$(MAKE) -f boringssl/crypto/pem/CMakeFiles/pem.dir/build.make boringssl/crypto/pem/CMakeFiles/pem.dir/depend
 	$(MAKE) -f boringssl/crypto/pem/CMakeFiles/pem.dir/build.make boringssl/crypto/pem/CMakeFiles/pem.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  37
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  37
 	@echo "Built target pem"
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/all
 
@@ -2769,9 +2769,9 @@ all: boringssl/crypto/pem/CMakeFiles/pem.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/pem/CMakeFiles/pem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pem/CMakeFiles/pem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/rule
 
 # Convenience name for target.
@@ -2811,7 +2811,7 @@ boringssl/crypto/x509/preinstall:
 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/depend
 	$(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target pkcs7_test"
 .PHONY : boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/all
 
@@ -2821,9 +2821,9 @@ all: boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule
 
 # Convenience name for target.
@@ -2846,7 +2846,7 @@ clean: boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/clean
 boringssl/crypto/x509/CMakeFiles/x509.dir/all:
 	$(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/depend
 	$(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  87 88 89 90 91 92 93 94
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  87 88 89 90 91 92 93 94
 	@echo "Built target x509"
 .PHONY : boringssl/crypto/x509/CMakeFiles/x509.dir/all
 
@@ -2856,9 +2856,9 @@ all: boringssl/crypto/x509/CMakeFiles/x509.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/x509/CMakeFiles/x509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/x509.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/x509/CMakeFiles/x509.dir/rule
 
 # Convenience name for target.
@@ -2900,7 +2900,7 @@ boringssl/crypto/x509v3/preinstall:
 boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/build.make boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/depend
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/build.make boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target tab_test"
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/all
 
@@ -2910,9 +2910,9 @@ all: boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/rule
 
 # Convenience name for target.
@@ -2935,7 +2935,7 @@ clean: boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/clean
 boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/build.make boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/depend
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/build.make boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  86
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  86
 	@echo "Built target v3name_test"
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/all
 
@@ -2945,9 +2945,9 @@ all: boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/rule
 
 # Convenience name for target.
@@ -2970,7 +2970,7 @@ clean: boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/clean
 boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all:
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build.make boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/depend
 	$(MAKE) -f boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build.make boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  95 96 97 98 99 100
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  95 96 97 98 99 100
 	@echo "Built target x509v3"
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all
 
@@ -2980,9 +2980,9 @@ all: boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/rule
 
 # Convenience name for target.
@@ -3022,7 +3022,7 @@ boringssl/crypto/pkcs8/preinstall:
 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/depend
 	$(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target pkcs12_test"
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/all
 
@@ -3032,9 +3032,9 @@ all: boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 50
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/rule
 
 # Convenience name for target.
@@ -3057,7 +3057,7 @@ clean: boringssl/crypto/pkcs8/CMakeFiles/pkcs12_test.dir/clean
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/all:
 	$(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/depend
 	$(MAKE) -f boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build.make boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  38
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  38
 	@echo "Built target pkcs8"
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/all
 
@@ -3067,9 +3067,9 @@ all: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/rule
 
 # Convenience name for target.
@@ -3111,7 +3111,7 @@ boringssl/ssl/preinstall: boringssl/ssl/pqueue/preinstall
 boringssl/ssl/CMakeFiles/ssl.dir/all: boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/all
 	$(MAKE) -f boringssl/ssl/CMakeFiles/ssl.dir/build.make boringssl/ssl/CMakeFiles/ssl.dir/depend
 	$(MAKE) -f boringssl/ssl/CMakeFiles/ssl.dir/build.make boringssl/ssl/CMakeFiles/ssl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  81 82 83 84 85
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  81 82 83 84 85
 	@echo "Built target ssl"
 .PHONY : boringssl/ssl/CMakeFiles/ssl.dir/all
 
@@ -3121,9 +3121,9 @@ all: boringssl/ssl/CMakeFiles/ssl.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/ssl/CMakeFiles/ssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/ssl/CMakeFiles/ssl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/ssl/CMakeFiles/ssl.dir/rule
 
 # Convenience name for target.
@@ -3147,7 +3147,7 @@ boringssl/ssl/CMakeFiles/ssl_test.dir/all: boringssl/crypto/CMakeFiles/crypto.di
 boringssl/ssl/CMakeFiles/ssl_test.dir/all: boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f boringssl/ssl/CMakeFiles/ssl_test.dir/build.make boringssl/ssl/CMakeFiles/ssl_test.dir/depend
 	$(MAKE) -f boringssl/ssl/CMakeFiles/ssl_test.dir/build.make boringssl/ssl/CMakeFiles/ssl_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target ssl_test"
 .PHONY : boringssl/ssl/CMakeFiles/ssl_test.dir/all
 
@@ -3157,9 +3157,9 @@ all: boringssl/ssl/CMakeFiles/ssl_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/ssl/CMakeFiles/ssl_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/ssl/CMakeFiles/ssl_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/ssl/CMakeFiles/ssl_test.dir/rule
 
 # Convenience name for target.
@@ -3199,7 +3199,7 @@ boringssl/ssl/pqueue/preinstall:
 boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/all:
 	$(MAKE) -f boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/build.make boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/depend
 	$(MAKE) -f boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/build.make boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  39
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  39
 	@echo "Built target pqueue"
 .PHONY : boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/all
 
@@ -3209,9 +3209,9 @@ all: boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/rule
 
 # Convenience name for target.
@@ -3235,7 +3235,7 @@ boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/all: boringssl/crypto/CMakeFiles
 boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/all: boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/build.make boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/depend
 	$(MAKE) -f boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/build.make boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 
 	@echo "Built target pqueue_test"
 .PHONY : boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/all
 
@@ -3245,9 +3245,9 @@ all: boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 56
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/rule
 
 # Convenience name for target.
@@ -3286,7 +3286,7 @@ boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all: boringssl/crypto/CMakeFiles/cry
 boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all: boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build.make boringssl/ssl/test/CMakeFiles/bssl_shim.dir/depend
 	$(MAKE) -f boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build.make boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  18
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  18
 	@echo "Built target bssl_shim"
 .PHONY : boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
 
@@ -3296,9 +3296,9 @@ all: boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/ssl/test/CMakeFiles/bssl_shim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 57
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/ssl/test/CMakeFiles/bssl_shim.dir/rule
 
 # Convenience name for target.
@@ -3337,7 +3337,7 @@ boringssl/tool/CMakeFiles/bssl.dir/all: boringssl/crypto/CMakeFiles/crypto.dir/a
 boringssl/tool/CMakeFiles/bssl.dir/all: boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/depend
 	$(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  16 17
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  16 17
 	@echo "Built target bssl"
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/all
 
@@ -3347,9 +3347,9 @@ all: boringssl/tool/CMakeFiles/bssl.dir/all
 
 # Build rule for subdir invocation for target.
 boringssl/tool/CMakeFiles/bssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/CMakeFiles/bssl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/rule
 
 # Convenience name for target.
@@ -3387,7 +3387,7 @@ protobuf/preinstall:
 protobuf/CMakeFiles/protobuf.dir/all:
 	$(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/depend
 	$(MAKE) -f protobuf/CMakeFiles/protobuf.dir/build.make protobuf/CMakeFiles/protobuf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles  40 41
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles  40 41
 	@echo "Built target protobuf"
 .PHONY : protobuf/CMakeFiles/protobuf.dir/all
 
@@ -3397,9 +3397,9 @@ all: protobuf/CMakeFiles/protobuf.dir/all
 
 # Build rule for subdir invocation for target.
 protobuf/CMakeFiles/protobuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 protobuf/CMakeFiles/protobuf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : protobuf/CMakeFiles/protobuf.dir/rule
 
 # Convenience name for target.

@@ -5,16 +5,16 @@ boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/rand.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/rand/rand.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/rand.c
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/mem.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/rand.h
  ../boringssl/include/openssl/thread.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/rand/urandom.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/urandom.c
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/rand.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/rand/windows.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/windows.c

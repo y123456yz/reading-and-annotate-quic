@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ ecdsa: boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/rule
 
 # fast build rule for target.
 ecdsa/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build
 .PHONY : ecdsa/fast
 
 # Convenience name for target.
 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule
 .PHONY : boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ ecdsa_test: boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/rule
 
 # fast build rule for target.
 ecdsa_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build
 .PHONY : ecdsa_test/fast
 
 ecdsa.o: ecdsa.c.o
@@ -134,7 +134,7 @@ ecdsa.o: ecdsa.c.o
 
 # target to build an object file
 ecdsa.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.o
 .PHONY : ecdsa.c.o
 
 ecdsa.i: ecdsa.c.i
@@ -142,7 +142,7 @@ ecdsa.i: ecdsa.c.i
 
 # target to preprocess a source file
 ecdsa.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.i
 .PHONY : ecdsa.c.i
 
 ecdsa.s: ecdsa.c.s
@@ -150,7 +150,7 @@ ecdsa.s: ecdsa.c.s
 
 # target to generate assembly for a file
 ecdsa.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.s
 .PHONY : ecdsa.c.s
 
 ecdsa_asn1.o: ecdsa_asn1.c.o
@@ -158,7 +158,7 @@ ecdsa_asn1.o: ecdsa_asn1.c.o
 
 # target to build an object file
 ecdsa_asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.o
 .PHONY : ecdsa_asn1.c.o
 
 ecdsa_asn1.i: ecdsa_asn1.c.i
@@ -166,7 +166,7 @@ ecdsa_asn1.i: ecdsa_asn1.c.i
 
 # target to preprocess a source file
 ecdsa_asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.i
 .PHONY : ecdsa_asn1.c.i
 
 ecdsa_asn1.s: ecdsa_asn1.c.s
@@ -174,7 +174,7 @@ ecdsa_asn1.s: ecdsa_asn1.c.s
 
 # target to generate assembly for a file
 ecdsa_asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.s
 .PHONY : ecdsa_asn1.c.s
 
 ecdsa_test.o: ecdsa_test.c.o
@@ -182,7 +182,7 @@ ecdsa_test.o: ecdsa_test.c.o
 
 # target to build an object file
 ecdsa_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.o
 .PHONY : ecdsa_test.c.o
 
 ecdsa_test.i: ecdsa_test.c.i
@@ -190,7 +190,7 @@ ecdsa_test.i: ecdsa_test.c.i
 
 # target to preprocess a source file
 ecdsa_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.i
 .PHONY : ecdsa_test.c.i
 
 ecdsa_test.s: ecdsa_test.c.s
@@ -198,7 +198,7 @@ ecdsa_test.s: ecdsa_test.c.s
 
 # target to generate assembly for a file
 ecdsa_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/build.make boringssl/crypto/ecdsa/CMakeFiles/ecdsa_test.dir/ecdsa_test.c.s
 .PHONY : ecdsa_test.c.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

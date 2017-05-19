@@ -38,7 +38,7 @@ openssl/stack_macros.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/stack/stack.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/stack/stack.c
 openssl/stack.h
 -
 string.h

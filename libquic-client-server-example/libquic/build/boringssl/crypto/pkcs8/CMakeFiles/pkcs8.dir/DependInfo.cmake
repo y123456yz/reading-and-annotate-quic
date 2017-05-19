@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbe.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbev2.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p8_pkey.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/pkcs8.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbe.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbev2.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p8_pkey.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/pkcs8.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

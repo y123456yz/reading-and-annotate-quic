@@ -11,6 +11,6 @@ boringssl/crypto/bytestring/CMakeFiles/bytestring_test.dir/bytestring_test.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/../internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/bytestring_test.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/../internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/bytestring_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/internal.h

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/err/CMakeFiles/err.dir/depend.make
@@ -76,23 +76,23 @@ boringssl/crypto/err/err_data.c: ../boringssl/crypto/err/rsa.errordata
 boringssl/crypto/err/err_data.c: ../boringssl/crypto/err/ssl.errordata
 boringssl/crypto/err/err_data.c: ../boringssl/crypto/err/x509.errordata
 boringssl/crypto/err/err_data.c: ../boringssl/crypto/err/x509v3.errordata
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating err_data.c"
-	cd /root/yangyazhou/quic/libquic/boringssl/crypto/err && /usr/bin/go run err_data_generate.go > /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err && /usr/bin/go run err_data_generate.go > /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c
 
 boringssl/crypto/err/CMakeFiles/err.dir/err.c.o: boringssl/crypto/err/CMakeFiles/err.dir/flags.make
 boringssl/crypto/err/CMakeFiles/err.dir/err.c.o: ../boringssl/crypto/err/err.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/err/CMakeFiles/err.dir/err.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/err/err.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c
 
 boringssl/crypto/err/CMakeFiles/err.dir/err.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/err.dir/err.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/err/err.c > CMakeFiles/err.dir/err.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c > CMakeFiles/err.dir/err.c.i
 
 boringssl/crypto/err/CMakeFiles/err.dir/err.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/err.dir/err.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/err/err.c -o CMakeFiles/err.dir/err.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c -o CMakeFiles/err.dir/err.c.s
 
 boringssl/crypto/err/CMakeFiles/err.dir/err.c.o.requires:
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/err.c.o.requires
@@ -105,17 +105,17 @@ boringssl/crypto/err/CMakeFiles/err.dir/err.c.o.provides.build: boringssl/crypto
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o: boringssl/crypto/err/CMakeFiles/err.dir/flags.make
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o: boringssl/crypto/err/err_data.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err_data.c.o   -c /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err_data.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/err.dir/err_data.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c > CMakeFiles/err.dir/err_data.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c > CMakeFiles/err.dir/err_data.c.i
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/err.dir/err_data.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c -o CMakeFiles/err.dir/err_data.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c -o CMakeFiles/err.dir/err_data.c.s
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o.requires:
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o.requires
@@ -128,17 +128,17 @@ boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o.provides.build: boringssl/c
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o: boringssl/crypto/err/CMakeFiles/err.dir/flags.make
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o: ../boringssl/crypto/err/err_impl.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err_impl.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/err/err_impl.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/err.dir/err_impl.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/err.dir/err_impl.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/err/err_impl.c > CMakeFiles/err.dir/err_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c > CMakeFiles/err.dir/err_impl.c.i
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/err.dir/err_impl.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/err/err_impl.c -o CMakeFiles/err.dir/err_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c -o CMakeFiles/err.dir/err_impl.c.s
 
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o.requires:
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o.requires
@@ -165,10 +165,10 @@ boringssl/crypto/err/CMakeFiles/err.dir/requires: boringssl/crypto/err/CMakeFile
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/requires
 
 boringssl/crypto/err/CMakeFiles/err.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/err && $(CMAKE_COMMAND) -P CMakeFiles/err.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err && $(CMAKE_COMMAND) -P CMakeFiles/err.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/clean
 
 boringssl/crypto/err/CMakeFiles/err.dir/depend: boringssl/crypto/err/err_data.c
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/err /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/err /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/err/CMakeFiles/err.dir/depend
 

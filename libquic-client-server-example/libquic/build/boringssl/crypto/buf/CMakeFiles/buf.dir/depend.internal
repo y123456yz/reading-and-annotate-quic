@@ -11,4 +11,4 @@ boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/buf/buf.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/buf/buf.c

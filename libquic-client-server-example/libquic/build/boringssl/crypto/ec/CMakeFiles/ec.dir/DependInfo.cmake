@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_asn1.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_key.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_montgomery.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/oct.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/simple.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/ec/wnaf.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_asn1.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_key.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_montgomery.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/oct.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/simple.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/wnaf.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

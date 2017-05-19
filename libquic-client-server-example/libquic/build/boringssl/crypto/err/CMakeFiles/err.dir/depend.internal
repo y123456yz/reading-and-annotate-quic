@@ -10,7 +10,7 @@ boringssl/crypto/err/CMakeFiles/err.dir/err.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/err/err.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c
 boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/err.h
@@ -19,7 +19,7 @@ boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/build/boringssl/crypto/err/err_data.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c
 boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/err.h
@@ -29,4 +29,4 @@ boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/err/err_impl.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c

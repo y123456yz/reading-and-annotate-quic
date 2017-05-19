@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/evp/CMakeFiles/evp.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp.dir/rule
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ evp: boringssl/crypto/evp/CMakeFiles/evp.dir/rule
 
 # fast build rule for target.
 evp/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/build
 .PHONY : evp/fast
 
 # Convenience name for target.
 boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule
 .PHONY : boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ evp_test: boringssl/crypto/evp/CMakeFiles/evp_test.dir/rule
 
 # fast build rule for target.
 evp_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/build
 .PHONY : evp_test/fast
 
 # Convenience name for target.
 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule
 .PHONY : boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ pbkdf_test: boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/rule
 
 # fast build rule for target.
 pbkdf_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build
 .PHONY : pbkdf_test/fast
 
 algorithm.o: algorithm.c.o
@@ -148,7 +148,7 @@ algorithm.o: algorithm.c.o
 
 # target to build an object file
 algorithm.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o
 .PHONY : algorithm.c.o
 
 algorithm.i: algorithm.c.i
@@ -156,7 +156,7 @@ algorithm.i: algorithm.c.i
 
 # target to preprocess a source file
 algorithm.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.i
 .PHONY : algorithm.c.i
 
 algorithm.s: algorithm.c.s
@@ -164,7 +164,7 @@ algorithm.s: algorithm.c.s
 
 # target to generate assembly for a file
 algorithm.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.s
 .PHONY : algorithm.c.s
 
 asn1.o: asn1.c.o
@@ -172,7 +172,7 @@ asn1.o: asn1.c.o
 
 # target to build an object file
 asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o
 .PHONY : asn1.c.o
 
 asn1.i: asn1.c.i
@@ -180,7 +180,7 @@ asn1.i: asn1.c.i
 
 # target to preprocess a source file
 asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.i
 .PHONY : asn1.c.i
 
 asn1.s: asn1.c.s
@@ -188,7 +188,7 @@ asn1.s: asn1.c.s
 
 # target to generate assembly for a file
 asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.s
 .PHONY : asn1.c.s
 
 digestsign.o: digestsign.c.o
@@ -196,7 +196,7 @@ digestsign.o: digestsign.c.o
 
 # target to build an object file
 digestsign.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o
 .PHONY : digestsign.c.o
 
 digestsign.i: digestsign.c.i
@@ -204,7 +204,7 @@ digestsign.i: digestsign.c.i
 
 # target to preprocess a source file
 digestsign.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.i
 .PHONY : digestsign.c.i
 
 digestsign.s: digestsign.c.s
@@ -212,7 +212,7 @@ digestsign.s: digestsign.c.s
 
 # target to generate assembly for a file
 digestsign.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.s
 .PHONY : digestsign.c.s
 
 evp.o: evp.c.o
@@ -220,7 +220,7 @@ evp.o: evp.c.o
 
 # target to build an object file
 evp.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o
 .PHONY : evp.c.o
 
 evp.i: evp.c.i
@@ -228,7 +228,7 @@ evp.i: evp.c.i
 
 # target to preprocess a source file
 evp.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.i
 .PHONY : evp.c.i
 
 evp.s: evp.c.s
@@ -236,7 +236,7 @@ evp.s: evp.c.s
 
 # target to generate assembly for a file
 evp.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.s
 .PHONY : evp.c.s
 
 evp_ctx.o: evp_ctx.c.o
@@ -244,7 +244,7 @@ evp_ctx.o: evp_ctx.c.o
 
 # target to build an object file
 evp_ctx.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o
 .PHONY : evp_ctx.c.o
 
 evp_ctx.i: evp_ctx.c.i
@@ -252,7 +252,7 @@ evp_ctx.i: evp_ctx.c.i
 
 # target to preprocess a source file
 evp_ctx.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.i
 .PHONY : evp_ctx.c.i
 
 evp_ctx.s: evp_ctx.c.s
@@ -260,7 +260,7 @@ evp_ctx.s: evp_ctx.c.s
 
 # target to generate assembly for a file
 evp_ctx.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.s
 .PHONY : evp_ctx.c.s
 
 evp_test.o: evp_test.c.o
@@ -268,7 +268,7 @@ evp_test.o: evp_test.c.o
 
 # target to build an object file
 evp_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.o
 .PHONY : evp_test.c.o
 
 evp_test.i: evp_test.c.i
@@ -276,7 +276,7 @@ evp_test.i: evp_test.c.i
 
 # target to preprocess a source file
 evp_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.i
 .PHONY : evp_test.c.i
 
 evp_test.s: evp_test.c.s
@@ -284,7 +284,7 @@ evp_test.s: evp_test.c.s
 
 # target to generate assembly for a file
 evp_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp_test.dir/build.make boringssl/crypto/evp/CMakeFiles/evp_test.dir/evp_test.c.s
 .PHONY : evp_test.c.s
 
 p_ec.o: p_ec.c.o
@@ -292,7 +292,7 @@ p_ec.o: p_ec.c.o
 
 # target to build an object file
 p_ec.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o
 .PHONY : p_ec.c.o
 
 p_ec.i: p_ec.c.i
@@ -300,7 +300,7 @@ p_ec.i: p_ec.c.i
 
 # target to preprocess a source file
 p_ec.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.i
 .PHONY : p_ec.c.i
 
 p_ec.s: p_ec.c.s
@@ -308,7 +308,7 @@ p_ec.s: p_ec.c.s
 
 # target to generate assembly for a file
 p_ec.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.s
 .PHONY : p_ec.c.s
 
 p_ec_asn1.o: p_ec_asn1.c.o
@@ -316,7 +316,7 @@ p_ec_asn1.o: p_ec_asn1.c.o
 
 # target to build an object file
 p_ec_asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o
 .PHONY : p_ec_asn1.c.o
 
 p_ec_asn1.i: p_ec_asn1.c.i
@@ -324,7 +324,7 @@ p_ec_asn1.i: p_ec_asn1.c.i
 
 # target to preprocess a source file
 p_ec_asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.i
 .PHONY : p_ec_asn1.c.i
 
 p_ec_asn1.s: p_ec_asn1.c.s
@@ -332,7 +332,7 @@ p_ec_asn1.s: p_ec_asn1.c.s
 
 # target to generate assembly for a file
 p_ec_asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.s
 .PHONY : p_ec_asn1.c.s
 
 p_hmac.o: p_hmac.c.o
@@ -340,7 +340,7 @@ p_hmac.o: p_hmac.c.o
 
 # target to build an object file
 p_hmac.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o
 .PHONY : p_hmac.c.o
 
 p_hmac.i: p_hmac.c.i
@@ -348,7 +348,7 @@ p_hmac.i: p_hmac.c.i
 
 # target to preprocess a source file
 p_hmac.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.i
 .PHONY : p_hmac.c.i
 
 p_hmac.s: p_hmac.c.s
@@ -356,7 +356,7 @@ p_hmac.s: p_hmac.c.s
 
 # target to generate assembly for a file
 p_hmac.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.s
 .PHONY : p_hmac.c.s
 
 p_hmac_asn1.o: p_hmac_asn1.c.o
@@ -364,7 +364,7 @@ p_hmac_asn1.o: p_hmac_asn1.c.o
 
 # target to build an object file
 p_hmac_asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o
 .PHONY : p_hmac_asn1.c.o
 
 p_hmac_asn1.i: p_hmac_asn1.c.i
@@ -372,7 +372,7 @@ p_hmac_asn1.i: p_hmac_asn1.c.i
 
 # target to preprocess a source file
 p_hmac_asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.i
 .PHONY : p_hmac_asn1.c.i
 
 p_hmac_asn1.s: p_hmac_asn1.c.s
@@ -380,7 +380,7 @@ p_hmac_asn1.s: p_hmac_asn1.c.s
 
 # target to generate assembly for a file
 p_hmac_asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.s
 .PHONY : p_hmac_asn1.c.s
 
 p_rsa.o: p_rsa.c.o
@@ -388,7 +388,7 @@ p_rsa.o: p_rsa.c.o
 
 # target to build an object file
 p_rsa.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o
 .PHONY : p_rsa.c.o
 
 p_rsa.i: p_rsa.c.i
@@ -396,7 +396,7 @@ p_rsa.i: p_rsa.c.i
 
 # target to preprocess a source file
 p_rsa.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.i
 .PHONY : p_rsa.c.i
 
 p_rsa.s: p_rsa.c.s
@@ -404,7 +404,7 @@ p_rsa.s: p_rsa.c.s
 
 # target to generate assembly for a file
 p_rsa.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.s
 .PHONY : p_rsa.c.s
 
 p_rsa_asn1.o: p_rsa_asn1.c.o
@@ -412,7 +412,7 @@ p_rsa_asn1.o: p_rsa_asn1.c.o
 
 # target to build an object file
 p_rsa_asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o
 .PHONY : p_rsa_asn1.c.o
 
 p_rsa_asn1.i: p_rsa_asn1.c.i
@@ -420,7 +420,7 @@ p_rsa_asn1.i: p_rsa_asn1.c.i
 
 # target to preprocess a source file
 p_rsa_asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.i
 .PHONY : p_rsa_asn1.c.i
 
 p_rsa_asn1.s: p_rsa_asn1.c.s
@@ -428,7 +428,7 @@ p_rsa_asn1.s: p_rsa_asn1.c.s
 
 # target to generate assembly for a file
 p_rsa_asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.s
 .PHONY : p_rsa_asn1.c.s
 
 pbkdf.o: pbkdf.c.o
@@ -436,7 +436,7 @@ pbkdf.o: pbkdf.c.o
 
 # target to build an object file
 pbkdf.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o
 .PHONY : pbkdf.c.o
 
 pbkdf.i: pbkdf.c.i
@@ -444,7 +444,7 @@ pbkdf.i: pbkdf.c.i
 
 # target to preprocess a source file
 pbkdf.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.i
 .PHONY : pbkdf.c.i
 
 pbkdf.s: pbkdf.c.s
@@ -452,7 +452,7 @@ pbkdf.s: pbkdf.c.s
 
 # target to generate assembly for a file
 pbkdf.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.s
 .PHONY : pbkdf.c.s
 
 pbkdf_test.o: pbkdf_test.c.o
@@ -460,7 +460,7 @@ pbkdf_test.o: pbkdf_test.c.o
 
 # target to build an object file
 pbkdf_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.o
 .PHONY : pbkdf_test.c.o
 
 pbkdf_test.i: pbkdf_test.c.i
@@ -468,7 +468,7 @@ pbkdf_test.i: pbkdf_test.c.i
 
 # target to preprocess a source file
 pbkdf_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.i
 .PHONY : pbkdf_test.c.i
 
 pbkdf_test.s: pbkdf_test.c.s
@@ -476,7 +476,7 @@ pbkdf_test.s: pbkdf_test.c.s
 
 # target to generate assembly for a file
 pbkdf_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/build.make boringssl/crypto/evp/CMakeFiles/pbkdf_test.dir/pbkdf_test.c.s
 .PHONY : pbkdf_test.c.s
 
 sign.o: sign.c.o
@@ -484,7 +484,7 @@ sign.o: sign.c.o
 
 # target to build an object file
 sign.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o
 .PHONY : sign.c.o
 
 sign.i: sign.c.i
@@ -492,7 +492,7 @@ sign.i: sign.c.i
 
 # target to preprocess a source file
 sign.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.i
 .PHONY : sign.c.i
 
 sign.s: sign.c.s
@@ -500,7 +500,7 @@ sign.s: sign.c.s
 
 # target to generate assembly for a file
 sign.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/evp/CMakeFiles/evp.dir/build.make boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.s
 .PHONY : sign.c.s
 
 # Help Target
@@ -570,6 +570,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

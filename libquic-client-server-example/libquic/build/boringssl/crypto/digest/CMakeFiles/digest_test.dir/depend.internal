@@ -15,4 +15,4 @@ boringssl/crypto/digest/CMakeFiles/digest_test.dir/digest_test.c.o
  ../boringssl/include/openssl/sha.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/digest/digest_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digest_test.c

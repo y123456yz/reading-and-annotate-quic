@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/ssl/pqueue/pqueue.c" "/root/yangyazhou/quic/libquic/build/boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/pqueue.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/pqueue/pqueue.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/pqueue/CMakeFiles/pqueue.dir/pqueue.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

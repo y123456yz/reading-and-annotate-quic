@@ -90,7 +90,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/conf/conf.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/conf/conf.c
 openssl/conf.h
 -
 string.h
@@ -106,7 +106,7 @@ openssl/err.h
 openssl/mem.h
 -
 conf_def.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/conf/conf_def.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/conf/conf_def.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/conf/conf_def.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/conf/conf_def.h
 

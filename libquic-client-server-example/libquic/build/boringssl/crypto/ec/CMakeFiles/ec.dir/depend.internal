@@ -20,8 +20,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/ec.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -44,8 +44,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_asn1.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -62,8 +62,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_key.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_key.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -80,8 +80,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_montgomery.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_montgomery.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -97,8 +97,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/oct.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/oct.c
 boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -115,8 +115,8 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/simple.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/simple.c
 boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -133,5 +133,5 @@ boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/ec/wnaf.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/wnaf.c

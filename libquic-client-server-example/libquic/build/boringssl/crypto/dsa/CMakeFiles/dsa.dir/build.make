@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/dsa/CMakeFiles/dsa.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/dsa/CMakeFiles/dsa.dir/flags.make
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o: boringssl/crypto/dsa/CMakeFiles/dsa.dir/flags.make
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o: ../boringssl/crypto/dsa/dsa.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa.c
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/dsa.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa.c > CMakeFiles/dsa.dir/dsa.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa.c > CMakeFiles/dsa.dir/dsa.c.i
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/dsa.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa.c -o CMakeFiles/dsa.dir/dsa.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa.c -o CMakeFiles/dsa.dir/dsa.c.s
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o.requires:
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o.provides.build: boringssl/crypto
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o: boringssl/crypto/dsa/CMakeFiles/dsa.dir/flags.make
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o: ../boringssl/crypto/dsa/dsa_impl.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa_impl.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_impl.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa_impl.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_impl.c
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/dsa_impl.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_impl.c > CMakeFiles/dsa.dir/dsa_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_impl.c > CMakeFiles/dsa.dir/dsa_impl.c.i
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/dsa_impl.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_impl.c -o CMakeFiles/dsa.dir/dsa_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_impl.c -o CMakeFiles/dsa.dir/dsa_impl.c.s
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o.requires:
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o.provides.build: boringssl/c
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o: boringssl/crypto/dsa/CMakeFiles/dsa.dir/flags.make
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o: ../boringssl/crypto/dsa/dsa_asn1.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa_asn1.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_asn1.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dsa.dir/dsa_asn1.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_asn1.c
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dsa.dir/dsa_asn1.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_asn1.c > CMakeFiles/dsa.dir/dsa_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_asn1.c > CMakeFiles/dsa.dir/dsa_asn1.c.i
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dsa.dir/dsa_asn1.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_asn1.c -o CMakeFiles/dsa.dir/dsa_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_asn1.c -o CMakeFiles/dsa.dir/dsa_asn1.c.s
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o.requires:
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o.requires
@@ -137,10 +137,10 @@ boringssl/crypto/dsa/CMakeFiles/dsa.dir/requires: boringssl/crypto/dsa/CMakeFile
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/requires
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa && $(CMAKE_COMMAND) -P CMakeFiles/dsa.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa && $(CMAKE_COMMAND) -P CMakeFiles/dsa.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/clean
 
 boringssl/crypto/dsa/CMakeFiles/dsa.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/dsa /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa /root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/dsa/CMakeFiles/dsa.dir/depend
 

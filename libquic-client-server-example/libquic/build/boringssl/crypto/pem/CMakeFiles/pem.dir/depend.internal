@@ -35,7 +35,7 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_all.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_all.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -72,7 +72,7 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_info.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_info.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -111,8 +111,8 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/../evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/../evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_lib.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -150,7 +150,7 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_oth.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_oth.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -189,7 +189,7 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pk8.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pk8.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -228,8 +228,8 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/../evp/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pkey.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/../evp/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pkey.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -264,7 +264,7 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_x509.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_x509.c
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o
  ../boringssl/include/openssl/aead.h
  ../boringssl/include/openssl/asn1.h
@@ -299,4 +299,4 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o
  ../boringssl/include/openssl/type_check.h
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_xaux.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_xaux.c

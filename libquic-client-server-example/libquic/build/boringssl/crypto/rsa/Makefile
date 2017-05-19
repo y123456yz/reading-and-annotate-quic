@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ rsa: boringssl/crypto/rsa/CMakeFiles/rsa.dir/rule
 
 # fast build rule for target.
 rsa/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/build
 .PHONY : rsa/fast
 
 # Convenience name for target.
 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ rsa_test: boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rule
 
 # fast build rule for target.
 rsa_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build
 .PHONY : rsa_test/fast
 
 blinding.o: blinding.c.o
@@ -134,7 +134,7 @@ blinding.o: blinding.c.o
 
 # target to build an object file
 blinding.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o
 .PHONY : blinding.c.o
 
 blinding.i: blinding.c.i
@@ -142,7 +142,7 @@ blinding.i: blinding.c.i
 
 # target to preprocess a source file
 blinding.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.i
 .PHONY : blinding.c.i
 
 blinding.s: blinding.c.s
@@ -150,7 +150,7 @@ blinding.s: blinding.c.s
 
 # target to generate assembly for a file
 blinding.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.s
 .PHONY : blinding.c.s
 
 padding.o: padding.c.o
@@ -158,7 +158,7 @@ padding.o: padding.c.o
 
 # target to build an object file
 padding.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o
 .PHONY : padding.c.o
 
 padding.i: padding.c.i
@@ -166,7 +166,7 @@ padding.i: padding.c.i
 
 # target to preprocess a source file
 padding.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.i
 .PHONY : padding.c.i
 
 padding.s: padding.c.s
@@ -174,7 +174,7 @@ padding.s: padding.c.s
 
 # target to generate assembly for a file
 padding.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.s
 .PHONY : padding.c.s
 
 rsa.o: rsa.c.o
@@ -182,7 +182,7 @@ rsa.o: rsa.c.o
 
 # target to build an object file
 rsa.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o
 .PHONY : rsa.c.o
 
 rsa.i: rsa.c.i
@@ -190,7 +190,7 @@ rsa.i: rsa.c.i
 
 # target to preprocess a source file
 rsa.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.i
 .PHONY : rsa.c.i
 
 rsa.s: rsa.c.s
@@ -198,7 +198,7 @@ rsa.s: rsa.c.s
 
 # target to generate assembly for a file
 rsa.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.s
 .PHONY : rsa.c.s
 
 rsa_asn1.o: rsa_asn1.c.o
@@ -206,7 +206,7 @@ rsa_asn1.o: rsa_asn1.c.o
 
 # target to build an object file
 rsa_asn1.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o
 .PHONY : rsa_asn1.c.o
 
 rsa_asn1.i: rsa_asn1.c.i
@@ -214,7 +214,7 @@ rsa_asn1.i: rsa_asn1.c.i
 
 # target to preprocess a source file
 rsa_asn1.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.i
 .PHONY : rsa_asn1.c.i
 
 rsa_asn1.s: rsa_asn1.c.s
@@ -222,7 +222,7 @@ rsa_asn1.s: rsa_asn1.c.s
 
 # target to generate assembly for a file
 rsa_asn1.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.s
 .PHONY : rsa_asn1.c.s
 
 rsa_impl.o: rsa_impl.c.o
@@ -230,7 +230,7 @@ rsa_impl.o: rsa_impl.c.o
 
 # target to build an object file
 rsa_impl.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o
 .PHONY : rsa_impl.c.o
 
 rsa_impl.i: rsa_impl.c.i
@@ -238,7 +238,7 @@ rsa_impl.i: rsa_impl.c.i
 
 # target to preprocess a source file
 rsa_impl.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.i
 .PHONY : rsa_impl.c.i
 
 rsa_impl.s: rsa_impl.c.s
@@ -246,7 +246,7 @@ rsa_impl.s: rsa_impl.c.s
 
 # target to generate assembly for a file
 rsa_impl.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.s
 .PHONY : rsa_impl.c.s
 
 rsa_test.o: rsa_test.c.o
@@ -254,7 +254,7 @@ rsa_test.o: rsa_test.c.o
 
 # target to build an object file
 rsa_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.o
 .PHONY : rsa_test.c.o
 
 rsa_test.i: rsa_test.c.i
@@ -262,7 +262,7 @@ rsa_test.i: rsa_test.c.i
 
 # target to preprocess a source file
 rsa_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.i
 .PHONY : rsa_test.c.i
 
 rsa_test.s: rsa_test.c.s
@@ -270,7 +270,7 @@ rsa_test.s: rsa_test.c.s
 
 # target to generate assembly for a file
 rsa_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/build.make boringssl/crypto/rsa/CMakeFiles/rsa_test.dir/rsa_test.c.s
 .PHONY : rsa_test.c.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

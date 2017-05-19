@@ -36,4 +36,4 @@ boringssl/crypto/x509v3/CMakeFiles/v3name_test.dir/v3nametest.c.o
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
  ../boringssl/include/openssl/x509v3.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/v3nametest.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/v3nametest.c

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/tool/CMakeFiles/bssl.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/tool/CMakeFiles/bssl.dir/flags.make
 
 boringssl/tool/CMakeFiles/bssl.dir/args.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/args.cc.o: ../boringssl/tool/args.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/args.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/args.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/args.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/args.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/args.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/args.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/args.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/args.cc > CMakeFiles/bssl.dir/args.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/args.cc > CMakeFiles/bssl.dir/args.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/args.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/args.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/args.cc -o CMakeFiles/bssl.dir/args.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/args.cc -o CMakeFiles/bssl.dir/args.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/args.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/args.cc.o.requires
@@ -77,17 +77,17 @@ boringssl/tool/CMakeFiles/bssl.dir/args.cc.o.provides.build: boringssl/tool/CMak
 
 boringssl/tool/CMakeFiles/bssl.dir/client.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/client.cc.o: ../boringssl/tool/client.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/client.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/client.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/client.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/client.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/client.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/client.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/client.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/client.cc > CMakeFiles/bssl.dir/client.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/client.cc > CMakeFiles/bssl.dir/client.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/client.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/client.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/client.cc -o CMakeFiles/bssl.dir/client.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/client.cc -o CMakeFiles/bssl.dir/client.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/client.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/client.cc.o.requires
@@ -100,17 +100,17 @@ boringssl/tool/CMakeFiles/bssl.dir/client.cc.o.provides.build: boringssl/tool/CM
 
 boringssl/tool/CMakeFiles/bssl.dir/const.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/const.cc.o: ../boringssl/tool/const.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/const.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/const.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/const.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/const.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/const.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/const.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/const.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/const.cc > CMakeFiles/bssl.dir/const.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/const.cc > CMakeFiles/bssl.dir/const.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/const.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/const.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/const.cc -o CMakeFiles/bssl.dir/const.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/const.cc -o CMakeFiles/bssl.dir/const.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/const.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/const.cc.o.requires
@@ -123,17 +123,17 @@ boringssl/tool/CMakeFiles/bssl.dir/const.cc.o.provides.build: boringssl/tool/CMa
 
 boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o: ../boringssl/tool/digest.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/digest.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/digest.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/digest.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/digest.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/digest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/digest.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/digest.cc > CMakeFiles/bssl.dir/digest.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/digest.cc > CMakeFiles/bssl.dir/digest.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/digest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/digest.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/digest.cc -o CMakeFiles/bssl.dir/digest.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/digest.cc -o CMakeFiles/bssl.dir/digest.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o.requires
@@ -146,17 +146,17 @@ boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o.provides.build: boringssl/tool/CM
 
 boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o: ../boringssl/tool/pkcs12.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/pkcs12.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/pkcs12.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/pkcs12.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/pkcs12.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/pkcs12.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/pkcs12.cc > CMakeFiles/bssl.dir/pkcs12.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/pkcs12.cc > CMakeFiles/bssl.dir/pkcs12.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/pkcs12.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/pkcs12.cc -o CMakeFiles/bssl.dir/pkcs12.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/pkcs12.cc -o CMakeFiles/bssl.dir/pkcs12.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o.requires
@@ -169,17 +169,17 @@ boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o.provides.build: boringssl/tool/CM
 
 boringssl/tool/CMakeFiles/bssl.dir/server.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/server.cc.o: ../boringssl/tool/server.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/server.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/server.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/server.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/server.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/server.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/server.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/server.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/server.cc > CMakeFiles/bssl.dir/server.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/server.cc > CMakeFiles/bssl.dir/server.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/server.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/server.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/server.cc -o CMakeFiles/bssl.dir/server.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/server.cc -o CMakeFiles/bssl.dir/server.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/server.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/server.cc.o.requires
@@ -192,17 +192,17 @@ boringssl/tool/CMakeFiles/bssl.dir/server.cc.o.provides.build: boringssl/tool/CM
 
 boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o: ../boringssl/tool/speed.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/speed.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/speed.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/speed.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/speed.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/speed.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/speed.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/speed.cc > CMakeFiles/bssl.dir/speed.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/speed.cc > CMakeFiles/bssl.dir/speed.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/speed.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/speed.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/speed.cc -o CMakeFiles/bssl.dir/speed.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/speed.cc -o CMakeFiles/bssl.dir/speed.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o.requires
@@ -215,17 +215,17 @@ boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o.provides.build: boringssl/tool/CMa
 
 boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o: ../boringssl/tool/tool.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/tool.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/tool.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/tool.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/tool.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/tool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/tool.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/tool.cc > CMakeFiles/bssl.dir/tool.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/tool.cc > CMakeFiles/bssl.dir/tool.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/tool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/tool.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/tool.cc -o CMakeFiles/bssl.dir/tool.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/tool.cc -o CMakeFiles/bssl.dir/tool.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o.requires
@@ -238,17 +238,17 @@ boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o.provides.build: boringssl/tool/CMak
 
 boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o: boringssl/tool/CMakeFiles/bssl.dir/flags.make
 boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o: ../boringssl/tool/transport_common.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/transport_common.cc.o -c /root/yangyazhou/quic/libquic/boringssl/tool/transport_common.cc
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bssl.dir/transport_common.cc.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.cc
 
 boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bssl.dir/transport_common.cc.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/tool/transport_common.cc > CMakeFiles/bssl.dir/transport_common.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.cc > CMakeFiles/bssl.dir/transport_common.cc.i
 
 boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bssl.dir/transport_common.cc.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/tool/transport_common.cc -o CMakeFiles/bssl.dir/transport_common.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.cc -o CMakeFiles/bssl.dir/transport_common.cc.s
 
 boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o.requires:
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o.requires
@@ -288,7 +288,7 @@ boringssl/tool/bssl: boringssl/ssl/libssl.a
 boringssl/tool/bssl: boringssl/crypto/libcrypto.a
 boringssl/tool/bssl: boringssl/tool/CMakeFiles/bssl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable bssl"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bssl.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bssl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 boringssl/tool/CMakeFiles/bssl.dir/build: boringssl/tool/bssl
@@ -306,10 +306,10 @@ boringssl/tool/CMakeFiles/bssl.dir/requires: boringssl/tool/CMakeFiles/bssl.dir/
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/requires
 
 boringssl/tool/CMakeFiles/bssl.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/tool && $(CMAKE_COMMAND) -P CMakeFiles/bssl.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool && $(CMAKE_COMMAND) -P CMakeFiles/bssl.dir/cmake_clean.cmake
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/clean
 
 boringssl/tool/CMakeFiles/bssl.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/tool /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/tool /root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/bssl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/depend
 

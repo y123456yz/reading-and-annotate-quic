@@ -268,19 +268,19 @@ openssl/bio.h
 openssl/lhash.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/../bytestring/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/../bytestring/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/../evp/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbe.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbe.c
 string.h
 -
 openssl/asn1t.h
@@ -294,9 +294,9 @@ openssl/rand.h
 openssl/x509.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbev2.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbev2.c
 string.h
 -
 openssl/asn1t.h
@@ -314,9 +314,9 @@ openssl/rand.h
 openssl/x509.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p8_pkey.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p8_pkey.c
 stdio.h
 -
 openssl/asn1t.h
@@ -326,7 +326,7 @@ openssl/mem.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/pkcs8.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/pkcs8.c
 openssl/pkcs8.h
 -
 assert.h
@@ -354,7 +354,7 @@ openssl/mem.h
 openssl/x509.h
 -
 ../bytestring/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/../bytestring/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/../bytestring/internal.h
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/../evp/internal.h
 

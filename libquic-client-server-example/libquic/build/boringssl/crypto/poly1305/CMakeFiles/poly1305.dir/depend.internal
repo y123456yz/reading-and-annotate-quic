@@ -6,14 +6,14 @@ boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o
  ../boringssl/include/openssl/cpu.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/poly1305.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305.c
 boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/poly1305.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_arm.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_arm.c
 boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/poly1305.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_vec.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_vec.c

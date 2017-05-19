@@ -110,7 +110,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/ec/ec_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/ec_test.c
 stdio.h
 -
 string.h
@@ -124,9 +124,9 @@ openssl/ec_key.h
 openssl/err.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ec/internal.h
 openssl/base.h
 -
 openssl/bn.h

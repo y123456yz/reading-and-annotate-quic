@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/CMakeFiles/crypto.dir/depend.make
@@ -58,23 +58,23 @@ boringssl/crypto/cpu-x86_64-asm.S: ../boringssl/crypto/perlasm/x86asm.pl
 boringssl/crypto/cpu-x86_64-asm.S: ../boringssl/crypto/perlasm/x86gas.pl
 boringssl/crypto/cpu-x86_64-asm.S: ../boringssl/crypto/perlasm/x86masm.pl
 boringssl/crypto/cpu-x86_64-asm.S: ../boringssl/crypto/perlasm/x86nasm.pl
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating cpu-x86_64-asm.S"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/perl /root/yangyazhou/quic/libquic/boringssl/crypto/cpu-x86_64-asm.pl elf > cpu-x86_64-asm.S
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/perl /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-x86_64-asm.pl elf > cpu-x86_64-asm.S
 
 boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o: ../boringssl/crypto/crypto.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/crypto.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/crypto.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/crypto.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/crypto.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/crypto.c > CMakeFiles/crypto.dir/crypto.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto.c > CMakeFiles/crypto.dir/crypto.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/crypto.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/crypto.c -o CMakeFiles/crypto.dir/crypto.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto.c -o CMakeFiles/crypto.dir/crypto.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o.requires
@@ -87,17 +87,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o.provides.build: boringssl/cryp
 
 boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o: ../boringssl/crypto/mem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/mem.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/mem.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/mem.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/mem.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/mem.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/mem.c > CMakeFiles/crypto.dir/mem.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/mem.c > CMakeFiles/crypto.dir/mem.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/mem.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/mem.c -o CMakeFiles/crypto.dir/mem.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/mem.c -o CMakeFiles/crypto.dir/mem.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o.requires
@@ -110,17 +110,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o.provides.build: boringssl/crypto/
 
 boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o: ../boringssl/crypto/thread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/thread.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/thread.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/thread.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/thread.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/thread.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/thread.c > CMakeFiles/crypto.dir/thread.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/thread.c > CMakeFiles/crypto.dir/thread.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/thread.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/thread.c -o CMakeFiles/crypto.dir/thread.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/thread.c -o CMakeFiles/crypto.dir/thread.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o.requires
@@ -133,17 +133,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/thread.c.o.provides.build: boringssl/cryp
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o: ../boringssl/crypto/ex_data.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/ex_data.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/ex_data.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/ex_data.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data.c > CMakeFiles/crypto.dir/ex_data.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data.c > CMakeFiles/crypto.dir/ex_data.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/ex_data.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data.c -o CMakeFiles/crypto.dir/ex_data.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data.c -o CMakeFiles/crypto.dir/ex_data.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o.requires
@@ -156,17 +156,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/ex_data.c.o.provides.build: boringssl/cry
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o: ../boringssl/crypto/ex_data_impl.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/ex_data_impl.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data_impl.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/ex_data_impl.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data_impl.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/ex_data_impl.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data_impl.c > CMakeFiles/crypto.dir/ex_data_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data_impl.c > CMakeFiles/crypto.dir/ex_data_impl.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/ex_data_impl.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/ex_data_impl.c -o CMakeFiles/crypto.dir/ex_data_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data_impl.c -o CMakeFiles/crypto.dir/ex_data_impl.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o.requires
@@ -179,17 +179,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/ex_data_impl.c.o.provides.build: boringss
 
 boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o: ../boringssl/crypto/time_support.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/time_support.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/time_support.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/time_support.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/time_support.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/time_support.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/time_support.c > CMakeFiles/crypto.dir/time_support.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/time_support.c > CMakeFiles/crypto.dir/time_support.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/time_support.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/time_support.c -o CMakeFiles/crypto.dir/time_support.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/time_support.c -o CMakeFiles/crypto.dir/time_support.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o.requires
@@ -202,17 +202,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/time_support.c.o.provides.build: boringss
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o: ../boringssl/crypto/directory_posix.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/directory_posix.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/directory_posix.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/directory_posix.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_posix.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/directory_posix.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/directory_posix.c > CMakeFiles/crypto.dir/directory_posix.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_posix.c > CMakeFiles/crypto.dir/directory_posix.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/directory_posix.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/directory_posix.c -o CMakeFiles/crypto.dir/directory_posix.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_posix.c -o CMakeFiles/crypto.dir/directory_posix.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o.requires
@@ -225,17 +225,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/directory_posix.c.o.provides.build: borin
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o: ../boringssl/crypto/directory_win.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/directory_win.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/directory_win.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/directory_win.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_win.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/directory_win.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/directory_win.c > CMakeFiles/crypto.dir/directory_win.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_win.c > CMakeFiles/crypto.dir/directory_win.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/directory_win.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/directory_win.c -o CMakeFiles/crypto.dir/directory_win.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_win.c -o CMakeFiles/crypto.dir/directory_win.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o.requires
@@ -248,9 +248,9 @@ boringssl/crypto/CMakeFiles/crypto.dir/directory_win.c.o.provides.build: borings
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o: boringssl/crypto/cpu-x86_64-asm.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o -c /root/yangyazhou/quic/libquic/build/boringssl/crypto/cpu-x86_64-asm.S
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cpu-x86_64-asm.S
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o.requires
@@ -263,17 +263,17 @@ boringssl/crypto/CMakeFiles/crypto.dir/cpu-x86_64-asm.S.o.provides.build: boring
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.o: boringssl/crypto/CMakeFiles/crypto.dir/flags.make
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.o: ../boringssl/crypto/cpu-intel.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/cpu-intel.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/cpu-intel.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/crypto.dir/cpu-intel.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-intel.c
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crypto.dir/cpu-intel.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/cpu-intel.c > CMakeFiles/crypto.dir/cpu-intel.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-intel.c > CMakeFiles/crypto.dir/cpu-intel.c.i
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crypto.dir/cpu-intel.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/cpu-intel.c -o CMakeFiles/crypto.dir/cpu-intel.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-intel.c -o CMakeFiles/crypto.dir/cpu-intel.c.s
 
 boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.o.requires:
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/cpu-intel.c.o.requires
@@ -299,268 +299,268 @@ crypto_OBJECTS = \
 
 # External object files for target crypto
 crypto_EXTERNAL_OBJECTS = \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/base64/CMakeFiles/base64.dir/base64.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha256.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha512.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha1-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha256-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha512-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/md4/CMakeFiles/md4.dir/md4.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digest.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digests.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/cipher.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/derive_key.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/aead.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_null.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_rc2.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_rc4.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_des.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_aes.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_chacha20poly1305.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/tls_cbc.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_tls.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_ssl3.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/cbc.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ctr.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ofb.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/cfb.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/gcm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/aesni-gcm-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ghash-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/mode_wrappers.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aesni-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/bsaes-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/vpaes-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/des/CMakeFiles/des.dir/des.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-md5-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/conf/CMakeFiles/conf.dir/conf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/add.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/bn.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/cmp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/convert.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/ctx.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/div.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/exponentiation.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/generic.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/gcd.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/kronecker.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/montgomery.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/mul.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/prime.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/random.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/shift.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/sqrt.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/asm/x86_64-gcc.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/x86_64-mont.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/x86_64-mont5.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz-x86_64.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz-avx2.S.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz_exp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/obj/CMakeFiles/obj.dir/obj.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/obj/CMakeFiles/obj.dir/obj_xref.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bitstr.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bytes.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utf8.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_lib.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_par.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn_pack.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_ndef.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_enum.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_int.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_string.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_bitst.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_pkey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_dec.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_enc.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_fre.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_new.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_prn.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_typ.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_utl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_bignum.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_long.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh_impl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/params.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/check.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/hkdf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_cache.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_data.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_lib.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_map.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_node.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_tree.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akeya.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_alt.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bcons.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bitst.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_conf.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_cpols.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_crld.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_enum.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_extku.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_genn.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ia5.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_info.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_int.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_lib.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ncons.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pci.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcia.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcons.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pku.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pmaps.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_prn.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_purp.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_skey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_sxnet.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_utl.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o" \
-"/root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o"
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/CMakeFiles/err.dir/err_impl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/base64/CMakeFiles/base64.dir/base64.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha256.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha512.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha1-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha256-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/sha/CMakeFiles/sha.dir/sha512-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md4/CMakeFiles/md4.dir/md4.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/md5.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/md5/CMakeFiles/md5.dir/md5-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digest.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/digest/CMakeFiles/digest.dir/digests.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/cipher.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/derive_key.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/aead.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_null.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_rc2.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_rc4.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_des.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_aes.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_chacha20poly1305.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/tls_cbc.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_tls.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/cipher/CMakeFiles/cipher.dir/e_ssl3.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/cbc.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ctr.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ofb.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/cfb.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/gcm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/aesni-gcm-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/modes/CMakeFiles/modes.dir/ghash-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/mode_wrappers.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aes-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/aesni-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/bsaes-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/aes/CMakeFiles/aes.dir/vpaes-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des/CMakeFiles/des.dir/des.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-md5-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/conf/CMakeFiles/conf.dir/conf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/add.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/bn.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/cmp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/convert.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/ctx.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/div.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/exponentiation.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/generic.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/gcd.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/kronecker.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/montgomery.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/mul.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/prime.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/random.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/shift.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/sqrt.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/asm/x86_64-gcc.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/x86_64-mont.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/x86_64-mont5.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz-x86_64.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz-avx2.S.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bn/CMakeFiles/bn.dir/rsaz_exp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/obj/CMakeFiles/obj.dir/obj.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/obj/CMakeFiles/obj.dir/obj_xref.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bitstr.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bytes.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utf8.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_lib.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_par.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn_pack.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_ndef.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_enum.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_int.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_string.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_bitst.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_pkey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_dec.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_enc.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_fre.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_new.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_prn.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_typ.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_utl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_bignum.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_long.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh_impl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/params.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/check.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dh/CMakeFiles/dh.dir/dh_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_impl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/oct.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/simple.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_montgomery.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/wnaf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_key.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ec/CMakeFiles/ec.dir/ec_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/ecdsa/CMakeFiles/ecdsa.dir/ecdsa_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/hkdf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_cache.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_data.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_lib.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_map.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_node.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_tree.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akeya.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_alt.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bcons.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bitst.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_conf.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_cpols.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_crld.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_enum.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_extku.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_genn.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ia5.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_info.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_int.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_lib.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ncons.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pci.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcia.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcons.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pku.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pmaps.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_prn.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_purp.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_skey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_sxnet.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_utl.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o" \
+"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o"
 
 boringssl/crypto/libcrypto.a: boringssl/crypto/CMakeFiles/crypto.dir/crypto.c.o
 boringssl/crypto/libcrypto.a: boringssl/crypto/CMakeFiles/crypto.dir/mem.c.o
@@ -837,8 +837,8 @@ boringssl/crypto/libcrypto.a: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe
 boringssl/crypto/libcrypto.a: boringssl/crypto/CMakeFiles/crypto.dir/build.make
 boringssl/crypto/libcrypto.a: boringssl/crypto/CMakeFiles/crypto.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libcrypto.a"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 boringssl/crypto/CMakeFiles/crypto.dir/build: boringssl/crypto/libcrypto.a
@@ -857,10 +857,10 @@ boringssl/crypto/CMakeFiles/crypto.dir/requires: boringssl/crypto/CMakeFiles/cry
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/requires
 
 boringssl/crypto/CMakeFiles/crypto.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/clean
 
 boringssl/crypto/CMakeFiles/crypto.dir/depend: boringssl/crypto/cpu-x86_64-asm.S
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto /root/yangyazhou/quic/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/CMakeFiles/crypto.dir/depend
 

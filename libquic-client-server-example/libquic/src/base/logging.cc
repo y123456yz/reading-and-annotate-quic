@@ -97,6 +97,7 @@ typedef std::wstring PathString;
 #else
 typedef std::string PathString;
 #endif
+//*g_log_file_name = settings.log_file;
 PathString* g_log_file_name = nullptr;
 
 // This file is lazily opened and the handle may be nullptr
@@ -292,9 +293,11 @@ pthread_mutex_t LoggingLock::log_mutex = PTHREAD_MUTEX_INITIALIZER;
 // Called by logging functions to ensure that |g_log_file| is initialized
 // and can be used for writing. Returns false if the file could not be
 // initialized. |g_log_file| will be nullptr in this case.
-bool InitializeLogFileHandle() {
+bool InitializeLogFileHandle() { //打开日志文件
   if (g_log_file)
     return true;
+
+  printf("yang test <function: %s, line: %d>\r\n", __FUNCTION__, __LINE__);
 
   if (!g_log_file_name) {
     // Nobody has called InitLogging to specify a debug log file, so here we
@@ -319,9 +322,13 @@ bool InitializeLogFileHandle() {
     }
     SetFilePointer(g_log_file, 0, 0, FILE_END);
 #elif defined(OS_POSIX)
+	printf("yang test <function: %s, line: %d>  %s\r\n", __FUNCTION__, __LINE__, g_log_file_name->c_str());
+
     g_log_file = fopen(g_log_file_name->c_str(), "a");
-    if (g_log_file == nullptr)
-      return false;
+    if (g_log_file == nullptr) {
+		printf("fopen file:%s error\r\n"g_log_file_name->c_str());
+        return false;
+    }
 #endif
   }
 
@@ -352,6 +359,15 @@ LoggingSettings::LoggingSettings()
       lock_log(LOCK_LOG_FILE),
       delete_old(APPEND_TO_OLD_LOG_FILE) {}
 
+LoggingSettings::LoggingSettings(char* filename)
+    : logging_dest(LOG_DEFAULT),
+      log_file(nullptr),
+      lock_log(LOCK_LOG_FILE),
+      delete_old(APPEND_TO_OLD_LOG_FILE) {
+	log_file = filename;
+}
+
+
 bool BaseInitLoggingImpl(const LoggingSettings& settings) {
 #if defined(OS_NACL)
   // Can log only to the system debug log.
@@ -373,13 +389,14 @@ bool BaseInitLoggingImpl(const LoggingSettings& settings) {
                      command_line->GetSwitchValueASCII(switches::kVModule),
                      &g_min_log_level);
   }
-
+ 
   g_logging_destination = settings.logging_dest;
 
+  printf("yang test <function: %s,  line: %d>\r\n", __FUNCTION__, __LINE__);
   // ignore file options unless logging to file is set.
   if ((g_logging_destination & LOG_TO_FILE) == 0)
     return true;
-
+  printf("yang test <function: %s, line: %d>\r\n", __FUNCTION__, __LINE__);
   LoggingLock::Init(settings.lock_log, settings.log_file);
   LoggingLock logging_lock;
 
@@ -393,7 +410,7 @@ bool BaseInitLoggingImpl(const LoggingSettings& settings) {
   if (settings.delete_old == DELETE_OLD_LOG_FILE)
     DeleteFilePath(*g_log_file_name);
 
-  return InitializeLogFileHandle();
+  return InitializeLogFileHandle(); 
 }
 
 void SetMinLogLevel(int level) {
@@ -536,6 +553,7 @@ LogMessage::LogMessage(const char* file, int line, LogSeverity severity,
   delete result;
 }
 
+//输出日志写入g_log_file指定的文件
 LogMessage::~LogMessage() {
 #if !defined(NDEBUG) && !defined(OS_NACL) && !defined(__UCLIBC__)
   if (severity_ == LOG_FATAL) {

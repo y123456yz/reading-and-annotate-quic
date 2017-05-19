@@ -346,7 +346,7 @@ openssl/bio.h
 openssl/lhash.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/args.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/args.cc
 string
 -
 vector
@@ -356,9 +356,9 @@ stdio.h
 string.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/tool/client.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/client.cc
 openssl/base.h
 -
 string
@@ -376,17 +376,17 @@ openssl/err.h
 openssl/ssl.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 transport_common.h
-/root/yangyazhou/quic/libquic/boringssl/tool/transport_common.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.h
 
-/root/yangyazhou/quic/libquic/boringssl/tool/const.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/const.cc
 stdint.h
 -
 stdlib.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/digest.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/digest.cc
 openssl/base.h
 -
 memory
@@ -418,7 +418,7 @@ io.h
 openssl/digest.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 string
 -
 vector
@@ -426,7 +426,7 @@ vector
 map
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/pkcs12.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/pkcs12.cc
 openssl/base.h
 -
 memory
@@ -460,9 +460,9 @@ openssl/pkcs8.h
 openssl/stack.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/tool/server.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/server.cc
 openssl/base.h
 -
 string
@@ -480,11 +480,11 @@ openssl/err.h
 openssl/ssl.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 transport_common.h
-/root/yangyazhou/quic/libquic/boringssl/tool/transport_common.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.h
 
-/root/yangyazhou/quic/libquic/boringssl/tool/speed.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/speed.cc
 string
 -
 functional
@@ -514,7 +514,7 @@ Windows.h
 sys/time.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/tool.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/tool.cc
 string
 -
 vector
@@ -530,7 +530,7 @@ io.h
 libgen.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/tool/transport_common.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.cc
 openssl/base.h
 -
 string
@@ -570,9 +570,9 @@ openssl/err.h
 openssl/ssl.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/tool/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/tool/transport_common.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool/transport_common.h
 openssl/ssl.h
 -
 string.h

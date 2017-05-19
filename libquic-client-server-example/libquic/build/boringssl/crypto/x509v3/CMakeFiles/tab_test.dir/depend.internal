@@ -36,5 +36,5 @@ boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/tabtest.c.o
  ../boringssl/include/openssl/x509.h
  ../boringssl/include/openssl/x509_vfy.h
  ../boringssl/include/openssl/x509v3.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/ext_dat.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/tabtest.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/ext_dat.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/tabtest.c

@@ -555,7 +555,7 @@ class EpollServer {
   };
 
   // Custom hash function to be used by hash_set.
-  struct CBAndEventMaskHash {
+  struct CBAndEventMaskHash { //使用见FDToCBMap
     size_t operator()(const CBAndEventMask& cb_and_eventmask) const {
       return static_cast<size_t>(cb_and_eventmask.fd);
     }
@@ -657,7 +657,7 @@ class EpollServer {
   virtual void CallAndReregisterAlarmEvents();
 
   // The file-descriptor created for epolling
-  int epoll_fd_;
+  int epoll_fd_; //默认构造函数初始化为epoll_create(1024)
 
   // The mapping of file-descriptor to CBAndEventMasks
   FDToCBMap cb_map_;
@@ -684,7 +684,7 @@ class EpollServer {
   // If this is positive, wait that many microseconds.
   // If this is negative, wait forever, or for the first event that occurs
   // If this is zero, never wait for an event.
-  int64 timeout_in_us_;
+  int64 timeout_in_us_;   //epoll_wait等待网络事件的最大超时时间
 
   // This is nonzero only after the invocation of epoll_wait_impl within
   // WaitForEventsAndCallHandleEvents and before the function
@@ -950,6 +950,7 @@ class EpollServer {
   // The callback registered to the fds below.  As the purpose of their
   // registration is to wake the epoll server it just clears the pipe and
   // returns.
+  //构造函数默认值wake_cb_(new ReadPipeCallback), 读数据相关回调处理
   scoped_ptr<ReadPipeCallback> wake_cb_;
 
   // A pipe owned by the epoll server.  The server will be registered to listen

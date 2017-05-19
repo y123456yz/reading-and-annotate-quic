@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/pem/CMakeFiles/pem.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o: ../boringssl/crypto/pem/pem_all.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_all.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_all.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_all.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_all.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_all.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_all.c > CMakeFiles/pem.dir/pem_all.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_all.c > CMakeFiles/pem.dir/pem_all.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_all.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_all.c -o CMakeFiles/pem.dir/pem_all.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_all.c -o CMakeFiles/pem.dir/pem_all.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o.provides.build: boringssl/cr
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o: ../boringssl/crypto/pem/pem_info.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_info.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_info.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_info.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_info.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_info.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_info.c > CMakeFiles/pem.dir/pem_info.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_info.c > CMakeFiles/pem.dir/pem_info.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_info.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_info.c -o CMakeFiles/pem.dir/pem_info.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_info.c -o CMakeFiles/pem.dir/pem_info.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o.provides.build: boringssl/c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o: ../boringssl/crypto/pem/pem_lib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_lib.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_lib.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_lib.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_lib.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_lib.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_lib.c > CMakeFiles/pem.dir/pem_lib.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_lib.c > CMakeFiles/pem.dir/pem_lib.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_lib.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_lib.c -o CMakeFiles/pem.dir/pem_lib.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_lib.c -o CMakeFiles/pem.dir/pem_lib.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o.requires
@@ -123,17 +123,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o.provides.build: boringssl/cr
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o: ../boringssl/crypto/pem/pem_oth.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_oth.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_oth.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_oth.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_oth.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_oth.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_oth.c > CMakeFiles/pem.dir/pem_oth.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_oth.c > CMakeFiles/pem.dir/pem_oth.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_oth.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_oth.c -o CMakeFiles/pem.dir/pem_oth.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_oth.c -o CMakeFiles/pem.dir/pem_oth.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o.requires
@@ -146,17 +146,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o.provides.build: boringssl/cr
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o: ../boringssl/crypto/pem/pem_pk8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_pk8.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pk8.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_pk8.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pk8.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_pk8.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pk8.c > CMakeFiles/pem.dir/pem_pk8.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pk8.c > CMakeFiles/pem.dir/pem_pk8.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_pk8.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pk8.c -o CMakeFiles/pem.dir/pem_pk8.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pk8.c -o CMakeFiles/pem.dir/pem_pk8.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o.requires
@@ -169,17 +169,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o.provides.build: boringssl/cr
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o: ../boringssl/crypto/pem/pem_pkey.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_pkey.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pkey.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_pkey.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pkey.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_pkey.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pkey.c > CMakeFiles/pem.dir/pem_pkey.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pkey.c > CMakeFiles/pem.dir/pem_pkey.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_pkey.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_pkey.c -o CMakeFiles/pem.dir/pem_pkey.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_pkey.c -o CMakeFiles/pem.dir/pem_pkey.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o.requires
@@ -192,17 +192,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o.provides.build: boringssl/c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o: ../boringssl/crypto/pem/pem_x509.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_x509.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_x509.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_x509.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_x509.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_x509.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_x509.c > CMakeFiles/pem.dir/pem_x509.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_x509.c > CMakeFiles/pem.dir/pem_x509.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_x509.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_x509.c -o CMakeFiles/pem.dir/pem_x509.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_x509.c -o CMakeFiles/pem.dir/pem_x509.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o.requires
@@ -215,17 +215,17 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o.provides.build: boringssl/c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o: boringssl/crypto/pem/CMakeFiles/pem.dir/flags.make
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o: ../boringssl/crypto/pem/pem_xaux.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_xaux.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_xaux.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pem.dir/pem_xaux.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_xaux.c
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pem.dir/pem_xaux.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_xaux.c > CMakeFiles/pem.dir/pem_xaux.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_xaux.c > CMakeFiles/pem.dir/pem_xaux.c.i
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pem.dir/pem_xaux.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pem/pem_xaux.c -o CMakeFiles/pem.dir/pem_xaux.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem/pem_xaux.c -o CMakeFiles/pem.dir/pem_xaux.c.s
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o.requires:
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o.requires
@@ -262,10 +262,10 @@ boringssl/crypto/pem/CMakeFiles/pem.dir/requires: boringssl/crypto/pem/CMakeFile
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/requires
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem && $(CMAKE_COMMAND) -P CMakeFiles/pem.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem && $(CMAKE_COMMAND) -P CMakeFiles/pem.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/clean
 
 boringssl/crypto/pem/CMakeFiles/pem.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/pem /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem /root/yangyazhou/quic/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pem /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pem/CMakeFiles/pem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/pem/CMakeFiles/pem.dir/depend
 

@@ -90,7 +90,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bn/bn_test.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bn/bn_test.c
 stdio.h
 -
 string.h
@@ -106,9 +106,9 @@ openssl/err.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/bn/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bn/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bn/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bn/internal.h
 openssl/base.h
 -
 inttypes.h

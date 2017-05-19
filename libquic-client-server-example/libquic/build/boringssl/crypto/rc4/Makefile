@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/rc4/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rc4/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 .PHONY : boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ rc4: boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # fast build rule for target.
 rc4/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
 .PHONY : rc4/fast
 
 rc4-md5-x86_64.o: rc4-md5-x86_64.S.o
@@ -120,7 +120,7 @@ rc4-md5-x86_64.o: rc4-md5-x86_64.S.o
 
 # target to build an object file
 rc4-md5-x86_64.S.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-md5-x86_64.S.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-md5-x86_64.S.o
 .PHONY : rc4-md5-x86_64.S.o
 
 rc4-x86_64.o: rc4-x86_64.S.o
@@ -128,7 +128,7 @@ rc4-x86_64.o: rc4-x86_64.S.o
 
 # target to build an object file
 rc4-x86_64.S.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-x86_64.S.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4-x86_64.S.o
 .PHONY : rc4-x86_64.S.o
 
 rc4.o: rc4.c.o
@@ -136,7 +136,7 @@ rc4.o: rc4.c.o
 
 # target to build an object file
 rc4.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
 .PHONY : rc4.c.o
 
 rc4.i: rc4.c.i
@@ -144,7 +144,7 @@ rc4.i: rc4.c.i
 
 # target to preprocess a source file
 rc4.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.i
 .PHONY : rc4.c.i
 
 rc4.s: rc4.c.s
@@ -152,7 +152,7 @@ rc4.s: rc4.c.s
 
 # target to generate assembly for a file
 rc4.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.s
 .PHONY : rc4.c.s
 
 # Help Target
@@ -180,6 +180,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

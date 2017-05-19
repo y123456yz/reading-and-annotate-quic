@@ -256,11 +256,11 @@ openssl/bio.h
 openssl/lhash.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../digest/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../digest/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../ec/internal.h
 openssl/base.h
 -
 openssl/bn.h
@@ -268,7 +268,7 @@ openssl/bn.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../rsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../rsa/internal.h
 openssl/base.h
 -
 openssl/asn1.h
@@ -276,7 +276,7 @@ openssl/asn1.h
 openssl/thread.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/algorithm.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/algorithm.c
 openssl/evp.h
 -
 assert.h
@@ -290,9 +290,9 @@ openssl/obj.h
 openssl/x509.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/asn1.c
 openssl/evp.h
 -
 openssl/asn1.h
@@ -304,9 +304,9 @@ openssl/obj.h
 openssl/x509.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/digestsign.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/digestsign.c
 openssl/evp.h
 -
 openssl/digest.h
@@ -314,11 +314,11 @@ openssl/digest.h
 openssl/err.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 ../digest/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../digest/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../digest/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp.c
 openssl/evp.h
 -
 assert.h
@@ -342,9 +342,9 @@ openssl/obj.h
 openssl/rsa.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp_ctx.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp_ctx.c
 openssl/evp.h
 -
 stdio.h
@@ -358,13 +358,13 @@ openssl/mem.h
 openssl/obj.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec.c
 openssl/evp.h
 -
 string.h
@@ -392,11 +392,11 @@ openssl/mem.h
 openssl/obj.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 ../ec/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../ec/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec_asn1.c
 openssl/evp.h
 -
 openssl/asn1t.h
@@ -414,9 +414,9 @@ openssl/obj.h
 openssl/x509.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac.c
 openssl/evp.h
 -
 string.h
@@ -432,9 +432,9 @@ openssl/mem.h
 openssl/obj.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac_asn1.c
 openssl/evp.h
 -
 openssl/asn1.h
@@ -446,9 +446,9 @@ openssl/mem.h
 openssl/obj.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa.c
 openssl/evp.h
 -
 string.h
@@ -468,11 +468,11 @@ openssl/obj.h
 openssl/rsa.h
 -
 ../rsa/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../rsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../rsa/internal.h
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa_asn1.c
 openssl/evp.h
 -
 openssl/asn1.h
@@ -492,11 +492,11 @@ openssl/rsa.h
 openssl/x509.h
 -
 ../rsa/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/../rsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/../rsa/internal.h
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/pbkdf.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/pbkdf.c
 openssl/evp.h
 -
 string.h
@@ -504,7 +504,7 @@ string.h
 openssl/hmac.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/sign.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/sign.c
 openssl/evp.h
 -
 openssl/digest.h
@@ -512,5 +512,5 @@ openssl/digest.h
 openssl/err.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/internal.h
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/flags.make
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/flags.make
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o: ../boringssl/crypto/bytestring/ber.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/ber.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/ber.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/ber.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/ber.c
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bytestring.dir/ber.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/ber.c > CMakeFiles/bytestring.dir/ber.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/ber.c > CMakeFiles/bytestring.dir/ber.c.i
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bytestring.dir/ber.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/ber.c -o CMakeFiles/bytestring.dir/ber.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/ber.c -o CMakeFiles/bytestring.dir/ber.c.s
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o.requires:
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o.provides.build: bo
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/flags.make
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o: ../boringssl/crypto/bytestring/cbs.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/cbs.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbs.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/cbs.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbs.c
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bytestring.dir/cbs.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbs.c > CMakeFiles/bytestring.dir/cbs.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbs.c > CMakeFiles/bytestring.dir/cbs.c.i
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bytestring.dir/cbs.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbs.c -o CMakeFiles/bytestring.dir/cbs.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbs.c -o CMakeFiles/bytestring.dir/cbs.c.s
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o.requires:
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o.provides.build: bo
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o: boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/flags.make
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o: ../boringssl/crypto/bytestring/cbb.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/cbb.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbb.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bytestring.dir/cbb.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbb.c
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bytestring.dir/cbb.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbb.c > CMakeFiles/bytestring.dir/cbb.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbb.c > CMakeFiles/bytestring.dir/cbb.c.i
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bytestring.dir/cbb.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring/cbb.c -o CMakeFiles/bytestring.dir/cbb.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/cbb.c -o CMakeFiles/bytestring.dir/cbb.c.s
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o.requires:
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o.requires
@@ -137,10 +137,10 @@ boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/requires: boringssl/crypto
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/requires
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring && $(CMAKE_COMMAND) -P CMakeFiles/bytestring.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring && $(CMAKE_COMMAND) -P CMakeFiles/bytestring.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/clean
 
 boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/bytestring /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring /root/yangyazhou/quic/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/depend
 

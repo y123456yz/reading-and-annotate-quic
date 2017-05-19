@@ -4,17 +4,17 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio_mem.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/buffer.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/connect.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/fd.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/file.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/hexdump.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/pair.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/printf.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket_helper.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio_mem.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/buffer.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/buffer.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/connect.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/fd.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/file.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/hexdump.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/pair.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/printf.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket_helper.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

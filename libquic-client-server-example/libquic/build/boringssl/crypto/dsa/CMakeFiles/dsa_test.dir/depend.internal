@@ -18,5 +18,5 @@ boringssl/crypto/dsa/CMakeFiles/dsa_test.dir/dsa_test.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_test.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/dsa/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/internal.h

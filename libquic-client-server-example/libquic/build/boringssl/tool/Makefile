@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/tool/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/tool/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/tool/CMakeFiles/bssl.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/CMakeFiles/bssl.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/tool/CMakeFiles/bssl.dir/rule
 .PHONY : boringssl/tool/CMakeFiles/bssl.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ bssl: boringssl/tool/CMakeFiles/bssl.dir/rule
 
 # fast build rule for target.
 bssl/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/build
 .PHONY : bssl/fast
 
 args.o: args.cc.o
@@ -120,7 +120,7 @@ args.o: args.cc.o
 
 # target to build an object file
 args.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.o
 .PHONY : args.cc.o
 
 args.i: args.cc.i
@@ -128,7 +128,7 @@ args.i: args.cc.i
 
 # target to preprocess a source file
 args.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.i
 .PHONY : args.cc.i
 
 args.s: args.cc.s
@@ -136,7 +136,7 @@ args.s: args.cc.s
 
 # target to generate assembly for a file
 args.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/args.cc.s
 .PHONY : args.cc.s
 
 client.o: client.cc.o
@@ -144,7 +144,7 @@ client.o: client.cc.o
 
 # target to build an object file
 client.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.o
 .PHONY : client.cc.o
 
 client.i: client.cc.i
@@ -152,7 +152,7 @@ client.i: client.cc.i
 
 # target to preprocess a source file
 client.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.i
 .PHONY : client.cc.i
 
 client.s: client.cc.s
@@ -160,7 +160,7 @@ client.s: client.cc.s
 
 # target to generate assembly for a file
 client.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/client.cc.s
 .PHONY : client.cc.s
 
 const.o: const.cc.o
@@ -168,7 +168,7 @@ const.o: const.cc.o
 
 # target to build an object file
 const.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.o
 .PHONY : const.cc.o
 
 const.i: const.cc.i
@@ -176,7 +176,7 @@ const.i: const.cc.i
 
 # target to preprocess a source file
 const.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.i
 .PHONY : const.cc.i
 
 const.s: const.cc.s
@@ -184,7 +184,7 @@ const.s: const.cc.s
 
 # target to generate assembly for a file
 const.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/const.cc.s
 .PHONY : const.cc.s
 
 digest.o: digest.cc.o
@@ -192,7 +192,7 @@ digest.o: digest.cc.o
 
 # target to build an object file
 digest.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.o
 .PHONY : digest.cc.o
 
 digest.i: digest.cc.i
@@ -200,7 +200,7 @@ digest.i: digest.cc.i
 
 # target to preprocess a source file
 digest.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.i
 .PHONY : digest.cc.i
 
 digest.s: digest.cc.s
@@ -208,7 +208,7 @@ digest.s: digest.cc.s
 
 # target to generate assembly for a file
 digest.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/digest.cc.s
 .PHONY : digest.cc.s
 
 pkcs12.o: pkcs12.cc.o
@@ -216,7 +216,7 @@ pkcs12.o: pkcs12.cc.o
 
 # target to build an object file
 pkcs12.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.o
 .PHONY : pkcs12.cc.o
 
 pkcs12.i: pkcs12.cc.i
@@ -224,7 +224,7 @@ pkcs12.i: pkcs12.cc.i
 
 # target to preprocess a source file
 pkcs12.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.i
 .PHONY : pkcs12.cc.i
 
 pkcs12.s: pkcs12.cc.s
@@ -232,7 +232,7 @@ pkcs12.s: pkcs12.cc.s
 
 # target to generate assembly for a file
 pkcs12.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/pkcs12.cc.s
 .PHONY : pkcs12.cc.s
 
 server.o: server.cc.o
@@ -240,7 +240,7 @@ server.o: server.cc.o
 
 # target to build an object file
 server.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.o
 .PHONY : server.cc.o
 
 server.i: server.cc.i
@@ -248,7 +248,7 @@ server.i: server.cc.i
 
 # target to preprocess a source file
 server.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.i
 .PHONY : server.cc.i
 
 server.s: server.cc.s
@@ -256,7 +256,7 @@ server.s: server.cc.s
 
 # target to generate assembly for a file
 server.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/server.cc.s
 .PHONY : server.cc.s
 
 speed.o: speed.cc.o
@@ -264,7 +264,7 @@ speed.o: speed.cc.o
 
 # target to build an object file
 speed.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.o
 .PHONY : speed.cc.o
 
 speed.i: speed.cc.i
@@ -272,7 +272,7 @@ speed.i: speed.cc.i
 
 # target to preprocess a source file
 speed.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.i
 .PHONY : speed.cc.i
 
 speed.s: speed.cc.s
@@ -280,7 +280,7 @@ speed.s: speed.cc.s
 
 # target to generate assembly for a file
 speed.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/speed.cc.s
 .PHONY : speed.cc.s
 
 tool.o: tool.cc.o
@@ -288,7 +288,7 @@ tool.o: tool.cc.o
 
 # target to build an object file
 tool.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.o
 .PHONY : tool.cc.o
 
 tool.i: tool.cc.i
@@ -296,7 +296,7 @@ tool.i: tool.cc.i
 
 # target to preprocess a source file
 tool.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.i
 .PHONY : tool.cc.i
 
 tool.s: tool.cc.s
@@ -304,7 +304,7 @@ tool.s: tool.cc.s
 
 # target to generate assembly for a file
 tool.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/tool.cc.s
 .PHONY : tool.cc.s
 
 transport_common.o: transport_common.cc.o
@@ -312,7 +312,7 @@ transport_common.o: transport_common.cc.o
 
 # target to build an object file
 transport_common.cc.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.o
 .PHONY : transport_common.cc.o
 
 transport_common.i: transport_common.cc.i
@@ -320,7 +320,7 @@ transport_common.i: transport_common.cc.i
 
 # target to preprocess a source file
 transport_common.cc.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.i
 .PHONY : transport_common.cc.i
 
 transport_common.s: transport_common.cc.s
@@ -328,7 +328,7 @@ transport_common.s: transport_common.cc.s
 
 # target to generate assembly for a file
 transport_common.cc.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/tool/CMakeFiles/bssl.dir/build.make boringssl/tool/CMakeFiles/bssl.dir/transport_common.cc.s
 .PHONY : transport_common.cc.s
 
 # Help Target
@@ -378,6 +378,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

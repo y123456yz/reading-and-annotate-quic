@@ -128,7 +128,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/ecdsa/../ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdsa/../ec/internal.h
 openssl/base.h
 -
 openssl/bn.h
@@ -136,7 +136,7 @@ openssl/bn.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/ecdsa/ecdsa.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdsa/ecdsa.c
 openssl/ecdsa.h
 -
 string.h
@@ -150,9 +150,9 @@ openssl/mem.h
 openssl/thread.h
 -
 ../ec/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/ecdsa/../ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdsa/../ec/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/ecdsa/ecdsa_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdsa/ecdsa_asn1.c
 openssl/ecdsa.h
 -
 openssl/asn1.h
@@ -162,5 +162,5 @@ openssl/asn1t.h
 openssl/ec_key.h
 -
 ../ec/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/ecdsa/../ec/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ecdsa/../ec/internal.h
 

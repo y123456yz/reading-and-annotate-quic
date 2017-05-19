@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/ssl/pqueue/pqueue_test.c" "/root/yangyazhou/quic/libquic/build/boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/pqueue_test.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/pqueue/pqueue_test.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/pqueue/CMakeFiles/pqueue_test.dir/pqueue_test.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/yangyazhou/quic/libquic/build/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

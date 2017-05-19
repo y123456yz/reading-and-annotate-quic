@@ -16,7 +16,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bitstr.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bitstr.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bitstr.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -32,7 +32,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bool.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bool.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bytes.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -49,7 +49,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bytes.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bytes.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bytes.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -66,7 +66,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_d2i_fp.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_d2i_fp.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -82,7 +82,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_dup.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_dup.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -98,7 +98,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_enum.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_enum.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -115,7 +115,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/time_support.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_gentm.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_gentm.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -131,7 +131,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_i2d_fp.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_i2d_fp.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -147,7 +147,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_int.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_int.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -163,7 +163,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_mbstr.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_mbstr.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -182,7 +182,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_object.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_object.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -198,7 +198,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_octet.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_octet.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -214,7 +214,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_print.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_print.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -233,7 +233,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_strnid.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_strnid.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -252,8 +252,8 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/time_support.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_time.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_time.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_locl.h
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -273,7 +273,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_type.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_type.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -290,7 +290,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/time_support.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_utctm.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_utctm.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utf8.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -306,7 +306,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utf8.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_utf8.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_utf8.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_lib.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1_mac.h
@@ -323,7 +323,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_lib.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_lib.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_lib.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_par.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -339,7 +339,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_par.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_par.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_par.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn_pack.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -355,7 +355,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn_pack.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn_pack.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn_pack.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_asn1.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -367,7 +367,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_asn1.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/bio_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/bio_asn1.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_ndef.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -384,7 +384,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/bio_ndef.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/bio_ndef.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/bio_ndef.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_enum.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -400,7 +400,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_enum.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_enum.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_enum.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_int.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -416,7 +416,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_int.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_int.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_int.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_string.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -432,7 +432,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_string.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_string.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_string.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_bitst.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -444,7 +444,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_bitst.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/t_bitst.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/t_bitst.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_pkey.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/base.h
@@ -456,7 +456,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/t_pkey.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/t_pkey.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/t_pkey.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_dec.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -474,7 +474,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_dec.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_dec.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_dec.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_enc.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -487,7 +487,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_enc.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_enc.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_enc.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_fre.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -500,7 +500,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_fre.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_fre.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_fre.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_new.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -520,7 +520,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_new.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_new.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_new.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_prn.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -540,8 +540,8 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_prn.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_locl.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_prn.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_locl.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_prn.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_typ.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -553,7 +553,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_typ.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_typ.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_typ.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_utl.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -573,7 +573,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_utl.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_utl.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_utl.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_bignum.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -585,7 +585,7 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_bignum.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/x_bignum.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/x_bignum.c
 boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_long.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -602,4 +602,4 @@ boringssl/crypto/asn1/CMakeFiles/asn1.dir/x_long.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/asn1/x_long.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/x_long.c

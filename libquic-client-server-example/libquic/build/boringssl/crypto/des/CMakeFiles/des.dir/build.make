@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/des/CMakeFiles/des.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/des/CMakeFiles/des.dir/flags.make
 
 boringssl/crypto/des/CMakeFiles/des.dir/des.c.o: boringssl/crypto/des/CMakeFiles/des.dir/flags.make
 boringssl/crypto/des/CMakeFiles/des.dir/des.c.o: ../boringssl/crypto/des/des.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/des/CMakeFiles/des.dir/des.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/des.dir/des.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/des/des.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/des.dir/des.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/des.c
 
 boringssl/crypto/des/CMakeFiles/des.dir/des.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/des.dir/des.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/des/des.c > CMakeFiles/des.dir/des.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/des.c > CMakeFiles/des.dir/des.c.i
 
 boringssl/crypto/des/CMakeFiles/des.dir/des.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/des.dir/des.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/des/des.c -o CMakeFiles/des.dir/des.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/des.c -o CMakeFiles/des.dir/des.c.s
 
 boringssl/crypto/des/CMakeFiles/des.dir/des.c.o.requires:
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/des.c.o.requires
@@ -87,10 +87,10 @@ boringssl/crypto/des/CMakeFiles/des.dir/requires: boringssl/crypto/des/CMakeFile
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/requires
 
 boringssl/crypto/des/CMakeFiles/des.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/des && $(CMAKE_COMMAND) -P CMakeFiles/des.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des && $(CMAKE_COMMAND) -P CMakeFiles/des.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/clean
 
 boringssl/crypto/des/CMakeFiles/des.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/des /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/des /root/yangyazhou/quic/libquic/build/boringssl/crypto/des/CMakeFiles/des.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/des/CMakeFiles/des.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/des/CMakeFiles/des.dir/depend
 

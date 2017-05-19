@@ -8,4 +8,4 @@ boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.o
  ../boringssl/include/openssl/hmac.h
  ../boringssl/include/openssl/mem.h
  ../boringssl/include/openssl/opensslfeatures.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/hmac/hmac_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/hmac/hmac_test.c

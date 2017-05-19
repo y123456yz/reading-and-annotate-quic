@@ -26,7 +26,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305.c
 openssl/poly1305.h
 -
 string.h
@@ -34,13 +34,13 @@ string.h
 openssl/cpu.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_arm.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_arm.c
 openssl/poly1305.h
 -
 string.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_vec.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_vec.c
 openssl/poly1305.h
 -
 emmintrin.h

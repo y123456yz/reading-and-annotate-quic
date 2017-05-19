@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/stack/CMakeFiles/stack.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/stack/CMakeFiles/stack.dir/flags.make
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o: boringssl/crypto/stack/CMakeFiles/stack.dir/flags.make
 boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o: ../boringssl/crypto/stack/stack.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/stack.dir/stack.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/stack/stack.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/stack.dir/stack.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/stack/stack.c
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stack.dir/stack.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/stack/stack.c > CMakeFiles/stack.dir/stack.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/stack/stack.c > CMakeFiles/stack.dir/stack.c.i
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stack.dir/stack.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/stack/stack.c -o CMakeFiles/stack.dir/stack.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/stack/stack.c -o CMakeFiles/stack.dir/stack.c.s
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o.requires:
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o.requires
@@ -87,10 +87,10 @@ boringssl/crypto/stack/CMakeFiles/stack.dir/requires: boringssl/crypto/stack/CMa
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/requires
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack && $(CMAKE_COMMAND) -P CMakeFiles/stack.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack && $(CMAKE_COMMAND) -P CMakeFiles/stack.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/clean
 
 boringssl/crypto/stack/CMakeFiles/stack.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/stack /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack /root/yangyazhou/quic/libquic/build/boringssl/crypto/stack/CMakeFiles/stack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/stack /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/stack/CMakeFiles/stack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/stack/CMakeFiles/stack.dir/depend
 

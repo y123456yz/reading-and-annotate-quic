@@ -130,7 +130,7 @@ time.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bitstr.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bitstr.c
 openssl/asn1.h
 -
 string.h
@@ -140,7 +140,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bool.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bool.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -148,7 +148,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_bytes.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_bytes.c
 openssl/asn1.h
 -
 string.h
@@ -160,7 +160,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_d2i_fp.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_d2i_fp.c
 openssl/asn1.h
 -
 limits.h
@@ -172,7 +172,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_dup.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_dup.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -180,7 +180,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_enum.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_enum.c
 openssl/asn1.h
 -
 string.h
@@ -190,7 +190,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_gentm.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_gentm.c
 openssl/asn1.h
 -
 string.h
@@ -202,7 +202,7 @@ openssl/mem.h
 openssl/time_support.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_i2d_fp.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_i2d_fp.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -210,17 +210,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_int.c
-openssl/asn1.h
--
-string.h
--
-openssl/err.h
--
-openssl/mem.h
--
-
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_mbstr.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_int.c
 openssl/asn1.h
 -
 string.h
@@ -230,7 +220,17 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_object.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_mbstr.c
+openssl/asn1.h
+-
+string.h
+-
+openssl/err.h
+-
+openssl/mem.h
+-
+
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_object.c
 openssl/asn1.h
 -
 limits.h
@@ -244,7 +244,7 @@ openssl/mem.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_octet.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_octet.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -252,7 +252,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_print.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_print.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -260,7 +260,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_strnid.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_strnid.c
 openssl/asn1.h
 -
 stdlib.h
@@ -274,7 +274,7 @@ openssl/mem.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_time.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_time.c
 openssl/asn1.h
 -
 string.h
@@ -290,9 +290,9 @@ openssl/mem.h
 openssl/time_support.h
 -
 asn1_locl.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_type.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_type.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -304,7 +304,7 @@ openssl/mem.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_utctm.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_utctm.c
 openssl/asn1.h
 -
 string.h
@@ -316,7 +316,7 @@ openssl/mem.h
 openssl/time_support.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/a_utf8.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/a_utf8.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -324,7 +324,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_lib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_lib.c
 openssl/asn1.h
 -
 limits.h
@@ -338,9 +338,9 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_par.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_par.c
 openssl/asn1.h
 -
 openssl/bio.h
@@ -350,7 +350,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn_pack.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn_pack.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -358,7 +358,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/bio_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/bio_asn1.c
 openssl/asn1.h
 -
 assert.h
@@ -370,7 +370,7 @@ openssl/bio.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/bio_ndef.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/bio_ndef.c
 openssl/asn1.h
 -
 assert.h
@@ -384,7 +384,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_enum.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_enum.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -392,7 +392,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_int.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_int.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -400,7 +400,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/f_string.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/f_string.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -408,7 +408,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/t_bitst.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/t_bitst.c
 openssl/asn1.h
 -
 string.h
@@ -416,7 +416,7 @@ string.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/t_pkey.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/t_pkey.c
 openssl/asn1.h
 -
 openssl/bio.h
@@ -424,7 +424,7 @@ openssl/bio.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_dec.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_dec.c
 openssl/asn1.h
 -
 string.h
@@ -438,7 +438,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_enc.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_enc.c
 openssl/asn1.h
 -
 string.h
@@ -448,7 +448,7 @@ openssl/asn1t.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_fre.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_fre.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -456,7 +456,7 @@ openssl/asn1t.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_new.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_new.c
 openssl/asn1.h
 -
 string.h
@@ -470,7 +470,7 @@ openssl/mem.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_prn.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_prn.c
 openssl/asn1.h
 -
 time.h
@@ -484,15 +484,15 @@ openssl/obj.h
 openssl/mem.h
 -
 asn1_locl.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/asn1_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/asn1_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_typ.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_typ.c
 openssl/asn1.h
 -
 openssl/asn1t.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/tasn_utl.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/tasn_utl.c
 openssl/asn1.h
 -
 string.h
@@ -506,7 +506,7 @@ openssl/obj.h
 openssl/err.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/x_bignum.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/x_bignum.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -514,7 +514,7 @@ openssl/asn1t.h
 openssl/bn.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/asn1/x_long.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/asn1/x_long.c
 openssl/asn1.h
 -
 string.h

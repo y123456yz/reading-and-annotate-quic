@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/x509/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule
 .PHONY : boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ pkcs7_test: boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/rule
 
 # fast build rule for target.
 pkcs7_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build
 .PHONY : pkcs7_test/fast
 
 # Convenience name for target.
 boringssl/crypto/x509/CMakeFiles/x509.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/x509.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/x509/CMakeFiles/x509.dir/rule
 .PHONY : boringssl/crypto/x509/CMakeFiles/x509.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ x509: boringssl/crypto/x509/CMakeFiles/x509.dir/rule
 
 # fast build rule for target.
 x509/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/build
 .PHONY : x509/fast
 
 a_digest.o: a_digest.c.o
@@ -134,7 +134,7 @@ a_digest.o: a_digest.c.o
 
 # target to build an object file
 a_digest.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.o
 .PHONY : a_digest.c.o
 
 a_digest.i: a_digest.c.i
@@ -142,7 +142,7 @@ a_digest.i: a_digest.c.i
 
 # target to preprocess a source file
 a_digest.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.i
 .PHONY : a_digest.c.i
 
 a_digest.s: a_digest.c.s
@@ -150,7 +150,7 @@ a_digest.s: a_digest.c.s
 
 # target to generate assembly for a file
 a_digest.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.s
 .PHONY : a_digest.c.s
 
 a_sign.o: a_sign.c.o
@@ -158,7 +158,7 @@ a_sign.o: a_sign.c.o
 
 # target to build an object file
 a_sign.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.o
 .PHONY : a_sign.c.o
 
 a_sign.i: a_sign.c.i
@@ -166,7 +166,7 @@ a_sign.i: a_sign.c.i
 
 # target to preprocess a source file
 a_sign.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.i
 .PHONY : a_sign.c.i
 
 a_sign.s: a_sign.c.s
@@ -174,7 +174,7 @@ a_sign.s: a_sign.c.s
 
 # target to generate assembly for a file
 a_sign.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.s
 .PHONY : a_sign.c.s
 
 a_strex.o: a_strex.c.o
@@ -182,7 +182,7 @@ a_strex.o: a_strex.c.o
 
 # target to build an object file
 a_strex.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.o
 .PHONY : a_strex.c.o
 
 a_strex.i: a_strex.c.i
@@ -190,7 +190,7 @@ a_strex.i: a_strex.c.i
 
 # target to preprocess a source file
 a_strex.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.i
 .PHONY : a_strex.c.i
 
 a_strex.s: a_strex.c.s
@@ -198,7 +198,7 @@ a_strex.s: a_strex.c.s
 
 # target to generate assembly for a file
 a_strex.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.s
 .PHONY : a_strex.c.s
 
 a_verify.o: a_verify.c.o
@@ -206,7 +206,7 @@ a_verify.o: a_verify.c.o
 
 # target to build an object file
 a_verify.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.o
 .PHONY : a_verify.c.o
 
 a_verify.i: a_verify.c.i
@@ -214,7 +214,7 @@ a_verify.i: a_verify.c.i
 
 # target to preprocess a source file
 a_verify.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.i
 .PHONY : a_verify.c.i
 
 a_verify.s: a_verify.c.s
@@ -222,7 +222,7 @@ a_verify.s: a_verify.c.s
 
 # target to generate assembly for a file
 a_verify.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.s
 .PHONY : a_verify.c.s
 
 asn1_gen.o: asn1_gen.c.o
@@ -230,7 +230,7 @@ asn1_gen.o: asn1_gen.c.o
 
 # target to build an object file
 asn1_gen.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.o
 .PHONY : asn1_gen.c.o
 
 asn1_gen.i: asn1_gen.c.i
@@ -238,7 +238,7 @@ asn1_gen.i: asn1_gen.c.i
 
 # target to preprocess a source file
 asn1_gen.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.i
 .PHONY : asn1_gen.c.i
 
 asn1_gen.s: asn1_gen.c.s
@@ -246,7 +246,7 @@ asn1_gen.s: asn1_gen.c.s
 
 # target to generate assembly for a file
 asn1_gen.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.s
 .PHONY : asn1_gen.c.s
 
 by_dir.o: by_dir.c.o
@@ -254,7 +254,7 @@ by_dir.o: by_dir.c.o
 
 # target to build an object file
 by_dir.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.o
 .PHONY : by_dir.c.o
 
 by_dir.i: by_dir.c.i
@@ -262,7 +262,7 @@ by_dir.i: by_dir.c.i
 
 # target to preprocess a source file
 by_dir.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.i
 .PHONY : by_dir.c.i
 
 by_dir.s: by_dir.c.s
@@ -270,7 +270,7 @@ by_dir.s: by_dir.c.s
 
 # target to generate assembly for a file
 by_dir.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.s
 .PHONY : by_dir.c.s
 
 by_file.o: by_file.c.o
@@ -278,7 +278,7 @@ by_file.o: by_file.c.o
 
 # target to build an object file
 by_file.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.o
 .PHONY : by_file.c.o
 
 by_file.i: by_file.c.i
@@ -286,7 +286,7 @@ by_file.i: by_file.c.i
 
 # target to preprocess a source file
 by_file.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.i
 .PHONY : by_file.c.i
 
 by_file.s: by_file.c.s
@@ -294,7 +294,7 @@ by_file.s: by_file.c.s
 
 # target to generate assembly for a file
 by_file.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.s
 .PHONY : by_file.c.s
 
 i2d_pr.o: i2d_pr.c.o
@@ -302,7 +302,7 @@ i2d_pr.o: i2d_pr.c.o
 
 # target to build an object file
 i2d_pr.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.o
 .PHONY : i2d_pr.c.o
 
 i2d_pr.i: i2d_pr.c.i
@@ -310,7 +310,7 @@ i2d_pr.i: i2d_pr.c.i
 
 # target to preprocess a source file
 i2d_pr.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.i
 .PHONY : i2d_pr.c.i
 
 i2d_pr.s: i2d_pr.c.s
@@ -318,7 +318,7 @@ i2d_pr.s: i2d_pr.c.s
 
 # target to generate assembly for a file
 i2d_pr.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.s
 .PHONY : i2d_pr.c.s
 
 pkcs7.o: pkcs7.c.o
@@ -326,7 +326,7 @@ pkcs7.o: pkcs7.c.o
 
 # target to build an object file
 pkcs7.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.o
 .PHONY : pkcs7.c.o
 
 pkcs7.i: pkcs7.c.i
@@ -334,7 +334,7 @@ pkcs7.i: pkcs7.c.i
 
 # target to preprocess a source file
 pkcs7.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.i
 .PHONY : pkcs7.c.i
 
 pkcs7.s: pkcs7.c.s
@@ -342,7 +342,7 @@ pkcs7.s: pkcs7.c.s
 
 # target to generate assembly for a file
 pkcs7.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/pkcs7.c.s
 .PHONY : pkcs7.c.s
 
 pkcs7_test.o: pkcs7_test.c.o
@@ -350,7 +350,7 @@ pkcs7_test.o: pkcs7_test.c.o
 
 # target to build an object file
 pkcs7_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.o
 .PHONY : pkcs7_test.c.o
 
 pkcs7_test.i: pkcs7_test.c.i
@@ -358,7 +358,7 @@ pkcs7_test.i: pkcs7_test.c.i
 
 # target to preprocess a source file
 pkcs7_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.i
 .PHONY : pkcs7_test.c.i
 
 pkcs7_test.s: pkcs7_test.c.s
@@ -366,7 +366,7 @@ pkcs7_test.s: pkcs7_test.c.s
 
 # target to generate assembly for a file
 pkcs7_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/build.make boringssl/crypto/x509/CMakeFiles/pkcs7_test.dir/pkcs7_test.c.s
 .PHONY : pkcs7_test.c.s
 
 t_crl.o: t_crl.c.o
@@ -374,7 +374,7 @@ t_crl.o: t_crl.c.o
 
 # target to build an object file
 t_crl.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.o
 .PHONY : t_crl.c.o
 
 t_crl.i: t_crl.c.i
@@ -382,7 +382,7 @@ t_crl.i: t_crl.c.i
 
 # target to preprocess a source file
 t_crl.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.i
 .PHONY : t_crl.c.i
 
 t_crl.s: t_crl.c.s
@@ -390,7 +390,7 @@ t_crl.s: t_crl.c.s
 
 # target to generate assembly for a file
 t_crl.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.s
 .PHONY : t_crl.c.s
 
 t_x509.o: t_x509.c.o
@@ -398,7 +398,7 @@ t_x509.o: t_x509.c.o
 
 # target to build an object file
 t_x509.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.o
 .PHONY : t_x509.c.o
 
 t_x509.i: t_x509.c.i
@@ -406,7 +406,7 @@ t_x509.i: t_x509.c.i
 
 # target to preprocess a source file
 t_x509.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.i
 .PHONY : t_x509.c.i
 
 t_x509.s: t_x509.c.s
@@ -414,7 +414,7 @@ t_x509.s: t_x509.c.s
 
 # target to generate assembly for a file
 t_x509.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.s
 .PHONY : t_x509.c.s
 
 t_x509a.o: t_x509a.c.o
@@ -422,7 +422,7 @@ t_x509a.o: t_x509a.c.o
 
 # target to build an object file
 t_x509a.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.o
 .PHONY : t_x509a.c.o
 
 t_x509a.i: t_x509a.c.i
@@ -430,7 +430,7 @@ t_x509a.i: t_x509a.c.i
 
 # target to preprocess a source file
 t_x509a.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.i
 .PHONY : t_x509a.c.i
 
 t_x509a.s: t_x509a.c.s
@@ -438,7 +438,7 @@ t_x509a.s: t_x509a.c.s
 
 # target to generate assembly for a file
 t_x509a.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.s
 .PHONY : t_x509a.c.s
 
 x509.o: x509.c.o
@@ -446,7 +446,7 @@ x509.o: x509.c.o
 
 # target to build an object file
 x509.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.o
 .PHONY : x509.c.o
 
 x509.i: x509.c.i
@@ -454,7 +454,7 @@ x509.i: x509.c.i
 
 # target to preprocess a source file
 x509.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.i
 .PHONY : x509.c.i
 
 x509.s: x509.c.s
@@ -462,7 +462,7 @@ x509.s: x509.c.s
 
 # target to generate assembly for a file
 x509.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.s
 .PHONY : x509.c.s
 
 x509_att.o: x509_att.c.o
@@ -470,7 +470,7 @@ x509_att.o: x509_att.c.o
 
 # target to build an object file
 x509_att.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.o
 .PHONY : x509_att.c.o
 
 x509_att.i: x509_att.c.i
@@ -478,7 +478,7 @@ x509_att.i: x509_att.c.i
 
 # target to preprocess a source file
 x509_att.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.i
 .PHONY : x509_att.c.i
 
 x509_att.s: x509_att.c.s
@@ -486,7 +486,7 @@ x509_att.s: x509_att.c.s
 
 # target to generate assembly for a file
 x509_att.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.s
 .PHONY : x509_att.c.s
 
 x509_cmp.o: x509_cmp.c.o
@@ -494,7 +494,7 @@ x509_cmp.o: x509_cmp.c.o
 
 # target to build an object file
 x509_cmp.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.o
 .PHONY : x509_cmp.c.o
 
 x509_cmp.i: x509_cmp.c.i
@@ -502,7 +502,7 @@ x509_cmp.i: x509_cmp.c.i
 
 # target to preprocess a source file
 x509_cmp.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.i
 .PHONY : x509_cmp.c.i
 
 x509_cmp.s: x509_cmp.c.s
@@ -510,7 +510,7 @@ x509_cmp.s: x509_cmp.c.s
 
 # target to generate assembly for a file
 x509_cmp.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.s
 .PHONY : x509_cmp.c.s
 
 x509_d2.o: x509_d2.c.o
@@ -518,7 +518,7 @@ x509_d2.o: x509_d2.c.o
 
 # target to build an object file
 x509_d2.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.o
 .PHONY : x509_d2.c.o
 
 x509_d2.i: x509_d2.c.i
@@ -526,7 +526,7 @@ x509_d2.i: x509_d2.c.i
 
 # target to preprocess a source file
 x509_d2.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.i
 .PHONY : x509_d2.c.i
 
 x509_d2.s: x509_d2.c.s
@@ -534,7 +534,7 @@ x509_d2.s: x509_d2.c.s
 
 # target to generate assembly for a file
 x509_d2.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.s
 .PHONY : x509_d2.c.s
 
 x509_def.o: x509_def.c.o
@@ -542,7 +542,7 @@ x509_def.o: x509_def.c.o
 
 # target to build an object file
 x509_def.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.o
 .PHONY : x509_def.c.o
 
 x509_def.i: x509_def.c.i
@@ -550,7 +550,7 @@ x509_def.i: x509_def.c.i
 
 # target to preprocess a source file
 x509_def.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.i
 .PHONY : x509_def.c.i
 
 x509_def.s: x509_def.c.s
@@ -558,7 +558,7 @@ x509_def.s: x509_def.c.s
 
 # target to generate assembly for a file
 x509_def.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.s
 .PHONY : x509_def.c.s
 
 x509_ext.o: x509_ext.c.o
@@ -566,7 +566,7 @@ x509_ext.o: x509_ext.c.o
 
 # target to build an object file
 x509_ext.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.o
 .PHONY : x509_ext.c.o
 
 x509_ext.i: x509_ext.c.i
@@ -574,7 +574,7 @@ x509_ext.i: x509_ext.c.i
 
 # target to preprocess a source file
 x509_ext.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.i
 .PHONY : x509_ext.c.i
 
 x509_ext.s: x509_ext.c.s
@@ -582,7 +582,7 @@ x509_ext.s: x509_ext.c.s
 
 # target to generate assembly for a file
 x509_ext.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.s
 .PHONY : x509_ext.c.s
 
 x509_lu.o: x509_lu.c.o
@@ -590,7 +590,7 @@ x509_lu.o: x509_lu.c.o
 
 # target to build an object file
 x509_lu.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.o
 .PHONY : x509_lu.c.o
 
 x509_lu.i: x509_lu.c.i
@@ -598,7 +598,7 @@ x509_lu.i: x509_lu.c.i
 
 # target to preprocess a source file
 x509_lu.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.i
 .PHONY : x509_lu.c.i
 
 x509_lu.s: x509_lu.c.s
@@ -606,7 +606,7 @@ x509_lu.s: x509_lu.c.s
 
 # target to generate assembly for a file
 x509_lu.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.s
 .PHONY : x509_lu.c.s
 
 x509_obj.o: x509_obj.c.o
@@ -614,7 +614,7 @@ x509_obj.o: x509_obj.c.o
 
 # target to build an object file
 x509_obj.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.o
 .PHONY : x509_obj.c.o
 
 x509_obj.i: x509_obj.c.i
@@ -622,7 +622,7 @@ x509_obj.i: x509_obj.c.i
 
 # target to preprocess a source file
 x509_obj.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.i
 .PHONY : x509_obj.c.i
 
 x509_obj.s: x509_obj.c.s
@@ -630,7 +630,7 @@ x509_obj.s: x509_obj.c.s
 
 # target to generate assembly for a file
 x509_obj.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.s
 .PHONY : x509_obj.c.s
 
 x509_r2x.o: x509_r2x.c.o
@@ -638,7 +638,7 @@ x509_r2x.o: x509_r2x.c.o
 
 # target to build an object file
 x509_r2x.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.o
 .PHONY : x509_r2x.c.o
 
 x509_r2x.i: x509_r2x.c.i
@@ -646,7 +646,7 @@ x509_r2x.i: x509_r2x.c.i
 
 # target to preprocess a source file
 x509_r2x.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.i
 .PHONY : x509_r2x.c.i
 
 x509_r2x.s: x509_r2x.c.s
@@ -654,7 +654,7 @@ x509_r2x.s: x509_r2x.c.s
 
 # target to generate assembly for a file
 x509_r2x.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.s
 .PHONY : x509_r2x.c.s
 
 x509_req.o: x509_req.c.o
@@ -662,7 +662,7 @@ x509_req.o: x509_req.c.o
 
 # target to build an object file
 x509_req.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.o
 .PHONY : x509_req.c.o
 
 x509_req.i: x509_req.c.i
@@ -670,7 +670,7 @@ x509_req.i: x509_req.c.i
 
 # target to preprocess a source file
 x509_req.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.i
 .PHONY : x509_req.c.i
 
 x509_req.s: x509_req.c.s
@@ -678,7 +678,7 @@ x509_req.s: x509_req.c.s
 
 # target to generate assembly for a file
 x509_req.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.s
 .PHONY : x509_req.c.s
 
 x509_set.o: x509_set.c.o
@@ -686,7 +686,7 @@ x509_set.o: x509_set.c.o
 
 # target to build an object file
 x509_set.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.o
 .PHONY : x509_set.c.o
 
 x509_set.i: x509_set.c.i
@@ -694,7 +694,7 @@ x509_set.i: x509_set.c.i
 
 # target to preprocess a source file
 x509_set.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.i
 .PHONY : x509_set.c.i
 
 x509_set.s: x509_set.c.s
@@ -702,7 +702,7 @@ x509_set.s: x509_set.c.s
 
 # target to generate assembly for a file
 x509_set.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.s
 .PHONY : x509_set.c.s
 
 x509_trs.o: x509_trs.c.o
@@ -710,7 +710,7 @@ x509_trs.o: x509_trs.c.o
 
 # target to build an object file
 x509_trs.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.o
 .PHONY : x509_trs.c.o
 
 x509_trs.i: x509_trs.c.i
@@ -718,7 +718,7 @@ x509_trs.i: x509_trs.c.i
 
 # target to preprocess a source file
 x509_trs.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.i
 .PHONY : x509_trs.c.i
 
 x509_trs.s: x509_trs.c.s
@@ -726,7 +726,7 @@ x509_trs.s: x509_trs.c.s
 
 # target to generate assembly for a file
 x509_trs.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.s
 .PHONY : x509_trs.c.s
 
 x509_txt.o: x509_txt.c.o
@@ -734,7 +734,7 @@ x509_txt.o: x509_txt.c.o
 
 # target to build an object file
 x509_txt.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.o
 .PHONY : x509_txt.c.o
 
 x509_txt.i: x509_txt.c.i
@@ -742,7 +742,7 @@ x509_txt.i: x509_txt.c.i
 
 # target to preprocess a source file
 x509_txt.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.i
 .PHONY : x509_txt.c.i
 
 x509_txt.s: x509_txt.c.s
@@ -750,7 +750,7 @@ x509_txt.s: x509_txt.c.s
 
 # target to generate assembly for a file
 x509_txt.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.s
 .PHONY : x509_txt.c.s
 
 x509_v3.o: x509_v3.c.o
@@ -758,7 +758,7 @@ x509_v3.o: x509_v3.c.o
 
 # target to build an object file
 x509_v3.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.o
 .PHONY : x509_v3.c.o
 
 x509_v3.i: x509_v3.c.i
@@ -766,7 +766,7 @@ x509_v3.i: x509_v3.c.i
 
 # target to preprocess a source file
 x509_v3.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.i
 .PHONY : x509_v3.c.i
 
 x509_v3.s: x509_v3.c.s
@@ -774,7 +774,7 @@ x509_v3.s: x509_v3.c.s
 
 # target to generate assembly for a file
 x509_v3.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.s
 .PHONY : x509_v3.c.s
 
 x509_vfy.o: x509_vfy.c.o
@@ -782,7 +782,7 @@ x509_vfy.o: x509_vfy.c.o
 
 # target to build an object file
 x509_vfy.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.o
 .PHONY : x509_vfy.c.o
 
 x509_vfy.i: x509_vfy.c.i
@@ -790,7 +790,7 @@ x509_vfy.i: x509_vfy.c.i
 
 # target to preprocess a source file
 x509_vfy.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.i
 .PHONY : x509_vfy.c.i
 
 x509_vfy.s: x509_vfy.c.s
@@ -798,7 +798,7 @@ x509_vfy.s: x509_vfy.c.s
 
 # target to generate assembly for a file
 x509_vfy.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.s
 .PHONY : x509_vfy.c.s
 
 x509_vpm.o: x509_vpm.c.o
@@ -806,7 +806,7 @@ x509_vpm.o: x509_vpm.c.o
 
 # target to build an object file
 x509_vpm.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.o
 .PHONY : x509_vpm.c.o
 
 x509_vpm.i: x509_vpm.c.i
@@ -814,7 +814,7 @@ x509_vpm.i: x509_vpm.c.i
 
 # target to preprocess a source file
 x509_vpm.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.i
 .PHONY : x509_vpm.c.i
 
 x509_vpm.s: x509_vpm.c.s
@@ -822,7 +822,7 @@ x509_vpm.s: x509_vpm.c.s
 
 # target to generate assembly for a file
 x509_vpm.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.s
 .PHONY : x509_vpm.c.s
 
 x509cset.o: x509cset.c.o
@@ -830,7 +830,7 @@ x509cset.o: x509cset.c.o
 
 # target to build an object file
 x509cset.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.o
 .PHONY : x509cset.c.o
 
 x509cset.i: x509cset.c.i
@@ -838,7 +838,7 @@ x509cset.i: x509cset.c.i
 
 # target to preprocess a source file
 x509cset.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.i
 .PHONY : x509cset.c.i
 
 x509cset.s: x509cset.c.s
@@ -846,7 +846,7 @@ x509cset.s: x509cset.c.s
 
 # target to generate assembly for a file
 x509cset.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.s
 .PHONY : x509cset.c.s
 
 x509name.o: x509name.c.o
@@ -854,7 +854,7 @@ x509name.o: x509name.c.o
 
 # target to build an object file
 x509name.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.o
 .PHONY : x509name.c.o
 
 x509name.i: x509name.c.i
@@ -862,7 +862,7 @@ x509name.i: x509name.c.i
 
 # target to preprocess a source file
 x509name.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.i
 .PHONY : x509name.c.i
 
 x509name.s: x509name.c.s
@@ -870,7 +870,7 @@ x509name.s: x509name.c.s
 
 # target to generate assembly for a file
 x509name.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.s
 .PHONY : x509name.c.s
 
 x509rset.o: x509rset.c.o
@@ -878,7 +878,7 @@ x509rset.o: x509rset.c.o
 
 # target to build an object file
 x509rset.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.o
 .PHONY : x509rset.c.o
 
 x509rset.i: x509rset.c.i
@@ -886,7 +886,7 @@ x509rset.i: x509rset.c.i
 
 # target to preprocess a source file
 x509rset.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.i
 .PHONY : x509rset.c.i
 
 x509rset.s: x509rset.c.s
@@ -894,7 +894,7 @@ x509rset.s: x509rset.c.s
 
 # target to generate assembly for a file
 x509rset.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.s
 .PHONY : x509rset.c.s
 
 x509spki.o: x509spki.c.o
@@ -902,7 +902,7 @@ x509spki.o: x509spki.c.o
 
 # target to build an object file
 x509spki.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.o
 .PHONY : x509spki.c.o
 
 x509spki.i: x509spki.c.i
@@ -910,7 +910,7 @@ x509spki.i: x509spki.c.i
 
 # target to preprocess a source file
 x509spki.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.i
 .PHONY : x509spki.c.i
 
 x509spki.s: x509spki.c.s
@@ -918,7 +918,7 @@ x509spki.s: x509spki.c.s
 
 # target to generate assembly for a file
 x509spki.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.s
 .PHONY : x509spki.c.s
 
 x509type.o: x509type.c.o
@@ -926,7 +926,7 @@ x509type.o: x509type.c.o
 
 # target to build an object file
 x509type.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.o
 .PHONY : x509type.c.o
 
 x509type.i: x509type.c.i
@@ -934,7 +934,7 @@ x509type.i: x509type.c.i
 
 # target to preprocess a source file
 x509type.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.i
 .PHONY : x509type.c.i
 
 x509type.s: x509type.c.s
@@ -942,7 +942,7 @@ x509type.s: x509type.c.s
 
 # target to generate assembly for a file
 x509type.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x509type.c.s
 .PHONY : x509type.c.s
 
 x_algor.o: x_algor.c.o
@@ -950,7 +950,7 @@ x_algor.o: x_algor.c.o
 
 # target to build an object file
 x_algor.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.o
 .PHONY : x_algor.c.o
 
 x_algor.i: x_algor.c.i
@@ -958,7 +958,7 @@ x_algor.i: x_algor.c.i
 
 # target to preprocess a source file
 x_algor.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.i
 .PHONY : x_algor.c.i
 
 x_algor.s: x_algor.c.s
@@ -966,7 +966,7 @@ x_algor.s: x_algor.c.s
 
 # target to generate assembly for a file
 x_algor.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.s
 .PHONY : x_algor.c.s
 
 x_all.o: x_all.c.o
@@ -974,7 +974,7 @@ x_all.o: x_all.c.o
 
 # target to build an object file
 x_all.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.o
 .PHONY : x_all.c.o
 
 x_all.i: x_all.c.i
@@ -982,7 +982,7 @@ x_all.i: x_all.c.i
 
 # target to preprocess a source file
 x_all.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.i
 .PHONY : x_all.c.i
 
 x_all.s: x_all.c.s
@@ -990,7 +990,7 @@ x_all.s: x_all.c.s
 
 # target to generate assembly for a file
 x_all.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.s
 .PHONY : x_all.c.s
 
 x_attrib.o: x_attrib.c.o
@@ -998,7 +998,7 @@ x_attrib.o: x_attrib.c.o
 
 # target to build an object file
 x_attrib.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.o
 .PHONY : x_attrib.c.o
 
 x_attrib.i: x_attrib.c.i
@@ -1006,7 +1006,7 @@ x_attrib.i: x_attrib.c.i
 
 # target to preprocess a source file
 x_attrib.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.i
 .PHONY : x_attrib.c.i
 
 x_attrib.s: x_attrib.c.s
@@ -1014,7 +1014,7 @@ x_attrib.s: x_attrib.c.s
 
 # target to generate assembly for a file
 x_attrib.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.s
 .PHONY : x_attrib.c.s
 
 x_crl.o: x_crl.c.o
@@ -1022,7 +1022,7 @@ x_crl.o: x_crl.c.o
 
 # target to build an object file
 x_crl.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.o
 .PHONY : x_crl.c.o
 
 x_crl.i: x_crl.c.i
@@ -1030,7 +1030,7 @@ x_crl.i: x_crl.c.i
 
 # target to preprocess a source file
 x_crl.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.i
 .PHONY : x_crl.c.i
 
 x_crl.s: x_crl.c.s
@@ -1038,7 +1038,7 @@ x_crl.s: x_crl.c.s
 
 # target to generate assembly for a file
 x_crl.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.s
 .PHONY : x_crl.c.s
 
 x_exten.o: x_exten.c.o
@@ -1046,7 +1046,7 @@ x_exten.o: x_exten.c.o
 
 # target to build an object file
 x_exten.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.o
 .PHONY : x_exten.c.o
 
 x_exten.i: x_exten.c.i
@@ -1054,7 +1054,7 @@ x_exten.i: x_exten.c.i
 
 # target to preprocess a source file
 x_exten.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.i
 .PHONY : x_exten.c.i
 
 x_exten.s: x_exten.c.s
@@ -1062,7 +1062,7 @@ x_exten.s: x_exten.c.s
 
 # target to generate assembly for a file
 x_exten.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.s
 .PHONY : x_exten.c.s
 
 x_info.o: x_info.c.o
@@ -1070,7 +1070,7 @@ x_info.o: x_info.c.o
 
 # target to build an object file
 x_info.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.o
 .PHONY : x_info.c.o
 
 x_info.i: x_info.c.i
@@ -1078,7 +1078,7 @@ x_info.i: x_info.c.i
 
 # target to preprocess a source file
 x_info.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.i
 .PHONY : x_info.c.i
 
 x_info.s: x_info.c.s
@@ -1086,7 +1086,7 @@ x_info.s: x_info.c.s
 
 # target to generate assembly for a file
 x_info.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.s
 .PHONY : x_info.c.s
 
 x_name.o: x_name.c.o
@@ -1094,7 +1094,7 @@ x_name.o: x_name.c.o
 
 # target to build an object file
 x_name.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.o
 .PHONY : x_name.c.o
 
 x_name.i: x_name.c.i
@@ -1102,7 +1102,7 @@ x_name.i: x_name.c.i
 
 # target to preprocess a source file
 x_name.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.i
 .PHONY : x_name.c.i
 
 x_name.s: x_name.c.s
@@ -1110,7 +1110,7 @@ x_name.s: x_name.c.s
 
 # target to generate assembly for a file
 x_name.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.s
 .PHONY : x_name.c.s
 
 x_pkey.o: x_pkey.c.o
@@ -1118,7 +1118,7 @@ x_pkey.o: x_pkey.c.o
 
 # target to build an object file
 x_pkey.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.o
 .PHONY : x_pkey.c.o
 
 x_pkey.i: x_pkey.c.i
@@ -1126,7 +1126,7 @@ x_pkey.i: x_pkey.c.i
 
 # target to preprocess a source file
 x_pkey.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.i
 .PHONY : x_pkey.c.i
 
 x_pkey.s: x_pkey.c.s
@@ -1134,7 +1134,7 @@ x_pkey.s: x_pkey.c.s
 
 # target to generate assembly for a file
 x_pkey.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.s
 .PHONY : x_pkey.c.s
 
 x_pubkey.o: x_pubkey.c.o
@@ -1142,7 +1142,7 @@ x_pubkey.o: x_pubkey.c.o
 
 # target to build an object file
 x_pubkey.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.o
 .PHONY : x_pubkey.c.o
 
 x_pubkey.i: x_pubkey.c.i
@@ -1150,7 +1150,7 @@ x_pubkey.i: x_pubkey.c.i
 
 # target to preprocess a source file
 x_pubkey.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.i
 .PHONY : x_pubkey.c.i
 
 x_pubkey.s: x_pubkey.c.s
@@ -1158,7 +1158,7 @@ x_pubkey.s: x_pubkey.c.s
 
 # target to generate assembly for a file
 x_pubkey.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.s
 .PHONY : x_pubkey.c.s
 
 x_req.o: x_req.c.o
@@ -1166,7 +1166,7 @@ x_req.o: x_req.c.o
 
 # target to build an object file
 x_req.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.o
 .PHONY : x_req.c.o
 
 x_req.i: x_req.c.i
@@ -1174,7 +1174,7 @@ x_req.i: x_req.c.i
 
 # target to preprocess a source file
 x_req.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.i
 .PHONY : x_req.c.i
 
 x_req.s: x_req.c.s
@@ -1182,7 +1182,7 @@ x_req.s: x_req.c.s
 
 # target to generate assembly for a file
 x_req.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.s
 .PHONY : x_req.c.s
 
 x_sig.o: x_sig.c.o
@@ -1190,7 +1190,7 @@ x_sig.o: x_sig.c.o
 
 # target to build an object file
 x_sig.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.o
 .PHONY : x_sig.c.o
 
 x_sig.i: x_sig.c.i
@@ -1198,7 +1198,7 @@ x_sig.i: x_sig.c.i
 
 # target to preprocess a source file
 x_sig.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.i
 .PHONY : x_sig.c.i
 
 x_sig.s: x_sig.c.s
@@ -1206,7 +1206,7 @@ x_sig.s: x_sig.c.s
 
 # target to generate assembly for a file
 x_sig.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.s
 .PHONY : x_sig.c.s
 
 x_spki.o: x_spki.c.o
@@ -1214,7 +1214,7 @@ x_spki.o: x_spki.c.o
 
 # target to build an object file
 x_spki.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.o
 .PHONY : x_spki.c.o
 
 x_spki.i: x_spki.c.i
@@ -1222,7 +1222,7 @@ x_spki.i: x_spki.c.i
 
 # target to preprocess a source file
 x_spki.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.i
 .PHONY : x_spki.c.i
 
 x_spki.s: x_spki.c.s
@@ -1230,7 +1230,7 @@ x_spki.s: x_spki.c.s
 
 # target to generate assembly for a file
 x_spki.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.s
 .PHONY : x_spki.c.s
 
 x_val.o: x_val.c.o
@@ -1238,7 +1238,7 @@ x_val.o: x_val.c.o
 
 # target to build an object file
 x_val.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.o
 .PHONY : x_val.c.o
 
 x_val.i: x_val.c.i
@@ -1246,7 +1246,7 @@ x_val.i: x_val.c.i
 
 # target to preprocess a source file
 x_val.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.i
 .PHONY : x_val.c.i
 
 x_val.s: x_val.c.s
@@ -1254,7 +1254,7 @@ x_val.s: x_val.c.s
 
 # target to generate assembly for a file
 x_val.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.s
 .PHONY : x_val.c.s
 
 x_x509.o: x_x509.c.o
@@ -1262,7 +1262,7 @@ x_x509.o: x_x509.c.o
 
 # target to build an object file
 x_x509.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.o
 .PHONY : x_x509.c.o
 
 x_x509.i: x_x509.c.i
@@ -1270,7 +1270,7 @@ x_x509.i: x_x509.c.i
 
 # target to preprocess a source file
 x_x509.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.i
 .PHONY : x_x509.c.i
 
 x_x509.s: x_x509.c.s
@@ -1278,7 +1278,7 @@ x_x509.s: x_x509.c.s
 
 # target to generate assembly for a file
 x_x509.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.s
 .PHONY : x_x509.c.s
 
 x_x509a.o: x_x509a.c.o
@@ -1286,7 +1286,7 @@ x_x509a.o: x_x509a.c.o
 
 # target to build an object file
 x_x509a.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.o
 .PHONY : x_x509a.c.o
 
 x_x509a.i: x_x509a.c.i
@@ -1294,7 +1294,7 @@ x_x509a.i: x_x509a.c.i
 
 # target to preprocess a source file
 x_x509a.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.i
 .PHONY : x_x509a.c.i
 
 x_x509a.s: x_x509a.c.s
@@ -1302,7 +1302,7 @@ x_x509a.s: x_x509a.c.s
 
 # target to generate assembly for a file
 x_x509a.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/x509/CMakeFiles/x509.dir/build.make boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.s
 .PHONY : x_x509a.c.s
 
 # Help Target
@@ -1473,6 +1473,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

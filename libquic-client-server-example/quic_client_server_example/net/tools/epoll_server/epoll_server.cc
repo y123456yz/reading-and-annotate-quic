@@ -57,6 +57,7 @@ static const int kErrorBufferSize = 256;
 
 namespace net {
 
+/* EPOLLIN事件处理，读取数据，知道把fd上的数据读完 */
 // Clears the pipe and returns.  Used for waking the epoll server up.
 class ReadPipeCallback : public EpollCallbackInterface {
  public:
@@ -69,6 +70,8 @@ class ReadPipeCallback : public EpollCallbackInterface {
       data_read = read(fd, &data, sizeof(data));
     }
   }
+
+  /* 一下接口接口啥也没干 */
   void OnShutdown(EpollServer* eps, int fd) override {}
   void OnRegistration(EpollServer*, int, int) override {}
   void OnModification(int, int) override {}     // COV_NF_LINE
@@ -187,9 +190,12 @@ inline void EpollServer::RemoveFromReadyList(
   }
 }
 
+//注册event_mask事件信息到fd对应的epoll事件集中，起回调函数为cb
+//event_mask为EPOLLIN EPOLLOUT事件等   cb为类QuicServer 或者 QuicClient或者 ReadPipeCallback
 void EpollServer::RegisterFD(int fd, CB* cb, int event_mask) {
   CHECK(cb);
   VLOG(3) << "RegisterFD fd=" << fd << " event_mask=" << event_mask;
+  //通过找到对应的CBAndEventMask
   FDToCBMap::iterator fd_i = cb_map_.find(CBAndEventMask(NULL, 0, fd));
   if (cb_map_.end() != fd_i) {
     // do we just abort, or do we just unregister the other guy?
@@ -197,14 +203,14 @@ void EpollServer::RegisterFD(int fd, CB* cb, int event_mask) {
 
     // unregister any callback that may already be registered for this FD.
     CB* other_cb = fd_i->cb;
-    if (other_cb) {
+    if (other_cb) { //注销久的cb
       // Must remove from the ready list before erasing.
       RemoveFromReadyList(*fd_i);
       other_cb->OnUnregistration(fd, true);
       ModFD(fd, event_mask);
     } else {
       // already unregistered, so just recycle the node.
-      AddFD(fd, event_mask);
+      AddFD(fd, event_mask); //通过epoll_ctl添加各种epoll读写事件
     }
     fd_i->cb = cb;
     fd_i->event_mask = event_mask;
@@ -567,7 +573,7 @@ void EpollServer::DelFD(int fd) const {
 }
 
 ////////////////////////////////////////
-
+//通过epoll_ctl添加各种epoll读写事件
 void EpollServer::AddFD(int fd, int event_mask) const {
   struct epoll_event ee;
   memset(&ee, 0, sizeof(ee));

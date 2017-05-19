@@ -61,6 +61,8 @@ const size_t kMaxRevivedPackets =
 
 // This class receives callbacks from the framer when packets
 // are processed.
+
+//当接收到frame帧信息，解包后进行相应的回调处理
 class NET_EXPORT_PRIVATE QuicFramerVisitorInterface {
  public:
   virtual ~QuicFramerVisitorInterface() {}
@@ -170,7 +172,7 @@ class NET_EXPORT_PRIVATE QuicReceivedEntropyHashCalculatorInterface {
 // QuicFramerVisitorInterface that is called when packets are parsed.
 // It also has a QuicFecBuilder that is called when packets are constructed
 // in order to generate FEC data for subsequently building FEC packets.
-class NET_EXPORT_PRIVATE QuicFramer {
+class NET_EXPORT_PRIVATE QuicFramer { //quic帧组包、解包信息类
  public:
   // Constructs a new framer that installs a kNULL QuicEncrypter and
   // QuicDecrypter for level ENCRYPTION_NONE. |supported_versions| specifies the
@@ -490,8 +492,10 @@ class NET_EXPORT_PRIVATE QuicFramer {
   }
 
   std::string detailed_error_;
+  //quic数据解析读取相关
   scoped_ptr<QuicDataReader> reader_;
-  QuicFramerVisitorInterface* visitor_;
+  //当接收到frame帧信息，解包后进行相应的回调处理接口
+  QuicFramerVisitorInterface* visitor_; //set_visitor接口赋值
   QuicReceivedEntropyHashCalculatorInterface* entropy_calculator_;
   QuicErrorCode error_;
   // Updated by ProcessPacketHeader when it succeeds.

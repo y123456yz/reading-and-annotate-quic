@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_generic.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_vec.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_generic.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_vec.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/rand/CMakeFiles/rand.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/rand/CMakeFiles/rand.dir/flags.make
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o: boringssl/crypto/rand/CMakeFiles/rand.dir/flags.make
 boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o: ../boringssl/crypto/rand/rand.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/rand.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rand/rand.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/rand.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/rand.c
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rand.dir/rand.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rand/rand.c > CMakeFiles/rand.dir/rand.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/rand.c > CMakeFiles/rand.dir/rand.c.i
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rand.dir/rand.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rand/rand.c -o CMakeFiles/rand.dir/rand.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/rand.c -o CMakeFiles/rand.dir/rand.c.s
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o.requires:
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/rand/CMakeFiles/rand.dir/rand.c.o.provides.build: boringssl/cry
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o: boringssl/crypto/rand/CMakeFiles/rand.dir/flags.make
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o: ../boringssl/crypto/rand/urandom.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/urandom.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rand/urandom.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/urandom.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/urandom.c
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rand.dir/urandom.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rand/urandom.c > CMakeFiles/rand.dir/urandom.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/urandom.c > CMakeFiles/rand.dir/urandom.c.i
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rand.dir/urandom.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rand/urandom.c -o CMakeFiles/rand.dir/urandom.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/urandom.c -o CMakeFiles/rand.dir/urandom.c.s
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o.requires:
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/rand/CMakeFiles/rand.dir/urandom.c.o.provides.build: boringssl/
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o: boringssl/crypto/rand/CMakeFiles/rand.dir/flags.make
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o: ../boringssl/crypto/rand/windows.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/windows.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rand/windows.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rand.dir/windows.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/windows.c
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rand.dir/windows.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rand/windows.c > CMakeFiles/rand.dir/windows.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/windows.c > CMakeFiles/rand.dir/windows.c.i
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rand.dir/windows.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rand/windows.c -o CMakeFiles/rand.dir/windows.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/windows.c -o CMakeFiles/rand.dir/windows.c.s
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o.requires:
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/windows.c.o.requires
@@ -137,10 +137,10 @@ boringssl/crypto/rand/CMakeFiles/rand.dir/requires: boringssl/crypto/rand/CMakeF
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/requires
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand && $(CMAKE_COMMAND) -P CMakeFiles/rand.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand && $(CMAKE_COMMAND) -P CMakeFiles/rand.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/clean
 
 boringssl/crypto/rand/CMakeFiles/rand.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/rand /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand /root/yangyazhou/quic/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rand/CMakeFiles/rand.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/rand/CMakeFiles/rand.dir/depend
 

@@ -82,7 +82,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio.c
 openssl/bio.h
 -
 errno.h
@@ -100,7 +100,7 @@ openssl/mem.h
 openssl/thread.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/bio_mem.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/bio_mem.c
 openssl/bio.h
 -
 limits.h
@@ -114,7 +114,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/buffer.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/buffer.c
 openssl/bio.h
 -
 string.h
@@ -126,7 +126,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/connect.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/connect.c
 openssl/bio.h
 -
 assert.h
@@ -156,9 +156,9 @@ openssl/err.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/fd.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/fd.c
 openssl/bio.h
 -
 errno.h
@@ -178,7 +178,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/file.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/file.c
 openssl/bio.h
 -
 errno.h
@@ -194,7 +194,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/hexdump.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/hexdump.c
 openssl/bio.h
 -
 limits.h
@@ -202,7 +202,7 @@ limits.h
 string.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
 openssl/base.h
 -
 sys/types.h
@@ -210,7 +210,7 @@ sys/types.h
 sys/socket.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/pair.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/pair.c
 openssl/bio.h
 -
 assert.h
@@ -224,7 +224,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/printf.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/printf.c
 openssl/bio.h
 -
 assert.h
@@ -236,7 +236,7 @@ stdio.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket.c
 openssl/bio.h
 -
 fcntl.h
@@ -248,9 +248,9 @@ unistd.h
 WinSock2.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/socket_helper.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/socket_helper.c
 openssl/bio.h
 -
 openssl/err.h
@@ -270,5 +270,5 @@ WinSock2.h
 WS2tcpip.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/bio/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bio/internal.h
 

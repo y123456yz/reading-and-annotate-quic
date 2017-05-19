@@ -330,9 +330,9 @@ openssl/bio.h
 openssl/lhash.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/async_bio.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/async_bio.cc
 async_bio.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/async_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/async_bio.h
 errno.h
 -
 string.h
@@ -340,13 +340,13 @@ string.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/async_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/async_bio.h
 openssl/bio.h
 -
 scoped_types.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/scoped_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/scoped_types.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/bssl_shim.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/bssl_shim.cc
 openssl/base.h
 -
 arpa/inet.h
@@ -380,15 +380,15 @@ openssl/bytestring.h
 openssl/ssl.h
 -
 async_bio.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/async_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/async_bio.h
 packeted_bio.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/packeted_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/packeted_bio.h
 scoped_types.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/scoped_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/scoped_types.h
 test_config.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/test_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/test_config.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/malloc.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/malloc.cc
 openssl/base.h
 -
 stdint.h
@@ -404,9 +404,9 @@ stdio.h
 new
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/packeted_bio.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/packeted_bio.cc
 packeted_bio.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/packeted_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/packeted_bio.h
 assert.h
 -
 errno.h
@@ -416,15 +416,15 @@ string.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/packeted_bio.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/packeted_bio.h
 openssl/bio.h
 -
 openssl/ssl.h
 -
 scoped_types.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/scoped_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/scoped_types.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/scoped_types.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/scoped_types.h
 memory
 -
 openssl/bio.h
@@ -436,9 +436,9 @@ openssl/evp.h
 openssl/ssl.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/test_config.cc
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/test_config.cc
 test_config.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/test_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/test_config.h
 stdio.h
 -
 stdlib.h
@@ -450,7 +450,7 @@ memory
 openssl/base64.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/test/test_config.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/test/test_config.h
 string
 -
 

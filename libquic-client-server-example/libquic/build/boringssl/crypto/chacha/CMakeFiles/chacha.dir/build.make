@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/chacha/CMakeFiles/chacha.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/chacha/CMakeFiles/chacha.dir/flags.make
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o: boringssl/crypto/chacha/CMakeFiles/chacha.dir/flags.make
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o: ../boringssl/crypto/chacha/chacha_generic.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/chacha.dir/chacha_generic.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_generic.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/chacha.dir/chacha_generic.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_generic.c
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chacha.dir/chacha_generic.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_generic.c > CMakeFiles/chacha.dir/chacha_generic.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_generic.c > CMakeFiles/chacha.dir/chacha_generic.c.i
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chacha.dir/chacha_generic.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_generic.c -o CMakeFiles/chacha.dir/chacha_generic.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_generic.c -o CMakeFiles/chacha.dir/chacha_generic.c.s
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o.requires:
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_generic.c.o.provides.build:
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o: boringssl/crypto/chacha/CMakeFiles/chacha.dir/flags.make
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o: ../boringssl/crypto/chacha/chacha_vec.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/chacha.dir/chacha_vec.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_vec.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/chacha.dir/chacha_vec.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_vec.c
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chacha.dir/chacha_vec.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_vec.c > CMakeFiles/chacha.dir/chacha_vec.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_vec.c > CMakeFiles/chacha.dir/chacha_vec.c.i
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chacha.dir/chacha_vec.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/chacha/chacha_vec.c -o CMakeFiles/chacha.dir/chacha_vec.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha/chacha_vec.c -o CMakeFiles/chacha.dir/chacha_vec.c.s
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o.requires:
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha_vec.c.o.requires
@@ -112,10 +112,10 @@ boringssl/crypto/chacha/CMakeFiles/chacha.dir/requires: boringssl/crypto/chacha/
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/requires
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha && $(CMAKE_COMMAND) -P CMakeFiles/chacha.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha && $(CMAKE_COMMAND) -P CMakeFiles/chacha.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/clean
 
 boringssl/crypto/chacha/CMakeFiles/chacha.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/chacha /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha /root/yangyazhou/quic/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/chacha /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/chacha/CMakeFiles/chacha.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/chacha/CMakeFiles/chacha.dir/depend
 

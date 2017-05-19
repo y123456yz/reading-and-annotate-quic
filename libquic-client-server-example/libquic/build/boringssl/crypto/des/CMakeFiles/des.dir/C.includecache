@@ -22,13 +22,13 @@ openssl/base.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/des/des.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/des.c
 openssl/des.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/des/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/des/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/des/internal.h
 openssl/base.h
 -
 

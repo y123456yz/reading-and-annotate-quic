@@ -32,11 +32,11 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/rand/rand.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/rand.c
 openssl/rand.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/rand/urandom.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/urandom.c
 openssl/rand.h
 -
 assert.h
@@ -56,7 +56,7 @@ openssl/thread.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/rand/windows.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rand/windows.c
 openssl/rand.h
 -
 limits.h

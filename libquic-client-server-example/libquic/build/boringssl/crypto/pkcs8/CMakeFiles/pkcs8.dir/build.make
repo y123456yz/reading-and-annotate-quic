@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/flags.make
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/flags.make
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o: ../boringssl/crypto/pkcs8/pkcs8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/pkcs8.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/pkcs8.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/pkcs8.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/pkcs8.c
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkcs8.dir/pkcs8.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/pkcs8.c > CMakeFiles/pkcs8.dir/pkcs8.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/pkcs8.c > CMakeFiles/pkcs8.dir/pkcs8.c.i
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkcs8.dir/pkcs8.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/pkcs8.c -o CMakeFiles/pkcs8.dir/pkcs8.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/pkcs8.c -o CMakeFiles/pkcs8.dir/pkcs8.c.s
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o.requires:
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/pkcs8.c.o.provides.build: boringssl/
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/flags.make
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o: ../boringssl/crypto/pkcs8/p8_pkey.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p8_pkey.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p8_pkey.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p8_pkey.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p8_pkey.c
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkcs8.dir/p8_pkey.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p8_pkey.c > CMakeFiles/pkcs8.dir/p8_pkey.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p8_pkey.c > CMakeFiles/pkcs8.dir/p8_pkey.c.i
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkcs8.dir/p8_pkey.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p8_pkey.c -o CMakeFiles/pkcs8.dir/p8_pkey.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p8_pkey.c -o CMakeFiles/pkcs8.dir/p8_pkey.c.s
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o.requires:
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p8_pkey.c.o.provides.build: boringss
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/flags.make
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o: ../boringssl/crypto/pkcs8/p5_pbe.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p5_pbe.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbe.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p5_pbe.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbe.c
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkcs8.dir/p5_pbe.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbe.c > CMakeFiles/pkcs8.dir/p5_pbe.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbe.c > CMakeFiles/pkcs8.dir/p5_pbe.c.i
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkcs8.dir/p5_pbe.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbe.c -o CMakeFiles/pkcs8.dir/p5_pbe.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbe.c -o CMakeFiles/pkcs8.dir/p5_pbe.c.s
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o.requires:
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o.requires
@@ -123,17 +123,17 @@ boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbe.c.o.provides.build: boringssl
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o: boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/flags.make
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o: ../boringssl/crypto/pkcs8/p5_pbev2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p5_pbev2.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbev2.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/pkcs8.dir/p5_pbev2.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbev2.c
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pkcs8.dir/p5_pbev2.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbev2.c > CMakeFiles/pkcs8.dir/p5_pbev2.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbev2.c > CMakeFiles/pkcs8.dir/p5_pbev2.c.i
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pkcs8.dir/p5_pbev2.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8/p5_pbev2.c -o CMakeFiles/pkcs8.dir/p5_pbev2.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8/p5_pbev2.c -o CMakeFiles/pkcs8.dir/p5_pbev2.c.s
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o.requires:
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/p5_pbev2.c.o.requires
@@ -162,10 +162,10 @@ boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/requires: boringssl/crypto/pkcs8/CMa
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/requires
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 && $(CMAKE_COMMAND) -P CMakeFiles/pkcs8.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 && $(CMAKE_COMMAND) -P CMakeFiles/pkcs8.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/clean
 
 boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/pkcs8 /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8 /root/yangyazhou/quic/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/pkcs8 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/pkcs8/CMakeFiles/pkcs8.dir/depend
 

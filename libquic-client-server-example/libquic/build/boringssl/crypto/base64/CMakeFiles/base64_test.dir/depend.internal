@@ -12,4 +12,4 @@ boringssl/crypto/base64/CMakeFiles/base64_test.dir/base64_test.c.o
  ../boringssl/include/openssl/opensslfeatures.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/base64/base64_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/base64/base64_test.c

@@ -28,7 +28,7 @@ namespace net {
 // trusted and it is up to the caller to throw away the failed instance and
 // handle the error as appropriate. None of the Read*() methods should ever be
 // called after failure, as they will also fail immediately.
-class NET_EXPORT_PRIVATE QuicDataReader {
+class NET_EXPORT_PRIVATE QuicDataReader { //quic数据解析读取相关
  public:
   // Caller must provide an underlying buffer to work on.
   QuicDataReader(const char* data, const size_t len);

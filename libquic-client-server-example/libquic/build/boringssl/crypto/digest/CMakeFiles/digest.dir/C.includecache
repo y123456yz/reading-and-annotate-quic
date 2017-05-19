@@ -80,7 +80,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/digest.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digest.c
 openssl/digest.h
 -
 assert.h
@@ -94,9 +94,9 @@ openssl/obj.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/digests.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/digests.c
 openssl/digest.h
 -
 openssl/md4.h
@@ -108,9 +108,9 @@ openssl/obj.h
 openssl/sha.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/digest/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/internal.h
 openssl/base.h
 -
 

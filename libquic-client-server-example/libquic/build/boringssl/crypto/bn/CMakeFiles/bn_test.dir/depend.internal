@@ -16,5 +16,5 @@ boringssl/crypto/bn/CMakeFiles/bn_test.dir/bn_test.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/bn/bn_test.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/bn/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bn/bn_test.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bn/internal.h

@@ -254,9 +254,9 @@ openssl/conf.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/ext_dat.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/ext_dat.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/tabtest.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/tabtest.c
 stdio.h
 -
 openssl/crypto.h
@@ -264,5 +264,5 @@ openssl/crypto.h
 openssl/x509v3.h
 -
 ext_dat.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/ext_dat.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/ext_dat.h
 

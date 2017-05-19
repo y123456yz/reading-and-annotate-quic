@@ -14,39 +14,39 @@ namespace net {
 
 struct WriteResult;
 
-namespace tools {
+    namespace tools {
+        //往fd写数据操作 /* 真正的写数据到网络i/o类 */
+    // Default packet writer which wraps QuicSocketUtils WritePacket.
+        class QuicDefaultPacketWriter : public QuicPacketWriter {
+         public:
+          explicit QuicDefaultPacketWriter(int fd);
+          ~QuicDefaultPacketWriter() override;
 
-// Default packet writer which wraps QuicSocketUtils WritePacket.
-class QuicDefaultPacketWriter : public QuicPacketWriter {
- public:
-  explicit QuicDefaultPacketWriter(int fd);
-  ~QuicDefaultPacketWriter() override;
+          // QuicPacketWriter
+          WriteResult WritePacket(const char* buffer,
+                                  size_t buf_len,
+                                  const IPAddressNumber& self_address,
+                                  const IPEndPoint& peer_address) override;
+          bool IsWriteBlockedDataBuffered() const override;
+          bool IsWriteBlocked() const override;
+          void SetWritable() override;
 
-  // QuicPacketWriter
-  WriteResult WritePacket(const char* buffer,
-                          size_t buf_len,
-                          const IPAddressNumber& self_address,
-                          const IPEndPoint& peer_address) override;
-  bool IsWriteBlockedDataBuffered() const override;
-  bool IsWriteBlocked() const override;
-  void SetWritable() override;
+          void set_fd(int fd) { fd_ = fd; }
 
-  void set_fd(int fd) { fd_ = fd; }
+         protected:
+          void set_write_blocked(bool is_blocked) {
+            write_blocked_ = is_blocked;
+          }
+          int fd() { return fd_; }
 
- protected:
-  void set_write_blocked(bool is_blocked) {
-    write_blocked_ = is_blocked;
-  }
-  int fd() { return fd_; }
+         private:
+          int fd_;
+          bool write_blocked_; //write返回WRITE_STATUS_BLOCKED置为ture
 
- private:
-  int fd_;
-  bool write_blocked_;
+          DISALLOW_COPY_AND_ASSIGN(QuicDefaultPacketWriter);
+        };
 
-  DISALLOW_COPY_AND_ASSIGN(QuicDefaultPacketWriter);
-};
-
-}  // namespace tools
+    }  // namespace tools
 }  // namespace net
 
 #endif  // NET_TOOLS_QUIC_QUIC_DEFAULT_PACKET_WRITER_H_

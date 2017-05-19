@@ -4,19 +4,19 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/algorithm.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/asn1.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/digestsign.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/evp_ctx.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_ec_asn1.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_hmac_asn1.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/p_rsa_asn1.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/pbkdf.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/evp/sign.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/algorithm.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/algorithm.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/asn1.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/asn1.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/digestsign.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/evp_ctx.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_ec_asn1.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_hmac_asn1.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_hmac_asn1.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/p_rsa_asn1.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/pbkdf.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/evp/sign.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

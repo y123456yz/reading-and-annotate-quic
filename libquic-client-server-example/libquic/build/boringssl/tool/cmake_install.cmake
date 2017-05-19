@@ -1,4 +1,4 @@
-# Install script for directory: /root/yangyazhou/quic/libquic/boringssl/tool
+# Install script for directory: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/tool
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

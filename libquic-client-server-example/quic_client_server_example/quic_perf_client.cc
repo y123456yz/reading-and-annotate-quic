@@ -44,6 +44,15 @@ int main(int argc, char *argv[]) {
   }
   std::string address = args[0];
 
+ // logging::LoggingSettings settings;
+ // settings.logging_dest = logging::LOG_TO_SYSTEM_DEBUG_LOG;
+ // CHECK(logging::InitLogging(settings));
+
+  
+  logging::SetMinLogLevel(0);
+  logging::LoggingSettings *logset = new logging::LoggingSettings("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic.log");
+  logging::InitLogging(*logset);
+
   if (line->HasSwitch("t")) {
     if (!base::StringToUint64(line->GetSwitchValueASCII("t"), &FLAGS_total_transfer)) {
       cout << "-t must be an unsigned integer\n";
@@ -62,6 +71,7 @@ int main(int argc, char *argv[]) {
       return 1;
     }
   }
+  DVLOG(1) << "yang add test debug log";
 
   cout << "Run parameters are:\nchunk size: " << FLAGS_chunk_size
        << "\ntotal size: " << FLAGS_total_transfer

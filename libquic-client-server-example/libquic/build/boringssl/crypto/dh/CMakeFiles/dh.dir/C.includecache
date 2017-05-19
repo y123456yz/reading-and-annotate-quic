@@ -118,15 +118,15 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/check.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/check.c
 openssl/dh.h
 -
 openssl/bn.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh.c
 openssl/dh.h
 -
 string.h
@@ -144,9 +144,9 @@ openssl/mem.h
 openssl/thread.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh_asn1.c
 openssl/dh.h
 -
 openssl/asn1.h
@@ -154,9 +154,9 @@ openssl/asn1.h
 openssl/asn1t.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh_impl.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh_impl.c
 openssl/dh.h
 -
 openssl/bn.h
@@ -164,9 +164,9 @@ openssl/bn.h
 openssl/err.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 openssl/base.h
 -
 openssl/bn.h
@@ -174,11 +174,11 @@ openssl/bn.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/params.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/params.c
 openssl/dh.h
 -
 openssl/bn.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles /root/yangyazhou/quic/libquic/build/boringssl/crypto/hmac/CMakeFiles/progress.marks
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/quic/libquic/build/CMakeFiles 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/hmac/CMakeFiles/progress.marks
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/clean
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/preinstall
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ hmac: boringssl/crypto/hmac/CMakeFiles/hmac.dir/rule
 
 # fast build rule for target.
 hmac/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/build
 .PHONY : hmac/fast
 
 # Convenience name for target.
 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f CMakeFiles/Makefile2 boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule
 .PHONY : boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ hmac_test: boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/rule
 
 # fast build rule for target.
 hmac_test/fast:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build
 .PHONY : hmac_test/fast
 
 hmac.o: hmac.c.o
@@ -134,7 +134,7 @@ hmac.o: hmac.c.o
 
 # target to build an object file
 hmac.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.o
 .PHONY : hmac.c.o
 
 hmac.i: hmac.c.i
@@ -142,7 +142,7 @@ hmac.i: hmac.c.i
 
 # target to preprocess a source file
 hmac.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.i
 .PHONY : hmac.c.i
 
 hmac.s: hmac.c.s
@@ -150,7 +150,7 @@ hmac.s: hmac.c.s
 
 # target to generate assembly for a file
 hmac.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac.dir/hmac.c.s
 .PHONY : hmac.c.s
 
 hmac_test.o: hmac_test.c.o
@@ -158,7 +158,7 @@ hmac_test.o: hmac_test.c.o
 
 # target to build an object file
 hmac_test.c.o:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.o
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.o
 .PHONY : hmac_test.c.o
 
 hmac_test.i: hmac_test.c.i
@@ -166,7 +166,7 @@ hmac_test.i: hmac_test.c.i
 
 # target to preprocess a source file
 hmac_test.c.i:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.i
 .PHONY : hmac_test.c.i
 
 hmac_test.s: hmac_test.c.s
@@ -174,7 +174,7 @@ hmac_test.s: hmac_test.c.s
 
 # target to generate assembly for a file
 hmac_test.c.s:
-	cd /root/yangyazhou/quic/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(MAKE) -f boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/build.make boringssl/crypto/hmac/CMakeFiles/hmac_test.dir/hmac_test.c.s
 .PHONY : hmac_test.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

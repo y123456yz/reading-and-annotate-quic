@@ -11,8 +11,8 @@ boringssl/crypto/dh/CMakeFiles/dh.dir/check.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/check.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/check.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 boringssl/crypto/dh/CMakeFiles/dh.dir/dh.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -29,8 +29,8 @@ boringssl/crypto/dh/CMakeFiles/dh.dir/dh.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 boringssl/crypto/dh/CMakeFiles/dh.dir/dh_asn1.c.o
  ../boringssl/include/openssl/asn1.h
  ../boringssl/include/openssl/asn1t.h
@@ -44,8 +44,8 @@ boringssl/crypto/dh/CMakeFiles/dh.dir/dh_asn1.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh_asn1.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh_asn1.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 boringssl/crypto/dh/CMakeFiles/dh.dir/dh_impl.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -60,8 +60,8 @@ boringssl/crypto/dh/CMakeFiles/dh.dir/dh_impl.c.o
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/thread.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/dh_impl.c
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/dh_impl.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
 boringssl/crypto/dh/CMakeFiles/dh.dir/params.c.o
  ../boringssl/include/openssl/base.h
  ../boringssl/include/openssl/bn.h
@@ -72,5 +72,5 @@ boringssl/crypto/dh/CMakeFiles/dh.dir/params.c.o
  ../boringssl/include/openssl/stack.h
  ../boringssl/include/openssl/stack_macros.h
  ../boringssl/include/openssl/type_check.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/internal.h
- /root/yangyazhou/quic/libquic/boringssl/crypto/dh/params.c
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/internal.h
+ /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dh/params.c

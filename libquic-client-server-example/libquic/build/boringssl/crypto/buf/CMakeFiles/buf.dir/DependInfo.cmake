@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/buf/buf.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/buf/buf.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

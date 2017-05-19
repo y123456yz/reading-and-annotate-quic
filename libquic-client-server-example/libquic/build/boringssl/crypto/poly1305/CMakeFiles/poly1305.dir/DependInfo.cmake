@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_arm.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o"
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/poly1305/poly1305_vec.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_arm.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/poly1305/poly1305_vec.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

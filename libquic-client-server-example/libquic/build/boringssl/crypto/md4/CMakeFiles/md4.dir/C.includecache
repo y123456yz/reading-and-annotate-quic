@@ -22,17 +22,17 @@ openssl/base.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/md4/../digest/md32_common.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md4/../digest/md32_common.h
 openssl/base.h
 -
 string.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/md4/md4.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md4/md4.c
 openssl/md4.h
 -
 string.h
 -
 ../digest/md32_common.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/md4/../digest/md32_common.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md4/../digest/md32_common.h
 

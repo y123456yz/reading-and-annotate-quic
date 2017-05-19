@@ -1,4 +1,4 @@
-# Install script for directory: /root/yangyazhou/quic/libquic/protobuf
+# Install script for directory: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/protobuf
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

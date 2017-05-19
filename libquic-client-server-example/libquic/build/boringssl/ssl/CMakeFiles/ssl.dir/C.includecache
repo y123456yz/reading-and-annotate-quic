@@ -368,7 +368,7 @@ openssl/conf.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
 openssl/base.h
 -
 openssl/bn.h
@@ -376,15 +376,15 @@ openssl/bn.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/directory.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/directory.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/internal.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_both.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_both.c
 assert.h
 -
 limits.h
@@ -408,9 +408,9 @@ openssl/rand.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_clnt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_clnt.c
 assert.h
 -
 stdio.h
@@ -432,9 +432,9 @@ openssl/obj.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_lib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_lib.c
 openssl/base.h
 -
 limits.h
@@ -454,13 +454,13 @@ openssl/mem.h
 openssl/obj.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_meth.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_meth.c
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_pkt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_pkt.c
 stdio.h
 -
 errno.h
@@ -478,9 +478,9 @@ openssl/err.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_srtp.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_srtp.c
 stdio.h
 -
 openssl/bytestring.h
@@ -490,11 +490,11 @@ openssl/obj.h
 openssl/err.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 openssl/srtp.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/d1_srvr.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/d1_srvr.c
 assert.h
 -
 stdio.h
@@ -516,9 +516,9 @@ openssl/rand.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_both.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_both.c
 assert.h
 -
 limits.h
@@ -544,9 +544,9 @@ openssl/sha.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_clnt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_clnt.c
 assert.h
 -
 stdio.h
@@ -574,11 +574,11 @@ openssl/engine.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 ../crypto/dh/internal.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_enc.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_enc.c
 stdio.h
 -
 assert.h
@@ -594,9 +594,9 @@ openssl/md5.h
 openssl/obj.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_lib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_lib.c
 assert.h
 -
 stdio.h
@@ -612,13 +612,13 @@ openssl/mem.h
 openssl/obj.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_meth.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_meth.c
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_pkt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_pkt.c
 assert.h
 -
 errno.h
@@ -638,9 +638,9 @@ openssl/mem.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/s3_srvr.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/s3_srvr.c
 assert.h
 -
 stdio.h
@@ -678,19 +678,19 @@ openssl/sha.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 ../crypto/internal.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/internal.h
 ../crypto/dh/internal.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_algs.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_algs.c
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 openssl/crypto.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_asn1.c
 limits.h
 -
 string.h
@@ -702,9 +702,9 @@ openssl/err.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_cert.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_cert.c
 stdio.h
 -
 openssl/bio.h
@@ -726,13 +726,13 @@ openssl/pem.h
 openssl/x509v3.h
 -
 ../crypto/dh/internal.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/dh/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/dh/internal.h
 ../crypto/directory.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/../crypto/directory.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/../crypto/directory.h
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_ciph.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_ciph.c
 stdio.h
 -
 assert.h
@@ -748,9 +748,9 @@ openssl/obj.h
 openssl/sha.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_lib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_lib.c
 stdio.h
 -
 assert.h
@@ -772,9 +772,9 @@ openssl/rand.h
 openssl/x509v3.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 openssl/base.h
 -
 errno.h
@@ -802,7 +802,7 @@ openssl/ssl.h
 openssl/stack.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_rsa.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_rsa.c
 stdio.h
 -
 openssl/bio.h
@@ -820,9 +820,9 @@ openssl/pem.h
 openssl/x509.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_sess.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_sess.c
 stdio.h
 -
 openssl/engine.h
@@ -836,15 +836,15 @@ openssl/mem.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_stat.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_stat.c
 stdio.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_txt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_txt.c
 inttypes.h
 -
 stdio.h
@@ -856,9 +856,9 @@ openssl/err.h
 openssl/mem.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/t1_enc.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_enc.c
 stdio.h
 -
 assert.h
@@ -878,9 +878,9 @@ openssl/obj.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/t1_lib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_lib.c
 stdio.h
 -
 stdlib.h
@@ -900,9 +900,9 @@ openssl/obj.h
 openssl/rand.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/ssl/t1_reneg.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/t1_reneg.c
 stdio.h
 -
 assert.h
@@ -914,5 +914,5 @@ openssl/obj.h
 openssl/err.h
 -
 ssl_locl.h
-/root/yangyazhou/quic/libquic/boringssl/ssl/ssl_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/ssl/ssl_locl.h
 

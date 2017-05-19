@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/root/yangyazhou/quic/libquic/boringssl/crypto/x509v3/tabtest.c" "/root/yangyazhou/quic/libquic/build/boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/tabtest.c.o"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509v3/tabtest.c" "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/x509v3/CMakeFiles/tab_test.dir/tabtest.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/yangyazhou/quic/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -286,17 +286,17 @@ openssl/conf.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../asn1/asn1_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../asn1/asn1_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../bytestring/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../bytestring/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/a_digest.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/a_digest.c
 openssl/x509.h
 -
 openssl/asn1.h
@@ -308,7 +308,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/a_sign.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/a_sign.c
 openssl/asn1.h
 -
 openssl/digest.h
@@ -324,9 +324,9 @@ openssl/obj.h
 openssl/x509.h
 -
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/a_strex.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/a_strex.c
 openssl/x509.h
 -
 string.h
@@ -338,9 +338,9 @@ openssl/mem.h
 openssl/obj.h
 -
 charmap.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/charmap.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/charmap.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/a_verify.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/a_verify.c
 openssl/x509.h
 -
 stdio.h
@@ -364,9 +364,9 @@ openssl/mem.h
 openssl/obj.h
 -
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/asn1_gen.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/asn1_gen.c
 openssl/x509.h
 -
 string.h
@@ -382,7 +382,7 @@ openssl/obj.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/by_dir.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/by_dir.c
 string.h
 -
 sys/stat.h
@@ -400,7 +400,7 @@ openssl/mem.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/by_file.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/by_file.c
 openssl/buf.h
 -
 openssl/err.h
@@ -412,9 +412,9 @@ openssl/pem.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/charmap.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/charmap.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/i2d_pr.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/i2d_pr.c
 openssl/x509.h
 -
 openssl/asn1.h
@@ -424,9 +424,9 @@ openssl/err.h
 openssl/evp.h
 -
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/pkcs7.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/pkcs7.c
 openssl/x509.h
 -
 assert.h
@@ -442,9 +442,9 @@ openssl/pem.h
 openssl/stack.h
 -
 ../bytestring/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../bytestring/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../bytestring/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/t_crl.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/t_crl.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -458,7 +458,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/t_x509.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/t_x509.c
 openssl/asn1.h
 -
 openssl/bio.h
@@ -478,9 +478,9 @@ openssl/x509.h
 openssl/x509v3.h
 -
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/t_x509a.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/t_x509a.c
 openssl/asn1.h
 -
 openssl/bio.h
@@ -492,9 +492,9 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/vpm_int.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/vpm_int.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509.c
 openssl/x509.h
 -
 openssl/bio.h
@@ -502,7 +502,7 @@ openssl/bio.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_att.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_att.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -516,7 +516,7 @@ openssl/stack.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_cmp.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_cmp.c
 string.h
 -
 openssl/asn1.h
@@ -538,17 +538,17 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_d2.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_d2.c
 openssl/err.h
 -
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_def.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_def.c
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_ext.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_ext.c
 openssl/asn1.h
 -
 openssl/evp.h
@@ -562,7 +562,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_lu.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_lu.c
 string.h
 -
 openssl/err.h
@@ -576,7 +576,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_obj.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_obj.c
 string.h
 -
 openssl/buf.h
@@ -592,7 +592,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_r2x.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_r2x.c
 openssl/asn1.h
 -
 openssl/bn.h
@@ -610,7 +610,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_req.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_req.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -632,7 +632,7 @@ openssl/pem.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_set.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_set.c
 openssl/asn1.h
 -
 openssl/cipher.h
@@ -644,7 +644,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_trs.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_trs.c
 openssl/buf.h
 -
 openssl/err.h
@@ -656,7 +656,7 @@ openssl/obj.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_txt.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_txt.c
 openssl/asn1.h
 -
 openssl/buf.h
@@ -674,7 +674,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_v3.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_v3.c
 openssl/asn1.h
 -
 openssl/err.h
@@ -690,7 +690,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_vfy.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_vfy.c
 string.h
 -
 time.h
@@ -714,9 +714,9 @@ openssl/x509.h
 openssl/x509v3.h
 -
 vpm_int.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/vpm_int.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/vpm_int.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509_vpm.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509_vpm.c
 string.h
 -
 openssl/buf.h
@@ -734,9 +734,9 @@ openssl/x509.h
 openssl/x509v3.h
 -
 vpm_int.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/vpm_int.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/vpm_int.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509cset.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509cset.c
 openssl/asn1.h
 -
 openssl/evp.h
@@ -746,7 +746,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509name.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509name.c
 string.h
 -
 openssl/asn1.h
@@ -762,7 +762,7 @@ openssl/stack.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509rset.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509rset.c
 openssl/asn1.h
 -
 openssl/evp.h
@@ -772,7 +772,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509spki.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509spki.c
 string.h
 -
 openssl/base64.h
@@ -784,7 +784,7 @@ openssl/mem.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x509type.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x509type.c
 openssl/evp.h
 -
 openssl/obj.h
@@ -792,7 +792,7 @@ openssl/obj.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_algor.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_algor.c
 openssl/x509.h
 -
 openssl/asn1.h
@@ -804,7 +804,7 @@ openssl/digest.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_all.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_all.c
 openssl/asn1.h
 -
 openssl/buf.h
@@ -822,7 +822,7 @@ openssl/stack.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_attrib.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_attrib.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -832,7 +832,7 @@ openssl/x509.h
 openssl/obj.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_crl.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_crl.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -852,7 +852,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_exten.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_exten.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -862,7 +862,7 @@ openssl/cipher.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_info.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_info.c
 openssl/x509.h
 -
 openssl/asn1.h
@@ -872,7 +872,7 @@ openssl/err.h
 openssl/mem.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_name.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_name.c
 ctype.h
 -
 string.h
@@ -894,9 +894,9 @@ openssl/stack.h
 openssl/x509.h
 -
 ../asn1/asn1_locl.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../asn1/asn1_locl.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../asn1/asn1_locl.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_pkey.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_pkey.c
 openssl/x509.h
 -
 string.h
@@ -908,7 +908,7 @@ openssl/mem.h
 openssl/err.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_pubkey.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_pubkey.c
 openssl/asn1.h
 -
 openssl/asn1t.h
@@ -924,9 +924,9 @@ openssl/obj.h
 openssl/x509.h
 -
 ../evp/internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/../evp/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/../evp/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_req.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_req.c
 stdio.h
 -
 openssl/asn1t.h
@@ -936,7 +936,7 @@ openssl/thread.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_sig.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_sig.c
 stdio.h
 -
 openssl/asn1t.h
@@ -944,13 +944,13 @@ openssl/asn1t.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_spki.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_spki.c
 openssl/x509.h
 -
 openssl/asn1t.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_val.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_val.c
 stdio.h
 -
 openssl/asn1t.h
@@ -958,7 +958,7 @@ openssl/asn1t.h
 openssl/x509.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_x509.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_x509.c
 stdio.h
 -
 openssl/asn1t.h
@@ -976,7 +976,7 @@ openssl/x509.h
 openssl/x509v3.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/x509/x_x509a.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/x509/x_x509a.c
 stdio.h
 -
 openssl/asn1t.h

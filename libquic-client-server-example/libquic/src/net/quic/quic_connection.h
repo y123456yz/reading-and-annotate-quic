@@ -227,6 +227,10 @@ class NET_EXPORT_PRIVATE QuicConnectionHelperInterface {
   virtual QuicAlarm* CreateAlarm(QuicAlarm::Delegate* delegate) = 0;
 };
 
+
+/*
+client测试例子在QuicClient::Connect中构造类
+*/
 class NET_EXPORT_PRIVATE QuicConnection
     : public QuicFramerVisitorInterface,
       public QuicBlockedWriterInterface,
@@ -239,7 +243,7 @@ class NET_EXPORT_PRIVATE QuicConnection
     BUNDLE_PENDING_ACK = 2,
   };
 
-  class PacketWriterFactory {
+  class PacketWriterFactory { //该类在测试程序中的DummyPacketWriterFactory中实现接口
    public:
     virtual ~PacketWriterFactory() {}
 
@@ -250,6 +254,10 @@ class NET_EXPORT_PRIVATE QuicConnection
   // writer_factory->Create() to get a writer; |owns_writer| specifies whether
   // the connection takes ownership of the returned writer. |helper| must
   // outlive this connection.
+  /*
+client测试例子在QuicClient::Connect中构造类
+*/
+  //定义见QuicConnection::QuicConnection
   QuicConnection(QuicConnectionId connection_id,
                  IPEndPoint address,
                  QuicConnectionHelperInterface* helper,

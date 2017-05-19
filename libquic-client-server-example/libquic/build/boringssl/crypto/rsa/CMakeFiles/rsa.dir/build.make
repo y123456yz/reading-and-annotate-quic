@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yangyazhou/quic/libquic
+CMAKE_SOURCE_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yangyazhou/quic/libquic/build
+CMAKE_BINARY_DIR = /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build
 
 # Include any dependencies generated for this target.
 include boringssl/crypto/rsa/CMakeFiles/rsa.dir/depend.make
@@ -54,17 +54,17 @@ include boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o: boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o: ../boringssl/crypto/rsa/rsa.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa.c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa.dir/rsa.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa.c > CMakeFiles/rsa.dir/rsa.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa.c > CMakeFiles/rsa.dir/rsa.c.i
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa.dir/rsa.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa.c -o CMakeFiles/rsa.dir/rsa.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa.c -o CMakeFiles/rsa.dir/rsa.c.s
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o.requires:
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o.requires
@@ -77,17 +77,17 @@ boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa.c.o.provides.build: boringssl/crypto
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o: boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o: ../boringssl/crypto/rsa/rsa_impl.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa_impl.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_impl.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa_impl.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_impl.c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa.dir/rsa_impl.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_impl.c > CMakeFiles/rsa.dir/rsa_impl.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_impl.c > CMakeFiles/rsa.dir/rsa_impl.c.i
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa.dir/rsa_impl.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_impl.c -o CMakeFiles/rsa.dir/rsa_impl.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_impl.c -o CMakeFiles/rsa.dir/rsa_impl.c.s
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o.requires:
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o.requires
@@ -100,17 +100,17 @@ boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_impl.c.o.provides.build: boringssl/c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o: boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o: ../boringssl/crypto/rsa/blinding.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/blinding.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/blinding.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/blinding.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/blinding.c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa.dir/blinding.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/blinding.c > CMakeFiles/rsa.dir/blinding.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/blinding.c > CMakeFiles/rsa.dir/blinding.c.i
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa.dir/blinding.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/blinding.c -o CMakeFiles/rsa.dir/blinding.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/blinding.c -o CMakeFiles/rsa.dir/blinding.c.s
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o.requires:
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o.requires
@@ -123,17 +123,17 @@ boringssl/crypto/rsa/CMakeFiles/rsa.dir/blinding.c.o.provides.build: boringssl/c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o: boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o: ../boringssl/crypto/rsa/padding.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/padding.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/padding.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/padding.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/padding.c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa.dir/padding.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/padding.c > CMakeFiles/rsa.dir/padding.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/padding.c > CMakeFiles/rsa.dir/padding.c.i
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa.dir/padding.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/padding.c -o CMakeFiles/rsa.dir/padding.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/padding.c -o CMakeFiles/rsa.dir/padding.c.s
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o.requires:
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o.requires
@@ -146,17 +146,17 @@ boringssl/crypto/rsa/CMakeFiles/rsa.dir/padding.c.o.provides.build: boringssl/cr
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o: boringssl/crypto/rsa/CMakeFiles/rsa.dir/flags.make
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o: ../boringssl/crypto/rsa/rsa_asn1.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/quic/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa_asn1.c.o   -c /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_asn1.c
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/rsa.dir/rsa_asn1.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_asn1.c
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa.dir/rsa_asn1.c.i"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_asn1.c > CMakeFiles/rsa.dir/rsa_asn1.c.i
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_asn1.c > CMakeFiles/rsa.dir/rsa_asn1.c.i
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa.dir/rsa_asn1.c.s"
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/quic/libquic/boringssl/crypto/rsa/rsa_asn1.c -o CMakeFiles/rsa.dir/rsa_asn1.c.s
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa/rsa_asn1.c -o CMakeFiles/rsa.dir/rsa_asn1.c.s
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o.requires:
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/rsa_asn1.c.o.requires
@@ -187,10 +187,10 @@ boringssl/crypto/rsa/CMakeFiles/rsa.dir/requires: boringssl/crypto/rsa/CMakeFile
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/requires
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/clean:
-	cd /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa && $(CMAKE_COMMAND) -P CMakeFiles/rsa.dir/cmake_clean.cmake
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa && $(CMAKE_COMMAND) -P CMakeFiles/rsa.dir/cmake_clean.cmake
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/clean
 
 boringssl/crypto/rsa/CMakeFiles/rsa.dir/depend:
-	cd /root/yangyazhou/quic/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/quic/libquic /root/yangyazhou/quic/libquic/boringssl/crypto/rsa /root/yangyazhou/quic/libquic/build /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa /root/yangyazhou/quic/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/rsa /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/rsa/CMakeFiles/rsa.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : boringssl/crypto/rsa/CMakeFiles/rsa.dir/depend
 

@@ -134,7 +134,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa.c
 openssl/dsa.h
 -
 string.h
@@ -152,9 +152,9 @@ openssl/ex_data.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_asn1.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_asn1.c
 openssl/dsa.h
 -
 string.h
@@ -168,9 +168,9 @@ openssl/err.h
 openssl/mem.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/dsa_impl.c
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/dsa_impl.c
 openssl/dsa.h
 -
 string.h
@@ -186,9 +186,9 @@ openssl/rand.h
 openssl/sha.h
 -
 internal.h
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/internal.h
 
-/root/yangyazhou/quic/libquic/boringssl/crypto/dsa/internal.h
+/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/dsa/internal.h
 openssl/base.h
 -
 openssl/bn.h
