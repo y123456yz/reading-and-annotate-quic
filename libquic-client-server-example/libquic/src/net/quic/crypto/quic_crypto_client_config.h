@@ -61,7 +61,7 @@ class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
 
     // IsComplete returns true if this object contains enough information to
     // perform a handshake with the server. |now| is used to judge whether any
-    // cached server config has expired.
+    // cached server config has expired.  检查是否过期
     bool IsComplete(QuicWallTime now) const;
 
     // IsEmpty returns true if |server_config_| is empty.
@@ -156,10 +156,13 @@ class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
                     QuicWallTime now);
 
    private:
+    //QuicCryptoClientConfig::CachedState::SetServerConfig或者QuicCryptoClientStream::DoInitialize中赋值
     std::string server_config_;         // A serialized handshake message.
     std::string source_address_token_;  // An opaque proof of IP ownership.
     std::vector<std::string> certs_;    // A list of certificates in leaf-first
                                         // order.
+    //QuicCryptoClientConfig::CachedState::SetProof或者QuicCryptoClientConfig::CachedState::Initialize
+    //或者QuicCryptoClientConfig::CachedState::InitializeFrom中赋值
     std::string server_config_sig_;     // A signature of |server_config_|.
     bool server_config_valid_;          // True if |server_config_| is correctly
                                         // signed and |certs_| has been
@@ -186,8 +189,10 @@ class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
   QuicCryptoClientConfig();
   ~QuicCryptoClientConfig();
 
+  
   // LookupOrCreate returns a CachedState for the given |server_id|. If no such
   // CachedState currently exists, it will be created and cached.
+  ////根据server_id查找CachedStateMap表，如果找到，返回对应的CachedState状态，找不到，则创建一个pair，然后加入cached_states_ map表中
   CachedState* LookupOrCreate(const QuicServerId& server_id);
 
   // Delete all CachedState objects from cached_states_.
@@ -341,7 +346,7 @@ class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
                                    CachedState* cached);
 
   // cached_states_ maps from the server_id to the cached information about
-  // that server.
+  // that server.   map查找和insert见QuicCryptoClientConfig::LookupOrCreate
   CachedStateMap cached_states_;
 
   // Contains a map of servers which could share the same server config. Map

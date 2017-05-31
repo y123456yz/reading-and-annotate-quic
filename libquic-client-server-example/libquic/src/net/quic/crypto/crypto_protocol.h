@@ -26,7 +26,28 @@ namespace net {
 
 typedef std::string ServerConfigID;
 
-/* 以下QuicTag在QuicConfigValue类中构建 */
+/*
+0-RTT握手过程
+   QUIC握手的过程是需要一次数据交互，0-RTT时延即可完成握手过程中的密钥协商，比TLS相比效率提高了5倍，且具有更高的安全性。
+   QUIC在握手过程中使用Diffie-Hellman算法协商初始密钥，初始密钥依赖于服务器存储的一组配置参数，该参数会周期性的更新。
+   初始密钥协商成功后，服务器会提供一个临时随机数，双方根据这个数再生成会话密钥。
+   具体握手过程如下：
+   (1) 客户端判断本地是否已有服务器的全部配置参数，如果有则直接跳转到(5)，否则继续
+   (2) 客户端向服务器发送inchoate client hello(CHLO)消息，请求服务器传输配置参数
+   (3) 服务器收到CHLO，回复rejection(REJ)消息，其中包含服务器的部分配置参数
+   (4) 客户端收到REJ，提取并存储服务器配置参数，跳回到(1) 
+   (5) 客户端向服务器发送full client hello消息，开始正式握手，消息中包括客户端选择的公开数。此时客户
+       端根据获取的服务器配置参数和自己选择的公开数，可以计算出初始密钥。
+   (6) 服务器收到full client hello，如果不同意连接就回复REJ，同(3)；如果同意连接，根据客户端的公开数
+       计算出初始密钥，回复server hello(SHLO)消息，SHLO用初始密钥加密，并且其中包含服务器选择的一个临时公开数。
+   (7) 客户端收到服务器的回复，如果是REJ则情况同(4)；如果是SHLO，则尝试用初始密钥解密，提取出临时公开数
+   (8) 客户端和服务器根据临时公开数和初始密钥，各自基于SHA-256算法推导出会话密钥
+   (9) 双方更换为使用会话密钥通信，初始密钥此时已无用，QUIC握手过程完毕。之后会话密钥更新的流程与以上过程类似，
+       只是数据包中的某些字段略有不同。
+*/
+
+
+/* 以下QuicTag在QuicConfigValue类中构建,client server协商见DoHandshakeLoop */
 
 // clang-format off
 const QuicTag kCHLO = TAG('C', 'H', 'L', 'O');   // Client hello
@@ -99,7 +120,7 @@ const QuicTag kCHID = TAG('C', 'H', 'I', 'D');   // Channel ID.
 
 
 // Client hello tags
-const QuicTag kVER  = TAG('V', 'E', 'R', '\0');  // Version (new)
+const QuicTag kVER  = TAG('V', 'E', 'R', '\0');  // Version (new)   QuicVersion版本信息
 const QuicTag kNONC = TAG('N', 'O', 'N', 'C');   // The client's nonce
 const QuicTag kKEXS = TAG('K', 'E', 'X', 'S');   // Key exchange methods
 const QuicTag kAEAD = TAG('A', 'E', 'A', 'D');   // Authenticated
@@ -113,6 +134,7 @@ const QuicTag kMSPC = TAG('M', 'S', 'P', 'C');   // Max streams per connection.
 const QuicTag kIRTT = TAG('I', 'R', 'T', 'T');   // Estimated initial RTT in us.
 const QuicTag kSWND = TAG('S', 'W', 'N', 'D');   // Server's Initial congestion
                                                  // window.
+//服务器名字指示SNI(Server Name Indication)
 const QuicTag kSNI  = TAG('S', 'N', 'I', '\0');  // Server name
                                                  // indication
 const QuicTag kPUBS = TAG('P', 'U', 'B', 'S');   // Public key values
@@ -121,13 +143,13 @@ const QuicTag kORBT = TAG('O', 'B', 'I', 'T');   // Server orbit.
 const QuicTag kPDMD = TAG('P', 'D', 'M', 'D');   // Proof demand.
 const QuicTag kPROF = TAG('P', 'R', 'O', 'F');   // Proof (signature).
 const QuicTag kCCS  = TAG('C', 'C', 'S', 0);     // Common certificate set
-const QuicTag kCCRT = TAG('C', 'C', 'R', 'T');   // Cached certificate
+const QuicTag kCCRT = TAG('C', 'C', 'R', 'T');   // Cached certificate  缓存的证书信息，赋值见FillInchoateClientHello
 const QuicTag kEXPY = TAG('E', 'X', 'P', 'Y');   // Expiry
 const QuicTag kSFCW = TAG('S', 'F', 'C', 'W');   // Initial stream flow control
                                                  // receive window.
 const QuicTag kCFCW = TAG('C', 'F', 'C', 'W');   // Initial session/connection
                                                  // flow control receive window.
-const QuicTag kUAID = TAG('U', 'A', 'I', 'D');   // Client's User Agent ID.
+const QuicTag kUAID = TAG('U', 'A', 'I', 'D');   // Client's User Agent ID.  user_agent_id_
 
 
 
@@ -169,7 +191,7 @@ const QuicTag kPAD  = TAG('P', 'A', 'D', '\0');  // Padding
 // in the event that it sent two client hellos.
 const QuicTag kServerNonceTag =
     TAG('S', 'N', 'O', 0);  // The server's nonce
-const QuicTag kSourceAddressTokenTag =
+const QuicTag kSourceAddressTokenTag =   //对应source_address_token_
     TAG('S', 'T', 'K', 0);  // Source-address token
 const QuicTag kCertificateTag =
     TAG('C', 'R', 'T', 255);  // Certificate chain

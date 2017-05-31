@@ -269,7 +269,7 @@ class NET_EXPORT_PRIVATE QuicSession : public QuicConnectionVisitorInterface {
   scoped_ptr<QuicConnection> connection_;
 
   // A shim to stand between the connection and the session, to handle stream
-  // deletions.
+  // deletions.   QuicSession::QuicSession中默认初始化为VisitorShim(this)
   scoped_ptr<VisitorShim> visitor_shim_;
 
   std::vector<ReliableQuicStream*> closed_streams_;

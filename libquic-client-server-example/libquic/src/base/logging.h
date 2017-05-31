@@ -376,7 +376,7 @@ const LogSeverity LOG_0 = LOG_ERROR;
 #define SYSLOG(severity) LOG(severity)
 #define SYSLOG_IF(severity, condition) LOG_IF(severity, condition)
 
-// The VLOG macros log with negative verbosities.
+// The VLOG macros log with negative verbosities.  
 #define VLOG_STREAM(verbose_level) \
   logging::LogMessage(__FILE__, __LINE__, -verbose_level).stream()
 
@@ -574,7 +574,8 @@ DEFINE_CHECK_OP_IMPL(GT, > )
 
 // Definitions for DLOG et al.
 
-#if ENABLE_DLOG
+//#if ENABLE_DLOG  yang add change
+#if 1 
 
 #define DLOG_IS_ON(severity) LOG_IS_ON(severity)
 #define DLOG_IF(severity, condition) LOG_IF(severity, condition)
@@ -749,8 +750,8 @@ class BASE_EXPORT LogMessage {
  private:
   void Init(const char* file, int line);
 
-  LogSeverity severity_;
-  std::ostringstream stream_;
+  LogSeverity severity_; //
+  std::ostringstream stream_; //实现输出的stream类
   size_t message_start_;  // Offset of the start of the message (past prefix
                           // info).
   // The file and line information passed in to the constructor.

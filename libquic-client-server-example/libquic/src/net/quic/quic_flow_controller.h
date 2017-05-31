@@ -11,9 +11,9 @@
 
 namespace net {
 
-namespace test {
-class QuicFlowControllerPeer;
-}  // namespace test
+//namespace test {  yang add change
+//class QuicFlowControllerPeer;
+//}  // namespace test
 
 class QuicConnection;
 
@@ -23,7 +23,8 @@ const QuicStreamId kConnectionLevelId = 0;
 // control. The stream/connection owns a QuicFlowController which keeps track of
 // bytes sent/received, can tell the owner if it is flow control blocked, and
 // can send WINDOW_UPDATE or BLOCKED frames when needed.
-class NET_EXPORT_PRIVATE QuicFlowController {
+
+class NET_EXPORT_PRIVATE QuicFlowController { //stream/connection 流量控制, ReliableQuicStream类中包含该类成员
  public:
   QuicFlowController(QuicConnection* connection,
                      QuicStreamId id,
@@ -81,7 +82,7 @@ class NET_EXPORT_PRIVATE QuicFlowController {
   bool auto_tune_receive_window() { return auto_tune_receive_window_; }
 
  private:
-  friend class test::QuicFlowControllerPeer;
+  //friend class test::QuicFlowControllerPeer;  yang add change
 
   // Send a WINDOW_UPDATE frame if appropriate.
   void MaybeSendWindowUpdate();

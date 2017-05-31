@@ -232,7 +232,7 @@ class NET_EXPORT_PRIVATE QuicConnectionHelperInterface {
 client测试例子在QuicClient::Connect中构造类
 */
 class NET_EXPORT_PRIVATE QuicConnection
-    : public QuicFramerVisitorInterface,
+    : public QuicFramerVisitorInterface,  //当接收到frame帧信息，解包后进行相应的回调处理
       public QuicBlockedWriterInterface,
       public QuicPacketGenerator::DelegateInterface,
       public QuicSentPacketManager::NetworkChangeVisitor {
@@ -346,7 +346,7 @@ client测试例子在QuicClient::Connect中构造类
   // QuicBlockedWriterInterface
   // Called when the underlying connection becomes writable to allow queued
   // writes to happen.
-  void OnCanWrite() override;
+  void OnCanWrite() override;  //QuicBlockedWriterInterface接口类的OnCanWrite方法重写
 
   // Called when an error occurs while attempting to write a packet to the
   // network.

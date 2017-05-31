@@ -180,12 +180,12 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
     ~PendingData();
 
     // Pending data to be written.
-    std::string data;
+    std::string data; //待写入数据
     // Index of the first byte in data still to be written.
-    size_t offset;
+    size_t offset;  //偏移
     // Delegate that should be notified when the pending data is acked.
     // Can be nullptr.
-    scoped_refptr<ProxyAckNotifierDelegate> delegate;
+    scoped_refptr<ProxyAckNotifierDelegate> delegate; //发送数据的ack委托处理相关
   };
 
   // Calls MaybeSendBlocked on our flow controller, and connection level flow
@@ -193,6 +193,7 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
   // blocked.
   void MaybeSendBlocked();
 
+  //WriteOrBufferData中入队，OnCanWrite中出对
   std::list<PendingData> queued_data_;
 
   QuicStreamSequencer sequencer_;
@@ -201,6 +202,7 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
   // Bytes read and written refer to payload bytes only: they do not include
   // framing, encryption overhead etc.
   uint64 stream_bytes_read_;
+  //默认为0，ReliableQuicStream::WritevData中赋值
   uint64 stream_bytes_written_;
 
   // Stream error code received from a RstStreamFrame or error code sent by the
@@ -214,8 +216,9 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
   // True if the read side is closed and further frames should be rejected.
   bool read_side_closed_;
   // True if the write side is closed, and further writes should fail.
-  bool write_side_closed_;
+  bool write_side_closed_; //CloseWriteSide赋值，
 
+  //WriteOrBufferData中赋值
   bool fin_buffered_;
   bool fin_sent_;
 
@@ -231,12 +234,16 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
   bool rst_received_;
 
   // FEC policy to be used for this stream.
-  FecPolicy fec_policy_;
+  FecPolicy fec_policy_; //是否需要数据流支持前向纠错，构造函数中默认为FEC_PROTECT_OPTIONAL
 
   // Tracks if the session this stream is running under was created by a
   // server or a client.
   Perspective perspective_;
 
+/*
+flow_controller_               session级流量控制
+connection_flow_controller_    connection级流量控制
+*/
   QuicFlowController flow_controller_;
 
   // The connection level flow controller. Not owned.
@@ -244,8 +251,9 @@ class NET_EXPORT_PRIVATE ReliableQuicStream {
 
   // Special streams, such as the crypto and headers streams, do not respect
   // connection level flow control limits (but are stream level flow control
-  // limited).
-  bool stream_contributes_to_connection_flow_control_;
+  // limited). 
+  //crypto and headers streams不应该收连接等级流量控制，而是受stream级流量控制
+  bool stream_contributes_to_connection_flow_control_; 
 
   DISALLOW_COPY_AND_ASSIGN(ReliableQuicStream);
 };

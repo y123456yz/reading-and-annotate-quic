@@ -65,6 +65,7 @@ QuicCryptoClientConfig::CachedState::CachedState()
 
 QuicCryptoClientConfig::CachedState::~CachedState() {}
 
+//判断是否过期
 bool QuicCryptoClientConfig::CachedState::IsComplete(QuicWallTime now) const {
   if (server_config_.empty()) {
     RecordInchoateClientHelloReason(SERVER_CONFIG_EMPTY);
@@ -361,6 +362,7 @@ void QuicCryptoClientConfig::SetDefaults() {
   disable_ecdsa_ = false;
 }
 
+//根据server_id查找CachedStateMap表，如果找到，返回对应的CachedState状态，找不到，则创建一个pair，然后加入cached_states_ map表中
 QuicCryptoClientConfig::CachedState* QuicCryptoClientConfig::LookupOrCreate(
     const QuicServerId& server_id) {
   CachedStateMap::const_iterator it = cached_states_.find(server_id);
@@ -384,6 +386,7 @@ void QuicCryptoClientConfig::ClearCachedStates() {
   }
 }
 
+//填充QuicTag信息到out中
 void QuicCryptoClientConfig::FillInchoateClientHello(
     const QuicServerId& server_id,
     const QuicVersion preferred_version,
@@ -398,6 +401,7 @@ void QuicCryptoClientConfig::FillInchoateClientHello(
   if (CryptoUtils::IsValidSNI(server_id.host())) {
     out->SetStringPiece(kSNI, server_id.host());
   }
+  
   out->SetValue(kVER, QuicVersionToQuicTag(preferred_version));
 
   if (!user_agent_id_.empty()) {

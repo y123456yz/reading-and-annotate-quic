@@ -44,7 +44,7 @@ class QuicClientSession : public QuicSession {
   void OnProofVerifyDetailsAvailable(const ProofVerifyDetails&) {};
 
  private:
-  scoped_ptr<QuicCryptoClientStream> crypto_stream_;
+  scoped_ptr<QuicCryptoClientStream> crypto_stream_; //QuicClientSession::InitializeSession÷–≥ı ºªØ
 
 };
 

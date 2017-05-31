@@ -15,7 +15,7 @@ using base::StringPiece;
 
 namespace net {
 
-namespace {
+//namespace { yang add change
 
 // We want to put some space between a protected packet and the FEC packet to
 // avoid losing them both within the same loss episode. On the other hand, we
@@ -31,7 +31,7 @@ const float kRttMultiplierForFecTimeout = 0.5;
 // timeout of 10ms.
 const int64 kMinFecTimeoutMs = 5u;
 
-}  // namespace
+//}  // namespace
 
 class QuicAckNotifier;
 
@@ -145,7 +145,7 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
     SerializeAndSendPacket();
   }
 
-  if (fec_protection == MUST_FEC_PROTECT) {
+  if (fec_protection == MUST_FEC_PROTECT) { //是否启用FEC前向纠错策略
     MaybeStartFecProtection();
   }
 
@@ -162,6 +162,8 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
   }
 
   int frames_created = 0;
+  
+  //ShouldGeneratePacket判断是否可以发送数据
   while (delegate_->ShouldGeneratePacket(
       HAS_RETRANSMITTABLE_DATA, has_handshake ? IS_HANDSHAKE : NOT_HANDSHAKE)) {
     QuicFrame frame;
@@ -421,6 +423,7 @@ void QuicPacketGenerator::SerializeAndSendPacket() {
   char buffer[kMaxPacketSize];
   SerializedPacket serialized_packet =
       packet_creator_.SerializePacket(buffer, kMaxPacketSize);
+  
   DCHECK(serialized_packet.packet);
 
   // There may be AckNotifiers interested in this packet.

@@ -25,7 +25,7 @@ namespace net {
 // values less than or equal to 0.
 int32 FLAGS_quic_recent_min_rtt_window_s = 60;
 
-namespace {
+//namespace { yang add change
 static const int64 kDefaultRetransmissionTimeMs = 500;
 // TCP RFC calls for 1 second RTO however Linux differs from this default and
 // define the minimum RTO to 200ms, we will use the same until we have data to
@@ -57,7 +57,7 @@ bool HasCryptoHandshake(const TransmissionInfo& transmission_info) {
       IS_HANDSHAKE;
 }
 
-}  // namespace
+//}  // namespace
 
 #define ENDPOINT \
   (perspective_ == Perspective::IS_SERVER ? "Server: " : "Client: ")

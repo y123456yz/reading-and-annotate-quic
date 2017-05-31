@@ -42,7 +42,25 @@ typedef QuicPacketSequenceNumber QuicFecGroupNumber;
 typedef uint64 QuicPublicResetNonceProof;
 typedef uint8 QuicPacketEntropyHash;
 typedef uint32 QuicHeaderId;
-
+/*
+0-RTT握手过程
+   QUIC握手的过程是需要一次数据交互，0-RTT时延即可完成握手过程中的密钥协商，比TLS相比效率提高了5倍，且具有更高的安全性。
+   QUIC在握手过程中使用Diffie-Hellman算法协商初始密钥，初始密钥依赖于服务器存储的一组配置参数，该参数会周期性的更新。
+   初始密钥协商成功后，服务器会提供一个临时随机数，双方根据这个数再生成会话密钥。
+   具体握手过程如下：
+   (1) 客户端判断本地是否已有服务器的全部配置参数，如果有则直接跳转到(5)，否则继续
+   (2) 客户端向服务器发送inchoate client hello(CHLO)消息，请求服务器传输配置参数
+   (3) 服务器收到CHLO，回复rejection(REJ)消息，其中包含服务器的部分配置参数
+   (4) 客户端收到REJ，提取并存储服务器配置参数，跳回到(1) 
+   (5) 客户端向服务器发送full client hello消息，开始正式握手，消息中包括客户端选择的公开数。此时客户
+       端根据获取的服务器配置参数和自己选择的公开数，可以计算出初始密钥。
+   (6) 服务器收到full client hello，如果不同意连接就回复REJ，同(3)；如果同意连接，根据客户端的公开数
+       计算出初始密钥，回复server hello(SHLO)消息，SHLO用初始密钥加密，并且其中包含服务器选择的一个临时公开数。
+   (7) 客户端收到服务器的回复，如果是REJ则情况同(4)；如果是SHLO，则尝试用初始密钥解密，提取出临时公开数
+   (8) 客户端和服务器根据临时公开数和初始密钥，各自基于SHA-256算法推导出会话密钥
+   (9) 双方更换为使用会话密钥通信，初始密钥此时已无用，QUIC握手过程完毕。之后会话密钥更新的流程与以上过程类似，
+       只是数据包中的某些字段略有不同。
+*/
 /* 参考kCHLO，通过把字符串转换为INT来代表各种不同类型的标识，例如可以参考kCHLO */
 // QuicTag is the type of a tag in the wire protocol.
 typedef uint32 QuicTag;
@@ -116,10 +134,10 @@ const size_t kStartOfHashData = 0;
 // Limit on the delta between stream IDs.
 const QuicStreamId kMaxStreamIdDelta = 200;
 
-// Reserved ID for the crypto stream.
+// Reserved ID for the crypto stream.  握手协商流ID默认为1开始
 const QuicStreamId kCryptoStreamId = 1;
 
-// Reserved ID for the headers stream.
+// Reserved ID for the headers stream.  数据帧默认3开始
 const QuicStreamId kHeadersStreamId = 3;
 
 // Maximum delayed ack time, in ms.
@@ -210,8 +228,10 @@ enum FecProtection {
 };
 
 // Indicates FEC policy.
-enum FecPolicy {
+enum FecPolicy { /* 前向纠错策略 */
+  /* 所有数据流都需要支持前向纠错 */
   FEC_PROTECT_ALWAYS,   // All data in the stream should be FEC protected.
+  //不需要支持前向纠错
   FEC_PROTECT_OPTIONAL  // Data in the stream does not need FEC protection.
 };
 
@@ -256,7 +276,7 @@ enum FecSendPolicy {
 ---
 
 */
-enum QuicFrameType {
+enum QuicFrameType { //frame帧类型
   // Regular frame types. The values set here cannot change without the
   // introduction of a new QUIC version.
   PADDING_FRAME = 0,
@@ -750,7 +770,7 @@ struct NET_EXPORT_PRIVATE QuicPaddingFrame {
 struct NET_EXPORT_PRIVATE QuicPingFrame {
 };
 
-struct NET_EXPORT_PRIVATE QuicStreamFrame {
+struct NET_EXPORT_PRIVATE QuicStreamFrame { //CreateStreamFrame中new该类
   QuicStreamFrame();
   QuicStreamFrame(const QuicStreamFrame& frame);
   QuicStreamFrame(QuicStreamId stream_id,
@@ -761,10 +781,11 @@ struct NET_EXPORT_PRIVATE QuicStreamFrame {
   NET_EXPORT_PRIVATE friend std::ostream& operator<<(
       std::ostream& os, const QuicStreamFrame& s);
 
+ 
   QuicStreamId stream_id;
   bool fin;
-  QuicStreamOffset offset;  // Location of this data in the stream.
-  base::StringPiece data;
+  QuicStreamOffset offset;  // Location of this data in the stream. 当前data数据在stream中的offset
+  base::StringPiece data; //要发送的数据
 };
 
 // TODO(ianswett): Re-evaluate the trade-offs of hash_set vs set when framing
@@ -945,6 +966,10 @@ struct NET_EXPORT_PRIVATE QuicBlockedFrame {
 // progresses through. When retransmitting a packet, the encryption level needs
 // to be specified so that it is retransmitted at a level which the peer can
 // understand.
+/*
+EncryptionLevel枚举了quic连接过程中的各个加密阶段，在重传数据包的时候也需要制定该level，
+这样对端就可以知道阶段信息
+*/
 enum EncryptionLevel {
   ENCRYPTION_NONE = 0,
   ENCRYPTION_INITIAL = 1,
@@ -1159,8 +1184,8 @@ struct NET_EXPORT_PRIVATE QuicIOVector {
       : iov(iov), iov_count(iov_count), total_length(total_length) {}
 
   const struct iovec* iov;
-  const int iov_count;
-  const size_t total_length;
+  const int iov_count; 
+  const size_t total_length; //可写的最大数据长度，见WritevData
 };
 
 }  // namespace net

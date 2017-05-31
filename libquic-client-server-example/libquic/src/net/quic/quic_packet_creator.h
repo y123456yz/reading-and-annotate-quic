@@ -305,6 +305,7 @@ class NET_EXPORT_PRIVATE QuicPacketCreator {
   // packet_size_ is mutable because it's just a cache of the current size.
   // packet_size should never be read directly, use PacketSize() instead.
   mutable size_t packet_size_;
+  //一个quic包最大长度，默认kDefaultMaxPacketSize，SetMaxPacketLength中赋值
   mutable size_t max_plaintext_size_;
   QuicFrames queued_frames_;
   scoped_ptr<RetransmittableFrames> queued_retransmittable_frames_;

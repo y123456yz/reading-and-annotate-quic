@@ -79,6 +79,7 @@ bool CryptoFramer::ProcessInput(StringPiece input) {
   return true;
 }
 
+//根据CryptoHandshakeMessage构建QuicData
 // static
 QuicData* CryptoFramer::ConstructHandshakeMessage(
     const CryptoHandshakeMessage& message) {

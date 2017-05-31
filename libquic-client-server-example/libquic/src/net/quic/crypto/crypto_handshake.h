@@ -133,9 +133,9 @@ struct NET_EXPORT_PRIVATE QuicCryptoNegotiatedParameters {
   std::string client_cached_cert_hashes;
 };
 
-//被QuicCryptoClientConfig和QuicCryptoServerConfig类继承使用
+//被QuicCryptoClientConfig和QuicCryptoServerConfig类继承使用 
 // QuicCryptoConfig contains common configuration between clients and servers.
-class NET_EXPORT_PRIVATE QuicCryptoConfig {
+class NET_EXPORT_PRIVATE QuicCryptoConfig { //client和server握手相关
  public:
   // kInitialLabel is a constant that is used when deriving the initial
   // (non-forward secure) keys for the connection in order to tie the resulting

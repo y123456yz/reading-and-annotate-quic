@@ -11,14 +11,15 @@
 
 namespace net {
 
-namespace {
+//namespace {  //yang add change
 const QuicByteCount kStreamReceiveWindowLimit = 16 * 1024 * 1024;   // 16 MB
 const QuicByteCount kSessionReceiveWindowLimit = 24 * 1024 * 1024;  // 24 MB
-}
+//}
 
 #define ENDPOINT \
   (perspective_ == Perspective::IS_SERVER ? "Server: " : "Client: ")
 
+//QuicSession::QuicSession或者ReliableQuicStream::ReliableQuicStream中构造QuicSession的时候调用该构造函数
 QuicFlowController::QuicFlowController(QuicConnection* connection,
                                        QuicStreamId id,
                                        Perspective perspective,

@@ -48,11 +48,6 @@ int main(int argc, char *argv[]) {
  // settings.logging_dest = logging::LOG_TO_SYSTEM_DEBUG_LOG;
  // CHECK(logging::InitLogging(settings));
 
-  
-  logging::SetMinLogLevel(0);
-  logging::LoggingSettings *logset = new logging::LoggingSettings("/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic.log");
-  logging::InitLogging(*logset);
-
   if (line->HasSwitch("t")) {
     if (!base::StringToUint64(line->GetSwitchValueASCII("t"), &FLAGS_total_transfer)) {
       cout << "-t must be an unsigned integer\n";
@@ -71,7 +66,14 @@ int main(int argc, char *argv[]) {
       return 1;
     }
   }
-  DVLOG(1) << "yang add test debug log";
+
+  logging::SetMinLogLevel(-1);
+  logging::LoggingSettings *logset = new logging::LoggingSettings((char*)"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic.log");
+  logging::InitLogging(*logset);
+
+  //PLOG(ERROR) << "yang test plog: ";
+  //DVLOG(1) << "yang add test debug log";
+  //printf("yang test .....level:%d\r\n", logging::GetVlogLevel(__FILE__));
 
   cout << "Run parameters are:\nchunk size: " << FLAGS_chunk_size
        << "\ntotal size: " << FLAGS_total_transfer

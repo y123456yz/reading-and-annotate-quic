@@ -535,6 +535,9 @@ void QuicConfig::SetDefaults() {
   SetInitialSessionFlowControlWindowToSend(kMinimumFlowControlSendWindow);
 }
 
+/*
+把QuicConfig配置中的响应信息填充到out中
+*/
 void QuicConfig::ToHandshakeMessage(CryptoHandshakeMessage* out) const {
   idle_connection_state_lifetime_seconds_.ToHandshakeMessage(out);
   silent_close_.ToHandshakeMessage(out);

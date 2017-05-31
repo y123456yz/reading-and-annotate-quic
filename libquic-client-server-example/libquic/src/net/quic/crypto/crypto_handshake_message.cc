@@ -51,6 +51,7 @@ void CryptoHandshakeMessage::Clear() {
   serialized_.reset();
 }
 
+//该CryptoHandshakeMessage类
 const QuicData& CryptoHandshakeMessage::GetSerialized() const {
   if (!serialized_.get()) {
     serialized_.reset(CryptoFramer::ConstructHandshakeMessage(*this));
@@ -201,6 +202,7 @@ size_t CryptoHandshakeMessage::minimum_size() const {
   return minimum_size_;
 }
 
+//把tag_value_map_信息转换成字符串，拼接在一起
 string CryptoHandshakeMessage::DebugString() const {
   return DebugStringInternal(0);
 }
@@ -225,6 +227,7 @@ QuicErrorCode CryptoHandshakeMessage::GetPOD(
   return ret;
 }
 
+//把tag_value_map_信息转换成字符串，拼接在一起
 string CryptoHandshakeMessage::DebugStringInternal(size_t indent) const {
   string ret = string(2 * indent, ' ') + QuicUtils::TagToString(tag_) + "<\n";
   ++indent;

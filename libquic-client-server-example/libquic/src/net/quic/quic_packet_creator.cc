@@ -23,14 +23,14 @@ using std::vector;
 
 namespace net {
 
-namespace {
+//namespace { YANG ADD CHANGE
 
 // Default max packets in an FEC group.
 static const size_t kDefaultMaxPacketsPerFecGroup = 10;
 // Lowest max packets in an FEC group.
 static const size_t kLowestMaxPacketsPerFecGroup = 2;
 
-}  // namespace
+//}  // namespace
 
 // A QuicRandom wrapper that gets a bucket of entropy and distributes it
 // bit-by-bit. Replenishes the bucket as needed. Not thread-safe. Expose this
@@ -260,6 +260,7 @@ size_t QuicPacketCreator::StreamFramePacketOverhead(
       QuicFramer::GetMinStreamFrameSize(1u, offset, true, is_in_fec_group);
 }
 
+//根据iov组包frame帧信息
 size_t QuicPacketCreator::CreateStreamFrame(QuicStreamId id,
                                             const QuicIOVector& iov,
                                             size_t iov_offset,
@@ -279,7 +280,7 @@ size_t QuicPacketCreator::CreateStreamFrame(QuicStreamId id,
       << " MinStreamFrameSize: "
       << QuicFramer::GetMinStreamFrameSize(id, offset, true, is_in_fec_group);
 
-  if (iov_offset == iov.total_length) {
+  if (iov_offset == iov.total_length) { //表示iov中的数据已经write完毕，偏移到了iov数据的末尾处
     LOG_IF(DFATAL, !fin)
         << "Creating a stream frame with no data or fin.";
     // Create a new packet for the fin, if necessary.
@@ -287,17 +288,19 @@ size_t QuicPacketCreator::CreateStreamFrame(QuicStreamId id,
     return 0;
   }
 
-  const size_t data_size = iov.total_length - iov_offset;
+  const size_t data_size = iov.total_length - iov_offset; //还未写的iov数据大小
   size_t min_frame_size = QuicFramer::GetMinStreamFrameSize(
       id, offset, /* last_frame_in_packet= */ true, is_in_fec_group);
   size_t bytes_consumed = min<size_t>(BytesFree() - min_frame_size, data_size);
 
+  //拷贝iov中的bytes_consumed字节数据到buffer中
   bool set_fin = fin && bytes_consumed == data_size;  // Last frame.
   buffer->reset(new char[bytes_consumed]);
   CopyToBuffer(iov, iov_offset, bytes_consumed, buffer->get());
+  
   *frame = QuicFrame(new QuicStreamFrame(
       id, set_fin, offset, StringPiece(buffer->get(), bytes_consumed)));
-  return bytes_consumed;
+  return bytes_consumed; //返回从iov中取出数据组包frame的data数据字节数
 }
 
 // static
@@ -391,6 +394,7 @@ size_t QuicPacketCreator::ExpansionOnNewFrame() const {
   return has_trailing_stream_frame ? kQuicStreamPayloadLengthSize : 0;
 }
 
+//max_plaintext_size_表示一个quic包的最大长度，减去头部字段长度，也就是数据载荷部分可用长度
 size_t QuicPacketCreator::BytesFree() const {
   DCHECK_GE(max_plaintext_size_, PacketSize());
   return max_plaintext_size_ - min(max_plaintext_size_, PacketSize()

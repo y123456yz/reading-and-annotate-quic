@@ -45,6 +45,7 @@ HostPortPair HostPortPair::FromString(const std::string& str) {
     return HostPortPair();
   if (!IsPortValid(port))
     return HostPortPair();
+  
   HostPortPair host_port_pair;
   host_port_pair.set_host(key_port[0]);
   host_port_pair.set_port(static_cast<uint16_t>(port));

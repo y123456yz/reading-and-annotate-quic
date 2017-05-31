@@ -99,12 +99,13 @@ class QuicClient : public EpollCallbackInterface,
   const IPEndPoint server_address_;
 
   // |server_id_| is a tuple (hostname, port, is_https) of the server.
-  QuicServerId server_id_;
+  QuicServerId server_id_; /* 注意server_id_表示的IP 端口信息和client_address_的区别，他们的IP地址表示形式不一样 */
 
   // config_ and crypto_config_ contain configuration and cached state about
   // servers.
   //默认构造函数初始化见QuicConfig::QuicConfig()
   QuicConfig config_;
+  //客户端服务端握手协商相关
   QuicCryptoClientConfig crypto_config_;
 
   // Address of the client if the client is connected to the server.
@@ -120,6 +121,7 @@ class QuicClient : public EpollCallbackInterface,
   scoped_ptr<QuicPacketWriter> writer_;
 
   // Session which manages streams.
+  //QuicClient::Connect中new对象
   scoped_ptr<QuicClientSession> session_;
   // Listens for events on the client socket.
   EpollServer* epoll_server_;

@@ -1,0 +1,622 @@
+[0531/102720:VERBOSE1:quic_connection.cc(277)] Client: Created connection with connection_id: 5008293845994023446
+[0531/102720:VERBOSE1:quic_flow_controller.cc(44)] Client: Created flow controller for stream 0, setting initial receive window offset to: 10485760, max receive window to: 10485760, max receive window limit to: 25165824, setting send window offset to: 16384
+[0531/102720:VERBOSE1:quic_flow_controller.cc(44)] Client: Created flow controller for stream 1, setting initial receive window offset to: 10485760, max receive window to: 10485760, max receive window limit to: 16777216, setting send window offset to: 16384
+[0531/102720:VERBOSE1:quic_crypto_stream.cc(66)] Client: Sending CHLO<
+  SNI : "127.0.0.1"
+  VER : 'Q025'
+  CCS : 0x7B26E9E7E45C71FF
+  MSPC: 100
+  ICSL: 600
+  SCLS: 0x01000000
+  CFCW: 10485760
+  SFCW: 10485760
+>
+[0531/102720:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102720:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 1 } fin { 0 } offset { 0 } data { 0x0000:  4348 4c4f 0900 0000 5041 4400 9b04 0000  CHLO....PAD.....
+0x0010:  534e 4900 a404 0000 5645 5200 a804 0000  SNI.....VER.....
+0x0020:  4343 5300 b004 0000 4d53 5043 b404 0000  CCS.....MSPC....
+0x0030:  4943 534c b804 0000 5343 4c53 bc04 0000  ICSL....SCLS....
+0x0040:  4346 4357 c004 0000 5346 4357 c404 0000  CFCW....SFCW....
+0x0050:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0060:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0070:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0080:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0090:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0100:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0110:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0120:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0130:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0140:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0150:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0160:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0170:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0180:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0190:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0200:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0210:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0220:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0230:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0240:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0250:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0260:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0270:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0280:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0290:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0300:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0310:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0320:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0330:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0340:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0350:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0360:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0370:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0380:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0390:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x03f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0400:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0410:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0420:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0430:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0440:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0450:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0460:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0470:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0480:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0490:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x04a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x04b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x04c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x04d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x04e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d31 3237 2e30  -----------127.0
+0x04f0:  2e30 2e31 5130 3235 7b26 e9e7 e45c 71ff  .0.1Q025{&...\q.
+0x0500:  6400 0000 5802 0000 0100 0000 0000 a000  d...X...........
+0x0510:  0000 a000                                ....
+ }
+
+[0531/102720:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { PADDING_FRAME } 
+[0531/102720:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 1 version: , fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 1, is_in_fec_group:0, fec_group: 0}
+
+[0531/102720:VERBOSE1:quic_framer.cc(756)] version = 25, tag = 'Q025'
+[0531/102720:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 1 : data bearing , encryption level: ENCRYPTION_NONE, encrypted length:1350
+[0531/102720:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671240987611
+[0531/102720:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102720:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 1 sent: 1300
+[0531/102720:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102720:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102720:VERBOSE1:quic_connection.cc(1366)] Client: time of last received packet: 13140671240995560
+[0531/102720:VERBOSE1:quic_connection.cc(629)] Client: Received packet header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 1, is_in_fec_group:0, fec_group: 0}
+
+[0531/102720:VERBOSE1:quic_connection.cc(665)] Client: OnAckFrame: entropy_hash: 0 largest_observed: 1 delta_time_largest_observed: 0 missing_packets: [  ] is_truncated: 0 revived_packets: [  ] received_packets: [ 1 at 13140671240985378  ]
+[0531/102720:VERBOSE1:quic_connection.cc(891)] Client: Got packet 1 with 1 stream frames, 1 acks, 1 stop_waiting, 0 rsts, 0 goaways, 0 window updates, 0 blocked, 0 pings, 0 closes for 5008293845994023446
+[0531/102720:VERBOSE1:quic_connection.cc(1004)] Ack timer set; next packet or timer will trigger ACK.
+[0531/102720:VERBOSE1:quic_flow_controller.cc(66)] Client: Stream 1 highest byte offset increased from: 0 to 279
+[0531/102720:VERBOSE1:quic_stream_sequencer.cc(72)] Processing byte offset 0
+[0531/102720:VERBOSE1:quic_crypto_stream.cc(41)] Client: Received REJ <
+  STK : 0x2B3D4F5DD9C8B3B2368980644A36F57A59340B8B1630607EC93EB99462CDFC1401965DC532D413E19609B1DAA22C0BFF5B4BA0D7
+  SNO : 0xCF91A01D886C5854541774172395D2CD84301289BB1696E7D53ED1904CDF5C0821C321BE6E1E743E0E95D3E5F2F70142
+  SCFG: 
+    SCFG<
+      AEAD: 'AESG','CC12'
+      SCID: 0x4F021309FDBEC213888A8AA5A6063435
+      PUBS: 0x20000062AB63D6B84504DBE35D0DDC7353667987C432658FCB695C793B16B165F94530
+      KEXS: 'C255'
+      OBIT: 0x0361779FBD4552DD
+      EXPY: 0xEF771B5A00000000
+    >
+  RREJ: 0x0C000000
+>
+[0531/102720:VERBOSE1:quic_crypto_client_config.cc(737)] Reasons for rejection: 2048
+[0531/102721:VERBOSE1:quic_crypto_stream.cc(66)] Client: Sending CHLO<
+  SNI : "127.0.0.1"
+  STK : 0x2B3D4F5DD9C8B3B2368980644A36F57A59340B8B1630607EC93EB99462CDFC1401965DC532D413E19609B1DAA22C0BFF5B4BA0D7
+  SNO : 0xCF91A01D886C5854541774172395D2CD84301289BB1696E7D53ED1904CDF5C0821C321BE6E1E743E0E95D3E5F2F70142
+  VER : 'Q025'
+  CCS : 0x7B26E9E7E45C71FF
+  NONC: 0x592E2A080361779FBD4552DD6EAB12C0E3BA53D94AB1729D2BC78374011B429A
+  MSPC: 100
+  AEAD: 'CC12'
+  SCID: 0x4F021309FDBEC213888A8AA5A6063435
+  ICSL: 600
+  PUBS: 0xEB7379B779B178858793317B5FE9703DB6EDD571E3984B8EE40C21174580F668
+  SCLS: 0x01000000
+  KEXS: 'C255'
+  CFCW: 10485760
+  SFCW: 10485760
+>
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_connection.cc(2149)] Bundling ack with outgoing packet.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { ACK_FRAME } entropy_hash: 0 largest_observed: 1 delta_time_largest_observed: 0 missing_packets: [  ] is_truncated: 0 revived_packets: [  ] received_packets: [ 1 at 13140671240995560  ]
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STOP_WAITING_FRAME } entropy_hash: 0 least_unacked: 1
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 1 } fin { 0 } offset { 1300 } data { 0x0000:  4348 4c4f 1000 0000 5041 4400 9302 0000  CHLO....PAD.....
+0x0010:  534e 4900 9c02 0000 5354 4b00 d002 0000  SNI.....STK.....
+0x0020:  534e 4f00 0003 0000 5645 5200 0403 0000  SNO.....VER.....
+0x0030:  4343 5300 0c03 0000 4e4f 4e43 2c03 0000  CCS.....NONC,...
+0x0040:  4d53 5043 3003 0000 4145 4144 3403 0000  MSPC0...AEAD4...
+0x0050:  5343 4944 4403 0000 4943 534c 4803 0000  SCIDD...ICSLH...
+0x0060:  5055 4253 6803 0000 5343 4c53 6c03 0000  PUBSh...SCLSl...
+0x0070:  4b45 5853 7003 0000 4346 4357 7403 0000  KEXSp...CFCWt...
+0x0080:  5346 4357 7803 0000 2d2d 2d2d 2d2d 2d2d  SFCWx...--------
+0x0090:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x00f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0100:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0110:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0120:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0130:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0140:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0150:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0160:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0170:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0180:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0190:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x01f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0200:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0210:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0220:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0230:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0240:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0250:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0260:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0270:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0280:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0290:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02a0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02b0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02c0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02d0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02e0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x02f0:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0300:  2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+0x0310:  2d2d 2d2d 2d2d 2d2d 2d2d 2d31 3237 2e30  -----------127.0
+0x0320:  2e30 2e31 2b3d 4f5d d9c8 b3b2 3689 8064  .0.1+=O]....6..d
+0x0330:  4a36 f57a 5934 0b8b 1630 607e c93e b994  J6.zY4...0`~.>..
+0x0340:  62cd fc14 0196 5dc5 32d4 13e1 9609 b1da  b.....].2.......
+0x0350:  a22c 0bff 5b4b a0d7 cf91 a01d 886c 5854  .,..[K.......lXT
+0x0360:  5417 7417 2395 d2cd 8430 1289 bb16 96e7  T.t.#....0......
+0x0370:  d53e d190 4cdf 5c08 21c3 21be 6e1e 743e  .>..L.\.!.!.n.t>
+0x0380:  0e95 d3e5 f2f7 0142 5130 3235 7b26 e9e7  .......BQ025{&..
+0x0390:  e45c 71ff 592e 2a08 0361 779f bd45 52dd  .\q.Y.*..aw..ER.
+0x03a0:  6eab 12c0 e3ba 53d9 4ab1 729d 2bc7 8374  n.....S.J.r.+..t
+0x03b0:  011b 429a 6400 0000 4343 3132 4f02 1309  ..B.d...CC12O...
+0x03c0:  fdbe c213 888a 8aa5 a606 3435 5802 0000  ..........45X...
+0x03d0:  eb73 79b7 79b1 7885 8793 317b 5fe9 703d  .sy.y.x...1{_.p=
+0x03e0:  b6ed d571 e398 4b8e e40c 2117 4580 f668  ...q..K...!.E..h
+0x03f0:  0100 0000 4332 3535 0000 a000 0000 a000  ....C255........
+ }
+
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { PADDING_FRAME } 
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 1, entropy hash: 0, sequence_number: 2, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 2 : data bearing , encryption level: ENCRYPTION_NONE, encrypted length:1350
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241059590
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 1 sent: 2324
+[0531/102721:VERBOSE1:quic_flow_controller.cc(54)] Client: Stream 1 consumed: 279
+[0531/102721:VERBOSE1:quic_flow_controller.cc(177)] Client: Not sending WindowUpdate for stream 1, available window: 10485481>= threshold: 5242880
+[0531/102721:VERBOSE1:quic_sent_packet_manager.cc(332)] Client: Got an ack for packet 1
+[0531/102721:VERBOSE1:hybrid_slow_start.cc(55)] Reset hybrid slow start @2
+[0531/102721:VERBOSE1:quic_sustained_bandwidth_recorder.cc(38)] Started recording at: 13140671240995560
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_flow_controller.cc(44)] Client: Created flow controller for stream 3, setting initial receive window offset to: 10485760, max receive window to: 10485760, max receive window limit to: 16777216, setting send window offset to: 16384
+[0531/102721:VERBOSE1:quic_session.cc(535)]  Client: num_streams: 0. activating 3
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 3 } fin { 0 } offset { 0 } data { 0x0000:  6e77 6c72 6262 6d71 6268 6364 6172 7a6f  nwlrbbmqbhcdarzo
+0x0010:  776b 6b79 6869 6464 7173 6364 7872 6a6d  wkkyhiddqscdxrjm
+0x0020:  6f77 6672 7873 6a79 626c 6462 6566 7361  owfrxsjybldbefsa
+0x0030:  7263 6279 6e65 6364 7967 6778 7870 6b6c  rcbynecdyggxxpkl
+0x0040:  6f72 656c 6c6e 6d70 6170 7166 776b 686f  orellnmpapqfwkho
+0x0050:  706b 6d63 6f71 686e 776e 6b75 6577 6873  pkmcoqhnwnkuewhs
+0x0060:  716d 6762 6275 7163 6c6a 6a69 7673 776d  qmgbbuqcljjivswm
+0x0070:  646b 7174 6278 6978 6d76 7472 7262 6c6a  dkqtbxixmvtrrblj
+0x0080:  7074 6e73 6e66 777a 7166 6a6d 6166 6164  ptnsnfwzqfjmafad
+0x0090:  7272 7773 6f66 7362 636e 7576 7168 6666  rrwsofsbcnuvqhff
+0x00a0:  6273 6171 7877 7071 6361 6365 6863 687a  bsaqxwpqcacehchz
+0x00b0:  7666 726b 6d6c 6e6f 7a6a 6b70 7170 7872  vfrkmlnozjkpqpxr
+0x00c0:  6a78 6b69 747a 7978 6163 6268 686b 6963  jxkitzyxacbhhkic
+0x00d0:  7163 6f65 6e64 746f 6d66 6764 7764 7766  qcoendtomfgdwdwf
+0x00e0:  6367 7078 6971 766b 7579 7464 6c63 6764  cgpxiqvkuytdlcgd
+0x00f0:  6577 6874 6163 696f 686f 7264 7471 6b76  ewhtaciohordtqkv
+0x0100:  7763 7367 7370 716f 716d 7362 6f61 6775  wcsgspqoqmsboagu
+0x0110:  776e 6e79 7178 6e7a 6c67 6467 7770 6274  wnnyqxnzlgdgwpbt
+0x0120:  7277 626c 6e73 6164 6575 6775 756d 6f71  rwblnsadeuguumoq
+0x0130:  6364 7275 6265 746f 6b79 7868 6f61 6368  cdrubetokyxhoach
+0x0140:  7764 766d 7878 7264 7279 786c 6d6e 6471  wdvmxxrdryxlmndq
+0x0150:  7475 6b77 6167 6d6c 656a 7575 6b77 6369  tukwagmlejuukwci
+0x0160:  6278 7562 756d 656e 6d65 7961 7464 726d  bxubumenmeyatdrm
+0x0170:  7964 6961 6a78 6c6f 6768 6971 666d 7a68  ydiajxloghiqfmzh
+0x0180:  6c76 6968 6a6f 7576 7375 796f 7970 6179  lvihjouvsuyoypay
+0x0190:  756c 7965 696d 756f 7465 687a 7269 6963  ulyeimuotehzriic
+0x01a0:  6673 6b70 6767 6b62 6269 707a 7a72 7a75  fskpggkbbipzzrzu
+0x01b0:  6378 616d 6c75 6466 796b 6772 756f 777a  cxamludfykgruowz
+0x01c0:  6769 6f6f 6f62 7070 6c65 716c 7770 6861  giooobppleqlwpha
+0x01d0:  706a 6e61 6471 6864 636e 7677 6474 786a  pjnadqhdcnvwdtxj
+0x01e0:  626d 7970 7070 6861 7578 6e73 7075 7367  bmyppphauxnspusg
+0x01f0:  6468 6969 7871 6d62 666a 786a 6376 7564  dhiixqmbfjxjcvud
+0x0200:  6a73 7579 6962 7965 626d 7773 6971 796f  jsuyibyebmwsiqyo
+0x0210:  7967 7978 796d 7a65 7679 707a 766a 6567  ygyxymzevypzvjeg
+0x0220:  6562 656f 6366 7566 7473 7864 6978 7469  ebeocfuftsxdixti
+0x0230:  6773 6965 6568 6b63 687a 6466 6c69 6c72  gsieehkchzdflilr
+0x0240:  6a71 666e 787a 7471 7273 7662 7370 6b79  jqfnxztqrsvbspky
+0x0250:  6873 656e 6270 706b 7174 7064 6462 756f  hsenbppkqtpddbuo
+0x0260:  7462 6271 6377 6976 7266 786a 756a 6a64  tbbqcwivrfxjujjd
+0x0270:  646e 7467 6569 7176 6467 6169 6a76 7763  dntgeiqvdgaijvwc
+0x0280:  7961 7562 7765 7770 6a76 7967 6568 6c6a  yaubwewpjvygehlj
+0x0290:  7865 7062 7069 7775 717a 647a 7562 6475  xepbpiwuqzdzubdu
+0x02a0:  627a 7661 6673 7071 7071 7775 7a69 6677  bzvafspqpqwuzifw
+0x02b0:  6f76 7964 6477 7976 7662 7572 637a 6d67  ovyddwyvvburczmg
+0x02c0:  796a 6766 6478 7674 6e75 6e6e 6573 6c73  yjgfdxvtnunnesls
+0x02d0:  706c 7775 6975 7066 786c 7a62 6b6e 686b  plwuiupfxlzbknhk
+0x02e0:  7770 7061 6e6c 7463 6669 726a 6364 6473  wppanltcfirjcdds
+0x02f0:  6f7a 6f79 7665 6775 7266 7763 7366 6d6f  ozoyvegurfwcsfmo
+0x0300:  7865 716d 726a 6f77 7267 6877 6c6b 6f62  xeqmrjowrghwlkob
+0x0310:  6d65 6168 6b67 6363 6e61 6568 6873 7665  meahkgccnaehhsve
+0x0320:  796d 7170 7868 6c72 6e75 6e79 6664 7a72  ymqpxhlrnunyfdzr
+0x0330:  6862 6173 6a65 7579 6761 666f 7562 7574  hbasjeuygafoubut
+0x0340:  706e 696d 7577 666a 7173 6a78 766b 7164  pnimuwfjqsjxvkqd
+0x0350:  6f72 7878 7672 7763 7464 736e 656f 6776  orxxvrwctdsneogv
+0x0360:  6270 6b78 6c70 6764 6972 6266 6372 6971  bpkxlpgdirbfcriq
+0x0370:  6966 7067 796e 6b72 7265 6678 736e 7675  ifpgynkrrefxsnvu
+0x0380:  6366 7470 7763 7467 7477 6d78 6e75 7079  cftpwctgtwmxnupy
+0x0390:  6366 6763 7571 756e 7562 6c6d 6f69 6974  cfgcuqunublmoiit
+0x03a0:  6e63 6b6c 6566 737a 6265 7872 616d 7065  ncklefszbexrampe
+0x03b0:  7476 6871 6e64 646a 6571 7675 7967 706e  tvhqnddjeqvuygpn
+0x03c0:  6b61 7a71 6672 706a 766f 6178 6470 6377  kazqfrpjvoaxdpcw
+0x03d0:  6d6a 6f62 6d73 6b73 6b66 6f6a 6e65 7778  mjobmskskfojnewx
+0x03e0:  6778 6e6e 6f66 776c                      gxnnofwl
+ }
+
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 1, entropy hash: 0, sequence_number: 3, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 3 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:1025
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241064947
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 3 sent: 1000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 0 sent: 1000
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 3 } fin { 0 } offset { 1000 } data { 0x0000:  7477 6a77 6e6e 7662 776a 636b 646d 656f  twjwnnvbwjckdmeo
+0x0010:  7575 7a68 7976 6867 7677 756a 6271 7878  uuzhyvhgvwujbqxx
+0x0020:  7069 7463 766f 6772 6169 6464 7668 7272  pitcvograiddvhrr
+0x0030:  6473 7963 7168 6b6c 6565 7768 7874 656d  dsycqhkleewhxtem
+0x0040:  6261 7177 7177 7071 6873 7565 626e 7666  baqwqwpqhsuebnvf
+0x0050:  6776 6a77 6476 6a6a 6166 717a 7a78 6c63  gvjwdvjjafqzzxlc
+0x0060:  7864 7a6e 6371 676a 6c61 706f 706b 7678  xdzncqgjlapopkvx
+0x0070:  6667 7669 6365 7463 6d6b 626c 6a6f 7067  fgvicetcmkbljopg
+0x0080:  7471 7676 6862 6773 6476 6976 6865 736e  tqvvhbgsdvivhesn
+0x0090:  6b71 786d 7772 7169 6472 766d 686c 7562  kqxmwrqidrvmhlub
+0x00a0:  6272 796b 7468 6579 656e 746d 726f 6264  bryktheyentmrobd
+0x00b0:  6579 7163 7267 6c75 6169 6968 7665 6978  eyqcrgluaiihveix
+0x00c0:  776a 6a72 716f 7075 626a 6775 7868 7864  wjjrqopubjguxhxd
+0x00d0:  6970 667a 7773 7779 6267 6679 6c71 766a  ipfzwswybgfylqvj
+0x00e0:  7a68 6172 7672 6c79 6175 757a 6472 636e  zharvrlyauuzdrcn
+0x00f0:  6a6b 7068 636c 6666 726b 6565 6362 7064  jkphclffrkeecbpd
+0x0100:  6970 7566 6869 646a 6378 6a68 726e 7863  ipufhidjcxjhrnxc
+0x0110:  786d 6a63 786f 6871 616e 7864 726d 677a  xmjcxohqanxdrmgz
+0x0120:  6562 686e 6c6d 7770 6d68 7764 7674 6873  ebhnlmwpmhwdvths
+0x0130:  6671 7565 6565 7867 7275 6a69 6773 6b6d  fqueeexgrujigskm
+0x0140:  7672 7a67 6677 7672 6674 7761 7064 7475  vrzgfwvrftwapdtu
+0x0150:  7470 627a 7479 676e 7372 7861 6a6a 6e67  tpbztygnsrxajjng
+0x0160:  636f 6d69 6b6a 7a73 6477 7373 7a6e 6f76  comikjzsdwssznov
+0x0170:  6472 7579 7063 6e6a 756c 6b66 757a 6d78  druypcnjulkfuzmx
+0x0180:  6e61 6661 6d65 7370 636b 6a63 617a 7864  nafamespckjcazxd
+0x0190:  7274 6467 7972 7173 6363 7a79 626e 7671  rtdgyrqscczybnvq
+0x01a0:  7163 7163 6a69 746c 7663 6e76 626d 6173  qcqcjitlvcnvbmas
+0x01b0:  6964 7a67 7772 6161 747a 7a77 7077 6d66  idzgwraatzzwpwmf
+0x01c0:  6266 6a6b 6e63 766b 656c 6868 7a6a 6368  bfjkncvkelhhzjch
+0x01d0:  7064 6e6c 756e 6d70 706e 6c67 6a7a 6e6b  pdnlunmppnlgjznk
+0x01e0:  6577 7775 7973 6765 666f 6e65 7870 6d6d  ewwuysgefonexpmm
+0x01f0:  7362 616f 706d 6467 7a71 6d6b 717a 7875  sbaopmdgzqmkqzxu
+0x0200:  7674 7176 6e78 6273 6c71 7a6b 676c 7a61  vtqvnxbslqzkglza
+0x0210:  6d7a 7064 6e73 6a6f 6c76 7962 7778 7874  mzpdnsjolvybwxxt
+0x0220:  7471 6f67 6e72 6261 6961 6b71 6c6c 737a  tqognrbaiakqllsz
+0x0230:  6b68 667a 636f 6e6e 6d6f 716b 6c70 6565  khfzconnmoqklpee
+0x0240:  6673 6e73 6d6f 7577 7168 6f64 7367 6366  fsnsmouwqhodsgcf
+0x0250:  6f68 6573 7973 686d 6778 7774 6f61 7975  ohesyshmgxwtoayu
+0x0260:  766e 6f6a 646a 6674 7174 776b 6261 7072  vnojdjftqtwkbapr
+0x0270:  6975 6a69 6d71 7773 7073 6c67 766c 6373  iujimqwspslgvlcs
+0x0280:  6171 6264 6267 7774 6273 6565 7474 7764  aqbdbgwtbseettwd
+0x0290:  6e66 6e62 796a 7670 646a 7879 757a 7178  nfnbyjvpdjxyuzqx
+0x02a0:  7374 6174 627a 7063 7474 686f 6f66 7265  statbzpctthoofre
+0x02b0:  6d67 666b 7262 6376 6b7a 7667 626f 6674  mgfkrbcvkzvgboft
+0x02c0:  6867 6f6a 6864 6e61 7977 706e 6269 746f  hgojhdnaywpnbito
+0x02d0:  7261 6169 6265 646e 657a 7766 7064 6177  raaibednezwfpdaw
+0x02e0:  6c6f 6873 7376 7471 746b 6676 7379 6c6a  lohssvtqtkfvsylj
+0x02f0:  7a6c 7563 7178 7377 7971 646e 7464 6d66  zlucqxswyqdntdmf
+0x0300:  7274 7a6c 7173 656b 656a 687a 6b73 6b6c  rtzlqsekejhzkskl
+0x0310:  6665 7078 6368 7663 7a79 7376 6467 6378  fepxchvczysvdgcx
+0x0320:  6262 6973 776d 6561 796c 7a69 666b 746d  bbiswmeaylzifktm
+0x0330:  6f69 6b73 7366 7874 6770 6f6a 7871 6979  oikssfxtgpojxqiy
+0x0340:  7372 7371 6677 7164 6a71 6e71 6367 6471  srsqfwqdjqnqcgdq
+0x0350:  726e 6c6c 7569 6561 7a76 6d77 6e75 7566  rnlluieazvmwnuuf
+0x0360:  6e6e 7876 6c6f 7976 676d 6c69 7571 616e  nnxvloyvgmliuqan
+0x0370:  646c 7961 7666 6175 616f 736e 6c6e 7661  dlyavfauaosnlnva
+0x0380:  6373 7670 6975 6d6f 6961 7763 7178 7377  csvpiumoiawcqxsw
+0x0390:  6b71 7767 7879 617a 6e74 6e61 696b 616d  kqwgxyazntnaikam
+0x03a0:  6579 626e 7571 6263 7161 6767 7861 6368  eybnuqbcqaggxach
+0x03b0:  7279 6e71 7871 716d 6c66 6f74 7071 6876  rynqxqqmlfotpqhv
+0x03c0:  6f6b 6969 616d 6d71 6d76 786a 7662 736f  okiiammqmvxjvbso
+0x03d0:  6169 667a 7978 6e6a 6362 6572 726e 6d69  aifzyxnjcberrnmi
+0x03e0:  7878 7379 6a68 6f76                      xxsyjhov
+ }
+
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 1, entropy hash: 0, sequence_number: 4, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 4 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:1027
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241065247
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 3 sent: 2000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 0 sent: 2000
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 3 } fin { 0 } offset { 2000 } data { 0x0000:  656e 6762 7079 7172 6978 7167 7764 7279  engbpyqrixqgwdry
+0x0010:  6778 7278 6b66 6869 6361 696e 6877 696c  gxrxkfhicainhwil
+0x0020:  6b71 6d62 7065 737a 6469 677a 6e7a 7874  kqmbpeszdigznzxt
+0x0030:  7a71 736a 7761 7479 6362 6d6a 6177 776d  zqsjwatycbmjawwm
+0x0040:  6e69 6e65 7066 6475 706c 7563 6c74 786d  ninepfduplucltxm
+0x0050:  6b70 7667 7272 6774 7573 6575 7261 6765  kpvgrrgtuseurage
+0x0060:  6c74 6b63 6170 7770 6271 726f 6d71 6177  ltkcapwpbqromqaw
+0x0070:  6978 657a 716b 766c 6662 6877 636f 6370  ixezqkvlfbhwcocp
+0x0080:  6a6d 726d 6270 6265 6776 7375 6c75 7174  jmrmbpbegvsuluqt
+0x0090:  7575 766b 6573 766a 7464 6876 746a 6d65  uuvkesvjtdhvtjme
+0x00a0:  7866 7162 7675 6664 7061 7863 776e 7771  xfqbvufdpaxcwnwq
+0x00b0:  6a74 6270 6c79 7a65 6469 6377 736f 6470  jtbplyzedicwsodp
+0x00c0:  7774 7172 7079 7565 6172 6877 6766 6e70  wtqrpyuearhwgfnp
+0x00d0:  6171 656c 6f66 7273 6f74 7169 6b74 7869  aqelofrsotqiktxi
+0x00e0:  7071 7a65 7176 6c71 6d75 6f75 6262 6a62  pqzeqvlqmuoubbjb
+0x00f0:  7270 6d69 7866 636c 6273 746e 6f73 7664  rpmixfclbstnosvd
+0x0100:  6b75 6a63 7077 7364 7168 7872 6b69 7565  kujcpwsdqhxrkiue
+0x0110:  7a69 6f77 6f71 6a70 6965 6377 7878 626a  ziowoqjpiecwxxbj
+0x0120:  746e 6d6b 6a67 6e63 706d 7661 7571 6774  tnmkjgncpmvauqgt
+0x0130:  6175 736f 6b62 6675 676a 7466 6975 7162  ausokbfugjtfiuqb
+0x0140:  6a63 6c76 6c61 7a61 6d75 6369 6d69 636e  jclvlazamucimicn
+0x0150:  6577 646f 786a 6c66 7565 6d64 6164 676b  ewdoxjlfuemdadgk
+0x0160:  6875 6673 7565 766a 6178 726e 6976 636f  hufsuevjaxrnivco
+0x0170:  7268 6672 7171 776e 756a 7175 6f79 6576  rhfrqqwnujquoyev
+0x0180:  736c 7170 726c 7973 6b72 6875 6e6c 6a67  slqprlyskrhunljg
+0x0190:  736f 786c 6575 7979 6671 7574 6f7a 7168  soxleuyyfqutozqh
+0x01a0:  6d67 7965 7479 7965 7066 6165 736a 6c6b  mgyetyyepfaesjlk
+0x01b0:  7a69 7664 6576 646c 6c79 6761 7a78 6a6e  zivdevdllygazxjn
+0x01c0:  646a 7278 6872 6479 7964 6471 6e71 646f  djrxhrdyyddqnqdo
+0x01d0:  6179 7368 7778 7368 787a 6a79 7775 6d62  ayshwxshxzjywumb
+0x01e0:  6666 616d 7864 6e78 6a71 6f79 6972 6d69  ffamxdnxjqoyirmi
+0x01f0:  7265 726e 656b 7864 6c69 636a 6671 6b6b  rernekxdlicjfqkk
+0x0200:  766e 7875 716d 737a 6369 786d 7a6b 7773  vnxuqmszcixmzkws
+0x0210:  716f 6977 7966 616c 7065 7575 7567 6672  qoiwyfalpeuuugfr
+0x0220:  7465 6f6d 7169 6e75 716e 6972 7865 6c70  teomqinuqnirxelp
+0x0230:  7374 6f73 616f 6471 737a 6b6f 6772 6662  stosaodqszkogrfb
+0x0240:  7874 6e70 6462 6c74 7174 6d70 7979 6571  xtnpdbltqtmpyyeq
+0x0250:  7475 6a75 696f 6b63 6f77 7377 7179 786e  tujuiokcowswqyxn
+0x0260:  746e 6478 7171 7367 6b68 7669 6862 6161  tndxqqsgkhvihbaa
+0x0270:  776a 7567 6167 6c6f 6464 6b74 646a 697a  wjugagloddktdjiz
+0x0280:  796e 796f 6573 756f 7a72 7969 7479 6a72  ynyoesuozryityjr
+0x0290:  6966 7869 6d6b 7972 6f6b 6b74 7675 7375  ifximkyrokktvusu
+0x02a0:  6971 696f 6a66 636b 7961 7472 7965 6b69  iqiojfckyatryeki
+0x02b0:  6a6b 7376 7573 6f6b 6379 6561 7677 7566  jksvusokcyeavwuf
+0x02c0:  7063 7461 6a78 6b69 7864 6278 6a6d 6974  pctajxkixdbxjmit
+0x02d0:  7763 7171 7866 6262 6668 6261 6476 6675  wcqqxfbbfhbadvfu
+0x02e0:  6161 756a 7866 7277 6b76 7575 6865 7064  aaujxfrwkvuuhepd
+0x02f0:  6966 7666 6b79 6873 6669 756c 6561 6667  ifvfkyhsfiuleafg
+0x0300:  6161 7061 686a 7774 6573 706c 7765 7166  aapahjwtesplweqf
+0x0310:  6d6e 6d79 6d74 7172 656c 6569 6e6b 6f70  mnmymtqreleinkop
+0x0320:  6d66 7076 6f6d 7175 6567 6864 6d78 6b79  mfpvomqueghdmxky
+0x0330:  6e77 787a 716e 7377 6178 676e 6a77 6478  nwxzqnswaxgnjwdx
+0x0340:  6275 7573 676b 6d6e 7177 7164 7661 6469  buusgkmnqwqdvadi
+0x0350:  7761 686f 7161 6b71 7a71 676b 6d6c 6871  wahoqakqzqgkmlhq
+0x0360:  6664 696d 6e77 7a67 7370 6c6f 726f 776e  fdimnwzgsplorown
+0x0370:  7067 6568 696f 7868 6866 7276 7161 6c77  pgehioxhhfrvqalw
+0x0380:  6474 6b73 736c 796b 616a 6174 6178 6770  dtksslykajataxgp
+0x0390:  646d 796c 6478 756b 646e 6674 7072 7275  dmyldxukdnftprru
+0x03a0:  6d62 6d65 6d6c 726f 7772 6877 6f71 6e74  mbmemlrowrhwoqnt
+0x03b0:  636c 6768 6c63 726f 727a 6867 7362 6165  clghlcrorzhgsbae
+0x03c0:  6370 6c70 6363 6479 766e 786d 646d 6668  cplpccdyvnxmdmfh
+0x03d0:  616f 706c 7169 7a6b 6869 7162 6a74 696d  aoplqizkhiqbjtim
+0x03e0:  6974 646b 7869 6b73                      itdkxiks
+ }
+
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 5, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 5 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:1027
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241065488
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 3 sent: 3000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 0 sent: 3000
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 3 } fin { 0 } offset { 3000 } data { 0x0000:  786a 6563 776d 6b77 6162 6873 6c69 6576  xjecwmkwabhsliev
+0x0010:  7176 7763 7165 7161 7a74 6b79 6477 7262  qvwcqeqaztkydwrb
+0x0020:  6778 6463 6a70 616c 7368 6765 706b 7a68  gxdcjpalshgepkzh
+0x0030:  6876 6c78 6362 7864 776a 6363 6774 646f  hvlxcbxdwjccgtdo
+0x0040:  7169 7363 7973 7071 7a76 7571 6976 7a70  qiscyspqzvuqivzp
+0x0050:  746c 7076 6f6f 796e 7961 7067 7673 776f  tlpvooynyapgvswo
+0x0060:  616f 7361 6768 7266 666e 786e 6a79 6565  aosaghrffnxnjyee
+0x0070:  6c74 7a61 697a 6e69 6363 6f7a 776b 6e77  ltzaizniccozwknw
+0x0080:  7968 7a67 7071 6c77 666b 6a71 6970 7575  yhzgpqlwfkjqipuu
+0x0090:  6a76 7774 786c 627a 6e72 796a 646f 6862  jvwtxlbznryjdohb
+0x00a0:  7667 686d 7975 6967 6774 7971 6a74 6d75  vghmyuiggtyqjtmu
+0x00b0:  7169 6e6e 7471 6d69 686e 746b 6464 6e61  qinntqmihntkddna
+0x00c0:  6c77 6e6d 7378 7361 7471 7165 6c64 6163  lwnmsxsatqqeldac
+0x00d0:  6e6e 706a 6665 726d 726e 7975 716e 7762  nnpjfermrnyuqnwb
+0x00e0:  6a6a 7064 6a68 6465 6176 6b6e 796b 706f  jjpdjhdeavknykpo
+0x00f0:  7868 7863 6c71 7165 6471 6176 6477 7a6f  xhxclqqedqavdwzo
+0x0100:  696f 7272 7777 7879 7268 6c73 7264 6771  iorrwwxyrhlsrdgq
+0x0110:  6b64 7576 746d 7a7a 637a 7566 7674 7666  kduvtmzzczufvtvf
+0x0120:  696f 7967 6b76 6564 6572 7676 7564 6e65  ioygkvedervvudne
+0x0130:  6768 6263 7463 6278 6478 657a 727a 6762  ghbctcbxdxezrzgb
+0x0140:  7066 687a 616e 6666 6563 6362 6771 666d  pfhzanffeccbgqfm
+0x0150:  7a6a 7174 6c72 7370 7078 7169 7977 6a6f  zjqtlrsppxqiywjo
+0x0160:  6273 7065 6675 6a6c 786e 6d64 6475 7264  bspefujlxnmddurd
+0x0170:  6469 796f 6271 6673 7076 636f 756c 6376  diyobqfspvcoulcv
+0x0180:  6472 7a6b 6d6b 776c 7969 7164 6368 6768  drzkmkwlyiqdchgh
+0x0190:  7267 7974 7a64 6e6f 6271 6376 6465 716a  rgytzdnobqcvdeqj
+0x01a0:  7973 746d 6570 7863 616e 6965 7771 6d6f  ystmepxcaniewqmo
+0x01b0:  786b 6a77 7079 6d71 6f72 6c75 7865 6476  xkjwpymqorluxedv
+0x01c0:  7977 6863 6f67 686f 7470 7573 6667 6965  ywhcoghotpusfgie
+0x01d0:  7374 636b 7270 6169 676f 6366 7566 6275  stckrpaigocfufbu
+0x01e0:  6269 7972 7266 666d 7761 6565 696d 6964  biyrrffmwaeeimid
+0x01f0:  666e 6e7a 6370 686b 666c 7062 7173 7674  fnnzcphkflpbqsvt
+0x0200:  6477 6c75 6473 6761 756e 6766 7a6f 6968  dwludsgaungfzoih
+0x0210:  6278 6966 6f70 7277 636a 7a73 6478 6e67  bxifoprwcjzsdxng
+0x0220:  7461 6377 746a 7970 7765 7578 7665 6779  tacwtjypweuxvegy
+0x0230:  626f 6773 6678 7168 6970 626f 6d70 7566  bogsfxqhipbompuf
+0x0240:  7078 636b 6963 6167 6875 6663 7a6d 6163  pxckicaghufczmac
+0x0250:  6367 7769 676d 7271 6374 6571 6b62 7762  cgwigmrqcteqkbwb
+0x0260:  6161 6d69 636f 716c 6976 6e6a 6a6f 6f6d  aamicoqlivnjjoom
+0x0270:  776b 7563 7a6e 7664 677a 7471 6172 7361  wkucznvdgztqarsa
+0x0280:  7267 6b77 7561 6865 7976 6f68 6c65 746a  rgkwuaheyvohletj
+0x0290:  7170 6f70 646a 736c 6b6f 656c 6679 6e7a  qpopdjslkoelfynz
+0x02a0:  6561 7661 6163 6561 7a75 696d 7964 7970  eavaaceazuimydyp
+0x02b0:  766d 6779 7862 6c68 7070 7575 6e6b 7474  vmgyxblhppuunktt
+0x02c0:  6b71 746d 7661 6e75 7576 6a76 6168 6d76  kqtmvanuuvjvahmv
+0x02d0:  7675 7673 7668 7a6b 7977 686d 6763 6871  vuvsvhzkywhmgchq
+0x02e0:  7664 6371 6470 6d7a 6d78 776e 6569 6b7a  vdcqdpmzmxwneikz
+0x02f0:  6667 7461 6e74 6e6c 7077 7a76 6168 6e76  fgtantnlpwzvahnv
+0x0300:  6b70 6c70 6661 6f74 786e 6765 7872 6663  kplpfaotxngexrfc
+0x0310:  7a7a 646d 7573 7a6c 6f62 696f 6b76 6b77  zzdmuszlobiokvkw
+0x0320:  6b78 6c72 7862 6c76 6f74 7a6f 6d65 716c  kxlrxblvotzomeql
+0x0330:  6674 787a 6c7a 6b62 6373 716d 6e63 6961  ftxzlzkbcsqmncia
+0x0340:  7a76 727a 7965 7570 7976 646b 6274 7768  zvrzyeupyvdkbtwh
+0x0350:  7076 6763 7774 6579 6c77 6b62 7975 6278  pvgcwteylwkbyubx
+0x0360:  7275 7773 7a73 6878 706d 6a72 6866 6177  ruwszshxpmjrhfaw
+0x0370:  6469 627a 6266 7970 646b 7362 6874 6161  dibzbfypdksbhtaa
+0x0380:  707a 736f 7262 6e6a 707a 6378 6563 766a  pzsorbnjpzcxecvj
+0x0390:  6d77 6a71 646a 6867 767a 6a63 756b 666a  mwjqdjhgvzjcukfj
+0x03a0:  6a7a 6163 6270 6e73 6f70 7076 746c 6569  jzacbpnsoppvtlei
+0x03b0:  6a70 796e 7966 7675 6566 7979 7264 6a61  jpynyfvuefyyrdja
+0x03c0:  646a 6567 6273 7970 6a6f 6d66 6272 6e6b  djegbsypjomfbrnk
+0x03d0:  696c 7a68 7376 6277 637a 7774 6466 7669  ilzhsvbwczwtdfvi
+0x03e0:  7262 6f73 766d 6a66                      rbosvmjf
+ }
+
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 6, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 6 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:1027
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241065779
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 3 sent: 4000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 0 sent: 4000
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STREAM_FRAME } stream_id { 3 } fin { 0 } offset { 4000 } data { 0x0000:  6379 6d64 727a 717a 6b70 6765 6d6a 616f  cymdrzqzkpgemjao
+0x0010:  6a79 6a6f 6665 7977 696d 7164 6163 6b64  jyjofeywimqdackd
+0x0020:  6177 6974 7879 736a 717a 6e63 6970 7474  awitxysjqznciptt
+0x0030:  6e63 6a74 6a68 7274 766b 7777 6f6a 6271  ncjtjhrtvkwwojbq
+0x0040:  686a 6a66 6b62 6f61 6363 656e 7278 6968  hjjfkboaccenrxih
+0x0050:  6373 616e 6274 6778 6463 7474 6e75 6a76  csanbtgxdcttnujv
+0x0060:  6673 6372 7771 7479 7579 6e6d 7877 7662  fscrwqtyuynmxwvb
+0x0070:  7178 6f72 7175 6f77 7a68 706d 647a 6a6c  qxorquowzhpmdzjl
+0x0080:  726c 636e 6379 6f79 7762 6d76 7a68 7870  rlcncyoywbmvzhxp
+0x0090:  656e 6876 6976 7468 6669 766b 6866 7862  enhvivthfivkhfxb
+0x00a0:  7161 7175 7965 7477 6966 7468 6e73 7872  qaquyetwifthnsxr
+0x00b0:  6767 6f71 6268 7869 7173 767a 7a73 6371  ggoqbhxiqsvzzscq
+0x00c0:  7574 6d73 7a66 716a 6e6d 7461 6571 746d  utmszfqjnmtaeqtm
+0x00d0:  796b 6362 727a 6b6a 7568 6c74 7a6e 6c75  ykcbrzkjuhltznlu
+0x00e0:  6979 6f6b 6668 7673 746f 757a 6771 6d65  iyokfhvstouzgqme
+0x00f0:  616f 6772 7173 646d 7a6f 6879 6474 756f  aogrqsdmzohydtuo
+0x0100:  746a 7979 7374 746c 6b6e 6d71 6479 7664  tjyysttlknmqdyvd
+0x0110:  7062 7866 7461 7475 7161 7374 7670 686f  pbxftatuqastvpho
+0x0120:  6168 7073 6469 666e 7872 6662 7161 6768  ahpsdifnxrfbqagh
+0x0130:  6466 6f79 6868 7378 686e 7464 6363 7463  dfoyhhsxhntdcctc
+0x0140:  6d69 7570 717a 6571 736a 726b 6d7a 7270  miupqzeqsjrkmzrp
+0x0150:  6866 6f6f 6f69 6f79 766a 6478 6e77 627a  hfoooioyvjdxnwbz
+0x0160:  6876 717a 7775 7072 6769 6273 6974 6a70  hvqzwuprgibsitjp
+0x0170:  617a 6672 6974 7066 6573 6673 7167 7278  azfritpfesfsqgrx
+0x0180:  656b 7863 676d 746d 7676 6766 7171 7773  ekxcgmtmvvgfqqws
+0x0190:  7064 6a78 7a61 6464 756b 766c 7170 6b75  pdjxzaddukvlqpku
+0x01a0:  7a6a 7a68 7773 7574 7063 6166 7379 6169  zjzhwsutpcafsyai
+0x01b0:  626a 6861 6d6d 6567 7762 7470 7165 6c72  bjhammegwbtpqelr
+0x01c0:  6e6b 626c 6478 6775 7a67 6373 6563 6369  nkbldxguzgcsecci
+0x01d0:  6e6c 697a 796f 6777 717a 6c69 6678 6374  nlizyogwqzlifxct
+0x01e0:  6864 676d 616e 6a7a 746c 7461 6e76 6961  hdgmanjztltanvia
+0x01f0:  6a73 6368 686b 6478 6c72 6672 6f68 6d78  jschhkdxlrfrohmx
+0x0200:  6d73 6d6d 6876 6f64 6968 6476 666e 786f  msmmhvodihdvfnxo
+0x0210:  6662 786d 6c63 6c78 7672 6f6a 6163 6a70  fbxmlclxvrojacjp
+0x0220:  7778 6265 7572 6863 626d 7a67 7a77 7767  wxbeurhcbmzgzwwg
+0x0230:  7976 746c 7a65 6976 7879 6761 6170 707a  yvtlzeivxygaappz
+0x0240:  6f73 6469 6b6b 6d6c 776c 7478 6972 6469  osdikkmlwltxirdi
+0x0250:  6f79 746e 6665 6965 6570 6568 6776 6776  oytnfeieepehgvgv
+0x0260:  716a 6661 7673 6e74 6669 716e 6276 7870  qjfavsntfiqnbvxp
+0x0270:  7574 637a 7a6e 6664 636d 6b6b 6873 6878  utczznfdcmkkhshx
+0x0280:  646e 7a79 686f 726d 776a 6378 6662 6f62  dnzyhormwjcxfbob
+0x0290:  7772 6376 6568 6269 746e 7364 6761 636a  wrcvehbitnsdgacj
+0x02a0:  7065 6979 7362 6d72 6e6f 7173 7366 766f  peiysbmrnoqssfvo
+0x02b0:  7978 6b65 676c 6d61 7967 6667 6968 717a  yxkeglmaygfgihqz
+0x02c0:  6e61 7a67 646d 7a71 6370 6975 7564 6a75  nazgdmzqcpiuudju
+0x02d0:  6376 796a 696d 6c69 7671 7064 7a68 666e  cvyjimlivqpdzhfn
+0x02e0:  6865 766b 7375 6476 6a6c 7267 7263 6176  hevksudvjlrgrcav
+0x02f0:  787a 6568 6c72 7167 6a68 6d6a 7174 797a  xzehlrqgjhmjqtyz
+0x0300:  7a74 6a73 6e6f 7079 6167 6574 6a66 7169  ztjsnopyagetjfqi
+0x0310:  6578 7172 6f69 6179 726f 6a68 6a68 6769  exqroiayrojhjhgi
+0x0320:  6172 6370 6772 6e69 7973 6468 7a74 7066  arcpgrniysdhztpf
+0x0330:  7168 7768 7079 6669 6f6f 7078 7876 6778  qhwhpyfioopxxvgx
+0x0340:  6e69 6f76 6162 6461 7467 6a73 7a61 7a73  niovabdatgjszazs
+0x0350:  6977 7a7a 7765 696c 7578 6972 7671 716b  iwzzweiluxirvqqk
+0x0360:  7a65 6662 6869 6464 716d 7872 6d78 6a77  zefbhiddqmxrmxjw
+0x0370:  7469 7772 6f67 636b 646c 6461 6474 6b63  tiwrogckdldadtkc
+0x0380:  7a70 6668 7a69 6b70 756a 686a 6771 6662  zpfhzikpujhjgqfb
+0x0390:  6262 7472 6876 636e 6966 6e6d 6261 7161  bbtrhvcnifnmbaqa
+0x03a0:  7079 6a72 6776 6764 6670 6d6c 6972 6e6a  pyjrgvgdfpmlirnj
+0x03b0:  7667 6165 6465 746f 6b6a 636c 6a73 6e61  vgaedetokjcljsna
+0x03c0:  717a 727a 7561 6362 7071 6e78 6a63 6965  qzrzuacbpqnxjcie
+0x03d0:  6b6c 6c6e 7065 6462 7066 6f79 7963 7a71  kllnpedbpfoyyczq
+0x03e0:  6473 7078 7374 626b                      dspxstbk
+ }
+
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 7, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 7 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:1027
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241066000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 3 sent: 5000
+[0531/102721:VERBOSE1:quic_flow_controller.cc(86)] Client: Stream 0 sent: 5000
+[0531/102721:VERBOSE1:quic_connection.cc(1941)] Client: Force closing 5008293845994023446 with error QUIC_NO_ERROR (0) 
+[0531/102721:VERBOSE1:quic_connection.cc(2141)] Entering Batch Mode.
+[0531/102721:VERBOSE1:quic_connection.cc(2149)] Bundling ack with outgoing packet.
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { ACK_FRAME } entropy_hash: 0 largest_observed: 1 delta_time_largest_observed: 70479 missing_packets: [  ] is_truncated: 0 revived_packets: [  ] received_packets: [  ]
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { STOP_WAITING_FRAME } entropy_hash: 0 least_unacked: 2
+[0531/102721:VERBOSE1:quic_packet_creator.cc(579)] Adding frame: type { CONNECTION_CLOSE_FRAME } error_code { 0 } error_details {  }
+
+[0531/102721:VERBOSE1:quic_framer.cc(699)] Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, version_flag: 0, fec_flag: 0, entropy_flag: 1, entropy hash: 0, sequence_number: 8, is_in_fec_group:0, fec_group: 0}
+
+[0531/102721:VERBOSE1:quic_connection.cc(1532)] Client: Sending packet 8 : data bearing , encryption level: ENCRYPTION_INITIAL, encrypted length:39
+[0531/102721:VERBOSE1:quic_connection.cc(1579)] Client: time we began writing last sent packet: 13140671241066084
+[0531/102721:VERBOSE1:quic_connection.cc(2160)] Leaving Batch Mode.
+[0531/102721:VERBOSE1:reliable_quic_stream.cc(418)] Client: Done writing to stream 3
+[0531/102721:VERBOSE1:reliable_quic_stream.cc(405)] Client: Done reading from stream 3
+[0531/102721:VERBOSE1:reliable_quic_stream.cc(409)] Client: Closing stream: 3
+[0531/102721:VERBOSE1:quic_session.cc(355)]  Client: Closing stream 3
+[0531/102721:VERBOSE1:reliable_quic_stream.cc(443)] Client: Sending RST in OnClose: 3
+[0531/102721:VERBOSE1:quic_session.cc(355)]  Client: Closing stream 3
+[0531/102721:VERBOSE1:quic_session.cc(359)]  Client: Stream is already closed: 3
+[0531/102721:VERBOSE1:quic_flow_controller.cc(54)] Client: Stream 0 consumed: 0
+[0531/102721:VERBOSE1:quic_flow_controller.cc(177)] Client: Not sending WindowUpdate for stream 0, available window: 10485760>= threshold: 5242880

@@ -15,10 +15,10 @@ namespace net {
 // The connection informs this class of newly ACKed sequence numbers, and once
 // we have seen ACKs for all the sequence numbers we are interested in, we
 // trigger a call to a provided Closure.
-class NET_EXPORT_PRIVATE QuicAckNotifier {
+class NET_EXPORT_PRIVATE QuicAckNotifier { //ACK回调处理
  public:
   class NET_EXPORT_PRIVATE DelegateInterface
-      : public base::RefCounted<DelegateInterface> {
+      : public base::RefCounted<DelegateInterface> { //该接口在ProxyAckNotifierDelegate中实现
    public:
     DelegateInterface();
     // Args:

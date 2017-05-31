@@ -1454,6 +1454,7 @@ bool QuicConnection::ShouldGeneratePacket(
   return CanWrite(retransmittable);
 }
 
+//判断是否需要延长发送数据
 bool QuicConnection::CanWrite(HasRetransmittableData retransmittable) {
   if (!connected_) {
     return false;

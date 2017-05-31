@@ -19,7 +19,7 @@ namespace net {
 #define ENDPOINT \
   (perspective_ == Perspective::IS_SERVER ? "Server: " : "Client: ")
 
-namespace {
+//namespace {  //yang add change
 
 struct iovec MakeIovec(StringPiece data) {
   struct iovec iov = {const_cast<char*>(data.data()),
@@ -39,7 +39,7 @@ size_t GetReceivedFlowControlWindow(QuicSession* session) {
   return kMinimumFlowControlSendWindow;
 }
 
-}  // namespace
+//}  // namespace
 
 // Wrapper that aggregates OnAckNotifications for packets sent using
 // WriteOrBufferData and delivers them to the original
@@ -49,6 +49,7 @@ size_t GetReceivedFlowControlWindow(QuicSession* session) {
 // WriteOrBufferData can use to inform it that the write required
 // multiple WritevData calls or that only part of the data has been
 // sent out by the time ACKs start arriving.
+//WriteOrBufferData接口new一个该类，主要用于判断数据是否发送成功，是否被对端ack
 class ReliableQuicStream::ProxyAckNotifierDelegate
     : public QuicAckNotifier::DelegateInterface {
  public:
@@ -91,10 +92,10 @@ class ReliableQuicStream::ProxyAckNotifierDelegate
   scoped_refptr<DelegateInterface> delegate_;
 
   // Number of outstanding acks.
-  int pending_acks_;
+  int pending_acks_; //未完成的ack数，等待ack的包数，Wrote data后增加，接收ack后自减
 
   // True if no pending writes remain.
-  bool wrote_last_data_;
+  bool wrote_last_data_; //数据write完毕标识
 
   int num_retransmitted_packets_;
   int num_retransmitted_bytes_;
@@ -257,7 +258,7 @@ void ReliableQuicStream::WriteOrBufferData(
   fin_buffered_ = fin;
 
   if (queued_data_.empty()) {
-    struct iovec iov(MakeIovec(data));
+    struct iovec iov(MakeIovec(data)); //把data组到iovec结构
     consumed_data = WritevData(&iov, 1, fin, proxy_delegate.get());
     DCHECK_LE(consumed_data.bytes_consumed, data.length());
   }
@@ -334,30 +335,32 @@ void ReliableQuicStream::MaybeSendBlocked() {
   }
 }
 
+//write iov数据
 QuicConsumedData ReliableQuicStream::WritevData(
     const struct iovec* iov,
     int iov_count,
     bool fin,
     QuicAckNotifier::DelegateInterface* ack_notifier_delegate) {
-  if (write_side_closed_) {
+  if (write_side_closed_) { //连接已经关闭，直接提示错误信息
     DLOG(ERROR) << ENDPOINT << "Attempt to write when the write side is closed";
     return QuicConsumedData(0, false);
   }
 
-  // How much data we want to write.
+  // How much data we want to write.  计算要发送的iov数据长度
   size_t write_length = TotalIovecLength(iov, iov_count);
 
   // A FIN with zero data payload should not be flow control blocked.
-  bool fin_with_zero_data = (fin && write_length == 0);
+  bool fin_with_zero_data = (fin && write_length == 0); //FIN信息并且不带数据载荷的包不应该收流量控制，避免FIN被阻塞
 
   // How much data we are allowed to write from flow control.
-  QuicByteCount send_window = flow_controller_.SendWindowSize();
+  QuicByteCount send_window = flow_controller_.SendWindowSize(); //flow_controller_ session级流量控制
   if (stream_contributes_to_connection_flow_control_) {
+  	//取session级和connection级流量控制中的最小值
     send_window =
-        min(send_window, connection_flow_controller_->SendWindowSize());
+        min(send_window, connection_flow_controller_->SendWindowSize()); //connection_flow_controller_ connection级流量控制
   }
 
-  if (send_window == 0 && !fin_with_zero_data) {
+  if (send_window == 0 && !fin_with_zero_data) { //窗口为0，并且不是FIN特殊包，则阻塞发送
     // Quick return if we can't send anything.
     MaybeSendBlocked();
     return QuicConsumedData(0, false);
