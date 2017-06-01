@@ -41,6 +41,7 @@ void QuicSentEntropyManager::UpdateCumulativeEntropy(
   }
 }
 
+//把package对应的entropy_hash入队到packets_entropy_
 void QuicSentEntropyManager::RecordPacketEntropyHash(
     QuicPacketSequenceNumber sequence_number,
     QuicPacketEntropyHash entropy_hash) {

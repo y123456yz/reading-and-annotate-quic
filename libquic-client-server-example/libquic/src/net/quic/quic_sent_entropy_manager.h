@@ -72,7 +72,7 @@ class NET_EXPORT_PRIVATE QuicSentEntropyManager {
                                CumulativeEntropy* cumulative) const;
 
   // Maps sequence numbers to the sent entropy hash for the sequence number.
-  SentEntropyMap packets_entropy_;
+  SentEntropyMap packets_entropy_; //Èë¶Ó¼ûRecordPacketEntropyHash
   QuicPacketSequenceNumber map_offset_;
 
   // Cache the cumulative entropy for IsValidEntropy.

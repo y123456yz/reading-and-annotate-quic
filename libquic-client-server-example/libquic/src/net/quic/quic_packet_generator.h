@@ -66,9 +66,9 @@ namespace test {
 class QuicPacketGeneratorPeer;
 }  // namespace test
 
-class NET_EXPORT_PRIVATE QuicPacketGenerator {
+class NET_EXPORT_PRIVATE QuicPacketGenerator { //QuicConnection类包含QuicPacketGenerator类成员
  public:
-  class NET_EXPORT_PRIVATE DelegateInterface {
+  class NET_EXPORT_PRIVATE DelegateInterface { //QuicConnection类中实现下面的虚拟函数接口
    public:
     virtual ~DelegateInterface() {}
     virtual bool ShouldGeneratePacket(HasRetransmittableData retransmittable,
@@ -257,7 +257,9 @@ class NET_EXPORT_PRIVATE QuicPacketGenerator {
   DelegateInterface* delegate_;
   DebugDelegate* debug_delegate_;
 
+  //发送的数据先入队到packet_creator_.queued_frames_
   QuicPacketCreator packet_creator_;
+  //goaway updatewindows rst等控制帧加入该队列
   QuicFrames queued_control_frames_;
 
   // True if batch mode is currently enabled.

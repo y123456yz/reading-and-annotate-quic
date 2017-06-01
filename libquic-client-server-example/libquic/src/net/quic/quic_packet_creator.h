@@ -28,6 +28,7 @@ class QuicAckNotifier;
 class QuicRandom;
 class QuicRandomBoolSource;
 
+//QuicPacketGenerator包含QuicPacketCreator类成员
 class NET_EXPORT_PRIVATE QuicPacketCreator {
  public:
   // QuicRandom* required for packet entropy.
@@ -307,7 +308,8 @@ class NET_EXPORT_PRIVATE QuicPacketCreator {
   mutable size_t packet_size_;
   //一个quic包最大长度，默认kDefaultMaxPacketSize，SetMaxPacketLength中赋值
   mutable size_t max_plaintext_size_;
-  QuicFrames queued_frames_;
+  QuicFrames queued_frames_; //AddFrame中入队   队列上的数据组包发送见SerializePacket
+  //也就是如果frame需要重传则除了入队到queued_frames_队列外，还要入队到queued_retransmittable_frames_
   scoped_ptr<RetransmittableFrames> queued_retransmittable_frames_;
   // If true, the packet will be padded up to |max_packet_length_|.
   bool needs_padding_;

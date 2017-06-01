@@ -261,6 +261,7 @@ size_t QuicPacketCreator::StreamFramePacketOverhead(
 }
 
 //根据iov组包frame帧信息
+//从iov中取出data数据组frame帧信息存入frame中，并返回组帧的frame数据字节数
 size_t QuicPacketCreator::CreateStreamFrame(QuicStreamId id,
                                             const QuicIOVector& iov,
                                             size_t iov_offset,
@@ -296,13 +297,16 @@ size_t QuicPacketCreator::CreateStreamFrame(QuicStreamId id,
   //拷贝iov中的bytes_consumed字节数据到buffer中
   bool set_fin = fin && bytes_consumed == data_size;  // Last frame.
   buffer->reset(new char[bytes_consumed]);
-  CopyToBuffer(iov, iov_offset, bytes_consumed, buffer->get());
-  
+  CopyToBuffer(iov, iov_offset, bytes_consumed, buffer->get()); //从iov中拷贝length字节数据到buffer中
+
+  //填充数据帧信息frame
   *frame = QuicFrame(new QuicStreamFrame(
       id, set_fin, offset, StringPiece(buffer->get(), bytes_consumed)));
   return bytes_consumed; //返回从iov中取出数据组包frame的data数据字节数
 }
 
+
+//从iov中拷贝length字节数据到buffer中
 // static
 void QuicPacketCreator::CopyToBuffer(const QuicIOVector& iov,
                                      size_t iov_offset,
@@ -434,6 +438,7 @@ bool QuicPacketCreator::AddPaddedSavedFrame(const QuicFrame& frame,
                   /*needs_padding=*/true, buffer);
 }
 
+//头部信息和加密的载荷信息通过SerializedPacket类表示，序列化帧头部信息和载荷加密信息到SerializedPacket
 SerializedPacket QuicPacketCreator::SerializePacket(
     char* encrypted_buffer,
     size_t encrypted_buffer_len) {
@@ -459,6 +464,7 @@ SerializedPacket QuicPacketCreator::SerializePacket(
   // Use the packet_size_ instead of the buffer size to ensure smaller
   // packet sizes are properly used.
   scoped_ptr<char[]> large_buffer;
+  //把queued_frames_容器中的QuicFrame信息组包构造QuicPacket，数据实际上的真正存储空间是buffer
   if (packet_size_ <= kMaxPacketSize) {
     packet.reset(
         framer_->BuildDataPacket(header, queued_frames_, buffer, packet_size_));
@@ -467,6 +473,8 @@ SerializedPacket QuicPacketCreator::SerializePacket(
     packet.reset(framer_->BuildDataPacket(header, queued_frames_,
                                           large_buffer.get(), packet_size_));
   }
+
+  
   OnBuiltFecProtectedPayload(header, packet->FecProtectedData());
 
   LOG_IF(DFATAL, packet == nullptr) << "Failed to serialize "
@@ -478,6 +486,7 @@ SerializedPacket QuicPacketCreator::SerializePacket(
   }
   // Immediately encrypt the packet, to ensure we don't encrypt the same packet
   // sequence number multiple times.
+  //头部信息和加密的载荷信息通过QuicEncryptedPacket类表示
   QuicEncryptedPacket* encrypted =
       framer_->EncryptPayload(encryption_level_, sequence_number_, *packet,
                               encrypted_buffer, encrypted_buffer_len);
@@ -576,6 +585,8 @@ bool QuicPacketCreator::ShouldRetransmit(const QuicFrame& frame) {
   }
 }
 
+//把frame添加到queued_frames_队列
+//如果frame需要重传则除了入队到queued_frames_队列外，还要入队到queued_retransmittable_frames_
 bool QuicPacketCreator::AddFrame(const QuicFrame& frame,
                                  bool save_retransmittable_frames,
                                  bool needs_padding,
@@ -583,6 +594,7 @@ bool QuicPacketCreator::AddFrame(const QuicFrame& frame,
   DVLOG(1) << "Adding frame: " << frame;
   InFecGroup is_in_fec_group = MaybeUpdateLengthsAndStartFec();
 
+  //根据buffer数据和frame信息计算frame长度
   size_t frame_len = framer_->GetSerializedFrameLength(
       frame, BytesFree(), queued_frames_.empty(), true, is_in_fec_group,
       sequence_number_length_);
@@ -592,11 +604,14 @@ bool QuicPacketCreator::AddFrame(const QuicFrame& frame,
   DCHECK_LT(0u, packet_size_);
   packet_size_ += ExpansionOnNewFrame() + frame_len;
 
-  if (save_retransmittable_frames && ShouldRetransmit(frame)) {
-    if (queued_retransmittable_frames_.get() == nullptr) {
-      queued_retransmittable_frames_.reset(
+  if (save_retransmittable_frames && ShouldRetransmit(frame)) { //如果frame需要进行retransmit
+    if (queued_retransmittable_frames_.get() == nullptr) { 
+      queued_retransmittable_frames_.reset( //new RetransmittableFrames类
           new RetransmittableFrames(encryption_level_));
     }
+
+	//frame和buffer分别加入到RetransmittableFrames类的stream_data_容器和frame_容器，同时把frame加入到queued_frames_队列
+	//也就是如果frame需要重传则除了入队到queued_frames_队列外，还要入队到queued_retransmittable_frames_
     queued_frames_.push_back(
         queued_retransmittable_frames_->AddFrame(frame, buffer));
   } else {

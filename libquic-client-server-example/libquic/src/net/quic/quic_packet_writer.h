@@ -14,7 +14,8 @@ struct WriteResult;
 // An interface between writers and the entity managing the
 // socket (in our case the QuicDispatcher).  This allows the Dispatcher to
 // control writes, and manage any writers who end up write blocked.
-class NET_EXPORT_PRIVATE QuicPacketWriter {
+class NET_EXPORT_PRIVATE QuicPacketWriter {  //数据真正的发送处理在类QuicSocketUtils
+//QuicConnection中包含该类成员writer_，QuicConnection.writer_赋值为 QuicPacketWriter* writer = new QuicDefaultPacketWriter(fd_);
  public:
   virtual ~QuicPacketWriter() {}
 

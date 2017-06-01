@@ -539,6 +539,7 @@ StringPiece QuicPacket::BeforePlaintext() const {
                                                      sequence_number_length_));
 }
 
+//获取需要进行数据加密的data载荷信息
 StringPiece QuicPacket::Plaintext() const {
   const size_t start_of_encrypted_data =
       GetStartOfEncryptedData(
@@ -609,7 +610,7 @@ const QuicFrame& RetransmittableFrames::AddFrame(const QuicFrame& frame,
     stream_data_.push_back(buffer);
   }
   frames_.push_back(frame);
-  return frames_.back();
+  return frames_.back(); //back() 函数返回当前vector最末一个元素的引用
 }
 
 void RetransmittableFrames::RemoveFramesForStream(QuicStreamId stream_id) {
@@ -624,6 +625,7 @@ void RetransmittableFrames::RemoveFramesForStream(QuicStreamId stream_id) {
   }
 }
 
+//QuicPacketCreator::SerializePacket()中调用
 SerializedPacket::SerializedPacket(
     QuicPacketSequenceNumber sequence_number,
     QuicSequenceNumberLength sequence_number_length,

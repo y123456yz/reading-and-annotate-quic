@@ -63,6 +63,7 @@ class NET_EXPORT_PRIVATE QuicDataWriter {
   // given length to pad out for the next write.
   char* BeginWrite(size_t length);
 
+  //把相应的value写到buffer_中，然后移动length_，下次继续从length_开始写,可以参考AppendPacketHeader
   char* buffer_;
   size_t capacity_;  // Allocation size of payload (or -1 if buffer is const).
   size_t length_;    // Current length of the buffer.

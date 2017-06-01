@@ -692,6 +692,7 @@ client测试例子在QuicClient::Connect中构造类
 
   QuicFramer framer_;
   QuicConnectionHelperInterface* helper_;  // Not owned.
+  //赋值见QuicConnection::QuicConnection   赋值为 QuicDefaultPacketWriter  
   QuicPacketWriter* writer_;  // Owned or not depending on |owns_writer_|.
   bool owns_writer_;
   // Encryption level for new packets. Should only be changed via
@@ -708,8 +709,8 @@ client测试例子在QuicClient::Connect中构造类
   const QuicConnectionId connection_id_;
   // Address on the last successfully processed packet received from the
   // client.
-  IPEndPoint self_address_;
-  IPEndPoint peer_address_;
+  IPEndPoint self_address_; //本端地址
+  IPEndPoint peer_address_; //对端地址
   // Used to store latest peer port to possibly migrate to later.
   uint16 migrating_peer_port_;
 
@@ -753,7 +754,7 @@ client测试例子在QuicClient::Connect中构造类
   // When packets could not be sent because the socket was not writable,
   // they are added to this list.  All corresponding frames are in
   // unacked_packets_ if they are to be retransmitted.
-  QueuedPacketList queued_packets_;
+  QueuedPacketList queued_packets_; //WritePacket失败，入队到queued_packets_，见SendOrQueuePacket
 
   // Contains the connection close packet if the connection has been closed.
   scoped_ptr<QuicEncryptedPacket> connection_close_packet_;
@@ -815,7 +816,8 @@ client测试例子在QuicClient::Connect中构造类
   QuicTime time_of_last_sent_new_packet_;
 
   // Sequence number of the last sent packet.  Packets are guaranteed to be sent
-  // in sequence number order.
+  // in sequence number order.  
+  //WritePacketInner中更新
   QuicPacketSequenceNumber sequence_number_of_last_sent_packet_;
 
   // Sent packet manager which tracks the status of packets sent by this

@@ -67,12 +67,12 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  logging::SetMinLogLevel(-1);
+  logging::SetMinLogLevel(-5);
   logging::LoggingSettings *logset = new logging::LoggingSettings((char*)"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic.log");
   logging::InitLogging(*logset);
 
   //PLOG(ERROR) << "yang test plog: ";
-  //DVLOG(1) << "yang add test debug log";
+  //DVLOG(2) << "yang add test debug log";
   //printf("yang test .....level:%d\r\n", logging::GetVlogLevel(__FILE__));
 
   cout << "Run parameters are:\nchunk size: " << FLAGS_chunk_size

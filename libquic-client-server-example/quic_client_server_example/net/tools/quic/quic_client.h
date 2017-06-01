@@ -77,6 +77,7 @@ class QuicClient : public EpollCallbackInterface,
   EpollServer* epoll_server() { return epoll_server_; }
 
   // A packet writer factory that always returns the same writer
+  //¼ûQuicClient::Connect()
   class DummyPacketWriterFactory : public QuicConnection::PacketWriterFactory {
    public:
     explicit DummyPacketWriterFactory(QuicPacketWriter* writer);
@@ -85,7 +86,7 @@ class QuicClient : public EpollCallbackInterface,
     QuicPacketWriter* Create(QuicConnection* connection) const override;
 
    private:
-    QuicPacketWriter* writer_;
+    QuicPacketWriter* writer_; //QuicPacketWriter* writer = new QuicDefaultPacketWriter(fd_);
   };
 
   // Used during initialization: creates the UDP socket FD, sets socket options,

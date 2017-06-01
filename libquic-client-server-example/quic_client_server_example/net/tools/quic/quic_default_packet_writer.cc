@@ -15,12 +15,14 @@ QuicDefaultPacketWriter::QuicDefaultPacketWriter(int fd)
 
 QuicDefaultPacketWriter::~QuicDefaultPacketWriter() {}
 
-WriteResult QuicDefaultPacketWriter::WritePacket(
+WriteResult QuicDefaultPacketWriter::WritePacket( //通过QuicConnection.writer_调用
     const char* buffer,
     size_t buf_len,
     const IPAddressNumber& self_address,
     const IPEndPoint& peer_address) {
   DCHECK(!IsWriteBlocked());
+
+  //通过udp对应的fd套接字发送数据到peer对端
   WriteResult result = QuicSocketUtils::WritePacket(
       fd_, buffer, buf_len, self_address, peer_address);
   if (result.status == WRITE_STATUS_BLOCKED) {

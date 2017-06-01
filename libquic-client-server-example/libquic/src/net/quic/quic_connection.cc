@@ -185,6 +185,7 @@ class FecAlarm : public QuicAlarm::Delegate {
 
 //}  // namespace
 
+//QuicConnection::OnSerializedPacket()中调用构造QueuedPacket类
 QuicConnection::QueuedPacket::QueuedPacket(SerializedPacket packet,
                                            EncryptionLevel level)
     : serialized_packet(packet),
@@ -1485,7 +1486,7 @@ bool QuicConnection::CanWrite(HasRetransmittableData retransmittable) {
 }
 
 bool QuicConnection::WritePacket(QueuedPacket* packet) {
-  if (!WritePacketInner(packet)) {
+  if (!WritePacketInner(packet)) { //返回false这里直接返回，而不会delete后续流程，包不会释放
     return false;
   }
   delete packet->serialized_packet.retransmittable_frames;
@@ -1538,6 +1539,8 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
                           : " ack only ")) << ", encryption level: "
            << QuicUtils::EncryptionLevelToString(packet->encryption_level)
            << ", encrypted length:" << encrypted->length();
+
+  //打印package quic头部和加密的载荷内容
   DVLOG(2) << ENDPOINT << "packet(" << sequence_number << "): " << std::endl
            << QuicUtils::StringToHexASCIIDump(encrypted->AsStringPiece());
 
@@ -1619,6 +1622,7 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
   return true;
 }
 
+//检查该packet是否可以发送
 bool QuicConnection::ShouldDiscardPacket(const QueuedPacket& packet) {
   if (!connected_) {
     DVLOG(1) << ENDPOINT
@@ -1721,7 +1725,7 @@ void QuicConnection::SendOrQueuePacket(QueuedPacket packet) {
   sent_entropy_manager_.RecordPacketEntropyHash(
       packet.serialized_packet.sequence_number,
       packet.serialized_packet.entropy_hash);
-  if (!WritePacket(&packet)) {
+  if (!WritePacket(&packet)) { //
     // Take ownership of the underlying encrypted packet.
     if (!packet.serialized_packet.packet->owns_buffer()) {
       scoped_ptr<QuicEncryptedPacket> encrypted_deleter(
@@ -1729,7 +1733,7 @@ void QuicConnection::SendOrQueuePacket(QueuedPacket packet) {
       packet.serialized_packet.packet =
           packet.serialized_packet.packet->Clone();
     }
-    queued_packets_.push_back(packet);
+    queued_packets_.push_back(packet); //WritePacket失败，入队到queued_packets_
   }
 
   // If a forward-secure encrypter is available but is not being used and the

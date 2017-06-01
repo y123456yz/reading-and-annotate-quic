@@ -168,16 +168,19 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
       HAS_RETRANSMITTABLE_DATA, has_handshake ? IS_HANDSHAKE : NOT_HANDSHAKE)) {
     QuicFrame frame;
     scoped_ptr<char[]> buffer;
+	
+	//从iov中取出data数据组frame帧信息存入frame中，并返回组帧的frame数据字节数
     size_t bytes_consumed = packet_creator_.CreateStreamFrame(
         id, iov, total_bytes_consumed, offset + total_bytes_consumed, fin,
         &frame, &buffer);
-    ++frames_created;
+    ++frames_created; //帧个数自增
 
     // We want to track which packet this stream frame ends up in.
     if (notifier != nullptr) {
       ack_notifiers_.push_back(notifier);
     }
 
+    //发送的数据帧frame和buffe先入队到packet_creator_.queued_frames_
     if (!AddFrame(frame, buffer.get(), has_handshake)) {
       LOG(DFATAL) << "Failed to add stream frame.";
       // Inability to add a STREAM frame creates an unrecoverable hole in a
@@ -190,7 +193,8 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
     ignore_result(buffer.release());
 
     total_bytes_consumed += bytes_consumed;
-    fin_consumed = fin && total_bytes_consumed == iov.total_length;
+	//iov中的所有数据都入队到queued_frames_
+    fin_consumed = fin && total_bytes_consumed == iov.total_length; 
     DCHECK(total_bytes_consumed == iov.total_length ||
            packet_creator_.BytesFree() == 0u);
 
@@ -201,7 +205,7 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
       SerializeAndSendPacket();
     }
 
-    if (total_bytes_consumed == iov.total_length) {
+    if (total_bytes_consumed == iov.total_length) {//iov中的所有数据都入队到queued_frames_
       // We're done writing the data. Exit the loop.
       // We don't make this a precondition because we could have 0 bytes of data
       // if we're simply writing a fin.
@@ -220,7 +224,7 @@ QuicConsumedData QuicPacketGenerator::ConsumeData(
   }
 
   // Don't allow the handshake to be bundled with other retransmittable frames.
-  if (has_handshake) {
+  if (has_handshake) { //握手包必须单独发送
     SendQueuedFrames(/*flush=*/true, /*is_fec_timeout=*/false);
   }
 
@@ -421,15 +425,19 @@ bool QuicPacketGenerator::AddFrame(const QuicFrame& frame,
 
 void QuicPacketGenerator::SerializeAndSendPacket() {
   char buffer[kMaxPacketSize];
+
+  //序列化queued_frames_队列上的帧信息到SerializedPacket
   SerializedPacket serialized_packet =
       packet_creator_.SerializePacket(buffer, kMaxPacketSize);
   
   DCHECK(serialized_packet.packet);
 
   // There may be AckNotifiers interested in this packet.
+  //交互serialized_packet.notifiers和QuicPacketGenerator.ack_notifiers_
   serialized_packet.notifiers.swap(ack_notifiers_);
   ack_notifiers_.clear();
 
+  //如QuicConnection::OnSerializedPacket
   delegate_->OnSerializedPacket(serialized_packet);
   MaybeSendFecPacketAndCloseGroup(/*force=*/false, /*is_fec_timeout=*/false);
 

@@ -20,7 +20,7 @@
 namespace net {
 namespace tools {
 
-class QuicSocketUtils {
+class QuicSocketUtils { //套接字相关的数据发送接收等在该类实现
  public:
   // If the msghdr contains IP_PKTINFO or IPV6_PKTINFO, this will return the
   // IPAddressNumber in that header.  Returns an uninitialized IPAddress on

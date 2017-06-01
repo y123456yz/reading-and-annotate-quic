@@ -24,6 +24,7 @@ char* QuicDataWriter::data() {
   return buffer_;
 }
 
+//把相应的value写到buffer_中，然后移动length_，下次继续从length_开始写
 bool QuicDataWriter::WriteUInt8(uint8 value) {
   return WriteBytes(&value, sizeof(value));
 }

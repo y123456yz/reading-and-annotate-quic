@@ -43,6 +43,7 @@ class NET_EXPORT_PRIVATE QuicEncrypter {
   // |plaintext| as well as a MAC over both |plaintext| and |associated_data|,
   // or nullptr if there is an error. |sequence_number| is appended to the
   // |nonce_prefix| value provided in SetNoncePrefix() to form the nonce.
+  //加密载荷部分数据，存入output开始的地址中，加密后数据长度output_length
   virtual bool EncryptPacket(QuicPacketSequenceNumber sequence_number,
                              base::StringPiece associated_data,
                              base::StringPiece plaintext,

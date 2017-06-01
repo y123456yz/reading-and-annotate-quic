@@ -40,7 +40,7 @@ typedef uint64 QuicStreamOffset;
 typedef uint64 QuicPacketSequenceNumber;
 typedef QuicPacketSequenceNumber QuicFecGroupNumber;
 typedef uint64 QuicPublicResetNonceProof;
-typedef uint8 QuicPacketEntropyHash;
+typedef uint8 QuicPacketEntropyHash;  //赋值一般在GetPacketEntropyHash
 typedef uint32 QuicHeaderId;
 /*
 0-RTT握手过程
@@ -369,7 +369,7 @@ CADR (client address) - 观察到的客户端IP地址和端口号。它当前只被用于调试，因而是
 (TODO：公共复位包应该包含认证的（目标）服务器 IP/端口。)
   */
   // Bit 1: Is this packet a public reset packet?
-  PACKET_PUBLIC_FLAGS_RST = 1 << 1,
+  PACKET_PUBLIC_FLAGS_RST = 1 << 1,  //表示公共复位包
 
 
   /*
@@ -709,8 +709,8 @@ struct NET_EXPORT_PRIVATE QuicPacketPublicHeader {
   // public flags.
   QuicConnectionId connection_id;
   QuicConnectionIdLength connection_id_length;
-  bool reset_flag;
-  bool version_flag;
+  bool reset_flag;  //见AppendPacketHeader
+  bool version_flag;  //见AppendPacketHeader
   QuicSequenceNumberLength sequence_number_length;
   QuicVersionVector versions;
 };
@@ -719,7 +719,7 @@ struct NET_EXPORT_PRIVATE QuicPacketPublicHeader {
 const QuicPacketSequenceNumber kInvalidPacketSequenceNumber = 0;
 
 // Header for Data or FEC packets.
-struct NET_EXPORT_PRIVATE QuicPacketHeader {
+struct NET_EXPORT_PRIVATE QuicPacketHeader { //FillPacketHeader中赋值
   QuicPacketHeader();
   explicit QuicPacketHeader(const QuicPacketPublicHeader& header);
 
@@ -727,10 +727,11 @@ struct NET_EXPORT_PRIVATE QuicPacketHeader {
       std::ostream& os, const QuicPacketHeader& s);
 
   QuicPacketPublicHeader public_header;
+  //FillPacketHeader中自增
   QuicPacketSequenceNumber packet_sequence_number;
   bool fec_flag;
   bool entropy_flag;
-  QuicPacketEntropyHash entropy_hash;
+  QuicPacketEntropyHash entropy_hash;//根据 entropy_flag和packet_sequence_number算出的，见GetPacketEntropyHash
   InFecGroup is_in_fec_group;
   QuicFecGroupNumber fec_group;
 };
@@ -781,7 +782,8 @@ struct NET_EXPORT_PRIVATE QuicStreamFrame { //CreateStreamFrame中new该类
   NET_EXPORT_PRIVATE friend std::ostream& operator<<(
       std::ostream& os, const QuicStreamFrame& s);
 
- 
+
+  //new QuicStreamFrame()中填充数据，见CreateStreamFrame
   QuicStreamId stream_id;
   bool fin;
   QuicStreamOffset offset;  // Location of this data in the stream. 当前data数据在stream中的offset
@@ -978,7 +980,7 @@ enum EncryptionLevel {
   NUM_ENCRYPTION_LEVELS,
 };
 
-struct NET_EXPORT_PRIVATE QuicFrame {
+struct NET_EXPORT_PRIVATE QuicFrame { 
   QuicFrame();
   explicit QuicFrame(QuicPaddingFrame* padding_frame);
   explicit QuicFrame(QuicStreamFrame* stream_frame);
@@ -995,10 +997,10 @@ struct NET_EXPORT_PRIVATE QuicFrame {
   NET_EXPORT_PRIVATE friend std::ostream& operator<<(
       std::ostream& os, const QuicFrame& frame);
 
-  QuicFrameType type;
+  QuicFrameType type; //帧类型
   union {
     QuicPaddingFrame* padding_frame;
-    QuicStreamFrame* stream_frame;
+    QuicStreamFrame* stream_frame; //stream frame帧信息在CreateStreamFrame中填充赋值
     QuicAckFrame* ack_frame;
 
     QuicStopWaitingFrame* stop_waiting_frame;
@@ -1024,7 +1026,7 @@ struct NET_EXPORT_PRIVATE QuicFecData {
   base::StringPiece redundancy;
 };
 
-class NET_EXPORT_PRIVATE QuicData {
+class NET_EXPORT_PRIVATE QuicData {//BuildDataPacket中初始化
  public:
   QuicData(const char* buffer, size_t length);
   QuicData(char* buffer, size_t length, bool owns_buffer);
@@ -1046,7 +1048,7 @@ class NET_EXPORT_PRIVATE QuicData {
   DISALLOW_COPY_AND_ASSIGN(QuicData);
 };
 
-class NET_EXPORT_PRIVATE QuicPacket : public QuicData {
+class NET_EXPORT_PRIVATE QuicPacket : public QuicData { //BuildDataPacket中new QuicPacket对象并初始化
  public:
   QuicPacket(char* buffer,
              size_t length,
@@ -1071,7 +1073,7 @@ class NET_EXPORT_PRIVATE QuicPacket : public QuicData {
   DISALLOW_COPY_AND_ASSIGN(QuicPacket);
 };
 
-class NET_EXPORT_PRIVATE QuicEncryptedPacket : public QuicData {
+class NET_EXPORT_PRIVATE QuicEncryptedPacket : public QuicData { //见EncryptPayload
  public:
   QuicEncryptedPacket(const char* buffer, size_t length);
   QuicEncryptedPacket(char* buffer, size_t length, bool owns_buffer);
@@ -1090,7 +1092,7 @@ class NET_EXPORT_PRIVATE QuicEncryptedPacket : public QuicData {
   DISALLOW_COPY_AND_ASSIGN(QuicEncryptedPacket);
 };
 
-class NET_EXPORT_PRIVATE RetransmittableFrames {
+class NET_EXPORT_PRIVATE RetransmittableFrames { //AddFrame中new RetransmittableFrames()
  public:
   explicit RetransmittableFrames(EncryptionLevel level);
   ~RetransmittableFrames();
@@ -1127,7 +1129,7 @@ class NET_EXPORT_PRIVATE RetransmittableFrames {
   DISALLOW_COPY_AND_ASSIGN(RetransmittableFrames);
 };
 
-struct NET_EXPORT_PRIVATE SerializedPacket {
+struct NET_EXPORT_PRIVATE SerializedPacket { //QuicPacketCreator::SerializePacket()接口中会构造一个该类
   SerializedPacket(QuicPacketSequenceNumber sequence_number,
                    QuicSequenceNumberLength sequence_number_length,
                    QuicEncryptedPacket* packet,
@@ -1139,7 +1141,7 @@ struct NET_EXPORT_PRIVATE SerializedPacket {
   RetransmittableFrames* retransmittable_frames;
   QuicPacketSequenceNumber sequence_number;
   QuicSequenceNumberLength sequence_number_length;
-  QuicPacketEntropyHash entropy_hash;
+  QuicPacketEntropyHash entropy_hash; //赋值一般在GetPacketEntropyHash
   bool is_fec_packet;
 
   // Optional notifiers which will be informed when this packet has been ACKed.

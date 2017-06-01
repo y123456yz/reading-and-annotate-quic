@@ -15,7 +15,7 @@
 
 namespace net {
 // Structure to hold stats for a QuicConnection.
-struct NET_EXPORT_PRIVATE QuicConnectionStats {
+struct NET_EXPORT_PRIVATE QuicConnectionStats { //统计相关
   QuicConnectionStats();
   ~QuicConnectionStats();
 
@@ -27,7 +27,7 @@ struct NET_EXPORT_PRIVATE QuicConnectionStats {
   // Non-retransmitted bytes sent in a stream frame.
   QuicByteCount stream_bytes_sent;
   // Packets serialized and discarded before sending.
-  QuicPacketCount packets_discarded;
+  QuicPacketCount packets_discarded; //丢弃的包数量，赋值见WritePacketInner，这里自增
 
   // These include version negotiation and public reset packets, which do not
   // have sequence numbers or frame data.

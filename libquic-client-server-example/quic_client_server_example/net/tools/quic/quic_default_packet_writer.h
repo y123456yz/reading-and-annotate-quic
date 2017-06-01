@@ -22,7 +22,7 @@ struct WriteResult;
           explicit QuicDefaultPacketWriter(int fd);
           ~QuicDefaultPacketWriter() override;
 
-          // QuicPacketWriter
+          // QuicPacketWriter  QuicConnection.writer_     //数据真正的发送处理在类QuicSocketUtils
           WriteResult WritePacket(const char* buffer,
                                   size_t buf_len,
                                   const IPAddressNumber& self_address,

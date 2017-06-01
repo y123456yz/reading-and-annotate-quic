@@ -326,11 +326,14 @@ QuicPacketEntropyHash QuicFramer::GetPacketEntropyHash(
   return header.entropy_flag << (header.packet_sequence_number % 8);
 }
 
+//把frames容器中的QuicFrame信息组包构造QuicPacket
 QuicPacket* QuicFramer::BuildDataPacket(const QuicPacketHeader& header,
                                         const QuicFrames& frames,
                                         char* buffer,
                                         size_t packet_length) {
   QuicDataWriter writer(packet_length, buffer);
+
+  //头部信息组包到writer.buffer_
   if (!AppendPacketHeader(header, &writer)) {
     LOG(DFATAL) << "AppendPacketHeader failed";
     return nullptr;
@@ -342,16 +345,19 @@ QuicPacket* QuicFramer::BuildDataPacket(const QuicPacketHeader& header,
     const bool no_stream_frame_length =
         (header.is_in_fec_group == NOT_IN_FEC_GROUP) &&
         (i == frames.size() - 1);
+
+	//填充帧类型字段到writer.buffer_
     if (!AppendTypeByte(frame, no_stream_frame_length, &writer)) {
       LOG(DFATAL) << "AppendTypeByte failed";
       return nullptr;
     }
 
-    switch (frame.type) {
+    switch (frame.type) { //根据帧类型，把各种帧信息写入writer.buffer_
       case PADDING_FRAME:
         writer.WritePadding();
         break;
       case STREAM_FRAME:
+	  	//stream帧信息写入writer.buffer_
         if (!AppendStreamFrame(
             *frame.stream_frame, no_stream_frame_length, &writer)) {
           LOG(DFATAL) << "AppendStreamFrame failed";
@@ -694,12 +700,17 @@ bool QuicFramer::ProcessRevivedPacket(QuicPacketHeader* header,
   return true;
 }
 
+//头部信息组包到writer.buffer_
 bool QuicFramer::AppendPacketHeader(const QuicPacketHeader& header,
                                     QuicDataWriter* writer) {
+  //打印header信息
+  //Appending header: { connection_id: 5008293845994023446, connection_id_length:8, sequence_number_length:1, reset_flag: 0, 
+  //version_flag: 1 version: , fec_flag: 0, entropy_flag: 0, entropy hash: 0, sequence_number: 1, is_in_fec_group:0, fec_group: 0}
   DVLOG(1) << "Appending header: " << header;
+  
   DCHECK(header.fec_group > 0 || header.is_in_fec_group == NOT_IN_FEC_GROUP);
   uint8 public_flags = 0;
-  if (header.public_header.reset_flag) {
+  if (header.public_header.reset_flag) { //表示公共复位包
     public_flags |= PACKET_PUBLIC_FLAGS_RST;
   }
   if (header.public_header.version_flag) {
@@ -710,6 +721,7 @@ bool QuicFramer::AppendPacketHeader(const QuicPacketHeader& header,
       GetSequenceNumberFlags(header.public_header.sequence_number_length)
           << kPublicHeaderSequenceNumberShift;
 
+  //把public flags和连接ID写入writer.buffer_
   switch (header.public_header.connection_id_length) {
     case PACKET_0BYTE_CONNECTION_ID:
       if (!writer->WriteUInt8(
@@ -749,6 +761,7 @@ bool QuicFramer::AppendPacketHeader(const QuicPacketHeader& header,
   }
   last_serialized_connection_id_ = header.public_header.connection_id;
 
+  //把QUIC版本写入writer.buffer_
   if (header.public_header.version_flag) {
     DCHECK_EQ(Perspective::IS_CLIENT, perspective_);
     QuicTag tag = QuicVersionToQuicTag(quic_version_);
@@ -757,11 +770,13 @@ bool QuicFramer::AppendPacketHeader(const QuicPacketHeader& header,
              << QuicUtils::TagToString(tag) << "'";
   }
 
+  //包号sequece和包好长度添加到writer.buffer_
   if (!AppendPacketSequenceNumber(header.public_header.sequence_number_length,
                                   header.packet_sequence_number, writer)) {
     return false;
   }
 
+  //private flag添加到writer.buffer_
   uint8 private_flags = 0;
   if (header.entropy_flag) {
     private_flags |= PACKET_PRIVATE_FLAGS_ENTROPY;
@@ -1612,6 +1627,7 @@ void QuicFramer::SetEncrypter(EncryptionLevel level,
   encrypter_[level].reset(encrypter);
 }
 
+////头部信息和加密的载荷信息通过QuicEncryptedPacket类表示
 QuicEncryptedPacket* QuicFramer::EncryptPayload(
     EncryptionLevel level,
     QuicPacketSequenceNumber packet_sequence_number,
@@ -1622,13 +1638,14 @@ QuicEncryptedPacket* QuicFramer::EncryptPayload(
 
   const size_t encrypted_len =
       encrypter_[level]->GetCiphertextSize(packet.Plaintext().length());
-  StringPiece header_data = packet.BeforePlaintext();
+  
+  StringPiece header_data = packet.BeforePlaintext(); //帧头部信息
   const size_t total_len = header_data.length() + encrypted_len;
 
   char* encryption_buffer = buffer;
   // Allocate a large enough buffer for the header and the encrypted data.
   const bool is_new_buffer = total_len > buffer_len;
-  if (is_new_buffer) {
+  if (is_new_buffer) { //扩内存
     if (!FLAGS_quic_allow_oversized_packets_for_test) {
       LOG(DFATAL) << "Buffer of length:" << buffer_len
                   << " is not large enough to encrypt length " << total_len;
@@ -1638,9 +1655,12 @@ QuicEncryptedPacket* QuicFramer::EncryptPayload(
   }
   // Copy in the header, because the encrypter only populates the encrypted
   // plaintext content.
-  memcpy(encryption_buffer, header_data.data(), header_data.length());
+  //把头部信息拷贝到encryption_buffer
+  memcpy(encryption_buffer, header_data.data(), header_data.length()); 
   // Encrypt the plaintext into the buffer.
   size_t output_length = 0;
+
+  //加密载荷部分数据，存入encryption_buffer + header_data.length()开始的地址中，加密后数据长度output_length
   if (!encrypter_[level]->EncryptPacket(
           packet_sequence_number, packet.AssociatedData(), packet.Plaintext(),
           encryption_buffer + header_data.length(), &output_length,
@@ -1649,6 +1669,7 @@ QuicEncryptedPacket* QuicFramer::EncryptPayload(
     return nullptr;
   }
 
+  //头部信息和加密后的载荷信息组通过QuicEncryptedPacket表示
   return new QuicEncryptedPacket(
       encryption_buffer, header_data.length() + output_length, is_new_buffer);
 }
@@ -1802,6 +1823,7 @@ size_t QuicFramer::ComputeFrameLength(
   return 0;
 }
 
+//填充帧类型字段到writer.buffer_
 bool QuicFramer::AppendTypeByte(const QuicFrame& frame,
                                 bool no_stream_frame_length,
                                 QuicDataWriter* writer) {
@@ -1841,6 +1863,7 @@ bool QuicFramer::AppendTypeByte(const QuicFrame& frame,
   return writer->WriteUInt8(type_byte);
 }
 
+//包号sequece和包好长度添加拼接到writer.buffer_
 // static
 bool QuicFramer::AppendPacketSequenceNumber(
     QuicSequenceNumberLength sequence_number_length,
@@ -1874,19 +1897,25 @@ bool QuicFramer::AppendPacketSequenceNumber(
   }
 }
 
+//stream帧信息写入writer.buffer_
 bool QuicFramer::AppendStreamFrame(
     const QuicStreamFrame& frame,
     bool no_stream_frame_length,
     QuicDataWriter* writer) {
+
+  //stream ID写入writer.buffer_
   if (!writer->WriteBytes(&frame.stream_id, GetStreamIdSize(frame.stream_id))) {
     LOG(DFATAL) << "Writing stream id size failed.";
     return false;
   }
+
+  //frame.offset写入writer.buffer_
   if (!writer->WriteBytes(&frame.offset, GetStreamOffsetSize(frame.offset))) {
     LOG(DFATAL) << "Writing offset size failed.";
     return false;
   }
   if (!no_stream_frame_length) {
+  	//数据长度写入writer.buffer_
     if ((frame.data.size() > numeric_limits<uint16>::max()) ||
         !writer->WriteUInt16(static_cast<uint16>(frame.data.size()))) {
       LOG(DFATAL) << "Writing stream frame length failed";
@@ -1894,6 +1923,7 @@ bool QuicFramer::AppendStreamFrame(
     }
   }
 
+  //数据写入writer.buffer_
   if (!writer->WriteBytes(frame.data.data(), frame.data.size())) {
     LOG(DFATAL) << "Writing frame data failed.";
     return false;
