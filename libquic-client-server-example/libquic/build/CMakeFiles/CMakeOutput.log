@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/root/yangyazhou/reading-and-a
 Determining if the C compiler works passed with the following output:
 Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec1465729108/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1465729108.dir/build.make CMakeFiles/cmTryCompileExec1465729108.dir/build
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4043264583/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4043264583.dir/build.make CMakeFiles/cmTryCompileExec4043264583.dir/build
 gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1465729108.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1465729108.dir/testCCompiler.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1465729108
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1465729108.dir/link.txt --verbose=1
-/usr/bin/cc         CMakeFiles/cmTryCompileExec1465729108.dir/testCCompiler.c.o  -o cmTryCompileExec1465729108 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec4043264583.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4043264583.dir/testCCompiler.c.o   -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4043264583
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4043264583.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4043264583.dir/testCCompiler.c.o  -o cmTryCompileExec4043264583 -rdynamic 
 gmake[1]: Leaving directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec149053402/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec149053402.dir/build.make CMakeFiles/cmTryCompileExec149053402.dir/build
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2723586616/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2723586616.dir/build.make CMakeFiles/cmTryCompileExec2723586616.dir/build
 gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec149053402
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec149053402.dir/link.txt --verbose=1
-/usr/bin/cc       -v CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec149053402 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2723586616
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2723586616.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2723586616 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.5 (GCC) 
 COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/
 LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec149053402' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec149053402 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2723586616' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2723586616 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
 gmake[1]: Leaving directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec149053402/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec149053402.dir/build.make CMakeFiles/cmTryCompileExec149053402.dir/build]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2723586616/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2723586616.dir/build.make CMakeFiles/cmTryCompileExec2723586616.dir/build]
   ignore line: [gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec149053402]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec149053402.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec149053402 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2723586616]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2723586616.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2723586616 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 (GCC) ]
   ignore line: [COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec149053402' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec149053402 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2723586616' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2723586616 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
     arg [/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec149053402] ==> ignore
+    arg [cmTryCompileExec2723586616] ==> ignore
     arg [/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/usr/lib/../lib64/crti.o] ==> ignore
     arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
-    arg [CMakeFiles/cmTryCompileExec149053402.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2723586616.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -137,30 +137,30 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec3659917742/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3659917742.dir/build.make CMakeFiles/cmTryCompileExec3659917742.dir/build
+Run Build Command:/usr/bin/gmake "cmTryCompileExec442469999/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec442469999.dir/build.make CMakeFiles/cmTryCompileExec442469999.dir/build
 gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3659917742.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3659917742.dir/testCXXCompiler.cxx.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3659917742
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3659917742.dir/link.txt --verbose=1
-/usr/bin/c++          CMakeFiles/cmTryCompileExec3659917742.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3659917742 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec442469999.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec442469999.dir/testCXXCompiler.cxx.o -c /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec442469999
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec442469999.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec442469999.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec442469999 -rdynamic 
 gmake[1]: Leaving directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec1294646670/fast"
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1294646670.dir/build.make CMakeFiles/cmTryCompileExec1294646670.dir/build
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2331440891/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2331440891.dir/build.make CMakeFiles/cmTryCompileExec2331440891.dir/build
 gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1294646670
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1294646670.dir/link.txt --verbose=1
-/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1294646670 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2331440891
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2331440891.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2331440891 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper
@@ -170,8 +170,8 @@ Thread model: posix
 gcc version 4.8.5 (GCC) 
 COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/
 LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1294646670' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1294646670 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2331440891' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2331440891 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o
 gmake[1]: Leaving directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,15 +179,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1294646670/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1294646670.dir/build.make CMakeFiles/cmTryCompileExec1294646670.dir/build]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2331440891/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2331440891.dir/build.make CMakeFiles/cmTryCompileExec2331440891.dir/build]
   ignore line: [gmake[1]: Entering directory `/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/local/bin/cmake -E cmake_progress_report /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1294646670]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1294646670.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1294646670 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2331440891]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2331440891.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2331440891 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/lto-wrapper]
@@ -197,8 +197,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 (GCC) ]
   ignore line: [COMPILER_PATH=/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1294646670' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1294646670 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2331440891' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2331440891 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../.. CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtend.o /usr/lib/../lib64/crtn.o]
     arg [/mnt/data/gcc-4.8.5/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.5/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -207,7 +207,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1294646670] ==> ignore
+    arg [cmTryCompileExec2331440891] ==> ignore
     arg [/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/usr/lib/../lib64/crti.o] ==> ignore
     arg [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/crtbegin.o] ==> ignore
@@ -217,7 +217,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..] ==> dir [/mnt/data/gcc-4.8.5/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.5/../../..]
-    arg [CMakeFiles/cmTryCompileExec1294646670.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2331440891.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

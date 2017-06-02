@@ -543,7 +543,7 @@ bool QuicSentPacketManager::OnPacketSent(
   DCHECK(!unacked_packets_.IsUnacked(sequence_number));
   LOG_IF(DFATAL, bytes == 0) << "Cannot send empty packets.";
 
-  if (original_sequence_number != 0) {
+  if (original_sequence_number != 0) { //说明是重传类型包
     PendingRetransmissionMap::iterator it =
         pending_retransmissions_.find(original_sequence_number);
     if (it != pending_retransmissions_.end()) {
@@ -576,6 +576,7 @@ bool QuicSentPacketManager::OnPacketSent(
                                     bytes,
                                     has_congestion_controlled_data);
 
+  //发送了包，但是还未unacked的包入队到该unacked_packets_中，见AddSentPacket
   unacked_packets_.AddSentPacket(*serialized_packet,
                                  original_sequence_number,
                                  transmission_type,

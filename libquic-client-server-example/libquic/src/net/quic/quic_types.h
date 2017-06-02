@@ -47,19 +47,21 @@ enum QuicAsyncStatus {
 // TODO(wtc): see if WriteStatus can be replaced by QuicAsyncStatus.
 enum WriteStatus {
   WRITE_STATUS_OK,
-  WRITE_STATUS_BLOCKED,
+  WRITE_STATUS_BLOCKED, //sendmsg返回EAGAIN或者EWOULDBLOCK的时候状态为该状态，见QuicSocketUtils::WritePacket
   WRITE_STATUS_ERROR,
 };
 
 // A struct used to return the result of write calls including either the number
 // of bytes written or the error code, depending upon the status.
-struct NET_EXPORT_PRIVATE WriteResult {
+struct NET_EXPORT_PRIVATE WriteResult { //见QuicSocketUtils::WritePacket
   WriteResult(WriteStatus status, int bytes_written_or_error_code);
   WriteResult();
 
-  WriteStatus status;
-  union {
+  WriteStatus status; //sendmsg成功还是失败
+  union { //见QuicSocketUtils::WritePacket
+    //sendmsg成功，发送的数据字节数存到bytes_written
     int bytes_written;  // only valid when status is WRITE_STATUS_OK
+    //发送失败，记录失败code
     int error_code;  // only valid when status is WRITE_STATUS_ERROR
   };
 };

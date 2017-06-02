@@ -69,7 +69,7 @@ bool QuicClient::Initialize() {
     config_.SetInitialSessionFlowControlWindowToSend(kInitialFlowControlWindow);
   }
 
-  epoll_server_->set_timeout_in_us(50 * 1000);
+  epoll_server_->set_timeout_in_us(50 * 1000); //50ms
 
   if (!CreateUDPSocket()) { //´´½¨UDPÌ×½Ó×Ö
     return false;

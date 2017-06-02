@@ -8,6 +8,7 @@
 
 namespace net {
 
+//QuicEpollConnectionHelper::CreateAlarm()->QuicEpollAlarm()构造函数中调用
 QuicAlarm::QuicAlarm(Delegate* delegate)
     : delegate_(delegate),
       deadline_(QuicTime::Zero()) {

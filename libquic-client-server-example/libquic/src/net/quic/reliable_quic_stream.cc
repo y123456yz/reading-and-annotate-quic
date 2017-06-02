@@ -376,7 +376,8 @@ QuicConsumedData ReliableQuicStream::WritevData(
 
   QuicConsumedData consumed_data = session()->WritevData(
       id(), QuicIOVector(iov, iov_count, write_length), stream_bytes_written_,
-      fin, GetFecProtection(), ack_notifier_delegate);
+      fin, GetFecProtection(), ack_notifier_delegate); //·¢ËÍÊý¾Ý
+  
   stream_bytes_written_ += consumed_data.bytes_consumed;
 
   AddBytesSent(consumed_data.bytes_consumed);

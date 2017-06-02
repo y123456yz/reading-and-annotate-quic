@@ -119,7 +119,7 @@ QuicSession::QuicSession(QuicConnection* connection, const QuicConfig& config)
 }
 
 void QuicSession::Initialize() {
-  connection_->set_visitor(visitor_shim_.get());
+  connection_->set_visitor(visitor_shim_.get()); //定义在quic_connection.h头文件中
   connection_->SetFromConfig(config_);
 
   DCHECK_EQ(kCryptoStreamId, GetCryptoStream()->id());

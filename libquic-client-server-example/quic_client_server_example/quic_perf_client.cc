@@ -74,9 +74,11 @@ int main(int argc, char *argv[]) {
   //PLOG(ERROR) << "yang test plog: ";
   //DVLOG(2) << "yang add test debug log";
   //printf("yang test .....level:%d\r\n", logging::GetVlogLevel(__FILE__));
+  //DCHECK_LE(1333333, 2222);
+  //DCHECK(false);
 
   cout << "Run parameters are:\nchunk size: " << FLAGS_chunk_size
-       << "\ntotal size: " << FLAGS_total_transfer
+       << "\ntotal  size: " << FLAGS_total_transfer
        << "\nduration: " << FLAGS_duration << "\n";
 
   // Is needed for whatever reason

@@ -173,7 +173,7 @@ size_t QuicSocketUtils::SetIpInfoInCmsg(const IPAddressNumber& self_address,
   }
 }
 
-//通过udp对应的fd套接字发送数据到peer对端
+//通过udp对应的fd套接字发送数据到peer对端  WritePacketInner中调用
 // static
 WriteResult QuicSocketUtils::WritePacket(int fd,
                                          const char* buffer,

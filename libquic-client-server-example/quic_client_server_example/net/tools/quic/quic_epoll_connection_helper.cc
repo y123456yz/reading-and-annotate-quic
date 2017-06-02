@@ -17,10 +17,13 @@
 namespace net {
 namespace tools {
 
-namespace {
+//namespace { //yang add change  
 
-class QuicEpollAlarm : public QuicAlarm {
+//注意QuicEpollAlarm(继承QuicAlarm)  EpollAlarmImpl(继承EpollAlarm(继承EpollAlarmCallbackInterface))的关系,他们
+//通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
+class QuicEpollAlarm : public QuicAlarm { 
  public:
+  //QuicEpollConnectionHelper::CreateAlarm()中new QuicEpollAlarm类
   QuicEpollAlarm(EpollServer* epoll_server,
                  QuicAlarm::Delegate* delegate)
       : QuicAlarm(delegate),
@@ -41,7 +44,7 @@ class QuicEpollAlarm : public QuicAlarm {
   }
 
  private:
-  class EpollAlarmImpl : public EpollAlarm {
+  class EpollAlarmImpl : public EpollAlarm { //EpollAlarmImpl epoll_alarm_impl_;
    public:
     explicit EpollAlarmImpl(QuicEpollAlarm* alarm) : alarm_(alarm) {}
 
@@ -56,11 +59,13 @@ class QuicEpollAlarm : public QuicAlarm {
     QuicEpollAlarm* alarm_;
   };
 
-  EpollServer* epoll_server_;
+  //通过该成员把QuicEpollAlarm和EpollAlarm联系起来，见QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()
+  EpollServer* epoll_server_; 
+  
   EpollAlarmImpl epoll_alarm_impl_;
 };
 
-}  // namespace
+//}  // namespace
 
 QuicEpollConnectionHelper::QuicEpollConnectionHelper(EpollServer* epoll_server)
     : epoll_server_(epoll_server),
@@ -79,8 +84,18 @@ QuicRandom* QuicEpollConnectionHelper::GetRandomGenerator() {
   return random_generator_;
 }
 
+/*
+   常用的alarm如下，参考QuicConnection::QuicConnection
+      ack_alarm_(helper->CreateAlarm(new AckAlarm(this))),
+      retransmission_alarm_(helper->CreateAlarm(new RetransmissionAlarm(this))),
+      send_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      resume_writes_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      timeout_alarm_(helper->CreateAlarm(new TimeoutAlarm(this))),
+      ping_alarm_(helper->CreateAlarm(new PingAlarm(this))),
+      fec_alarm_(helper->CreateAlarm(new FecAlarm(&packet_generator_))),
+*/
 QuicAlarm* QuicEpollConnectionHelper::CreateAlarm(
-    QuicAlarm::Delegate* delegate) {
+    QuicAlarm::Delegate* delegate) { 
   return new QuicEpollAlarm(epoll_server_, delegate);
 }
 

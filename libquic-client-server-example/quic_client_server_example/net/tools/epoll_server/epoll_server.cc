@@ -462,19 +462,22 @@ void EpollServer::VerifyReadyList() const {
   CHECK_EQ(ready_list_size_, count) << "Ready list size does not match count";
 }
 
+//QuicEpollAlarm::SetImpl中执行    
 void EpollServer::RegisterAlarm(int64 timeout_time_in_us, AlarmCB* ac) {
   CHECK(ac);
-  if (ContainsAlarm(ac)) {
+  if (ContainsAlarm(ac)) { //该类型alarm已经存在，报错提示
     LOG(FATAL) << "Alarm already exists " << ac;
   }
   VLOG(4) << "RegisteringAlarm at : " << timeout_time_in_us;
 
+  //multimap::insert()成员函数返回指向新插入元素的迭代指针
   TimeToAlarmCBMap::iterator alarm_iter =
       alarm_map_.insert(std::make_pair(timeout_time_in_us, ac));
 
   all_alarms_.insert(ac);
-  // Pass the iterator to the EpollAlarmCallbackInterface.
-  ac->OnRegistration(alarm_iter, this);
+  
+  // Pass the iterator to the EpollAlarmCallbackInterface.  
+  ac->OnRegistration(alarm_iter, this); //调用EpollAlarm::OnRegistration
 }
 
 // Unregister a specific alarm callback: iterator_token must be a
@@ -797,6 +800,7 @@ int64 EpollAlarm::OnAlarm() {
   return 0;
 }
 
+//EpollServer::RegisterAlarm中执行
 void EpollAlarm::OnRegistration(const EpollServer::AlarmRegToken& token,
                                 EpollServer* eps) {
   DCHECK_EQ(false, registered_);

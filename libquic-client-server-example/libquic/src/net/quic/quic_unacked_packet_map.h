@@ -169,6 +169,7 @@ class NET_EXPORT_PRIVATE QuicUnackedPacketMap {
   // If the old packet is acked before the new packet, then the old entry will
   // be removed from the map and the new entry's retransmittable frames will be
   // set to nullptr.
+  //发送了包，但是还未unacked的包入队到该map中，见AddSentPacket
   UnackedPacketMap unacked_packets_;
   // The packet at the 0th index of unacked_packets_.
   QuicPacketSequenceNumber least_unacked_;

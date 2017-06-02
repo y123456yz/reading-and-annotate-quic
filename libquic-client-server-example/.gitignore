@@ -1,4 +1,14 @@
 **/*.o
+quic_perf_client
+quic_perf_server
+QuicToy.config
+QuicToy.creator
+QuicToy.creator.user
+QuicToy.files
+QuicToy.includes
+tcp_perf_client
+tcp_perf_server
+**/*.o
 ./*.o
 ./*.a
 **/*.cc.o

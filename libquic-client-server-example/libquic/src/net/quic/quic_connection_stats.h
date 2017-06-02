@@ -21,9 +21,9 @@ struct NET_EXPORT_PRIVATE QuicConnectionStats { //统计相关
 
   NET_EXPORT_PRIVATE friend std::ostream& operator<<(
       std::ostream& os, const QuicConnectionStats& s);
-
+  //发送出去的包总字节数，见QuicConnection::WritePacketInner
   QuicByteCount bytes_sent;  // Includes retransmissions, fec.
-  QuicPacketCount packets_sent;
+  QuicPacketCount packets_sent; //发送出去的包数，见QuicConnection::WritePacketInner
   // Non-retransmitted bytes sent in a stream frame.
   QuicByteCount stream_bytes_sent;
   // Packets serialized and discarded before sending.
@@ -79,7 +79,7 @@ struct NET_EXPORT_PRIVATE QuicConnectionStats { //统计相关
   uint32 tcp_loss_events;
 
   // Creation time, as reported by the QuicClock.
-  QuicTime connection_creation_time;
+  QuicTime connection_creation_time; //赋值见QuicConnection::QuicConnection
 };
 
 }  // namespace net

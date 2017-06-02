@@ -1148,7 +1148,7 @@ struct NET_EXPORT_PRIVATE SerializedPacket { //QuicPacketCreator::SerializePacke
   std::list<QuicAckNotifier*> notifiers;
 };
 
-struct NET_EXPORT_PRIVATE TransmissionInfo {
+struct NET_EXPORT_PRIVATE TransmissionInfo { //AddSentPacket中会用该类
   // Used by STL when assigning into a map.
   TransmissionInfo();
 

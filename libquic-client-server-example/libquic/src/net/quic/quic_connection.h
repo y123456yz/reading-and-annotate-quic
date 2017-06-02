@@ -54,10 +54,10 @@ class QuicEncrypter;
 class QuicFecGroup;
 class QuicRandom;
 
-namespace test {
+//namespace test {  //yang add change
 class PacketSavingConnection;
 class QuicConnectionPeer;
-}  // namespace test
+//}  // namespace test
 
 // Class that receives callbacks from the connection when frames are received
 // and when other interesting events happen.
@@ -112,7 +112,7 @@ class NET_EXPORT_PRIVATE QuicConnectionVisitorInterface {
 
   // Called to ask if any streams are open in this visitor, excluding the
   // reserved crypto and headers stream.
-  virtual bool HasOpenDynamicStreams() const = 0;
+  virtual bool HasOpenDynamicStreams() const = 0; //判断是否有握手协商成功可用的stream
 };
 
 // Interface which gets callbacks from the QuicConnection at interesting
@@ -211,6 +211,7 @@ class NET_EXPORT_PRIVATE QuicConnectionDebugVisitor
       const CachedNetworkParameters& cached_network_params) {}
 };
 
+//QuicEpollConnectionHelper 类继承实现该接口
 class NET_EXPORT_PRIVATE QuicConnectionHelperInterface {
  public:
   virtual ~QuicConnectionHelperInterface() {}
@@ -224,6 +225,16 @@ class NET_EXPORT_PRIVATE QuicConnectionHelperInterface {
   // Creates a new platform-specific alarm which will be configured to
   // notify |delegate| when the alarm fires.  Caller takes ownership
   // of the new alarm, which will not yet be "set" to fire.
+  /*
+   常用的alarm如下，参考QuicConnection::QuicConnection
+      ack_alarm_(helper->CreateAlarm(new AckAlarm(this))),
+      retransmission_alarm_(helper->CreateAlarm(new RetransmissionAlarm(this))),
+      send_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      resume_writes_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      timeout_alarm_(helper->CreateAlarm(new TimeoutAlarm(this))),
+      ping_alarm_(helper->CreateAlarm(new PingAlarm(this))),
+      fec_alarm_(helper->CreateAlarm(new FecAlarm(&packet_generator_))),
+  */
   virtual QuicAlarm* CreateAlarm(QuicAlarm::Delegate* delegate) = 0;
 };
 
@@ -406,10 +417,12 @@ client测试例子在QuicClient::Connect中构造类
   // the SHLO.
   void OnHandshakeComplete();
 
+  //QuicSession::Initialize()中调用该函数
   // Accessors
   void set_visitor(QuicConnectionVisitorInterface* visitor) {
     visitor_ = visitor;
   }
+  
   void set_debug_visitor(QuicConnectionDebugVisitor* debug_visitor) {
     debug_visitor_ = debug_visitor;
     packet_generator_.set_debug_delegate(debug_visitor);
@@ -566,7 +579,7 @@ client测试例子在QuicClient::Connect中构造类
     TransmissionType transmission_type;
     // The packet's original sequence number if it is a retransmission.
     // Otherwise it must be 0.
-    QuicPacketSequenceNumber original_sequence_number;
+    QuicPacketSequenceNumber original_sequence_number; //重传包才有效
   };
 
   // Do any work which logically would be done in OnPacket but can not be
@@ -590,8 +603,8 @@ client测试例子在QuicClient::Connect中构造类
   bool peer_port_changed() const { return peer_port_changed_; }
 
  private:
-  friend class test::QuicConnectionPeer;
-  friend class test::PacketSavingConnection;
+//  friend class test::QuicConnectionPeer;
+//  friend class test::PacketSavingConnection;
 
   typedef std::list<QueuedPacket> QueuedPacketList;
   typedef std::map<QuicFecGroupNumber, QuicFecGroup*> FecGroupMap;
@@ -754,8 +767,10 @@ client测试例子在QuicClient::Connect中构造类
   // When packets could not be sent because the socket was not writable,
   // they are added to this list.  All corresponding frames are in
   // unacked_packets_ if they are to be retransmitted.
-  QueuedPacketList queued_packets_; //WritePacket失败，入队到queued_packets_，见SendOrQueuePacket
 
+//WritePacket失败，入队到queued_packets_，见SendOrQueuePacket，最终通过QuicConnection::WriteQueuedPackets把queued_packets_队列的包发送出去
+  QueuedPacketList queued_packets_;
+  
   // Contains the connection close packet if the connection has been closed.
   scoped_ptr<QuicEncryptedPacket> connection_close_packet_;
 
@@ -775,6 +790,18 @@ client测试例子在QuicClient::Connect中构造类
   // the peer needs to stop waiting for some packets.
   int stop_waiting_count_;
 
+  /*
+  常用的alarm如下，参考QuicConnection::QuicConnection, new对象见QuicEpollConnectionHelper::CreateAlarm
+      ack_alarm_(helper->CreateAlarm(new AckAlarm(this))),
+      retransmission_alarm_(helper->CreateAlarm(new RetransmissionAlarm(this))),
+      send_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      resume_writes_alarm_(helper->CreateAlarm(new SendAlarm(this))),
+      timeout_alarm_(helper->CreateAlarm(new TimeoutAlarm(this))),
+      ping_alarm_(helper->CreateAlarm(new PingAlarm(this))),
+      fec_alarm_(helper->CreateAlarm(new FecAlarm(&packet_generator_))),
+
+      //都是QuicEpollAlarm类
+  */
   // An alarm that fires when an ACK should be sent to the peer.
   scoped_ptr<QuicAlarm> ack_alarm_;
   // An alarm that fires when a packet needs to be retransmitted.
@@ -789,16 +816,15 @@ client测试例子在QuicClient::Connect中构造类
   scoped_ptr<QuicAlarm> timeout_alarm_;
   // An alarm that fires when a ping should be sent.
   scoped_ptr<QuicAlarm> ping_alarm_;
-
-  // Neither visitor is owned by this class.
-  QuicConnectionVisitorInterface* visitor_;
-  QuicConnectionDebugVisitor* debug_visitor_;
-
-  QuicPacketGenerator packet_generator_;
-
   // An alarm that fires when an FEC packet should be sent.
   scoped_ptr<QuicAlarm> fec_alarm_;
 
+  // Neither visitor is owned by this class.
+  QuicConnectionVisitorInterface* visitor_; //QuicSession::Initialize()中赋值 为new VisitorShim()
+  QuicConnectionDebugVisitor* debug_visitor_; //set_debug_visitor中赋值
+
+  QuicPacketGenerator packet_generator_;//set_debug_visitor中赋值
+  
   // Network idle time before we kill of this connection.
   QuicTime::Delta idle_network_timeout_;
   // Overall connection timeout.
@@ -813,7 +839,7 @@ client测试例子在QuicClient::Connect中构造类
 
   // The last time this connection began sending a new (non-retransmitted)
   // packet.
-  QuicTime time_of_last_sent_new_packet_;
+  QuicTime time_of_last_sent_new_packet_; //本端最后一次发送数据包的时间，见VisitorShim
 
   // Sequence number of the last sent packet.  Packets are guaranteed to be sent
   // in sequence number order.  
@@ -823,7 +849,7 @@ client测试例子在QuicClient::Connect中构造类
   // Sent packet manager which tracks the status of packets sent by this
   // connection and contains the send and receive algorithms to determine when
   // to send packets.
-  QuicSentPacketManager sent_packet_manager_;
+  QuicSentPacketManager sent_packet_manager_;//set_debug_visitor中赋值
 
   // The state of connection in version negotiation finite state machine.
   QuicVersionNegotiationState version_negotiation_state_;

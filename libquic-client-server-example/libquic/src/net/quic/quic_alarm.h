@@ -16,9 +16,23 @@ namespace net {
 // An alarm may be cancelled, in which case it may or may not be
 // removed from the underlying scheduling system, but in either case
 // the task will not be executed.
-class NET_EXPORT_PRIVATE QuicAlarm {
+
+/*
+抽象类代表一个报警器，会在预定的时间执行该委托的| onAlarm |方法。
+如果报警被取消，在这种情况下，它可能或不可能从底层调度系统中删除，但
+在任何情况下，任务将不会被执行。
+*/
+//注意QuicEpollAlarm(继承QuicAlarm)  EpollAlarmImpl(继承EpollAlarm(继承EpollAlarmCallbackInterface))的关系,他们
+//通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
+class NET_EXPORT_PRIVATE QuicAlarm { //QuicEpollAlarm继承该类   
  public:
-  class NET_EXPORT_PRIVATE Delegate {
+
+ /*
+   常用的alarm如下，参考QuicConnection::QuicConnection
+   该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+      AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+*/
+  class NET_EXPORT_PRIVATE Delegate { 
    public:
     virtual ~Delegate() {}
 
@@ -34,7 +48,7 @@ class NET_EXPORT_PRIVATE QuicAlarm {
   // Sets the alarm to fire at |deadline|.  Must not be called while
   // the alarm is set.  To reschedule an alarm, call Cancel() first,
   // then Set().
-  void Set(QuicTime deadline);
+  void Set(QuicTime deadline); //设置deadline_时间，然后执行SetImpl
 
   // Cancels the alarm.  May be called repeatedly.  Does not
   // guarantee that the underlying scheduling system will remove
@@ -45,7 +59,7 @@ class NET_EXPORT_PRIVATE QuicAlarm {
   // Cancels and sets the alarm if the |deadline| is farther from the current
   // deadline than |granularity|, and otherwise does nothing.  If |deadline| is
   // not initialized, the alarm is cancelled.
-  void Update(QuicTime deadline, QuicTime::Delta granularity);
+  void Update(QuicTime deadline, QuicTime::Delta granularity); //设置deadline_时间 
 
   bool IsSet() const;
 
@@ -55,11 +69,14 @@ class NET_EXPORT_PRIVATE QuicAlarm {
   // Subclasses implement this method to perform the platform-specific
   // scheduling of the alarm.  Is called from Set() or Fire(), after the
   // deadline has been updated.
-  virtual void SetImpl() = 0;
+  /*
+  子类实现此方法来执行平台特定的报警调度。deadline_设置后，通过set和fire接口调用SetImpl
+  */
+  virtual void SetImpl() = 0; //实现见QuicEpollAlarm::SetImpl，注册epoll_server_->RegisterAlarm
 
   // Subclasses implement this method to perform the platform-specific
   // cancelation of the alarm.
-  virtual void CancelImpl() = 0;
+  virtual void CancelImpl() = 0; //实现见QuicEpollAlarm::CancelImpl
 
   // Called by subclasses when the alarm fires.  Invokes the
   // delegates |OnAlarm| if a delegate is set, and if the deadline
@@ -71,7 +88,7 @@ class NET_EXPORT_PRIVATE QuicAlarm {
   void Fire();
 
  private:
-  scoped_ptr<Delegate> delegate_;
+  scoped_ptr<Delegate> delegate_; //赋值见QuicEpollConnectionHelper::CreateAlarm()->QuicEpollAlarm()构造函数中调用
   QuicTime deadline_;
 
   DISALLOW_COPY_AND_ASSIGN(QuicAlarm);
@@ -80,3 +97,4 @@ class NET_EXPORT_PRIVATE QuicAlarm {
 }  // namespace net
 
 #endif  // NET_QUIC_QUIC_ALARM_H_
+

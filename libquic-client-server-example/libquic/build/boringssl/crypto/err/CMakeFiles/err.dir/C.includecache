@@ -34,12 +34,6 @@ openssl/lhash_macros.h
 
 ../boringssl/include/openssl/lhash_macros.h
 
-../boringssl/include/openssl/mem.h
-openssl/base.h
--
-stdarg.h
--
-
 ../boringssl/include/openssl/opensslfeatures.h
 
 ../boringssl/include/openssl/thread.h
@@ -48,42 +42,6 @@ openssl/base.h
 
 ../boringssl/include/openssl/type_check.h
 openssl/base.h
--
-
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err.c
-openssl/err.h
--
-assert.h
--
-errno.h
--
-inttypes.h
--
-stdarg.h
--
-stdio.h
--
-string.h
--
-Windows.h
--
-openssl/lhash.h
--
-openssl/mem.h
--
-openssl/thread.h
--
-
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/err/err_impl.c
-openssl/err.h
--
-assert.h
--
-string.h
--
-openssl/lhash.h
--
-openssl/mem.h
 -
 
 /root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/build/boringssl/crypto/err/err_data.c

@@ -119,6 +119,7 @@ class SendAlarm : public QuicAlarm::Delegate {
       : connection_(connection) {
   }
 
+  //发送数据
   QuicTime OnAlarm() override {
     connection_->WriteIfNotBlocked();
     // Never reschedule the alarm, since CanWrite does that.
@@ -1375,6 +1376,7 @@ bool QuicConnection::ProcessValidatedPacket() {
   return true;
 }
 
+
 void QuicConnection::WriteQueuedPackets() {
   DCHECK(!writer_->IsWriteBlocked());
 
@@ -1486,6 +1488,7 @@ bool QuicConnection::CanWrite(HasRetransmittableData retransmittable) {
 }
 
 bool QuicConnection::WritePacket(QueuedPacket* packet) {
+  //package包发送及相应的重传 ack状态处理
   if (!WritePacketInner(packet)) { //返回false这里直接返回，而不会delete后续流程，包不会释放
     return false;
   }
@@ -1496,6 +1499,7 @@ bool QuicConnection::WritePacket(QueuedPacket* packet) {
   return true;
 }
 
+//package包发送及相应的重传 ack状态处理
 bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
   if (ShouldDiscardPacket(*packet)) {
     ++stats_.packets_discarded;
@@ -1548,6 +1552,8 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
   // min_rtt_, especially in cases where the thread blocks or gets swapped out
   // during the WritePacket below.
   QuicTime packet_send_time = clock_->Now();
+
+  //通过udp套接字发送数据  QuicSocketUtils::WritePacket，真正的数据发送在这里
   WriteResult result = writer_->WritePacket(encrypted->data(),
                                             encrypted->length(),
                                             self_address().address(),
@@ -1578,6 +1584,7 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
   if (packet->transmission_type == NOT_RETRANSMISSION) {
     time_of_last_sent_new_packet_ = packet_send_time;
   }
+  
   SetPingAlarm();
   MaybeSetFecAlarm(sequence_number);
   DVLOG(1) << ENDPOINT << "time we began writing last sent packet: "
@@ -1599,6 +1606,7 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
       IsRetransmittable(*packet));
 
   if (reset_retransmission_alarm || !retransmission_alarm_->IsSet()) {
+  	//重传alarm更新
     retransmission_alarm_->Update(sent_packet_manager_.GetRetransmissionTime(),
                                   QuicTime::Delta::FromMilliseconds(1));
   }
@@ -2063,6 +2071,7 @@ void QuicConnection::SetNetworkTimeouts(QuicTime::Delta overall_timeout,
   SetTimeoutAlarm();
 }
 
+//超时处理
 void QuicConnection::CheckForTimeout() {
   QuicTime now = clock_->ApproximateNow();
   QuicTime time_of_last_packet = max(time_of_last_received_packet_,
@@ -2121,11 +2130,13 @@ void QuicConnection::SetPingAlarm() {
     // Only clients send pings.
     return;
   }
-  if (!visitor_->HasOpenDynamicStreams()) {
+  //判断是否有握手协商成功可用的stream，如果没有，则不用PING探测了
+  if (!visitor_->HasOpenDynamicStreams()) { //VisitorShim::HasOpenDynamicStreams
     ping_alarm_->Cancel();
     // Don't send a ping unless there are open streams.
     return;
   }
+  
   QuicTime::Delta ping_timeout = QuicTime::Delta::FromSeconds(kPingTimeoutSecs);
   ping_alarm_->Update(clock_->ApproximateNow().Add(ping_timeout),
                       QuicTime::Delta::FromSeconds(1));

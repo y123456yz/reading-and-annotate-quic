@@ -18,7 +18,7 @@ namespace tools {
 
 using base::StringPiece;
 
-namespace {
+//namespace {  yang add change
 
 // An alarm that informs the QuicDispatcher to delete old sessions.
 class DeleteSessionsAlarm : public QuicAlarm::Delegate {
@@ -40,7 +40,7 @@ class DeleteSessionsAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(DeleteSessionsAlarm);
 };
 
-}  // namespace
+//}  // namespace
 
 class QuicDispatcher::QuicFramerVisitor : public QuicFramerVisitorInterface {
  public:

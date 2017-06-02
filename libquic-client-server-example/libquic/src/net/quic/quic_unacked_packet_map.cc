@@ -34,6 +34,7 @@ QuicUnackedPacketMap::~QuicUnackedPacketMap() {
   }
 }
 
+//发送了包，但是还未unacked的包入队到该unacked_packets_中，见AddSentPacket
 void QuicUnackedPacketMap::AddSentPacket(
     const SerializedPacket& packet,
     QuicPacketSequenceNumber old_sequence_number,

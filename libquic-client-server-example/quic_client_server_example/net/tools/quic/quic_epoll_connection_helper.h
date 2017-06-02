@@ -25,10 +25,12 @@ class QuicRandom;
 
 namespace tools {
 
+/*
 class AckAlarm;
 class RetransmissionAlarm;
 class SendAlarm;
 class TimeoutAlarm;
+*/
 
 class QuicEpollConnectionHelper : public QuicConnectionHelperInterface {
  public:

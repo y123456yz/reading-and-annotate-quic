@@ -117,7 +117,7 @@ class EpollCallbackInterface {
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-class EpollServer {
+class EpollServer { //QuicEpollAlarm包含该类成员
  public:
   typedef EpollAlarmCallbackInterface AlarmCB;
   typedef EpollCallbackInterface CB;
@@ -675,16 +675,18 @@ class EpollServer {
   // the same alarm twice. One option is to have an implementation in which
   // this hash_set is used only in the debug mode.
   typedef base::hash_set<AlarmCB*, AlarmCBHash> AlarmCBMap;
-  AlarmCBMap all_alarms_;
+  AlarmCBMap all_alarms_; //insert见EpollServer::RegisterAlarm, erase见EpollServer::UnregisterAlarm
 
-  TimeToAlarmCBMap alarm_map_;
+  TimeToAlarmCBMap alarm_map_; //insert见EpollServer::RegisterAlarm, erase见EpollServer::UnregisterAlarm
 
   // The amount of time in microseconds that we'll wait before returning
   // from the WaitForEventsAndExecuteCallbacks() function.
   // If this is positive, wait that many microseconds.
   // If this is negative, wait forever, or for the first event that occurs
   // If this is zero, never wait for an event.
-  int64 timeout_in_us_;   //epoll_wait等待网络事件的最大超时时间
+
+  //epoll_wait 超时时间生效见WaitForEventsAndCallHandleEvents
+  int64 timeout_in_us_;   //epoll_wait等待网络事件的最大超时时间,赋值见QuicClient::Initialize
 
   // This is nonzero only after the invocation of epoll_wait_impl within
   // WaitForEventsAndCallHandleEvents and before the function
@@ -971,7 +973,8 @@ class EpollServer {
   DISALLOW_COPY_AND_ASSIGN(EpollServer);
 };
 
-class EpollAlarmCallbackInterface {
+//typedef EpollAlarmCallbackInterface AlarmCB;
+class EpollAlarmCallbackInterface { //EpollAlarm类实现虚拟接口
  public:
   // Summary:
   //   Called when an alarm times out. Invalidates an AlarmRegToken.
@@ -989,8 +992,9 @@ class EpollAlarmCallbackInterface {
   //   WARNING: this token becomes invalid when the alarm fires, is
   //   unregistered, or OnShutdown is called on that alarm.
   //   eps: the epoll server the alarm is registered with.
+  //EpollServer::RegisterAlarm中执行
   virtual void OnRegistration(const EpollServer::AlarmRegToken& token,
-                              EpollServer* eps) = 0;
+                              EpollServer* eps) = 0; //EpollAlarm::OnRegistration
 
   // Summary:
   //   Called when the an alarm is unregistered.
@@ -1016,7 +1020,10 @@ class EpollAlarmCallbackInterface {
 // Any classes overriding these functions must either call the implementation
 // of the parent class, or is must otherwise make sure that the 'registered_'
 // boolean and the token, 'token_', are updated appropriately.
-class EpollAlarm : public EpollAlarmCallbackInterface {
+
+//注意QuicEpollAlarm(继承QuicAlarm)  EpollAlarmImpl(继承EpollAlarm(继承EpollAlarmCallbackInterface))的关系,他们
+//通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
+class EpollAlarm : public EpollAlarmCallbackInterface {  
  public:
   EpollAlarm();
 
@@ -1044,6 +1051,7 @@ class EpollAlarm : public EpollAlarmCallbackInterface {
   const EpollServer* eps() const { return eps_; }
 
  private:
+  /* 以下三成员在EpollAlarm::OnRegistration()中注册，在EpollAlarm::OnUnregistration()取消注册 */
   EpollServer::AlarmRegToken token_;
   EpollServer* eps_;
   bool registered_;
