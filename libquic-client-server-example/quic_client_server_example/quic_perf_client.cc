@@ -104,6 +104,7 @@ int main(int argc, char *argv[]) {
     cout << "Client could not connect" << endl;
     return 1;
   }
+  
   cout << "Successfully connected to server, hopefully" << endl;
   net::tools::QuicClientStream* stream = client.CreateClientStream();
   if (FLAGS_duration == 0) {

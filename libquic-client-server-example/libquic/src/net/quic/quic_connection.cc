@@ -387,6 +387,7 @@ void QuicConnection::MaybeSetFecAlarm(
   QuicTime::Delta timeout = packet_generator_.GetFecTimeout(sequence_number);
   if (!timeout.IsInfinite()) {
     fec_alarm_->Set(clock_->ApproximateNow().Add(timeout));
+	VLOG(4) << "MaybeSetFecAlarm  alarm";
   }
 }
 
@@ -693,6 +694,7 @@ void QuicConnection::ProcessAckFrame(const QuicAckFrame& incoming_ack) {
   // Always reset the retransmission alarm when an ack comes in, since we now
   // have a better estimate of the current rtt than when it was set.
   QuicTime retransmission_time = sent_packet_manager_.GetRetransmissionTime();
+  VLOG(4) << "ProcessAckFrame  alarm update";
   retransmission_alarm_->Update(retransmission_time,
                                 QuicTime::Delta::FromMilliseconds(1));
 }
@@ -1003,7 +1005,7 @@ void QuicConnection::MaybeQueueAck() {
     } else {
       ack_alarm_->Set(
           clock_->ApproximateNow().Add(sent_packet_manager_.DelayedAckTime()));
-      DVLOG(1) << "Ack timer set; next packet or timer will trigger ACK.";
+      VLOG(4) << "Ack timer set; next packet or timer will trigger ACK.";
     }
   }
 
@@ -1339,6 +1341,7 @@ void QuicConnection::OnCanWrite() {
     // bytes. Register for 'immediate' resumption so we'll keep writing after
     // other connections and events have had a chance to use the thread.
     resume_writes_alarm_->Set(clock_->ApproximateNow());
+	VLOG(4) << "resume_writes_alarm_  set";
   }
 }
 
@@ -1441,6 +1444,7 @@ void QuicConnection::NeuterUnencryptedPackets() {
   sent_packet_manager_.NeuterUnencryptedPackets();
   // This may have changed the retransmission timer, so re-arm it.
   QuicTime retransmission_time = sent_packet_manager_.GetRetransmissionTime();
+  VLOG(4) << "NeuterUnencryptedPackets  alarm update";
   retransmission_alarm_->Update(retransmission_time,
                                 QuicTime::Delta::FromMilliseconds(1));
 }
@@ -1499,7 +1503,7 @@ bool QuicConnection::WritePacket(QueuedPacket* packet) {
   return true;
 }
 
-//package包发送及相应的重传 ack状态处理
+//package包发送及相应的重传 ack状态处理 及alarm注册
 bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
   if (ShouldDiscardPacket(*packet)) {
     ++stats_.packets_discarded;
@@ -1606,9 +1610,10 @@ bool QuicConnection::WritePacketInner(QueuedPacket* packet) {
       IsRetransmittable(*packet));
 
   if (reset_retransmission_alarm || !retransmission_alarm_->IsSet()) {
+  	VLOG(4) << "retransmission_alarm_  alarm update";
   	//重传alarm更新
     retransmission_alarm_->Update(sent_packet_manager_.GetRetransmissionTime(),
-                                  QuicTime::Delta::FromMilliseconds(1));
+                                  QuicTime::Delta::FromMilliseconds(1)); //启用重传alarm
   }
 
   stats_.bytes_sent += result.bytes_written;
@@ -1670,6 +1675,7 @@ void QuicConnection::OnWriteError(int error_code) {
   CloseConnection(QUIC_PACKET_WRITE_ERROR, false);
 }
 
+//发送packet数据
 void QuicConnection::OnSerializedPacket(
     const SerializedPacket& serialized_packet) {
   if (serialized_packet.packet == nullptr) {
@@ -1719,9 +1725,11 @@ void QuicConnection::OnHandshakeComplete() {
   if (perspective_ == Perspective::IS_CLIENT && !ack_queued_) {
     ack_alarm_->Cancel();
     ack_alarm_->Set(clock_->ApproximateNow());
+	VLOG(4) << "OnHandshakeComplete  set";
   }
 }
 
+//发送packet数据，如果没有发送成功，则入队到queued_packets_
 void QuicConnection::SendOrQueuePacket(QueuedPacket packet) {
   // The caller of this function is responsible for checking CanWrite().
   if (packet.serialized_packet.packet == nullptr) {
@@ -1733,7 +1741,7 @@ void QuicConnection::SendOrQueuePacket(QueuedPacket packet) {
   sent_entropy_manager_.RecordPacketEntropyHash(
       packet.serialized_packet.sequence_number,
       packet.serialized_packet.entropy_hash);
-  if (!WritePacket(&packet)) { //
+  if (!WritePacket(&packet)) { //发送数据
     // Take ownership of the underlying encrypted packet.
     if (!packet.serialized_packet.packet->owns_buffer()) {
       scoped_ptr<QuicEncryptedPacket> encrypted_deleter(
@@ -1798,6 +1806,8 @@ void QuicConnection::OnRetransmissionTimeout() {
     QuicTime rto_timeout = sent_packet_manager_.GetRetransmissionTime();
     if (rto_timeout.IsInitialized()) {
       retransmission_alarm_->Set(rto_timeout);
+
+	  VLOG(4) << "retransmission_alarm_  set";
     }
   }
 }
@@ -2123,8 +2133,10 @@ void QuicConnection::SetTimeoutAlarm() {
 
   timeout_alarm_->Cancel();
   timeout_alarm_->Set(deadline);
+  VLOG(4) << "timeout_alarm_  set";
 }
 
+//更新PING alarm，注册到epoll
 void QuicConnection::SetPingAlarm() {
   if (perspective_ == Perspective::IS_SERVER) {
     // Only clients send pings.
@@ -2138,6 +2150,7 @@ void QuicConnection::SetPingAlarm() {
   }
   
   QuicTime::Delta ping_timeout = QuicTime::Delta::FromSeconds(kPingTimeoutSecs);
+  VLOG(4) << "ping_alarm_  alarm update";
   ping_alarm_->Update(clock_->ApproximateNow().Add(ping_timeout),
                       QuicTime::Delta::FromSeconds(1));
 }

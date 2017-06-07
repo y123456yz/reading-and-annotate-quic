@@ -33,6 +33,7 @@ namespace net {
       alarm_ = helper_->CreateAlarm(this);
       QuicTime onesecond = helper_->GetClock()->ApproximateNow().Add(QuicTime::Delta::FromSeconds(1));
       alarm_->Set(onesecond);
+	  VLOG(4) << "SetupPerformanceAlarm  set";
     }
 
     QuicTime QuicServerStream::OnAlarm() {

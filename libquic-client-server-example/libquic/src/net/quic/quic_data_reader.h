@@ -28,6 +28,8 @@ namespace net {
 // trusted and it is up to the caller to throw away the failed instance and
 // handle the error as appropriate. None of the Read*() methods should ever be
 // called after failure, as they will also fail immediately.
+
+//CryptoFramer::Process()函数会用到该类
 class NET_EXPORT_PRIVATE QuicDataReader { //quic数据解析读取相关
  public:
   // Caller must provide an underlying buffer to work on.
@@ -109,13 +111,13 @@ class NET_EXPORT_PRIVATE QuicDataReader { //quic数据解析读取相关
   void OnFailure();
 
   // The data buffer that we're reading from.
-  const char* data_;
+  const char* data_; //data存入该data_中
 
   // The length of the data buffer that we're reading from.
-  const size_t len_;
+  const size_t len_; //data_的长度
 
   // The location of the next read from our data buffer.
-  size_t pos_;
+  size_t pos_; //指向解析到的data_数据的什么位置
 
   DISALLOW_COPY_AND_ASSIGN(QuicDataReader);
 };

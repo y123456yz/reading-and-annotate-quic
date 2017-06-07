@@ -376,7 +376,7 @@ void QuicCryptoClientStream::DoSendCHLO(
    //     *cached->proof_verify_details());
   }
   next_state_ = STATE_RECV_SHLO;
-  SendHandshakeMessage(out);
+  SendHandshakeMessage(out); //发送out中填充的数据
   // Be prepared to decrypt with the new server write key.
   session()->connection()->SetAlternativeDecrypter(
       ENCRYPTION_INITIAL,

@@ -290,8 +290,8 @@ boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/sha/CMakeFiles/sha.
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/md4/CMakeFiles/md4.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/md5/CMakeFiles/md5.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/modes/CMakeFiles/modes.dir/all
-boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/aes/CMakeFiles/aes.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/des/CMakeFiles/des.dir/all
+boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/aes/CMakeFiles/aes.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/conf/CMakeFiles/conf.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
@@ -300,8 +300,8 @@ boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/digest/CMakeFiles/d
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/cipher/CMakeFiles/cipher.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/rand/CMakeFiles/rand.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/bio/CMakeFiles/bio.dir/all
-boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/bn/CMakeFiles/bn.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/obj/CMakeFiles/obj.dir/all
+boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/bn/CMakeFiles/bn.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/engine/CMakeFiles/engine.dir/all
 boringssl/crypto/CMakeFiles/crypto.dir/all: boringssl/crypto/dh/CMakeFiles/dh.dir/all

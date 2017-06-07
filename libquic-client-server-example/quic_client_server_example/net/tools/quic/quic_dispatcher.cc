@@ -368,6 +368,7 @@ void QuicDispatcher::OnConnectionClosed(QuicConnectionId connection_id,
   if (closed_session_list_.empty()) {
     delete_sessions_alarm_->Cancel();
     delete_sessions_alarm_->Set(helper()->GetClock()->ApproximateNow());
+	VLOG(4) << "delete_sessions_alarm_  set";
   }
   closed_session_list_.push_back(it->second);
   CleanUpSession(it);

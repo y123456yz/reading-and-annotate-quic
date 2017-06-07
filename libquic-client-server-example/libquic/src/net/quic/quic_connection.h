@@ -566,7 +566,7 @@ client测试例子在QuicClient::Connect中构造类
  protected:
   // Packets which have not been written to the wire.
   // Owns the QuicPacket* packet.
-  struct QueuedPacket {
+  struct QueuedPacket {//QuicConnection::OnSerializedPacket中会用到该类构造
     QueuedPacket(SerializedPacket packet,
                  EncryptionLevel level);
     QueuedPacket(SerializedPacket packet,

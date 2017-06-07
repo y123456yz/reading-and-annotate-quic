@@ -270,6 +270,7 @@ void QuicTimeWaitListManager::SetConnectionIdCleanUpAlarm() {
 
   connection_id_clean_up_alarm_->Set(
       clock_->ApproximateNow().Add(next_alarm_interval));
+  VLOG(4) << "connection_id_clean_up_alarm_  set";
 }
 
 bool QuicTimeWaitListManager::MaybeExpireOldestConnection(

@@ -23,16 +23,16 @@ namespace net {
 在任何情况下，任务将不会被执行。
 */
 //注意QuicEpollAlarm(继承QuicAlarm)  EpollAlarmImpl(继承EpollAlarm(继承EpollAlarmCallbackInterface))的关系,他们
-//通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
-class NET_EXPORT_PRIVATE QuicAlarm { //QuicEpollAlarm继承该类   
+//通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来   //QuicEpollAlarm继承该类   
+class NET_EXPORT_PRIVATE QuicAlarm {
  public:
-
- /*
-   常用的alarm如下，参考QuicConnection::QuicConnection
-   该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
-      AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
-*/
-  class NET_EXPORT_PRIVATE Delegate { 
+  class NET_EXPORT_PRIVATE Delegate{ 
+  /*
+     常用的alarm如下，参考QuicConnection::QuicConnection
+     该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+        AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+     上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+  */
    public:
     virtual ~Delegate() {}
 
@@ -72,6 +72,7 @@ class NET_EXPORT_PRIVATE QuicAlarm { //QuicEpollAlarm继承该类
   /*
   子类实现此方法来执行平台特定的报警调度。deadline_设置后，通过set和fire接口调用SetImpl
   */
+  //进行epoll注册
   virtual void SetImpl() = 0; //实现见QuicEpollAlarm::SetImpl，注册epoll_server_->RegisterAlarm
 
   // Subclasses implement this method to perform the platform-specific
@@ -88,8 +89,14 @@ class NET_EXPORT_PRIVATE QuicAlarm { //QuicEpollAlarm继承该类
   void Fire();
 
  private:
+ /*
+     常用的alarm如下，参考QuicConnection::QuicConnection
+     该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+        AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+     上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+  */
   scoped_ptr<Delegate> delegate_; //赋值见QuicEpollConnectionHelper::CreateAlarm()->QuicEpollAlarm()构造函数中调用
-  QuicTime deadline_;
+  QuicTime deadline_; //Set和Update接口赋值和更新
 
   DISALLOW_COPY_AND_ASSIGN(QuicAlarm);
 };

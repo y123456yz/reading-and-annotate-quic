@@ -21,8 +21,14 @@ namespace tools {
 
 //注意QuicEpollAlarm(继承QuicAlarm)  EpollAlarmImpl(继承EpollAlarm(继承EpollAlarmCallbackInterface))的关系,他们
 //通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
-class QuicEpollAlarm : public QuicAlarm { 
+class QuicEpollAlarm : public QuicAlarm {  //下面的EpollAlarmImpl类中包含QuicEpollAlarm类成员
  public:
+ /*
+   常用的alarm如下，参考QuicConnection::QuicConnection
+   该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+      AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+   上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
   //QuicEpollConnectionHelper::CreateAlarm()中new QuicEpollAlarm类
   QuicEpollAlarm(EpollServer* epoll_server,
                  QuicAlarm::Delegate* delegate)
@@ -31,7 +37,7 @@ class QuicEpollAlarm : public QuicAlarm {
         epoll_alarm_impl_(this) {}
 
  protected:
-  void SetImpl() override {
+  void SetImpl() override { //EpollServer注册
     DCHECK(deadline().IsInitialized());
     epoll_server_->RegisterAlarm(
         deadline().Subtract(QuicTime::Zero()).ToMicroseconds(),
@@ -44,6 +50,7 @@ class QuicEpollAlarm : public QuicAlarm {
   }
 
  private:
+  //EpollAlarmImpl类包含QuicEpollAlarm成员，QuicEpollAlarm也包含EpollAlarmImpl类成员
   class EpollAlarmImpl : public EpollAlarm { //EpollAlarmImpl epoll_alarm_impl_;
    public:
     explicit EpollAlarmImpl(QuicEpollAlarm* alarm) : alarm_(alarm) {}

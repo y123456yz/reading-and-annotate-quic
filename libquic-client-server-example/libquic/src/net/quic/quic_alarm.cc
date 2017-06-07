@@ -16,6 +16,7 @@ QuicAlarm::QuicAlarm(Delegate* delegate)
 
 QuicAlarm::~QuicAlarm() {}
 
+//retransmission_alarm_->Set  QuicConnection::SetTimeoutAlarm  QuicAlarm::Update 等都会调用该接口
 void QuicAlarm::Set(QuicTime deadline) {
   DCHECK(!IsSet());
   DCHECK(deadline.IsInitialized());
@@ -39,6 +40,7 @@ void QuicAlarm::Update(QuicTime deadline, QuicTime::Delta granularity) {
   }
   Cancel();
   Set(deadline);
+  VLOG(4) << "Update  alarm";
 }
 
 bool QuicAlarm::IsSet() const {
@@ -56,6 +58,7 @@ void QuicAlarm::Fire() {
   // already contain the new value, so don't overwrite it.
   if (!deadline_.IsInitialized() && deadline.IsInitialized()) {
     Set(deadline);
+	VLOG(4) << "Fire  alarm";
   }
 }
 

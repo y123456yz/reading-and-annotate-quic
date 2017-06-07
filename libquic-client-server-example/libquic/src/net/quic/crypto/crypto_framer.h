@@ -94,9 +94,11 @@ class NET_EXPORT_PRIVATE CryptoFramer {
   // Last error.
   QuicErrorCode error_;
   // Remaining unparsed data.
-  std::string buffer_;
+  std::string buffer_; //CryptoFramer::Process函数填充该buffer_
   // Current state of the parsing.
   CryptoFramerState state_;
+
+  //CryptoFramer::Process()解析message数据，然后存入到message_
   // The message currently being parsed.
   CryptoHandshakeMessage message_;
   // Number of entires in the message currently being parsed.

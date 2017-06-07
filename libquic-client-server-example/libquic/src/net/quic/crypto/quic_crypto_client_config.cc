@@ -29,7 +29,7 @@ using std::vector;
 
 namespace net {
 
-namespace {
+//namespace {   //yang add change
 
 // Tracks the reason (the state of the server config) for sending inchoate
 // ClientHello to the server.
@@ -48,7 +48,7 @@ void RecordDiskCacheServerConfigState(
       QuicCryptoClientConfig::CachedState::SERVER_CONFIG_COUNT);
 }
 
-}  // namespace
+//}  // namespace
 
 QuicCryptoClientConfig::QuicCryptoClientConfig()
     : disable_ecdsa_(false) {
@@ -441,6 +441,8 @@ void QuicCryptoClientConfig::FillInchoateClientHello(
   }
 }
 
+
+//按照协议格式填充client信息到out
 QuicErrorCode QuicCryptoClientConfig::FillClientHello(
     const QuicServerId& server_id,
     QuicConnectionId connection_id,

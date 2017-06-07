@@ -89,7 +89,7 @@ class EpollCallbackInterface {
   //           epoll_wait event vs one from the ready list, and an output
   //           parameter for OnEvent to inform the EpollServer whether to put
   //           this fd on the ready list.
-  virtual void OnEvent(int fd, EpollEvent* event) = 0;
+  virtual void OnEvent(int fd, EpollEvent* event) = 0; //CallReadyListCallbacks中执行
 
   // Summary:
   //   Called when the file-descriptor is unregistered from the poll-server.
@@ -117,9 +117,9 @@ class EpollCallbackInterface {
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-class EpollServer { //QuicEpollAlarm包含该类成员
+class EpollServer { //QuicEpollAlarm包含该类成员，epoll处理和QuicEpollAlarm相关
  public:
-  typedef EpollAlarmCallbackInterface AlarmCB;
+  typedef EpollAlarmCallbackInterface AlarmCB; //接口函数执行见CallAndReregisterAlarmEvents
   typedef EpollCallbackInterface CB;
 
   typedef std::multimap<int64, AlarmCB*> TimeToAlarmCBMap;
@@ -383,7 +383,7 @@ class EpollServer { //QuicEpollAlarm包含该类成员
   //   delta_in_us - the delta in microseconds from the ApproximateTimeInUs() at
   //                 which point the alarm should go off.
   //   ac - the alarm which will be called.
-  void RegisterAlarmApproximateDelta(int64 delta_in_us, AlarmCB* ac) {
+  void RegisterAlarmApproximateDelta(int64 delta_in_us, AlarmCB* ac) { //没地方调用
     RegisterAlarm(ApproximateNowInUsec() + delta_in_us, ac);
   }
 
@@ -546,7 +546,7 @@ class EpollServer { //QuicEpollAlarm包含该类成员
     // the current event_mask registered for this callback.
     mutable int event_mask;
     // the event_mask that was returned by epoll
-    mutable int events_asserted;
+    mutable int events_asserted; //读写事件标识信息，赋值见HandleEvent
     // the event_mask for the ready list to use to call OnEvent.
     mutable int events_to_fake;
     // toggle around calls to OnEvent to tell UnregisterFD to not erase the
@@ -660,7 +660,7 @@ class EpollServer { //QuicEpollAlarm包含该类成员
   int epoll_fd_; //默认构造函数初始化为epoll_create(1024)
 
   // The mapping of file-descriptor to CBAndEventMasks
-  FDToCBMap cb_map_;
+  FDToCBMap cb_map_; //RegisterFD中注册加入到该map
 
   // Custom hash function to be used by hash_set.
   struct AlarmCBHash {
@@ -677,6 +677,7 @@ class EpollServer { //QuicEpollAlarm包含该类成员
   typedef base::hash_set<AlarmCB*, AlarmCBHash> AlarmCBMap;
   AlarmCBMap all_alarms_; //insert见EpollServer::RegisterAlarm, erase见EpollServer::UnregisterAlarm
 
+  //CallAndReregisterAlarmEvents中生效
   TimeToAlarmCBMap alarm_map_; //insert见EpollServer::RegisterAlarm, erase见EpollServer::UnregisterAlarm
 
   // The amount of time in microseconds that we'll wait before returning
@@ -704,9 +705,10 @@ class EpollServer { //QuicEpollAlarm包含该类成员
   // go in an infinite loop.
   AlarmCBMap alarms_reregistered_and_should_be_skipped_;
 
+  //AddToReadyList中加入到ready_list_链表
   LIST_HEAD(ReadyList, CBAndEventMask) ready_list_;
   LIST_HEAD(TmpList, CBAndEventMask) tmp_list_;
-  int ready_list_size_;
+  int ready_list_size_; //ready_list_中节点数，赋值见AddToReadyList
   // TODO(alyssar): make this into something that scales up.
   static const int events_size_ = 256;
   struct epoll_event events_[256];
@@ -983,7 +985,7 @@ class EpollAlarmCallbackInterface { //EpollAlarm类实现虚拟接口
   // Returns:
   //   the unix time (in microseconds) at which this alarm should be signaled
   //   again, or 0 if the alarm should be removed.
-  virtual int64 OnAlarm() = 0;
+  virtual int64 OnAlarm() = 0;//接口函数执行见CallAndReregisterAlarmEvents
 
   // Summary:
   //   Called when the an alarm is registered. Invalidates an AlarmRegToken.

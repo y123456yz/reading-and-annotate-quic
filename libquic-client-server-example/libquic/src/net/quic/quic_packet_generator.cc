@@ -438,7 +438,7 @@ void QuicPacketGenerator::SerializeAndSendPacket() {
   ack_notifiers_.clear();
 
   //如QuicConnection::OnSerializedPacket
-  delegate_->OnSerializedPacket(serialized_packet);
+  delegate_->OnSerializedPacket(serialized_packet); //发送packet数据
   MaybeSendFecPacketAndCloseGroup(/*force=*/false, /*is_fec_timeout=*/false);
 
   // Maximum packet size may be only enacted while no packet is currently being

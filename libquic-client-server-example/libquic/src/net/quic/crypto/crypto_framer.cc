@@ -13,8 +13,8 @@ using std::pair;
 using std::vector;
 
 namespace net {
-
-namespace {
+ 
+//namespace {  yang add change
 
 const size_t kQuicTagSize = sizeof(uint32);
 const size_t kCryptoEndOffsetSize = sizeof(uint32);
@@ -40,7 +40,7 @@ class OneShotVisitor : public CryptoFramerVisitorInterface {
   bool error_;
 };
 
-}  // namespace
+//}  // namespace
 
 CryptoFramer::CryptoFramer()
     : visitor_(nullptr),
@@ -191,6 +191,7 @@ void CryptoFramer::Clear() {
   state_ = STATE_READING_TAG;
 }
 
+//解析input数据，存入到message_
 QuicErrorCode CryptoFramer::Process(StringPiece input) {
   // Add this data to the buffer.
   buffer_.append(input.data(), input.length());

@@ -175,7 +175,8 @@ class NET_EXPORT_PRIVATE QuicCryptoClientConfig : public QuicCryptoConfig {
     scoped_ptr<ProofVerifyDetails> proof_verify_details_;
 
     // scfg contains the cached, parsed value of |server_config|.
-    mutable scoped_ptr<CryptoHandshakeMessage> scfg_;
+    //GetServerConfig÷–ÃÓ≥‰
+    mutable scoped_ptr<CryptoHandshakeMessage> scfg_; 
 
     // TODO(jokulik): Consider using a hash-set as extra book-keeping to ensure
     // that no connection-id is added twice.  Also, consider keeping the server

@@ -531,6 +531,7 @@ QuicSentPacketManager::GetLeastUnacked() const {
   return unacked_packets_.GetLeastUnacked();
 }
 
+//发送出去的包需要重传 ack确认等处理
 bool QuicSentPacketManager::OnPacketSent(
     SerializedPacket* serialized_packet,
     QuicPacketSequenceNumber original_sequence_number,

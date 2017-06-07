@@ -327,12 +327,13 @@ void EpollServer::StartWrite(int fd) {
   ModifyFD(fd, 0, EPOLLOUT);
 }
 
+//处理该fd上面的各种读写事件信息存入CBAndEventMask，然后加入到ready_list_队列
 void EpollServer::HandleEvent(int fd, int event_mask) {
 #ifdef EPOLL_SERVER_EVENT_TRACING
   event_recorder_.RecordEpollEvent(fd, event_mask);
 #endif
   FDToCBMap::iterator fd_i = cb_map_.find(CBAndEventMask(NULL, 0, fd));
-  if (fd_i == cb_map_.end() || fd_i->cb == NULL) {
+  if (fd_i == cb_map_.end() || fd_i->cb == NULL) { //在cb_map_中没有找到fd对应的map节点信息，直接返回
     // Ignore the event.
     // This could occur if epoll() returns a set of events, and
     // while processing event A (earlier) we removed the callback
@@ -368,12 +369,13 @@ void EpollServer::WaitForEventsAndExecuteCallbacks() {
     // we never see it.
     return;  // COV_NF_LINE
   }
-  TrueFalseGuard recursion_guard(&in_wait_for_events_and_execute_callbacks_);
-  if (alarm_map_.empty()) {
+  //TrueFalseGuard recursion_guard(&in_wait_for_events_and_execute_callbacks_); yang add change
+  
+  if (alarm_map_.empty()) { //如果没有需要处理的alarm则直接返回
     // no alarms, this is business as usual.
     WaitForEventsAndCallHandleEvents(timeout_in_us_,
                                      events_,
-                                     events_size_);
+                                     events_size_); //等待epoll_wait处理
     recorded_now_in_us_ = 0;
     return;
   }
@@ -398,6 +400,7 @@ void EpollServer::WaitForEventsAndExecuteCallbacks() {
   // If the next alarm is sooner than the default timeout, or if there is no
   // timeout (timeout_in_us_ == -1), wake up when the alarm should fire.
   // Otherwise use the default timeout.
+  //取alarm_timeout_in_us和timeout_in_us_中最小的时间
   if (alarm_timeout_in_us < timeout_in_us_ || timeout_in_us_ < 0) {
     wait_time_in_us = std::max(alarm_timeout_in_us, static_cast<int64>(0));
   } else {
@@ -407,7 +410,7 @@ void EpollServer::WaitForEventsAndExecuteCallbacks() {
   VLOG(4) << "wait_time_in_us = " << wait_time_in_us;
 
   // wait for events.
-
+  //epoll_wait等待网络事件到来或者超时	网络读写事件处理
   WaitForEventsAndCallHandleEvents(wait_time_in_us,
                                    events_,
                                    events_size_);
@@ -462,8 +465,8 @@ void EpollServer::VerifyReadyList() const {
   CHECK_EQ(ready_list_size_, count) << "Ready list size does not match count";
 }
 
-//QuicEpollAlarm::SetImpl中执行    
-void EpollServer::RegisterAlarm(int64 timeout_time_in_us, AlarmCB* ac) {
+//QuicEpollAlarm::SetImpl中执行      ac为EpollAlarmImpl epoll_alarm_impl_;
+void EpollServer::RegisterAlarm(int64 timeout_time_in_us, AlarmCB* ac) { //ac真正触发生效见WaitForEventsAndExecuteCallbacks
   CHECK(ac);
   if (ContainsAlarm(ac)) { //该类型alarm已经存在，报错提示
     LOG(FATAL) << "Alarm already exists " << ac;
@@ -471,6 +474,7 @@ void EpollServer::RegisterAlarm(int64 timeout_time_in_us, AlarmCB* ac) {
   VLOG(4) << "RegisteringAlarm at : " << timeout_time_in_us;
 
   //multimap::insert()成员函数返回指向新插入元素的迭代指针
+  //WaitForEventsAndExecuteCallbacks中生效
   TimeToAlarmCBMap::iterator alarm_iter =
       alarm_map_.insert(std::make_pair(timeout_time_in_us, ac));
 
@@ -637,6 +641,7 @@ void EpollServer::ModifyFD(int fd, int remove_event, int add_event) {
   }
 }
 
+//epoll_wait等待网络事件到来或者超时  网络读写事件处理
 void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
                                                    struct epoll_event events[],
                                                    int events_size) {
@@ -657,6 +662,8 @@ void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
     }
   }
   const int timeout_in_ms = timeout_in_us / 1000;
+  
+  //epoll_wait在这里
   int nfds = epoll_wait_impl(epoll_fd_,
                              events,
                              events_size,
@@ -679,7 +686,7 @@ void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
     for (int i = 0; i < nfds; ++i) {
       int event_mask = events[i].events;
       int fd = events[i].data.fd;
-      HandleEvent(fd, event_mask);
+      HandleEvent(fd, event_mask);//处理该fd上面的各种读写事件信息存入CBAndEventMask，然后加入到ready_list_队列
     }
   } else if (nfds < 0) {
     // Catch interrupted syscall and just ignore it and move on.
@@ -692,8 +699,8 @@ void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
   }
 
   // Now run through the ready list.
-  if (ready_list_.lh_first) {
-    CallReadyListCallbacks();
+  if (ready_list_.lh_first) { 
+    CallReadyListCallbacks();//网络读写事件处理
   }
 }
 
@@ -702,11 +709,11 @@ void EpollServer::CallReadyListCallbacks() {
   DCHECK(tmp_list_.lh_first == NULL);
   // Swap out the ready_list_ into the tmp_list_ before traversing the list to
   // enable SetFDReady() to just push new items into the ready_list_.
-  std::swap(ready_list_.lh_first, tmp_list_.lh_first);
-  if (tmp_list_.lh_first) {
+  std::swap(ready_list_.lh_first, tmp_list_.lh_first); //
+  if (tmp_list_.lh_first) { 
     tmp_list_.lh_first->entry.le_prev = &tmp_list_.lh_first;
     EpollEvent event(0, false);
-    while (tmp_list_.lh_first != NULL) {
+    while (tmp_list_.lh_first != NULL) {//取出ready_list_队列上的所有CBAndEventMask信息，执行cb回调
       DCHECK_GT(ready_list_size_, 0);
       CBAndEventMask* cb_and_mask = tmp_list_.lh_first;
       RemoveFromReadyList(*cb_and_mask);
@@ -746,7 +753,7 @@ void EpollServer::CallAndReregisterAlarmEvents() {
 
   TimeToAlarmCBMap::iterator erase_it;
 
-  // execute alarms.
+  // execute alarms.  时间到的alarm执行对应的cb->OnAlarm
   for (TimeToAlarmCBMap::iterator i = alarm_map_.begin();
        i != alarm_map_.end();
       ) {
@@ -764,13 +771,13 @@ void EpollServer::CallAndReregisterAlarmEvents() {
       continue;
     }
     all_alarms_.erase(cb);
-    const int64 new_timeout_time_in_us = cb->OnAlarm();
+    const int64 new_timeout_time_in_us = cb->OnAlarm(); //执行alarm回调
 
     erase_it = i;
     ++i;
     alarm_map_.erase(erase_it);
 
-    if (new_timeout_time_in_us > 0) {
+    if (new_timeout_time_in_us > 0) { //需要重新设置alarm
       // We add to hash_set only if the new timeout is <= now_in_us.
       // if timeout is > now_in_us then we have no fear that this alarm
       // can be reexecuted in this loop, and hence we do not need to
@@ -800,7 +807,7 @@ int64 EpollAlarm::OnAlarm() {
   return 0;
 }
 
-//EpollServer::RegisterAlarm中执行
+//EpollServer::RegisterAlarm   EpollServer::RegisterFD中执行
 void EpollAlarm::OnRegistration(const EpollServer::AlarmRegToken& token,
                                 EpollServer* eps) {
   DCHECK_EQ(false, registered_);
