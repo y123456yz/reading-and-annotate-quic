@@ -771,6 +771,7 @@ void EpollServer::CallAndReregisterAlarmEvents() {
       continue;
     }
     all_alarms_.erase(cb);
+	//EpollAlarmImpl::OnAlarm
     const int64 new_timeout_time_in_us = cb->OnAlarm(); //Ö´ÐÐalarm»Øµ÷
 
     erase_it = i;

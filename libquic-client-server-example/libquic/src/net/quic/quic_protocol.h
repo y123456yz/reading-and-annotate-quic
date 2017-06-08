@@ -197,12 +197,16 @@ const uint64 kUFloat16MaxValue =  // 0x3FFC0000000
 enum TransmissionType {
   NOT_RETRANSMISSION,
   FIRST_TRANSMISSION_TYPE = NOT_RETRANSMISSION,
+  //握手协商帧信息超时重传
   HANDSHAKE_RETRANSMISSION,  // Retransmits due to handshake timeouts.
   ALL_UNACKED_RETRANSMISSION,  // Retransmits all unacked packets.
   ALL_INITIAL_RETRANSMISSION,  // Retransmits all initially encrypted packets.
   LOSS_RETRANSMISSION,  // Retransmits due to loss detection.
+  //RTO（Retransmission TimeOut）即重传超时时间。
   RTO_RETRANSMISSION,  // Retransmits due to retransmit time out.
-  TLP_RETRANSMISSION,  // Tail loss probes.
+  //如果拥塞窗口较小且数据的最后一段数据丢失时，快速重传算法会因为无法收到足够数量的ACK而无法及时重传丢失的报文。
+  //尾部丢失探测（Tail Loss Probe）定时器就是为了解决这个问题而设计的。参考http://blog.csdn.net/u011130578/article/details/44974645
+  TLP_RETRANSMISSION,  // Tail loss probes. 尾部丢失探测(Tail Loss Probe)
   LAST_TRANSMISSION_TYPE = TLP_RETRANSMISSION,
 };
 
@@ -877,9 +881,19 @@ enum CongestionControlType {
   kBBR,
 };
 
-enum LossDetectionType {
-  kNack,  // Used to mimic TCP's loss detection.
-  kTime,  // Time based loss detection.
+//LossDetectionInterface::Create中创建类TimeLossAlgorithm  TCPLossAlgorithm的时候需要制定类型
+enum LossDetectionType { //默认选择哪个type在FLAGS_quic_use_time_loss_detection中制定
+/*
+switch (loss_type) {
+case kNack:
+  return new TCPLossAlgorithm();
+case kTime:
+  return new TimeLossAlgorithm();
+}
+*/
+//分别对应两个类:TimeLossAlgorithm  LossDetectionInterface
+  kNack,  // Used to mimic TCP's loss detection.  默认为该类型,对应TCPLossAlgorithm类
+  kTime,  // Time based loss detection.  对应TimeLossAlgorithm类
 };
 
 struct NET_EXPORT_PRIVATE QuicRstStreamFrame {
@@ -1138,7 +1152,7 @@ struct NET_EXPORT_PRIVATE SerializedPacket { //QuicPacketCreator::SerializePacke
   ~SerializedPacket();
 
   QuicEncryptedPacket* packet;
-  RetransmittableFrames* retransmittable_frames;
+  RetransmittableFrames* retransmittable_frames; //不为null说明packet需要重传
   QuicPacketSequenceNumber sequence_number;
   QuicSequenceNumberLength sequence_number_length;
   QuicPacketEntropyHash entropy_hash; //赋值一般在GetPacketEntropyHash
@@ -1172,7 +1186,8 @@ struct NET_EXPORT_PRIVATE TransmissionInfo { //AddSentPacket中会用该类
   // Must always be nullptr or have multiple elements.
   SequenceNumberList* all_transmissions;
   // In flight packets have not been abandoned or lost.
-  bool in_flight;
+  //有在传输过程中的packet
+  bool in_flight; //发送package后等待ack，在AddSentPacket中置true，RemoveFromInFlight置false
   // True if the packet can never be acked, so it can be removed.
   bool is_unackable;
   // True if the packet is an FEC packet.

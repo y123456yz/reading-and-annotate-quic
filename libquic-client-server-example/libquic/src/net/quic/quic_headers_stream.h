@@ -76,7 +76,8 @@ class NET_EXPORT_PRIVATE QuicHeadersStream : public ReliableQuicStream {
   bool fin_;
   size_t frame_len_;
 
-  SpdyFramer spdy_framer_;
+  //¸³Öµ¼ûQuicHeadersStream::QuicHeadersStream
+  SpdyFramer spdy_framer_; 
   scoped_ptr<SpdyFramerVisitor> spdy_framer_visitor_;
 
   DISALLOW_COPY_AND_ASSIGN(QuicHeadersStream);

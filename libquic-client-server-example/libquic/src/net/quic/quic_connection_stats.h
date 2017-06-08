@@ -53,11 +53,12 @@ struct NET_EXPORT_PRIVATE QuicConnectionStats { //统计相关
 
   QuicPacketCount packets_revived;
   QuicPacketCount packets_dropped;  // Duplicate or less than least unacked.
-  size_t crypto_retransmit_count;
+  size_t crypto_retransmit_count; //统计赋值见OnRetransmissionTimeout
   // Count of times the loss detection alarm fired.  At least one packet should
   // be lost when the alarm fires.
-  size_t loss_timeout_count;
-  size_t tlp_count;
+  size_t loss_timeout_count; //统计赋值见OnRetransmissionTimeout
+  size_t tlp_count; //统计赋值见OnRetransmissionTimeout
+  //统计赋值见OnRetransmissionTimeout
   size_t rto_count;  // Count of times the rto timer fired.
 
   int64 min_rtt_us;  // Minimum RTT in microseconds.

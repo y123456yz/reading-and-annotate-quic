@@ -315,7 +315,7 @@ class NET_EXPORT_PRIVATE SpdyFramerDebugVisitorInterface {
                                         size_t frame_len) {}
 };
 
-class NET_EXPORT_PRIVATE SpdyFramer {
+class NET_EXPORT_PRIVATE SpdyFramer {//QuicHeadersStream.spdy_framer_为该类类型
  public:
   // SPDY states.
   // TODO(mbelshe): Can we move these into the implementation
@@ -737,8 +737,8 @@ class NET_EXPORT_PRIVATE SpdyFramer {
   scoped_ptr<HpackEncoder> hpack_encoder_;
   scoped_ptr<HpackDecoder> hpack_decoder_;
 
-  SpdyFramerVisitorInterface* visitor_;
-  SpdyFramerDebugVisitorInterface* debug_visitor_;
+  SpdyFramerVisitorInterface* visitor_; //赋值见QuicHeadersStream::QuicHeadersStream
+  SpdyFramerDebugVisitorInterface* debug_visitor_; //赋值见QuicHeadersStream::QuicHeadersStream
 
   std::string display_protocol_;
 

@@ -12,11 +12,11 @@ using std::string;
 
 namespace net {
 
-namespace {
+//namespace { yang add change
 
 const QuicStreamId kInvalidStreamId = 0;
 
-}  // namespace
+//}  // namespace
 
 // A SpdyFramer visitor which passed SYN_STREAM and SYN_REPLY frames to
 // the QuicDataStream, and closes the connection if any unexpected frames

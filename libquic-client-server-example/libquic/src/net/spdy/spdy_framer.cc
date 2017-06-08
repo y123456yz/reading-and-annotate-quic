@@ -24,7 +24,7 @@ using std::vector;
 
 namespace net {
 
-namespace {
+//namespace { yang add change
 
 // Compute the id of our dictionary so that we know we're using the
 // right one when asked for it.
@@ -89,7 +89,7 @@ const size_t kPriorityWeightPayloadSize = 1;
 // Wire size of pad length field.
 const size_t kPadLengthFieldSize = 1;
 
-}  // namespace
+//}  // namespace
 
 const SpdyStreamId SpdyFramer::kInvalidStream = static_cast<SpdyStreamId>(-1);
 const size_t SpdyFramer::kHeaderDataChunkMaxSize = 1024;

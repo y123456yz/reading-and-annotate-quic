@@ -62,6 +62,7 @@ bool HasCryptoHandshake(const TransmissionInfo& transmission_info) {
 #define ENDPOINT \
   (perspective_ == Perspective::IS_SERVER ? "Server: " : "Client: ")
 
+//QuicConnection::QuicConnection()中调用该构造函数
 QuicSentPacketManager::QuicSentPacketManager(
     Perspective perspective,
     const QuicClock* clock,
@@ -387,11 +388,13 @@ void QuicSentPacketManager::NeuterUnencryptedPackets() {
   }
 }
 
+//sequence_number和transmission_type 入队到pending_retransmissions_ map表
 void QuicSentPacketManager::MarkForRetransmission(
     QuicPacketSequenceNumber sequence_number,
     TransmissionType transmission_type) {
   const TransmissionInfo& transmission_info =
       unacked_packets_.GetTransmissionInfo(sequence_number);
+  
   LOG_IF(DFATAL, transmission_info.retransmittable_frames == nullptr);
   // Both TLP and the new RTO leave the packets in flight and let the loss
   // detection decide if packets are lost.
@@ -401,7 +404,7 @@ void QuicSentPacketManager::MarkForRetransmission(
   }
   // TODO(ianswett): Currently the RTO can fire while there are pending NACK
   // retransmissions for the same data, which is not ideal.
-  if (ContainsKey(pending_retransmissions_, sequence_number)) {
+  if (ContainsKey(pending_retransmissions_, sequence_number)) { //从pending_retransmissions_队列查找sequence_number的成员
     return;
   }
 
@@ -602,7 +605,7 @@ void QuicSentPacketManager::OnRetransmissionTimeout() {
   switch (GetRetransmissionMode()) {
     case HANDSHAKE_MODE:
       ++stats_->crypto_retransmit_count;
-      RetransmitCryptoPackets();
+      RetransmitCryptoPackets(); //握手协商报文超时标识处理，把超时的握手协商报文标记到pending_retransmissions_ map表中
       return;
     case LOSS_MODE: {
       ++stats_->loss_timeout_count;
@@ -627,19 +630,24 @@ void QuicSentPacketManager::OnRetransmissionTimeout() {
   }
 }
 
+//握手协商报文超时标识处理，把超时的握手协商报文标记到pending_retransmissions_ map表中
 void QuicSentPacketManager::RetransmitCryptoPackets() {
   DCHECK_EQ(HANDSHAKE_MODE, GetRetransmissionMode());
+  
   ++consecutive_crypto_retransmission_count_;
   bool packet_retransmitted = false;
+  
   QuicPacketSequenceNumber sequence_number = unacked_packets_.GetLeastUnacked();
   for (QuicUnackedPacketMap::const_iterator it = unacked_packets_.begin();
-       it != unacked_packets_.end(); ++it, ++sequence_number) {
+       it != unacked_packets_.end(); ++it, ++sequence_number) { //从unacked_packets_队列投开始找出第一个握手协商package
     // Only retransmit frames which are in flight, and therefore have been sent.
     if (!it->in_flight || it->retransmittable_frames == nullptr ||
-        it->retransmittable_frames->HasCryptoHandshake() != IS_HANDSHAKE) {
+        it->retransmittable_frames->HasCryptoHandshake() != IS_HANDSHAKE) { //这里只重传unack的握手协商package
       continue;
     }
+	
     packet_retransmitted = true;
+	//握手协商报文超时标识处理，把超时的握手协商报文标记到pending_retransmissions_ map表中
     MarkForRetransmission(sequence_number, HANDSHAKE_RETRANSMISSION);
     ++pending_timer_transmission_count_;
   }
@@ -697,14 +705,18 @@ void QuicSentPacketManager::RetransmitRtoPackets() {
 
 QuicSentPacketManager::RetransmissionTimeoutMode
     QuicSentPacketManager::GetRetransmissionMode() const {
-  DCHECK(unacked_packets_.HasInFlightPackets());
+  DCHECK(unacked_packets_.HasInFlightPackets()); //必须保证unack map表中有未ack的package
+  
   if (!handshake_confirmed_ && unacked_packets_.HasPendingCryptoPackets()) {
     return HANDSHAKE_MODE;
   }
+
+  //TCPLossAlgorithm->GetLossTimeout()
   if (loss_algorithm_->GetLossTimeout() != QuicTime::Zero()) {
     return LOSS_MODE;
   }
   if (consecutive_tlp_count_ < max_tail_loss_probes_) {
+  	//还有在传输过程中的packet并且packet需要ack，但是还没有收到ack
     if (unacked_packets_.HasUnackedRetransmittableFrames()) {
       return TLP_MODE;
     }

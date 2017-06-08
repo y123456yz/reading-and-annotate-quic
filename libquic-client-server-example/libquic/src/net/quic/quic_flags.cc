@@ -7,7 +7,8 @@
 bool FLAGS_quic_allow_oversized_packets_for_test = false;
 
 // When true, the use time based loss detection instead of nack.
-bool FLAGS_quic_use_time_loss_detection = false;
+//Ä¬ÈÏkNack  FLAGS_quic_use_time_loss_detection ? kTime : kNack,
+bool FLAGS_quic_use_time_loss_detection = false; //¼ûLossDetectionType
 
 // If true, it will return as soon as an error is detected while validating
 // CHLO.

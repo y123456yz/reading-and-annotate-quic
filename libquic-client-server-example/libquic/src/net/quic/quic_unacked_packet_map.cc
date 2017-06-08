@@ -289,6 +289,7 @@ bool QuicUnackedPacketMap::IsUnacked(
                           unacked_packets_[sequence_number - least_unacked_]);
 }
 
+//现在要重传之前的package了，那么之前标记为flight的package重新置为false
 void QuicUnackedPacketMap::RemoveFromInFlight(
     QuicPacketSequenceNumber sequence_number) {
   DCHECK_GE(sequence_number, least_unacked_);
@@ -325,6 +326,8 @@ bool QuicUnackedPacketMap::HasInFlightPackets() const {
   return bytes_in_flight_ > 0;
 }
 
+//获取sequece为sequence_number的package
+//sequence_number为报文sequence_number  least_unacked_为unacked_packets_队列首部的package的sequence_number，相见刚好得到对应的package
 const TransmissionInfo& QuicUnackedPacketMap::GetTransmissionInfo(
     QuicPacketSequenceNumber sequence_number) const {
   return unacked_packets_[sequence_number - least_unacked_];
@@ -374,6 +377,7 @@ bool QuicUnackedPacketMap::HasPendingCryptoPackets() const {
   return pending_crypto_packet_count_ > 0;
 }
 
+//还有在传输过程中的packet并且packet需要ack，但是还没有收到ack
 bool QuicUnackedPacketMap::HasUnackedRetransmittableFrames() const {
   for (UnackedPacketMap::const_reverse_iterator it =
            unacked_packets_.rbegin(); it != unacked_packets_.rend(); ++it) {

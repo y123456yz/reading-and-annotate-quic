@@ -8,7 +8,7 @@
 #include "net/quic/quic_protocol.h"
 
 namespace net {
-namespace {
+//namespace { yang add change
 
 // The minimum delay before a packet will be considered lost,
 // regardless of SRTT.  Half of the minimum TLP, since the loss algorithm only
@@ -18,7 +18,7 @@ static const size_t kMinLossDelayMs = 5;
 // How many RTTs the algorithm waits before determining a packet is lost.
 static const double kLossDelayMultiplier = 1.25;
 
-}  // namespace
+//}  // namespace
 
 TimeLossAlgorithm::TimeLossAlgorithm()
     : loss_detection_timeout_(QuicTime::Zero()) { }

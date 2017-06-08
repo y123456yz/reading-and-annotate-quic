@@ -16,6 +16,8 @@ namespace net {
 class QuicUnackedPacketMap;
 class RttStats;
 
+//LossDetectionInterface::Create中创建类TimeLossAlgorithm  LossDetectionInterface
+//FLAGS_quic_use_time_loss_detection决定用那个类
 class NET_EXPORT_PRIVATE LossDetectionInterface {
  public:
   // Creates a TCP loss detector.

@@ -985,6 +985,7 @@ class EpollAlarmCallbackInterface { //EpollAlarm类实现虚拟接口
   // Returns:
   //   the unix time (in microseconds) at which this alarm should be signaled
   //   again, or 0 if the alarm should be removed.
+  //实现接口为EpollAlarmImpl::OnAlarm
   virtual int64 OnAlarm() = 0;//接口函数执行见CallAndReregisterAlarmEvents
 
   // Summary:
@@ -1033,7 +1034,7 @@ class EpollAlarm : public EpollAlarmCallbackInterface {
 
   // Marks the alarm as unregistered and returns 0.  The return value may be
   // safely ignored by subclasses.
-  int64 OnAlarm() override;
+  int64 OnAlarm() override; //被EpollAlarmImpl::OnAlarm复写
 
   // Marks the alarm as registered, and stores the token.
   void OnRegistration(const EpollServer::AlarmRegToken& token,

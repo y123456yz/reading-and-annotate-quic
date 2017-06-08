@@ -170,13 +170,15 @@ class NET_EXPORT_PRIVATE QuicUnackedPacketMap {
   // be removed from the map and the new entry's retransmittable frames will be
   // set to nullptr.
   //发送了包，但是还未unacked的包入队到该map中，见AddSentPacket
-  UnackedPacketMap unacked_packets_;
-  // The packet at the 0th index of unacked_packets_.
-  QuicPacketSequenceNumber least_unacked_;
+  UnackedPacketMap unacked_packets_; //获取某个sequece的package见GetTransmissionInfo
+  // The packet at the 0th index of unacked_packets_.  
+  //在unacked_packets_队列的第一个成员，重传的时候取出第一个package即可.
+  //从unacked_packets_.pop_front会自增，自增后的值刚好为unacked_packets_队列第一个package的QuicPacketSequenceNumber
+  QuicPacketSequenceNumber least_unacked_; //RemoveObsoletePackets  ClearAllPreviousRetransmissions  
 
-  QuicByteCount bytes_in_flight_;
+  QuicByteCount bytes_in_flight_; //入队到unacked_packets_  map表中的所有package的总字节数，赋值见AddSentPacket
   // Number of retransmittable crypto handshake packets.
-  size_t pending_crypto_packet_count_;
+  size_t pending_crypto_packet_count_; //入队到unacked_packets_ map表中的所有package总包数，赋值见AddSentPacket
 
   DISALLOW_COPY_AND_ASSIGN(QuicUnackedPacketMap);
 };

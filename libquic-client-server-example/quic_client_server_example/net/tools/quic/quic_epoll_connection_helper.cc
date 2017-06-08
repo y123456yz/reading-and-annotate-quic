@@ -55,14 +55,17 @@ class QuicEpollAlarm : public QuicAlarm {  //下面的EpollAlarmImpl类中包含QuicEpo
    public:
     explicit EpollAlarmImpl(QuicEpollAlarm* alarm) : alarm_(alarm) {}
 
-    int64 OnAlarm() override {
+    int64 OnAlarm() override {//接口函数执行见CallAndReregisterAlarmEvents
       EpollAlarm::OnAlarm();
+	  //AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+	  //这些类的fire函数接口
       alarm_->Fire();
       // Fire will take care of registering the alarm, if needed.
       return 0;
     }
 
    private:
+   	//AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
     QuicEpollAlarm* alarm_;
   };
 

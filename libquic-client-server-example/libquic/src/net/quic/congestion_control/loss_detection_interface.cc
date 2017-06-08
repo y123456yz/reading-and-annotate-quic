@@ -10,6 +10,7 @@
 namespace net {
 
 // Factory for loss detection algorithm.
+//QuicSentPacketManager::QuicSentPacketManager中调用执行
 LossDetectionInterface* LossDetectionInterface::Create(
     LossDetectionType loss_type) {
   switch (loss_type) {

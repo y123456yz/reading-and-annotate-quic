@@ -18,6 +18,9 @@ namespace net {
 
 // Class which implement's TCP's approach of detecting loss when 3 nacks have
 // been received for a packet.  Also implements TCP's early retransmit(RFC5827).
+
+//LossDetectionInterface::Create中创建类TimeLossAlgorithm  TCPLossAlgorithm
+//FLAGS_quic_use_time_loss_detection决定用那个类
 class NET_EXPORT_PRIVATE TCPLossAlgorithm : public LossDetectionInterface {
  public:
   // TCP retransmits after 3 nacks.
@@ -39,6 +42,7 @@ class NET_EXPORT_PRIVATE TCPLossAlgorithm : public LossDetectionInterface {
   QuicTime GetLossTimeout() const override;
 
  private:
+ //默认为QuicTime::Zero();  DetectLostPackets中进行更新
   QuicTime loss_detection_timeout_;
 
   DISALLOW_COPY_AND_ASSIGN(TCPLossAlgorithm);

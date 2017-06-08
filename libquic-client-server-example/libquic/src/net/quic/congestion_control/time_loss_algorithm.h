@@ -18,6 +18,12 @@ namespace net {
 
 // A loss detection algorithm which avoids spurious losses and retransmissions
 // by waiting 1.25 RTTs after a packet was sent instead of nack count.
+/*
+一个丢失的检测算法，避免虚假的package丢失和重传
+虚假报文丢失和重传会有1.25个RTTs等待时间，
+*/
+
+//LossDetectionInterface::Create中创建类TimeLossAlgorithm  TCPLossAlgorithm    FLAGS_quic_use_time_loss_detection决定用那个类
 class NET_EXPORT_PRIVATE TimeLossAlgorithm : public LossDetectionInterface {
  public:
   TimeLossAlgorithm();

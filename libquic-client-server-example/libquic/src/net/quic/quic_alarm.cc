@@ -47,6 +47,7 @@ bool QuicAlarm::IsSet() const {
   return deadline_.IsInitialized();
 }
 
+//执行对应AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm的OnAlarm
 void QuicAlarm::Fire() {
   if (!deadline_.IsInitialized()) {
     return;
@@ -57,7 +58,7 @@ void QuicAlarm::Fire() {
   // delegate_->OnAlarm() might call Set(), in which case  deadline_ will
   // already contain the new value, so don't overwrite it.
   if (!deadline_.IsInitialized() && deadline.IsInitialized()) {
-    Set(deadline);
+    Set(deadline); //继续设置alarm
 	VLOG(4) << "Fire  alarm";
   }
 }

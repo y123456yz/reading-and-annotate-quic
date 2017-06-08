@@ -849,7 +849,7 @@ client测试例子在QuicClient::Connect中构造类
   // Sent packet manager which tracks the status of packets sent by this
   // connection and contains the send and receive algorithms to determine when
   // to send packets.
-  QuicSentPacketManager sent_packet_manager_;//set_debug_visitor中赋值
+  QuicSentPacketManager sent_packet_manager_;//QuicConnection::QuicConnection()   set_debug_visitor中赋值
 
   // The state of connection in version negotiation finite state machine.
   QuicVersionNegotiationState version_negotiation_state_;

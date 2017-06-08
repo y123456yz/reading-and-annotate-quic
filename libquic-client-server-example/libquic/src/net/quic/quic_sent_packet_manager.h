@@ -37,7 +37,7 @@ struct QuicConnectionStats;
 // retransmittable data associated with each packet. If a packet is
 // retransmitted, it will keep track of each version of a packet so that if a
 // previous transmission is acked, the data will not be retransmitted.
-class NET_EXPORT_PRIVATE QuicSentPacketManager {
+class NET_EXPORT_PRIVATE QuicSentPacketManager { //QuicConnection类中包含该类成员QuicSentPacketManager sent_packet_manager_
  public:
   // Interface which gets callbacks from the QuicSentPacketManager at
   // interesting points.  Implementations must not mutate the state of
@@ -110,6 +110,7 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
 
   void SetNumOpenStreams(size_t num_streams);
 
+  //OnHandshakeComplete 握手完成赋值
   void SetHandshakeConfirmed() { handshake_confirmed_ = true; }
 
   // Processes the incoming ack.
@@ -261,16 +262,18 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
     // A conventional TCP style RTO.
     RTO_MODE,
     // A tail loss probe.  By default, QUIC sends up to two before RTOing.
-    TLP_MODE,
+    //尾部丢失探测(Tail Loss Probe)   参考http://blog.csdn.net/u011130578/article/details/44974645
+    //如果拥塞窗口较小且数据的最后一段数据丢失时，快速重传算法会因为无法收到足够数量的ACK而无法及时重传丢失的报文。尾部丢失探测（Tail Loss Probe）定时器就是为了解决这个问题而设计的。
+    TLP_MODE,  //还有在传输过程中的packet并且packet需要ack，但是还没有收到ack
     // Retransmission of handshake packets prior to handshake completion.
-    HANDSHAKE_MODE,
+    HANDSHAKE_MODE, //握手协商阶段
     // Re-invoke the loss detection when a packet is not acked before the
     // loss detection algorithm expects.
     LOSS_MODE,
   };
 
   typedef linked_hash_map<QuicPacketSequenceNumber,
-                          TransmissionType> PendingRetransmissionMap;
+                          TransmissionType> PendingRetransmissionMap; //使用方法参考MarkForRetransmission
 
   // Updates the least_packet_awaited_by_peer.
   void UpdatePacketInformationReceivedByPeer(const QuicAckFrame& ack_frame);
@@ -350,10 +353,12 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
   // If the old packet is acked before the new packet, then the old entry will
   // be removed from the map and the new entry's retransmittable frames will be
   // set to nullptr.
-  QuicUnackedPacketMap unacked_packets_;
+
+  //发送出去但是未收到ack的package，会入队到 QuicUnackedPacketMap::unacked_packets_ map表中
+  QuicUnackedPacketMap unacked_packets_; 
 
   // Pending retransmissions which have not been packetized and sent yet.
-  PendingRetransmissionMap pending_retransmissions_;
+  PendingRetransmissionMap pending_retransmissions_; //MarkForRetransmission中入队
 
   // Tracks if the connection was created by the server or the client.
   Perspective perspective_;
@@ -370,6 +375,7 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
   const QuicPacketCount initial_congestion_window_;
   RttStats rtt_stats_;
   scoped_ptr<SendAlgorithmInterface> send_algorithm_;
+  //QuicSentPacketManager::QuicSentPacketManager()构造函数赋值loss_algorithm_(LossDetectionInterface::Create(loss_type))
   scoped_ptr<LossDetectionInterface> loss_algorithm_;
   bool n_connection_simulation_;
 
@@ -383,15 +389,20 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
   // it indicates the RTO was spurious and should be reversed(F-RTO).
   QuicPacketSequenceNumber first_rto_transmission_;
   // Number of times the RTO timer has fired in a row without receiving an ack.
+  
+  //以下三个变量，程序运行过程中，在QuicSentPacketManager::OnIncomingAck中置0
   size_t consecutive_rto_count_;
   // Number of times the tail loss probe has been sent.
-  size_t consecutive_tlp_count_;
+  size_t consecutive_tlp_count_; //OnRetransmissionTimeout中自增，该变量生效见GetRetransmissionMode
   // Number of times the crypto handshake has been retransmitted.
-  size_t consecutive_crypto_retransmission_count_;
+  size_t consecutive_crypto_retransmission_count_; //RetransmitCryptoPackets自增
+
+  
   // Number of pending transmissions of TLP, RTO, or crypto packets.
-  size_t pending_timer_transmission_count_;
+  //RetransmitCryptoPackets  RetransmitRtoPackets自增   OnPacketSent自减
+  size_t pending_timer_transmission_count_; //pending_retransmissions_ map表中还为打包发送的包个数
   // Maximum number of tail loss probes to send before firing an RTO.
-  size_t max_tail_loss_probes_;
+  size_t max_tail_loss_probes_; //默认值 kDefaultMaxTailLossProbes
   bool using_pacing_;
   // If true, use the new RTO with loss based CWND reduction instead of the send
   // algorithms's OnRetransmissionTimeout to reduce the congestion window.
@@ -405,7 +416,7 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager {
   // this is true we no longer use HANDSHAKE_MODE, and further frames sent on
   // the crypto stream (i.e. SCUP messages) are treated like normal
   // retransmittable frames.
-  bool handshake_confirmed_;
+  bool handshake_confirmed_;  //OnHandshakeComplete 握手完成赋值
 
   // Records bandwidth from server to client in normal operation, over periods
   // of time with no loss events.

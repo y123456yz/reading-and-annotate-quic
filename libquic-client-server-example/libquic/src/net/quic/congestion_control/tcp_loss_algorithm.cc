@@ -9,7 +9,7 @@
 
 namespace net {
 
-namespace {
+//namespace { yang add change
 
 // The minimum delay before a packet will be considered lost,
 // regardless of SRTT.  Half of the minimum TLP, since the loss algorithm only
@@ -20,7 +20,7 @@ static const size_t kMinLossDelayMs = 5;
 // to early retransmission.
 static const double kEarlyRetransmitLossDelayMultiplier = 1.25;
 
-}  // namespace
+//}  // namespace
 
 TCPLossAlgorithm::TCPLossAlgorithm()
     : loss_detection_timeout_(QuicTime::Zero()) { }
