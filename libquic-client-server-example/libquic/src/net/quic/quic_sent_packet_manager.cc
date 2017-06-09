@@ -433,6 +433,8 @@ bool QuicSentPacketManager::HasPendingRetransmissions() const {
   return !pending_retransmissions_.empty();
 }
 
+//如果有握手协商报文，则获取unacked_packets_队列上面的第一个握手协商报文，如果没有则直接获取队列的第一个
+//包，然后组对应的PendingRetransmission
 QuicSentPacketManager::PendingRetransmission
     QuicSentPacketManager::NextPendingRetransmission() {
   LOG_IF(DFATAL, pending_retransmissions_.empty())
@@ -446,13 +448,15 @@ QuicSentPacketManager::PendingRetransmission
     for (const auto& pair : pending_retransmissions_) {
       if (HasCryptoHandshake(
               unacked_packets_.GetTransmissionInfo(pair.first))) {
-        sequence_number = pair.first;
+        //查找unacked_packets_队列上的第一个握手协商报文
+        sequence_number = pair.first; //
         transmission_type = pair.second;
         break;
       }
     }
   }
   DCHECK(unacked_packets_.IsUnacked(sequence_number)) << sequence_number;
+  
   const TransmissionInfo& transmission_info =
       unacked_packets_.GetTransmissionInfo(sequence_number);
   DCHECK(transmission_info.retransmittable_frames);
@@ -792,7 +796,7 @@ QuicTime::Delta QuicSentPacketManager::TimeUntilSend(
     HasRetransmittableData retransmittable) {
   // The TLP logic is entirely contained within QuicSentPacketManager, so the
   // send algorithm does not need to be consulted.
-  if (pending_timer_transmission_count_ > 0) {
+  if (pending_timer_transmission_count_ > 0) { //pending_retransmissions_表中还有未组包发送的数据
     return QuicTime::Delta::Zero();
   }
   return send_algorithm_->TimeUntilSend(

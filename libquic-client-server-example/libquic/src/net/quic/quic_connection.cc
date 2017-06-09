@@ -1121,7 +1121,7 @@ void QuicConnection::SendVersionNegotiationPacket() {
            << QuicVersionVectorToString(framer_.supported_versions()) << "}";
   scoped_ptr<QuicEncryptedPacket> version_packet(
       packet_generator_.SerializeVersionNegotiationPacket(
-          framer_.supported_versions()));
+          framer_.supported_versions())); //获取版本控制帧信息
   WriteResult result = writer_->WritePacket(
       version_packet->data(), version_packet->length(),
       self_address().address(), peer_address());
@@ -1139,7 +1139,7 @@ void QuicConnection::SendVersionNegotiationPacket() {
     return;
   }
 
-  pending_version_negotiation_packet_ = false;
+  pending_version_negotiation_packet_ = false; //版本协商帧发送成功，则置为false
 }
 
 QuicConsumedData QuicConnection::SendStreamData(
@@ -1316,7 +1316,7 @@ void QuicConnection::CheckForAddressMigration(
 void QuicConnection::OnCanWrite() {
   DCHECK(!writer_->IsWriteBlocked());
 
-  WriteQueuedPackets();
+  WriteQueuedPackets(); //发送之前发送为完成的queued_packets_队列上的数据
   WritePendingRetransmissions();
 
   // Sending queued packets may have caused the socket to become write blocked,
@@ -1384,7 +1384,7 @@ void QuicConnection::WriteQueuedPackets() {
   DCHECK(!writer_->IsWriteBlocked());
 
   if (pending_version_negotiation_packet_) {
-    SendVersionNegotiationPacket();
+    SendVersionNegotiationPacket(); //发送版本协商帧
   }
 
   QueuedPacketList::iterator packet_iterator = queued_packets_.begin();
@@ -1397,7 +1397,11 @@ void QuicConnection::WriteQueuedPackets() {
 void QuicConnection::WritePendingRetransmissions() {
   // Keep writing as long as there's a pending retransmission which can be
   // written.
-  while (sent_packet_manager_.HasPendingRetransmissions()) {
+  while (sent_packet_manager_.HasPendingRetransmissions()) { //pending_retransmissions_中有数据
+
+  
+	//如果有握手协商报文，则获取unacked_packets_队列上面的第一个握手协商报文，如果没有则直接获取队列的第一个
+	//包，然后组对应的PendingRetransmission
     const QuicSentPacketManager::PendingRetransmission pending =
         sent_packet_manager_.NextPendingRetransmission();
     if (!CanWrite(HAS_RETRANSMITTABLE_DATA)) {
@@ -1411,7 +1415,15 @@ void QuicConnection::WritePendingRetransmissions() {
     // Flush the packet generator before making a new packet.
     // TODO(ianswett): Implement ReserializeAllFrames as a separate path that
     // does not require the creator to be flushed.
+
+	
+	//发送所有的rst window更新 goaway等控制帧信息
+	//序列化queued_frames_队列上的所有帧信息
     packet_generator_.FlushAllQueuedFrames();
+
+
+	//发送pending帧
+	
     char buffer[kMaxPacketSize];
     SerializedPacket serialized_packet = packet_generator_.ReserializeAllFrames(
         pending.retransmittable_frames, pending.sequence_number_length, buffer,
@@ -1461,7 +1473,7 @@ bool QuicConnection::ShouldGeneratePacket(
   return CanWrite(retransmittable);
 }
 
-//判断是否需要延长发送数据
+//判断是否需要延时发送数据，返回ture可以发送，否则不能
 bool QuicConnection::CanWrite(HasRetransmittableData retransmittable) {
   if (!connected_) {
     return false;
@@ -1779,8 +1791,9 @@ void QuicConnection::SendAck() {
   packet_generator_.SetShouldSendAck(true);
 }
 
+//重传alarm到期处理
 void QuicConnection::OnRetransmissionTimeout() {
-  if (!sent_packet_manager_.HasUnackedPackets()) {
+  if (!sent_packet_manager_.HasUnackedPackets()) { //所有发出去的包都收到ack,直接返回
     return;
   }
 

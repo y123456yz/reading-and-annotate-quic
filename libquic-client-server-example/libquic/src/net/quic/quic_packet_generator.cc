@@ -248,15 +248,19 @@ bool QuicPacketGenerator::CanSendWithNextPendingFrameAddition() const {
   return delegate_->ShouldGeneratePacket(retransmittable, NOT_HANDSHAKE);
 }
 
+//发送所有的rst window更新 goaway等控制帧信息
+//序列化queued_frames_队列上的所有帧信息
 void QuicPacketGenerator::SendQueuedFrames(bool flush, bool is_fec_timeout) {
   // Only add pending frames if we are SURE we can then send the whole packet.
   while (HasPendingFrames() &&
          (flush || CanSendWithNextPendingFrameAddition())) {
-    if (!AddNextPendingFrame()) {
+    if (!AddNextPendingFrame()) { //发送所有的rst window更新 goaway等控制帧信息
       // Packet was full, so serialize and send it.
       SerializeAndSendPacket();
     }
   }
+
+  ////序列化queued_frames_队列上的所有帧信息
   if (packet_creator_.HasPendingFrames() && (flush || !InBatchMode())) {
     SerializeAndSendPacket();
   }
@@ -363,6 +367,9 @@ void QuicPacketGenerator::FinishBatchOperations() {
   SendQueuedFrames(/*flush=*/false, /*is_fec_timeout=*/false);
 }
 
+
+//发送所有的rst window更新 goaway等控制帧信息
+//序列化queued_frames_队列上的所有帧信息
 void QuicPacketGenerator::FlushAllQueuedFrames() {
   SendQueuedFrames(/*flush=*/true, /*is_fec_timeout=*/false);
 }
@@ -484,6 +491,7 @@ void QuicPacketGenerator::SetMaxPacketLength(QuicByteCount length, bool force) {
   }
 }
 
+//序列化版本协商帧信息
 QuicEncryptedPacket* QuicPacketGenerator::SerializeVersionNegotiationPacket(
     const QuicVersionVector& supported_versions) {
   return packet_creator_.SerializeVersionNegotiationPacket(supported_versions);

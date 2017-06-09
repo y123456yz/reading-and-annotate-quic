@@ -277,8 +277,8 @@ class NET_EXPORT_PRIVATE QuicPacketGenerator { //QuicConnection类包含QuicPacketG
   FecSendPolicy fec_send_policy_;
 
   // Flags to indicate the need for just-in-time construction of a frame.
-  bool should_send_ack_;
-  bool should_send_stop_waiting_;
+  bool should_send_ack_; //SetShouldSendAck中置为ture
+  bool should_send_stop_waiting_;//SetShouldSendAck中设置
   // If we put a non-retransmittable frame (ack frame) in this packet, then we
   // have to hold a reference to it until we flush (and serialize it).
   // Retransmittable frames are referenced elsewhere so that they

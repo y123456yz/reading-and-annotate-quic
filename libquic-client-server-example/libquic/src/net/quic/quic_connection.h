@@ -762,7 +762,9 @@ client测试例子在QuicClient::Connect中构造类
 
   // When the version negotiation packet could not be sent because the socket
   // was not writable, this is set to true.
-  bool pending_version_negotiation_packet_;
+
+  //SendVersionNegotiationPacket中置为true,表示需要发送版本协商帧
+  bool pending_version_negotiation_packet_; 
 
   // When packets could not be sent because the socket was not writable,
   // they are added to this list.  All corresponding frames are in

@@ -210,7 +210,8 @@ enum TransmissionType {
   LAST_TRANSMISSION_TYPE = TLP_RETRANSMISSION,
 };
 
-enum HasRetransmittableData {
+//属于那种data，见QuicConnection::IsRetransmittable, 
+enum HasRetransmittableData { //有没有需要重传的数据包
   NO_RETRANSMITTABLE_DATA,
   HAS_RETRANSMITTABLE_DATA,
 };

@@ -23,7 +23,8 @@ class NET_EXPORT_PRIVATE QuicPacketWriter {  //数据真正的发送处理在类QuicSocketU
   // status is WRITE_STATUS_OK and bytes_written is populated. If the write
   // failed, the result's status is WRITE_STATUS_BLOCKED or WRITE_STATUS_ERROR
   // and error_code is populated.
-  virtual WriteResult WritePacket(  //WritePacketInner中调用
+  //通过udp套接字发送数据  QuicSocketUtils::WritePacket，真正的数据发送在这里
+  virtual WriteResult WritePacket(  //WritePacketInner  SendVersionNegotiationPacket中调用
       const char* buffer, size_t buf_len,
       const IPAddressNumber& self_address,
       const IPEndPoint& peer_address) = 0;

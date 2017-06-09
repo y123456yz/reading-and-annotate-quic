@@ -17,7 +17,7 @@ using std::min;
 
 namespace net {
 
-namespace {
+//namespace {  yang add change 
 // Constants based on TCP defaults.
 // The minimum cwnd based on RFC 3782 (TCP NewReno) for cwnd reductions on a
 // fast retransmission.  The cwnd after a timeout is still 1.
@@ -26,7 +26,7 @@ const QuicByteCount kMaxSegmentSize = kDefaultTCPMSS;
 const QuicByteCount kMaxBurstBytes = 3 * kMaxSegmentSize;
 const float kRenoBeta = 0.7f;  // Reno backoff factor.
 const uint32 kDefaultNumConnections = 2;  // N-connection emulation.
-}  // namespace
+//}  // namespace
 
 TcpCubicSender::TcpCubicSender(const QuicClock* clock,
                                const RttStats* rtt_stats,

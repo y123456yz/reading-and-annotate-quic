@@ -75,7 +75,7 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager { //QuicConnectionÀàÖĞ°üº¬¸ÃÀà³ÉÔ
   };
 
   // Struct to store the pending retransmission information.
-  struct PendingRetransmission {
+  struct PendingRetransmission { //×éÀà¼ûNextPendingRetransmission
     PendingRetransmission(QuicPacketSequenceNumber sequence_number,
                           TransmissionType transmission_type,
                           const RetransmittableFrames& retransmittable_frames,
@@ -358,7 +358,8 @@ class NET_EXPORT_PRIVATE QuicSentPacketManager { //QuicConnectionÀàÖĞ°üº¬¸ÃÀà³ÉÔ
   QuicUnackedPacketMap unacked_packets_; 
 
   // Pending retransmissions which have not been packetized and sent yet.
-  PendingRetransmissionMap pending_retransmissions_; //MarkForRetransmissionÖĞÈë¶Ó
+  //MarkForRetransmissionÖĞÈë¶Ó£¬WritePendingRetransmissionsÖĞ×é°ü·¢ËÍ
+  PendingRetransmissionMap pending_retransmissions_; 
 
   // Tracks if the connection was created by the server or the client.
   Perspective perspective_;
