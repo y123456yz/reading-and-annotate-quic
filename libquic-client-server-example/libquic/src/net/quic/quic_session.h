@@ -292,6 +292,7 @@ class NET_EXPORT_PRIVATE QuicSession : public QuicConnectionVisitorInterface {
   base::hash_set<QuicStreamId> implicitly_created_streams_;
 
   // A list of streams which need to write more data.
+  //write如果超限，或者write返回again,则把帧信息添加到该队列，见MarkWriteBlocked
   QuicWriteBlockedList write_blocked_streams_;
 
   QuicStreamId largest_peer_created_stream_id_;

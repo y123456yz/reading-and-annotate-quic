@@ -80,6 +80,7 @@ class WriteBlockedList {
     return false;
   }
 
+  //根据stream_id从stream_to_priority_表中查找，如果不存在则
   void PushBack(IdType stream_id, SpdyPriority priority) {
     priority = ClampPriority(priority);
     DVLOG(2) << "Adding stream " << stream_id << " at priority "
@@ -87,12 +88,13 @@ class WriteBlockedList {
     bool should_insert_stream = true;
     typename StreamToPriorityMap::iterator iter =
         stream_to_priority_.find(stream_id);
-    if (iter != stream_to_priority_.end()) {
+        
+    if (iter != stream_to_priority_.end()) { //stream_id存在于stream_to_priority_表中
       DVLOG(1) << "Stream " << stream_id << " already in write blocked list.";
-      if (iter->second == priority) {
+      if (iter->second == priority) { //stream_id, SpdyPriority priority已经是map表中的一个成员，则不用更新map表
         // The stream is already in the write blocked list for the priority.
         should_insert_stream = false;
-      } else {
+      } else {//stream_id存在于map表中，但是其value值priority不一样，则从stream_to_priority_和write_blocked_lists_中移除
         // The stream is in a write blocked list for a different priority.
         bool removed =
             RemoveStreamFromWriteBlockedList(stream_id, iter->second);
@@ -108,11 +110,12 @@ class WriteBlockedList {
   bool RemoveStreamFromWriteBlockedList(IdType stream_id,
                                         SpdyPriority priority) {
     typename StreamToPriorityMap::iterator iter =
-        stream_to_priority_.find(stream_id);
-    if (iter == stream_to_priority_.end()) {
+        stream_to_priority_.find(stream_id);//根据stream_id查找stream_to_priority_表
+        
+    if (iter == stream_to_priority_.end()) { //没找到直接返回
       // The stream is not present in the write blocked list.
       return false;
-    } else if (iter->second == priority) {
+    } else if (iter->second == priority) { //stream_to_priority_表中存在stream_id--priority，则删除
       stream_to_priority_.erase(iter);
     } else {
       // The stream is not present at the specified priority level.
@@ -124,7 +127,7 @@ class WriteBlockedList {
     bool found = false;
     iterator it = std::find(write_blocked_lists_[priority].begin(),
                             write_blocked_lists_[priority].end(), stream_id);
-    while (it != write_blocked_lists_[priority].end()) {
+    while (it != write_blocked_lists_[priority].end()) { //把write_blocked_lists_表中stream_id节点删除
       found = true;
       iterator next_it = write_blocked_lists_[priority].erase(it);
       it = std::find(next_it, write_blocked_lists_[priority].end(), stream_id);
@@ -157,6 +160,7 @@ class WriteBlockedList {
 
   typedef base::hash_map<IdType, SpdyPriority> StreamToPriorityMap;
 
+  //以下两个变量都在 PushBack函数中赋值，移除见RemoveStreamFromWriteBlockedList
   BlockedList write_blocked_lists_[kLowestPriority + 1];
   StreamToPriorityMap stream_to_priority_;
 };

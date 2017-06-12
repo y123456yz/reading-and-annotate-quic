@@ -56,7 +56,7 @@ class ConnectionIdCleanUpAlarm : public QuicAlarm::Delegate {
 //                  the public reset packet back to the client.
 // packet - the pending public reset packet that is to be sent to the client.
 //          created instance takes the ownership of this packet.
-class QuicTimeWaitListManager::QueuedPacket {
+class QuicTimeWaitListManager::QueuedPacket { //该类在CreateQuicTimeWaitListManager进行new操作
  public:
   QueuedPacket(const IPEndPoint& server_address,
                const IPEndPoint& client_address,

@@ -23,12 +23,15 @@ namespace tools {
 //通过QuicEpollAlarm::SetImpl()->EpollServer::RegisterAlarm()衔接起来
 class QuicEpollAlarm : public QuicAlarm {  //下面的EpollAlarmImpl类中包含QuicEpollAlarm类成员
  public:
- /*
-   常用的alarm如下，参考QuicConnection::QuicConnection
-   该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
-      AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
-   上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+/*
+  常用的alarm如下，参考QuicConnection::QuicConnection
+  该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+	 AckAlarm  RetransmissionAlarm	SendAlarm  SendAlarm  TimeoutAlarm	PingAlarm  FecAlarm
+  上面的各种alarm类存储在QuicConnection的以下成员中:
+	 ack_alarm_  retransmission_alarm_	send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_	fec_alarm_
+  上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
 */
+
   //QuicEpollConnectionHelper::CreateAlarm()中new QuicEpollAlarm类
   QuicEpollAlarm(EpollServer* epoll_server,
                  QuicAlarm::Delegate* delegate)

@@ -35,6 +35,7 @@ class ProcessPacketInterface {
                              const QuicEncryptedPacket& packet) = 0;
 };
 
+//QuicServer->dispatcher_为该类类型
 class QuicDispatcher : public QuicServerSessionVisitor,
                        public ProcessPacketInterface,
                        public QuicBlockedWriterInterface {
@@ -215,6 +216,7 @@ class QuicDispatcher : public QuicServerSessionVisitor,
   SessionMap session_map_;
 
   // Entity that manages connection_ids in time wait state.
+  //赋值见QuicDispatcher::InitializeWithWriter
   scoped_ptr<QuicTimeWaitListManager> time_wait_list_manager_;
 
   // The list of closed but not-yet-deleted sessions.
@@ -227,7 +229,7 @@ class QuicDispatcher : public QuicServerSessionVisitor,
   scoped_ptr<QuicAlarm> delete_sessions_alarm_;
 
   // The writer to write to the socket with.
-  scoped_ptr<QuicPacketWriter> writer_;
+  scoped_ptr<QuicPacketWriter> writer_; //赋值见QuicDispatcher::InitializeWithWriter
 
   // Used to create per-connection packet writers, not |writer_| itself.
   scoped_ptr<PacketWriterFactory> packet_writer_factory_;

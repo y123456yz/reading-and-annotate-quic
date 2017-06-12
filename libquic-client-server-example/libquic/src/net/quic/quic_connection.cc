@@ -73,6 +73,14 @@ bool Near(QuicPacketSequenceNumber a, QuicPacketSequenceNumber b) {
   return delta <= kMaxPacketGap;
 }
 
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
 // An alarm that is scheduled to send an ack if a timeout occurs.
 class AckAlarm : public QuicAlarm::Delegate {
  public:
@@ -91,7 +99,16 @@ class AckAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(AckAlarm);
 };
 
-// This alarm will be scheduled any time a data-bearing packet is sent out.
+
+
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/// This alarm will be scheduled any time a data-bearing packet is sent out.
 // When the alarm goes off, the connection checks to see if the oldest packets
 // have been acked, and retransmit them if they have not.
 class RetransmissionAlarm : public QuicAlarm::Delegate {
@@ -113,6 +130,14 @@ class RetransmissionAlarm : public QuicAlarm::Delegate {
 
 // An alarm that is scheduled when the SentPacketManager requires a delay
 // before sending packets and fires when the packet may be sent.
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
 class SendAlarm : public QuicAlarm::Delegate {
  public:
   explicit SendAlarm(QuicConnection* connection)
@@ -132,6 +157,15 @@ class SendAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(SendAlarm);
 };
 
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
+
 class TimeoutAlarm : public QuicAlarm::Delegate {
  public:
   explicit TimeoutAlarm(QuicConnection* connection)
@@ -150,6 +184,14 @@ class TimeoutAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(TimeoutAlarm);
 };
 
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
 class PingAlarm : public QuicAlarm::Delegate {
  public:
   explicit PingAlarm(QuicConnection* connection)
@@ -167,7 +209,14 @@ class PingAlarm : public QuicAlarm::Delegate {
   DISALLOW_COPY_AND_ASSIGN(PingAlarm);
 };
 
-// This alarm may be scheduled when an FEC protected packet is sent out.
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/ // This alarm may be scheduled when an FEC protected packet is sent out.
 class FecAlarm : public QuicAlarm::Delegate {
  public:
   explicit FecAlarm(QuicPacketGenerator* packet_generator)
@@ -1317,7 +1366,7 @@ void QuicConnection::OnCanWrite() {
   DCHECK(!writer_->IsWriteBlocked());
 
   WriteQueuedPackets(); //发送之前发送为完成的queued_packets_队列上的数据
-  WritePendingRetransmissions();
+  WritePendingRetransmissions();//发送pending_retransmissions_中有数据
 
   // Sending queued packets may have caused the socket to become write blocked,
   // or the congestion manager to prohibit sending.  If we've sent everything
@@ -1329,7 +1378,7 @@ void QuicConnection::OnCanWrite() {
 
   { // Limit the scope of the bundler. ACK inclusion happens elsewhere.
     ScopedPacketBundler bundler(this, NO_ACK);
-    visitor_->OnCanWrite();
+    visitor_->OnCanWrite(); //VisitorShim::OnCanWrite
   }
 
   // After the visitor writes, it may have caused the socket to become write
@@ -1423,7 +1472,6 @@ void QuicConnection::WritePendingRetransmissions() {
 
 
 	//发送pending帧
-	
     char buffer[kMaxPacketSize];
     SerializedPacket serialized_packet = packet_generator_.ReserializeAllFrames(
         pending.retransmittable_frames, pending.sequence_number_length, buffer,
@@ -2094,7 +2142,7 @@ void QuicConnection::SetNetworkTimeouts(QuicTime::Delta overall_timeout,
   SetTimeoutAlarm();
 }
 
-//超时处理
+//CheckForTimeout超时处理，判断是否需要关闭连接，例如超过一定时间都没收到ack，则会关闭连接
 void QuicConnection::CheckForTimeout() {
   QuicTime now = clock_->ApproximateNow();
   QuicTime time_of_last_packet = max(time_of_last_received_packet_,
@@ -2103,14 +2151,16 @@ void QuicConnection::CheckForTimeout() {
   // |delta| can be < 0 as |now| is approximate time but |time_of_last_packet|
   // is accurate time. However, this should not change the behavior of
   // timeout handling.
-  QuicTime::Delta idle_duration = now.Subtract(time_of_last_packet);
+  QuicTime::Delta idle_duration = now.Subtract(time_of_last_packet); //最后一次发送非重传帧信息的时间到现在过了多久
   DVLOG(1) << ENDPOINT << "last packet "
            << time_of_last_packet.ToDebuggingValue()
            << " now:" << now.ToDebuggingValue()
            << " idle_duration:" << idle_duration.ToMicroseconds()
            << " idle_network_timeout: "
            << idle_network_timeout_.ToMicroseconds();
-  if (idle_duration >= idle_network_timeout_) {
+  
+  if (idle_duration >= idle_network_timeout_) { 
+  	//发送原始帧后idle_network_timeout_时间还没有收到对端ack，则直接关闭连接
     DVLOG(1) << ENDPOINT << "Connection timedout due to no network activity.";
     SendConnectionClose(QUIC_CONNECTION_TIMED_OUT);
     return;
@@ -2130,7 +2180,7 @@ void QuicConnection::CheckForTimeout() {
     }
   }
 
-  SetTimeoutAlarm();
+  SetTimeoutAlarm(); //重置超时alarm
 }
 
 void QuicConnection::SetTimeoutAlarm() {

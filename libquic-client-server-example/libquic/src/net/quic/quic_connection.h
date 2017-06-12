@@ -61,6 +61,8 @@ class QuicConnectionPeer;
 
 // Class that receives callbacks from the connection when frames are received
 // and when other interesting events happen.
+
+//接收到帧信息的时候的回调处理  VisitorShim类和QuicSession类继承实现该接口
 class NET_EXPORT_PRIVATE QuicConnectionVisitorInterface {
  public:
   virtual ~QuicConnectionVisitorInterface() {}
@@ -548,6 +550,8 @@ client测试例子在QuicClient::Connect中构造类
     // bundler is in scope, setting |include_ack| to true ensures that
     // an ACK frame is opportunistically bundled with the first
     // outgoing packet.
+
+    //ack捆绑相关
     ScopedPacketBundler(QuicConnection* connection, AckBundling send_ack);
     ~ScopedPacketBundler();
 
@@ -805,21 +809,23 @@ client测试例子在QuicClient::Connect中构造类
       //都是QuicEpollAlarm类
   */
   // An alarm that fires when an ACK should be sent to the peer.
-  scoped_ptr<QuicAlarm> ack_alarm_;
+  scoped_ptr<QuicAlarm> ack_alarm_; //OnHandshakeComplete或者MaybeQueueAck中设置启用alarm
   // An alarm that fires when a packet needs to be retransmitted.
-  scoped_ptr<QuicAlarm> retransmission_alarm_;
+  //OnRetransmissionTimeout或者WritePacketInner或者NeuterUnencryptedPackets NeuterUnencryptedPackets中设置启用alarm
+  scoped_ptr<QuicAlarm> retransmission_alarm_;  //帧重传alarm
   // An alarm that is scheduled when the SentPacketManager requires a delay
   // before sending packets and fires when the packet may be sent.
-  scoped_ptr<QuicAlarm> send_alarm_;
+  scoped_ptr<QuicAlarm> send_alarm_; //QuicConnection::CanWrite中设置启用alarm
   // An alarm that is scheduled when the connection can still write and there
   // may be more data to send.
-  scoped_ptr<QuicAlarm> resume_writes_alarm_;
+  scoped_ptr<QuicAlarm> resume_writes_alarm_; //QuicConnection::OnCanWrite中设置启用alarm
   // An alarm that fires when the connection may have timed out.
-  scoped_ptr<QuicAlarm> timeout_alarm_;
+  ////CheckForTimeout超时处理，判断是否需要关闭连接，例如超过一定时间都没收到ack，则会关闭连接
+  scoped_ptr<QuicAlarm> timeout_alarm_; //SetTimeoutAlarm中设置alarm   
   // An alarm that fires when a ping should be sent.
-  scoped_ptr<QuicAlarm> ping_alarm_;
+  scoped_ptr<QuicAlarm> ping_alarm_; //SetPingAlarm中设置alarm  
   // An alarm that fires when an FEC packet should be sent.
-  scoped_ptr<QuicAlarm> fec_alarm_;
+  scoped_ptr<QuicAlarm> fec_alarm_; //QuicConnection::MaybeSetFecAlarm中设置启用alarm
 
   // Neither visitor is owned by this class.
   QuicConnectionVisitorInterface* visitor_; //QuicSession::Initialize()中赋值 为new VisitorShim()
@@ -828,9 +834,9 @@ client测试例子在QuicClient::Connect中构造类
   QuicPacketGenerator packet_generator_;//set_debug_visitor中赋值
   
   // Network idle time before we kill of this connection.
-  QuicTime::Delta idle_network_timeout_;
+  QuicTime::Delta idle_network_timeout_; //赋值见SetNetworkTimeouts
   // Overall connection timeout.
-  QuicTime::Delta overall_connection_timeout_;
+  QuicTime::Delta overall_connection_timeout_;//赋值见SetNetworkTimeouts
 
   // Statistics for this session.
   QuicConnectionStats stats_;
@@ -840,8 +846,8 @@ client测试例子在QuicClient::Connect中构造类
   QuicTime time_of_last_received_packet_;
 
   // The last time this connection began sending a new (non-retransmitted)
-  // packet.
-  QuicTime time_of_last_sent_new_packet_; //本端最后一次发送数据包的时间，见VisitorShim
+  // packet.  //最后一次发送非重传帧的时间  见WritePacketInner
+  QuicTime time_of_last_sent_new_packet_; 
 
   // Sequence number of the last sent packet.  Packets are guaranteed to be sent
   // in sequence number order.  

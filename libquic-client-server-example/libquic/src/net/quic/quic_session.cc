@@ -33,6 +33,8 @@ namespace net {
 //
 // We could just override the base methods, but this makes it easier to make
 // sure we don't miss any.
+
+//QuicSession类中包含该类成员 scoped_ptr<VisitorShim> visitor_shim_;
 class VisitorShim : public QuicConnectionVisitorInterface {
  public:
   explicit VisitorShim(QuicSession* session) : session_(session) {}

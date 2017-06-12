@@ -13,7 +13,7 @@
 namespace net {
 
 // The interface for a random number generator.
-class NET_EXPORT_PRIVATE QuicRandom {
+class NET_EXPORT_PRIVATE QuicRandom { //DefaultRandom继承该类并实现虚拟接口
  public:
   virtual ~QuicRandom() {}
 

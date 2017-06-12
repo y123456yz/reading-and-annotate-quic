@@ -975,6 +975,15 @@ class EpollServer { //QuicEpollAlarm包含该类成员，epoll处理和QuicEpollAlarm相关
   DISALLOW_COPY_AND_ASSIGN(EpollServer);
 };
 
+/*
+ 常用的alarm如下，参考QuicConnection::QuicConnection
+ 该类接口在QuicEpollConnectionHelper::CreateAlarm赋值，实现该类虚拟即可在:
+    AckAlarm  RetransmissionAlarm  SendAlarm  SendAlarm  TimeoutAlarm  PingAlarm  FecAlarm
+ 上面的各种alarm类存储在QuicConnection的以下成员中:
+    ack_alarm_  retransmission_alarm_  send_alarm_  resume_writes_alarm_  timeout_alarm_  ping_alarm_  fec_alarm_
+ 上面的每种alarm都有对应独立的QuicEpollAlarm类，区别仅仅是QuicEpollAlarm::QuicAlarm::Delegate分别由各自的alarm实现
+*/
+
 //typedef EpollAlarmCallbackInterface AlarmCB;
 class EpollAlarmCallbackInterface { //EpollAlarm类实现虚拟接口
  public:

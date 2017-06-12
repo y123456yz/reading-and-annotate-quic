@@ -79,7 +79,7 @@ class QuicServer : public EpollCallbackInterface {
 
  private:
   // Accepts data from the framer and demuxes clients to sessions.
-  scoped_ptr<QuicDispatcher> dispatcher_;
+  scoped_ptr<QuicDispatcher> dispatcher_; 
   // Frames incoming packets and hands them to the dispatcher.
   EpollServer epoll_server_;
 

@@ -29,12 +29,12 @@
 
 namespace net {
 namespace tools {
-namespace {
+//namespace { yang add change
 
 const int kEpollFlags = EPOLLIN | EPOLLOUT | EPOLLET;
 const char kSourceAddressTokenSecret[] = "secret";
 
-}  // namespace
+//}  // namespace
 
 QuicServer::QuicServer(const QuicConfig& config,
                        const QuicVersionVector& supported_versions)
