@@ -212,6 +212,8 @@ void QuicClient::WaitForEvents() {
   epoll_server_->WaitForEventsAndExecuteCallbacks();
 }
 
+
+//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
 void QuicClient::OnEvent(int fd, EpollEvent* event) {
   DCHECK_EQ(fd, fd_);
 

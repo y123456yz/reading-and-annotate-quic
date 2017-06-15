@@ -159,11 +159,12 @@ void QuicServer::Shutdown() {
   fd_ = -1;
 }
 
+//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
 void QuicServer::OnEvent(int fd, EpollEvent* event) {
   DCHECK_EQ(fd, fd_);
   event->out_ready_mask = 0;
 
-  if (event->in_events & EPOLLIN) {
+  if (event->in_events & EPOLLIN) { //读事件
     DVLOG(1) << "EPOLLIN";
     bool read = true;
     while (read) {
@@ -172,13 +173,13 @@ void QuicServer::OnEvent(int fd, EpollEvent* event) {
 					 overflow_supported_ ? &packets_dropped_ : nullptr);
     }
   }
-  if (event->in_events & EPOLLOUT) {
+  if (event->in_events & EPOLLOUT) { //写事件
     dispatcher_->OnCanWrite();
     if (dispatcher_->HasPendingWrites()) {
       event->out_ready_mask |= EPOLLOUT;
     }
   }
-  if (event->in_events & EPOLLERR) {
+  if (event->in_events & EPOLLERR) {//错误事件信息
   }
 }
 
@@ -193,6 +194,7 @@ bool QuicServer::ReadAndDispatchSinglePacket(int fd,
 
   IPEndPoint client_address;
   IPAddressNumber server_ip;
+  //读取udp数据，并获取本端和对端的地址
   int bytes_read =
       QuicSocketUtils::ReadPacket(fd, buf, arraysize(buf),
                                   packets_dropped,
@@ -205,6 +207,7 @@ bool QuicServer::ReadAndDispatchSinglePacket(int fd,
   QuicEncryptedPacket packet(buf, bytes_read, false);
 
   IPEndPoint server_address(server_ip, port);
+  //QuicDispatcher::ProcessPacket
   dispatcher->ProcessPacket(server_address, client_address, packet);
 
   // The socket read was successful, so return true even if packet dispatch

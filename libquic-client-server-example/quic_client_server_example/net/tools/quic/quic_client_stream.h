@@ -3,6 +3,7 @@
 namespace net {
   namespace tools {
 
+    //
     class QuicClientStream: public ReliableQuicStream {
     public:
       QuicClientStream(QuicStreamId id, QuicSession* session);

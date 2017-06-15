@@ -71,7 +71,7 @@ class ReadPipeCallback : public EpollCallbackInterface {
     }
   }
 
-  /* 一下接口接口啥也没干 */
+  /* 以下接口接口啥也没干 */
   void OnShutdown(EpollServer* eps, int fd) override {}
   void OnRegistration(EpollServer*, int, int) override {}
   void OnModification(int, int) override {}     // COV_NF_LINE
@@ -411,10 +411,11 @@ void EpollServer::WaitForEventsAndExecuteCallbacks() {
 
   // wait for events.
   //epoll_wait等待网络事件到来或者超时	网络读写事件处理
+  //服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
   WaitForEventsAndCallHandleEvents(wait_time_in_us,
                                    events_,
                                    events_size_);
-  CallAndReregisterAlarmEvents();
+  CallAndReregisterAlarmEvents(); //alarm处理
   recorded_now_in_us_ = 0;
 }
 
@@ -641,7 +642,9 @@ void EpollServer::ModifyFD(int fd, int remove_event, int add_event) {
   }
 }
 
+//WaitForEventsAndCallHandleEvents网络事件处理，CallAndReregisterAlarmEvents进行alarm处理
 //epoll_wait等待网络事件到来或者超时  网络读写事件处理
+//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
 void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
                                                    struct epoll_event events[],
                                                    int events_size) {
@@ -704,6 +707,7 @@ void EpollServer::WaitForEventsAndCallHandleEvents(int64 timeout_in_us,
   }
 }
 
+//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
 void EpollServer::CallReadyListCallbacks() {
   // Check pre-conditions.
   DCHECK(tmp_list_.lh_first == NULL);
@@ -730,7 +734,8 @@ void EpollServer::CallReadyListCallbacks() {
         // invalidating the cb_and_mask object (by deleting the object in the
         // map to which cb_and_mask refers)
         TrueFalseGuard in_use_guard(&(cb_and_mask->in_use));
-        cb_and_mask->cb->OnEvent(cb_and_mask->fd, &event);
+		//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
+        cb_and_mask->cb->OnEvent(cb_and_mask->fd, &event); //网络事件处理
       }
 
       // Since OnEvent may have called UnregisterFD, we must check here that
@@ -747,6 +752,8 @@ void EpollServer::CallReadyListCallbacks() {
   DCHECK(tmp_list_.lh_first == NULL);
 }
 
+//WaitForEventsAndCallHandleEvents网络事件处理，CallAndReregisterAlarmEvents进行alarm处理
+//alarm处理
 void EpollServer::CallAndReregisterAlarmEvents() {
   int64 now_in_us = recorded_now_in_us_;
   DCHECK_NE(0, recorded_now_in_us_);

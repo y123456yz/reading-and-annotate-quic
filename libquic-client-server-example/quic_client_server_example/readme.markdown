@@ -16,3 +16,20 @@ The [documentation](documentation.markdown) file contains our findings and under
 The [howto](howto.markdown) file contains a description on how to implement your own QUIC using application, using the libquic library.
 ### Performance evaluation
 The [performance](performance.markdown) file contains the results of our performance test and instructions on how to reproduce them.
+
+
+
+
+# QUIC toy问题
+最近下班业务时间，走读了下代码，toy只能用来做简单的测试，用在生产环境中是不合适的，存在以下几个问题：   
+  
+网络异常处理考虑不全   
+大包传输网络读写事件处理返回EAGAIN没考虑，在极端情况会引起数据包读不全等问题。   
+该测试程序只是简单的单线程收发网络模型，无法充分利用现有的CPU多核机制，如果是用quic来做“长连接“（握手协商后一直复用该connect）处理，可以参考nginx的网络模型或者memcached网络模型来实现基于udp的网络模型。   
+toy中有份tcp和udp-quic的测试数据对比，实际上这个对比是没有意义的，因为toy中的udp-quic数据收发多了握手协商和加解密处理，因此没有可比性，应该拿测试中的udp-quic于https(带tls认证)来做对比。   
+至于你代码中说的出现短错误，这个你可以通过GDB调试或者启用coredump功能。   
+  
+# 建议：    
+在把quic使用到具体项目中前，最好把quic代码读透，否则线上出现问题，你没办法把控。  
+  
+toy例子只能作为简单的学习quic的工具，不适用于线上生产环境。  

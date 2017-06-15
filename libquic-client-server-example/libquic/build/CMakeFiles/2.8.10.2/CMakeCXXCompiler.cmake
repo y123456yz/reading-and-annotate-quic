@@ -1,12 +1,12 @@
-set(CMAKE_CXX_COMPILER "/usr/bin/c++")
+set(CMAKE_CXX_COMPILER "/usr/local/gcc-4.8.4/bin/c++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "4.8.5")
+set(CMAKE_CXX_COMPILER_VERSION "4.8.4")
 set(CMAKE_CXX_PLATFORM_ID "Linux")
 
-set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_AR "/usr/local/bin/ar")
+set(CMAKE_RANLIB "/usr/local/bin/ranlib")
+set(CMAKE_LINKER "/usr/local/bin/ld")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
@@ -50,7 +50,7 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;c")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/mnt/data/gcc-4.8.5/lib/gcc/x86_64-unknown-linux-gnu/4.8.5;/mnt/data/gcc-4.8.5/lib/gcc;/mnt/data/gcc-4.8.5/lib64;/lib64;/usr/lib64;/mnt/data/gcc-4.8.5/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/gcc-4.8.4/lib/gcc/x86_64-unknown-linux-gnu/4.8.4;/usr/local/gcc-4.8.4/lib64;/lib64;/usr/lib64;/usr/local/gcc-4.8.4/lib")
 
 
 

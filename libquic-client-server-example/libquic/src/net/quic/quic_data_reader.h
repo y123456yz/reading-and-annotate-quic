@@ -29,7 +29,7 @@ namespace net {
 // handle the error as appropriate. None of the Read*() methods should ever be
 // called after failure, as they will also fail immediately.
 
-//CryptoFramer::Process()函数会用到该类
+//CryptoFramer::Process()函数会用到该类，参考QuicFramer::ProcessPacket
 class NET_EXPORT_PRIVATE QuicDataReader { //quic数据解析读取相关
  public:
   // Caller must provide an underlying buffer to work on.

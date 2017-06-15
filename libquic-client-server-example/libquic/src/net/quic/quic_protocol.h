@@ -705,6 +705,7 @@ enum QuicErrorCode {
   QUIC_LAST_ERROR = 73,
 };
 
+//解析frame帧信息中的头部信息见QuicFramer::ProcessPublicHeader
 struct NET_EXPORT_PRIVATE QuicPacketPublicHeader {
   QuicPacketPublicHeader();
   explicit QuicPacketPublicHeader(const QuicPacketPublicHeader& other);
@@ -1088,6 +1089,7 @@ class NET_EXPORT_PRIVATE QuicPacket : public QuicData { //BuildDataPacket中new Q
   DISALLOW_COPY_AND_ASSIGN(QuicPacket);
 };
 
+//QuicServer::ReadAndDispatchSinglePacket中读取客户端数据然后使用该类存储
 class NET_EXPORT_PRIVATE QuicEncryptedPacket : public QuicData { //见EncryptPayload
  public:
   QuicEncryptedPacket(const char* buffer, size_t length);

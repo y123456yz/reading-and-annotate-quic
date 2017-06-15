@@ -79,24 +79,25 @@ class QuicServer : public EpollCallbackInterface {
 
  private:
   // Accepts data from the framer and demuxes clients to sessions.
-  scoped_ptr<QuicDispatcher> dispatcher_; 
+  scoped_ptr<QuicDispatcher> dispatcher_; //QuicServer::Listen中初始化
   // Frames incoming packets and hands them to the dispatcher.
-  EpollServer epoll_server_;
+  EpollServer epoll_server_; //初始化见EpollServer::EpollServer
 
   // The port the server is listening on.
-  int port_;
+  int port_; //赋值见QuicServer::Listen
 
   // Listening connection.  Also used for outbound client communication.
-  int fd_;
+  //服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
+  int fd_; //epoll注册见QuicServer::Listen,回调为EpollCallbackInterface(QuicServer中实现对应的回调接口)
 
   // If overflow_supported_ is true this will be the number of packets dropped
   // during the lifetime of the server.  This may overflow if enough packets
   // are dropped.
-  QuicPacketCount packets_dropped_;
+  QuicPacketCount packets_dropped_; //赋值见QuicServer::OnEvent，只有overflow_supported_为true的时候有效
 
   // True if the kernel supports SO_RXQ_OVFL, the number of packets dropped
   // because the socket would otherwise overflow.
-  bool overflow_supported_;
+  bool overflow_supported_;//默认为false，如果支持SO_RXQ_OVFL，则置为true，见QuicServer::Listen
 
   // config_ contains non-crypto parameters that are negotiated in the crypto
   // handshake.

@@ -24,7 +24,7 @@ namespace base {
 
 CommandLine* CommandLine::current_process_commandline_ = NULL;
 
-namespace {
+//namespace {  //yang add change
 
 const CommandLine::CharType kSwitchTerminator[] = FILE_PATH_LITERAL("--");
 const CommandLine::CharType kSwitchValueSeparator[] = FILE_PATH_LITERAL("=");
@@ -143,7 +143,7 @@ string16 QuoteForCommandLineToArgvW(const string16& arg,
 }
 #endif
 
-}  // namespace
+//}  // namespace
 
 CommandLine::CommandLine(NoProgram no_program)
     : argv_(1),

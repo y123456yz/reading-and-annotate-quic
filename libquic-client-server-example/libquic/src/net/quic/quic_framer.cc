@@ -527,16 +527,18 @@ bool QuicFramer::ProcessPacket(const QuicEncryptedPacket& packet) {
   DCHECK(!reader_.get());
   reader_.reset(new QuicDataReader(packet.data(), packet.length()));
 
+  //客户端QuicConnection::OnPacket  服务端QuicFramerVisitor::OnPacket
   visitor_->OnPacket();
 
   // First parse the public header.
   QuicPacketPublicHeader public_header;
-  if (!ProcessPublicHeader(&public_header)) {
+  if (!ProcessPublicHeader(&public_header)) {//解析头部信息
     DLOG(WARNING) << "Unable to process public header.";
     DCHECK_NE("", detailed_error_);
     return RaiseError(QUIC_INVALID_PACKET_HEADER);
   }
 
+  //QuicFramerVisitor::OnUnauthenticatedPublicHeader()
   if (!visitor_->OnUnauthenticatedPublicHeader(public_header)) {
     // The visitor suppresses further processing of the packet.
     reader_.reset(nullptr);
@@ -857,6 +859,7 @@ QuicPacketSequenceNumber QuicFramer::CalculatePacketSequenceNumberFromWire(
                              next_epoch + packet_sequence_number));
 }
 
+//解析frame中的通用头部信息
 bool QuicFramer::ProcessPublicHeader(
     QuicPacketPublicHeader* public_header) {
   uint8 public_flags;

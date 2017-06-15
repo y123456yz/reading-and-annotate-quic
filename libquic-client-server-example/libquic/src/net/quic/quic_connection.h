@@ -243,6 +243,7 @@ class NET_EXPORT_PRIVATE QuicConnectionHelperInterface {
 
 /*
 client测试例子在QuicClient::Connect中构造类
+服务端一般在QuicDispatcher::CreateQuicSession中构造QuicConnection类
 */
 class NET_EXPORT_PRIVATE QuicConnection
     : public QuicFramerVisitorInterface,  //当接收到frame帧信息，解包后进行相应的回调处理

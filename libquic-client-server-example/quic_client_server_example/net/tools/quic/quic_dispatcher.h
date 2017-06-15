@@ -26,10 +26,10 @@ class QuicCryptoServerConfig;
 class QuicServerSession;
 
 namespace tools {
-
-class ProcessPacketInterface {
+class ProcessPacketInterface { //QuicDispatcher继承实现该类
  public:
   virtual ~ProcessPacketInterface() {}
+  //QuicDispatcher::ProcessPacket中实现该虚函数
   virtual void ProcessPacket(const IPEndPoint& server_address,
                              const IPEndPoint& client_address,
                              const QuicEncryptedPacket& packet) = 0;
@@ -213,7 +213,8 @@ class QuicDispatcher : public QuicServerSessionVisitor,
   // The list of connections waiting to write.
   WriteBlockedList write_blocked_list_;
 
-  SessionMap session_map_;
+  //QuicDispatcher::AdditionalValidityChecksThenCreateSession()中插入元素
+  SessionMap session_map_; //存储session连接信息
 
   // Entity that manages connection_ids in time wait state.
   //赋值见QuicDispatcher::InitializeWithWriter
@@ -232,10 +233,10 @@ class QuicDispatcher : public QuicServerSessionVisitor,
   scoped_ptr<QuicPacketWriter> writer_; //赋值见QuicDispatcher::InitializeWithWriter
 
   // Used to create per-connection packet writers, not |writer_| itself.
-  scoped_ptr<PacketWriterFactory> packet_writer_factory_;
+  scoped_ptr<PacketWriterFactory> packet_writer_factory_; //赋值见QuicDispatcher::QuicDispatcher
 
   // Passed in to QuicConnection for it to create the per-connection writers
-  PacketWriterFactoryAdapter connection_writer_factory_;
+  PacketWriterFactoryAdapter connection_writer_factory_;//赋值见QuicDispatcher::QuicDispatcher
 
   // This vector contains QUIC versions which we currently support.
   // This should be ordered such that the highest supported version is the first
@@ -243,13 +244,14 @@ class QuicDispatcher : public QuicServerSessionVisitor,
   // skipped as necessary).
   const QuicVersionVector supported_versions_;
 
+  //处理从客户端read的数据，见QuicDispatcher::ProcessPacket
   // Information about the packet currently being handled.
   IPEndPoint current_client_address_;
   IPEndPoint current_server_address_;
-  const QuicEncryptedPacket* current_packet_;
+  const QuicEncryptedPacket* current_packet_;//处理从客户端read的数据，见QuicDispatcher::ProcessPacket
 
-  QuicFramer framer_;
-  scoped_ptr<QuicFramerVisitor> framer_visitor_;
+  QuicFramer framer_; //初始化赋值见QuicDispatcher::QuicDispatcher
+  scoped_ptr<QuicFramerVisitor> framer_visitor_; //framer_visitor_(new QuicFramerVisitor(this))
 
   DISALLOW_COPY_AND_ASSIGN(QuicDispatcher);
 };

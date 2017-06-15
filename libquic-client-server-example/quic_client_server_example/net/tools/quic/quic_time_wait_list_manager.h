@@ -37,6 +37,10 @@ class QuicTimeWaitListManagerPeer;
 // wait state.  After the connection_id expires its time wait period, a new
 // connection/session will be created if a packet is received for this
 // connection_id.
+
+//维护已经closed的连接id信息，如果该连接id过期timeout了，则会为之前的连接id创建一个新的连接id
+
+//QuicDispatcher::CreateQuicTimeWaitListManager()中使用
 class QuicTimeWaitListManager : public QuicBlockedWriterInterface {
  public:
   // writer - the entity that writes to the socket. (Owned by the dispatcher)

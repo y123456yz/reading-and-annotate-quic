@@ -49,6 +49,7 @@ class QuicServerSessionVisitor {
       QuicConnectionId connection_id) {}
 };
 
+//QuicDispatcher::CreateQuicSession中会new该类   QuicServerSession.crypto_stream_
 class QuicServerSession : public QuicSession {
  public:
   QuicServerSession(const QuicConfig& config,
@@ -80,6 +81,7 @@ class QuicServerSession : public QuicSession {
   QuicCryptoServerStream* GetCryptoStream() override;
 
  private:
+  //QuicServerSession::InitializeSession()中赋值
   scoped_ptr<QuicCryptoServerStream> crypto_stream_;
   QuicServerSessionVisitor* visitor_;
 

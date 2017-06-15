@@ -1,1 +1,1 @@
-/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/pkcs12_test.dir/pkcs12_test.c.o  -o pkcs12_test -rdynamic ../libcrypto.a 
+/usr/local/gcc-4.8.4/bin/gcc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/pkcs12_test.dir/pkcs12_test.c.o  -o pkcs12_test -rdynamic ../libcrypto.a 

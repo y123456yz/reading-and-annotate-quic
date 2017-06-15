@@ -62,7 +62,7 @@ const size_t kMaxRevivedPackets =
 // This class receives callbacks from the framer when packets
 // are processed.
 
-//µ±½ÓÊÕµ½frameÖ¡ĞÅÏ¢£¬½â°üºó½øĞĞÏàÓ¦µÄ»Øµ÷´¦Àí
+//µ±½ÓÊÕµ½frameÖ¡ĞÅÏ¢£¬½â°üºó½øĞĞÏàÓ¦µÄ»Øµ÷´¦Àí  QuicFramerÀàÖĞ°üº¬¸ÃÀà³ÉÔ±
 class NET_EXPORT_PRIVATE QuicFramerVisitorInterface {
  public:
   virtual ~QuicFramerVisitorInterface() {}
@@ -79,7 +79,7 @@ class NET_EXPORT_PRIVATE QuicFramerVisitorInterface {
 
   // Called when a new packet has been received, before it
   // has been validated or processed.
-  virtual void OnPacket() = 0;
+  virtual void OnPacket() = 0; //QuicFramer::ProcessPacketÖĞÖ´ĞĞ
 
   // Called when a public reset packet has been parsed but has not yet
   // been validated.
@@ -97,6 +97,7 @@ class NET_EXPORT_PRIVATE QuicFramerVisitorInterface {
 
   // Called when the public header has been parsed, but has not been
   // authenticated. If it returns false, framing for this packet will cease.
+  //QuicDispatcher::OnUnauthenticatedPublicHeader »òÕß QuicConnection::OnUnauthenticatedPublicHeader
   virtual bool OnUnauthenticatedPublicHeader(
       const QuicPacketPublicHeader& header) = 0;
 
@@ -172,7 +173,13 @@ class NET_EXPORT_PRIVATE QuicReceivedEntropyHashCalculatorInterface {
 // QuicFramerVisitorInterface that is called when packets are parsed.
 // It also has a QuicFecBuilder that is called when packets are constructed
 // in order to generate FEC data for subsequently building FEC packets.
-class NET_EXPORT_PRIVATE QuicFramer { //quicÖ¡×é°ü¡¢½â°üĞÅÏ¢Àà£¬ QuicConnectionÀà°üº¬QuicFramer framer_³ÉÔ±
+/*
+½â°ü²Î¿¼:QuicDispatcher::ProcessPacket
+
+QuicDispatcher°üº¬framer_³ÉÔ±
+QuicConnectionÀà°üº¬QuicFramer framer_³ÉÔ±
+*/
+class NET_EXPORT_PRIVATE QuicFramer { //quicÖ¡×é°ü¡¢½â°üĞÅÏ¢Àà£¬ 
  public:
   // Constructs a new framer that installs a kNULL QuicEncrypter and
   // QuicDecrypter for level ENCRYPTION_NONE. |supported_versions| specifies the
@@ -492,10 +499,12 @@ class NET_EXPORT_PRIVATE QuicFramer { //quicÖ¡×é°ü¡¢½â°üĞÅÏ¢Àà£¬ QuicConnectionÀ
   }
 
   std::string detailed_error_;
-  //quicÊı¾İ½âÎö¶ÁÈ¡Ïà¹Ø
+  //quicÊı¾İ½âÎö¶ÁÈ¡Ïà¹Ø,²Î¿¼QuicFramer::ProcessPacket
   scoped_ptr<QuicDataReader> reader_;
-  //µ±½ÓÊÕµ½frameÖ¡ĞÅÏ¢£¬½â°üºó½øĞĞÏàÓ¦µÄ»Øµ÷´¦Àí½Ó¿Ú  ¸³Öµ¼ûQuicConnection::QuicConnection
-  QuicFramerVisitorInterface* visitor_; //set_visitor½Ó¿Ú¸³Öµ
+  //µ±½ÓÊÕµ½frameÖ¡ĞÅÏ¢£¬½â°üºó½øĞĞÏàÓ¦µÄ»Øµ÷´¦Àí½Ó¿Ú  
+  //¿Í»§¶Ë¸³ÖµÎªQuicConnectionÀà£¬¼ûQuicConnection::QuicConnection   QuicConnection°üº¬QuicFramer framer_
+  //·şÎñ¶Ë¸³ÖµÎªQuicFramerVisitorÀà£¬¼ûQuicDispatcher::QuicDispatcher  QuicDispatcherÀà°üº¬QuicFramer framer_³ÉÔ±
+  QuicFramerVisitorInterface* visitor_; //set_visitor½Ó¿Ú¸³Öµ  QuicFramerVisitor
   QuicReceivedEntropyHashCalculatorInterface* entropy_calculator_; //¸³Öµ¼ûQuicConnection::QuicConnection
   QuicErrorCode error_;
   // Updated by ProcessPacketHeader when it succeeds.

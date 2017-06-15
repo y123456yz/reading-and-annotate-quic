@@ -126,8 +126,9 @@ class QuicClient : public EpollCallbackInterface,
   scoped_ptr<QuicClientSession> session_;
   // Listens for events on the client socket.
   EpollServer* epoll_server_;
-  // UDP socket.
-  int fd_;
+  // UDP socket.//服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
+  //服务端网络事件处理回调QuicServer::OnEvent,客户端网络事件处理回调 QuicClient::OnEvent
+  int fd_; //网络事件处理回调 QuicClient::OnEvent
 
   // Helper to be used by created connections. 
   //默认构造函数初始化为helper_(new QuicEpollConnectionHelper(epoll_server_)),

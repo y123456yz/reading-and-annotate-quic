@@ -24,6 +24,8 @@ const QuicStreamId kConnectionLevelId = 0;
 // bytes sent/received, can tell the owner if it is flow control blocked, and
 // can send WINDOW_UPDATE or BLOCKED frames when needed.
 
+//QuicSession::QuicSession和ReliableQuicStream::ReliableQuicStream都会调用该类构造函数
+//QuicSession和ReliableQuicStream都包含该类成员
 class NET_EXPORT_PRIVATE QuicFlowController { //stream/connection 流量控制, ReliableQuicStream类中包含该类成员
  public:
   QuicFlowController(QuicConnection* connection,

@@ -42,6 +42,7 @@ class DeleteSessionsAlarm : public QuicAlarm::Delegate {
 
 //}  // namespace
 
+//QuicDispatcher::QuicDispatcher()中使用该类
 class QuicDispatcher::QuicFramerVisitor : public QuicFramerVisitorInterface {
  public:
   explicit QuicFramerVisitor(QuicDispatcher* dispatcher)
@@ -50,9 +51,12 @@ class QuicDispatcher::QuicFramerVisitor : public QuicFramerVisitorInterface {
 
   // QuicFramerVisitorInterface implementation
   void OnPacket() override {}
+
+  // QuicFramer::ProcessPacket()中调用
   bool OnUnauthenticatedPublicHeader(
       const QuicPacketPublicHeader& header) override {
     connection_id_ = header.connection_id;
+	//QuicDispatcher::OnUnauthenticatedPublicHeader()
     return dispatcher_->OnUnauthenticatedPublicHeader(header);
   }
   bool OnUnauthenticatedHeader(const QuicPacketHeader& header) override {
@@ -221,11 +225,14 @@ bool QuicDispatcher::OnUnauthenticatedPublicHeader(
   QuicServerSession* session = nullptr;
   QuicConnectionId connection_id = header.connection_id;
   SessionMap::iterator it = session_map_.find(connection_id);
-  if (it == session_map_.end()) {
+  if (it == session_map_.end()) { //session_map_表中没有该connection_id
+
+	//在time_wait_list_manager_表中查找connection_id
     if (time_wait_list_manager_->IsConnectionIdInTimeWait(connection_id)) {
       return HandlePacketForTimeWait(header);
     }
 
+    //如果session_map_和time_wait_list_manager_表中都没有该connection_id，并且是reset帧信息，直接返回false
     // The packet has an unknown connection ID.
     // If the packet is a public reset, there is nothing we must do or can do.
     if (header.reset_flag) {
@@ -249,6 +256,7 @@ bool QuicDispatcher::OnUnauthenticatedPublicHeader(
       return HandlePacketForTimeWait(header);
     }
 
+	//创建session并加入session_map_表中
     session = AdditionalValidityChecksThenCreateSession(header, connection_id);
     if (session == nullptr) {
       return false;
@@ -265,6 +273,7 @@ bool QuicDispatcher::OnUnauthenticatedPublicHeader(
   return false;
 }
 
+//创建session并加入session_map_表中
 QuicServerSession* QuicDispatcher::AdditionalValidityChecksThenCreateSession(
     const QuicPacketPublicHeader& header,
     QuicConnectionId connection_id) {

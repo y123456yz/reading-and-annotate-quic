@@ -21,10 +21,10 @@ BoringSSL_BINARY_DIR:STATIC=/root/yangyazhou/reading-and-annotate-quic/libquic-c
 BoringSSL_SOURCE_DIR:STATIC=/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
+CMAKE_AR:FILEPATH=/usr/local/bin/ar
 
 //ASM compiler.
-CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_ASM_COMPILER:FILEPATH=/usr/local/gcc-4.8.4/bin/gcc
 
 //Flags used by the assembler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -48,7 +48,7 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/local/gcc-4.8.4/bin/c++
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -68,7 +68,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:FILEPATH=/usr/local/gcc-4.8.4/bin/gcc
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -109,7 +109,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld
+CMAKE_LINKER:FILEPATH=/usr/local/bin/ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
@@ -130,19 +130,19 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
+CMAKE_NM:FILEPATH=/usr/local/bin/nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
+CMAKE_OBJCOPY:FILEPATH=/usr/local/bin/objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+CMAKE_OBJDUMP:FILEPATH=/usr/local/bin/objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=libquic
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
+CMAKE_RANLIB:FILEPATH=/usr/local/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -167,7 +167,7 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 CMAKE_SKIP_RPATH:BOOL=NO
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
+CMAKE_STRIP:FILEPATH=/usr/local/bin/strip
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF

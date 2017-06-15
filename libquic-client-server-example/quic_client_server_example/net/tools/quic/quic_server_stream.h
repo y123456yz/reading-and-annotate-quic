@@ -9,6 +9,7 @@
 namespace net {
   namespace tools {
 
+    //QuicServerSession::CreateIncomingDynamicStream()÷–new∏√¿‡
     class QuicServerStream: public ReliableQuicStream, public QuicAlarm::Delegate {
     public:
       QuicServerStream(QuicStreamId id, QuicSession* session, QuicConnectionHelperInterface* helper);

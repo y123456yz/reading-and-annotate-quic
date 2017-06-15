@@ -1,1 +1,1 @@
-/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/cipher_test.dir/cipher_test.c.o  -o cipher_test -rdynamic ../libcrypto.a 
+/usr/local/gcc-4.8.4/bin/gcc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/cipher_test.dir/cipher_test.c.o  -o cipher_test -rdynamic ../libcrypto.a 

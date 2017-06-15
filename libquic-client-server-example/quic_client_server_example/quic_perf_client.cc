@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
   }
 
   logging::SetMinLogLevel(-5);
-  logging::LoggingSettings *logset = new logging::LoggingSettings((char*)"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic.log");
+  logging::LoggingSettings *logset = new logging::LoggingSettings((char*)"/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/quic_client_server_example/quic_client.log");
   logging::InitLogging(*logset);
 
   //PLOG(ERROR) << "yang test plog: ";

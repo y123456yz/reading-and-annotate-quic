@@ -350,13 +350,15 @@ QuicConnection::~QuicConnection() {
 }
 
 void QuicConnection::SetFromConfig(const QuicConfig& config) {
-  if (config.negotiated()) {
+  if (config.negotiated()) { 
+  	//启用超时检查alarm
     SetNetworkTimeouts(QuicTime::Delta::Infinite(),
                        config.IdleConnectionStateLifetime());
     if (config.SilentClose()) {
       silent_close_enabled_ = true;
     }
   } else {
+    //启用超时检查alarm
     SetNetworkTimeouts(config.max_time_before_crypto_handshake(),
                        config.max_idle_time_before_crypto_handshake());
   }

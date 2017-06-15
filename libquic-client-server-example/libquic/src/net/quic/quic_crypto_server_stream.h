@@ -47,6 +47,7 @@ class NET_EXPORT_PRIVATE ServerHelloNotifier : public
   DISALLOW_COPY_AND_ASSIGN(ServerHelloNotifier);
 };
 
+//QuicServerSession::InitializeSession()中new该对象
 class NET_EXPORT_PRIVATE QuicCryptoServerStream : public QuicCryptoStream {
  public:
   // |crypto_config| must outlive the stream.

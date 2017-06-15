@@ -94,7 +94,8 @@ bool QuicSocketUtils::SetReceiveBufferSize(int fd, size_t size) {
   return true;
 }
 
-// static
+//读取udp数据，并获取本端和对端的地址，返回读取到的字节数
+// static   
 int QuicSocketUtils::ReadPacket(int fd, char* buffer, size_t buf_len,
                                 QuicPacketCount* dropped_packets,
                                 IPAddressNumber* self_address,
@@ -132,13 +133,13 @@ int QuicSocketUtils::ReadPacket(int fd, char* buffer, size_t buf_len,
   }
 
   if (dropped_packets != nullptr) {
-    GetOverflowFromMsghdr(&hdr, dropped_packets);
+    GetOverflowFromMsghdr(&hdr, dropped_packets); //获取dropped_packets数
   }
   if (self_address != nullptr) {
     *self_address = QuicSocketUtils::GetAddressFromMsghdr(&hdr);
   }
 
-  if (raw_address.ss_family == AF_INET) {
+  if (raw_address.ss_family == AF_INET) { //获取对端地址
     CHECK(peer_address->FromSockAddr(
         reinterpret_cast<const sockaddr*>(&raw_address),
         sizeof(struct sockaddr_in)));

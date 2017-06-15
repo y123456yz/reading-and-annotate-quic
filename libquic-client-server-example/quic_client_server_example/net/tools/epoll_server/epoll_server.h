@@ -58,6 +58,7 @@ struct EpollEvent {
 };
 
 // Callbacks which go into EpollServers are expected to derive from this class.
+//ReadPipeCallback  QuicServer  QuicClient中继承该类，并实现对应的虚函数
 class EpollCallbackInterface {
  public:
   // Summary:
@@ -959,7 +960,7 @@ class EpollServer { //QuicEpollAlarm包含该类成员，epoll处理和QuicEpollAlarm相关
 
   // A pipe owned by the epoll server.  The server will be registered to listen
   // on read_fd_ and can be woken by Wake() which writes to write_fd_.
-  int read_fd_;
+  int read_fd_; //注册见EpollServer::EpollServer, 事件回调为ReadPipeCallback
   int write_fd_;
 
   // This boolean is checked to see if it is false at the top of the

@@ -31,6 +31,16 @@ class ReliableQuicStreamPeer;
 
 class QuicSession;
 
+
+/*
+QuicSession(QuicServerSession  QuicClientSession  QuicSpdySession)类和ReliableQuicStream(QuicClientStream  
+QuicServerStream  QuicCryptoStream  QuicHeadersStream  QuicDataStream)类通过ReliableQuicStream.session_和
+QuicServerSession.crypto_stream_成员联系起来
+
+QuicSession类代表的是一个connection，ReliableQuicStream代表的是一条流信息
+*/
+
+//QuicClientStream  QuicServerStream  QuicCryptoStream  QuicHeadersStream  QuicDataStream继承该类
 class NET_EXPORT_PRIVATE ReliableQuicStream {
  public:
   ReliableQuicStream(QuicStreamId id,

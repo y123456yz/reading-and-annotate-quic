@@ -1,1 +1,1 @@
-/usr/bin/cc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/example_mul.dir/example_mul.c.o  -o example_mul -rdynamic ../libcrypto.a 
+/usr/local/gcc-4.8.4/bin/gcc    -Wall -gdwarf-4 -Wall -Werror -ggdb -fvisibility=hidden -Wshadow -g    CMakeFiles/example_mul.dir/example_mul.c.o  -o example_mul -rdynamic ../libcrypto.a 
