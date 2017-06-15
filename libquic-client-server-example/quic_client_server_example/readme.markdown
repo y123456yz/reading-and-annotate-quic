@@ -25,7 +25,7 @@ The [performance](performance.markdown) file contains the results of our perform
   
 网络异常处理考虑不全   
 大包传输网络读写事件处理返回EAGAIN没考虑，在极端情况会引起数据包读不全等问题。   
-该测试程序只是简单的单线程收发网络模型，无法充分利用现有的CPU多核机制，如果是用quic来做“长连接“（握手协商后一直复用该connect）处理，可以参考nginx的网络模型或者memcached网络模型来实现基于udp的网络模型。   
+该测试程序只是简单的单线程收发网络模型，无法充分利用现有的CPU多核机制，可以参考nginx的网络模型或者memcached网络模型来实现基于udp的网络模型。   
 toy中有份tcp和udp-quic的测试数据对比，实际上这个对比是没有意义的，因为toy中的udp-quic数据收发多了握手协商和加解密处理，因此没有可比性，应该拿测试中的udp-quic于https(带tls认证)来做对比。   
 至于你代码中说的出现短错误，这个你可以通过GDB调试或者启用coredump功能。   
   
